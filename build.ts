@@ -4,6 +4,8 @@ import UPNG from '@pdf-lib/upng';
 import Jimp from "jimp";
 import mkdirp from "mkdirp";
 import rimraf from "rimraf";
+import { AnimationType } from "uqm-files-parsers/dist/interfaces";
+import shuffleSeed from "shuffle-seed";
 
 // bleh; uqm-files-parsers does not export the types, so we gotta manually reconstruct 'em here!
 type Graphics = ReturnType<typeof parseGraphics>;
@@ -47,9 +49,20 @@ async function parseGraphicsFile(filename: string, fileResolver: (input: string)
   }
 
   function saveAnimation(animation: Animation, graphics: Graphics) {
-    // TODO: support different animation types!
-    const imgs = animation.frames.map(f => imagesMap.get(f.frame_index));
-    const deltas = animation.frames.map(f => f.duration);
+    let frames = animation.frames; // default: AnimationType.CIRCULAR
+    if (animation.type === AnimationType.YO_YO) {
+      frames = frames.concat(frames.reverse());
+    } else if (animation.type === AnimationType.RANDOM || animation.type === AnimationType.TALK) {
+      for (let i = 0; i < 10; i++) {
+        frames = frames.concat(frames);
+      }
+      frames = shuffleSeed.shuffle(frames, animation.name);
+    } else if (animation.type === AnimationType.BACKGROUND && frames.length > 1) {
+      throw new Error("AnimationType is BACKGROUND, but more than one frame specified in animation! This is not currently supported.");
+      // TODO: for AnimationType.BACKGROUND, merge all frames?
+    }
+    const imgs = frames.map(f => imagesMap.get(f.frame_index));
+    const deltas = frames.map(f => f.duration);
     const data = UPNG.encode(imgs, canvasWidth, canvasHeight, 0, deltas);
     fs.writeFileSync(animationPathFunc(animation.name), Buffer.from(data));
   }
