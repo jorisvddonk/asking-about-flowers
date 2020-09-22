@@ -4,14 +4,9 @@ import UPNG from '@pdf-lib/upng';
 import Jimp from "jimp";
 import mkdirp from "mkdirp";
 import rimraf from "rimraf";
-import { AnimationType } from "uqm-files-parsers/dist/interfaces";
+import { AnimationType, Graphics, AnimationsMap, Frame, Animation } from "uqm-files-parsers/dist/interfaces";
 import shuffleSeed from "shuffle-seed";
 
-// bleh; uqm-files-parsers does not export the types, so we gotta manually reconstruct 'em here!
-type Graphics = ReturnType<typeof parseGraphics>;
-type AnimationsMap = Graphics["animations"];
-type Frame = Graphics["frames"][0];
-type Animation = ReturnType<AnimationsMap["get"]>;
 
 async function parseGraphicsFile(filename: string, fileResolver: (input: string) => string, animationPathFunc: (input: string) => string) {
   const graphics = parseGraphics(fs.readFileSync(filename).toString());
