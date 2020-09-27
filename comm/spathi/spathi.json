@@ -1,0 +1,3957 @@
+{
+  "SORRY_ABOUT_THAT": {
+    "identifier": "SORRY_ABOUT_THAT",
+    "localizedText": "Attention big, mean, hostile alien vessel hovering overhead in an obvious attack posture:\nThis is Spathi Captain Fwiffo.\nI know you are going to torture me, so let's just get this over with right now.\nThe coordinates of my homeworld, Spathiwa, are 241.6, 368.7\nand the ultra-secret Spathi Cypher, which is known only by me and several billion other Spathi\nis `Huffi-Muffi-Guffi'.\nSorry about that little mistake with your landing vehicle!\nI was so startled when it approached my vessel in a threatening manner that\ner\nmy automated defense systems fired on it when it got too close.\nI hope nobody got hurt!",
+    "audioFile": "spathi-000.ogg",
+    "timings": [
+      8502,
+      3188,
+      5979,
+      10927,
+      7716,
+      4320,
+      3889,
+      5198,
+      658,
+      4540,
+      1794
+    ],
+    "audioFileDuration": 56711,
+    "lineTimings": [
+      {
+        "line": "Attention big, mean, hostile alien vessel hovering overhead in an obvious attack posture:",
+        "duration": 8502,
+        "start": 0,
+        "end": 8502
+      },
+      {
+        "line": "This is Spathi Captain Fwiffo.",
+        "duration": 3188,
+        "start": 8502,
+        "end": 11690
+      },
+      {
+        "line": "I know you are going to torture me, so let's just get this over with right now.",
+        "duration": 5979,
+        "start": 11690,
+        "end": 17669
+      },
+      {
+        "line": "The coordinates of my homeworld, Spathiwa, are 241.6, 368.7",
+        "duration": 10927,
+        "start": 17669,
+        "end": 28596
+      },
+      {
+        "line": "and the ultra-secret Spathi Cypher, which is known only by me and several billion other Spathi",
+        "duration": 7716,
+        "start": 28596,
+        "end": 36312
+      },
+      {
+        "line": "is `Huffi-Muffi-Guffi'.",
+        "duration": 4320,
+        "start": 36312,
+        "end": 40632
+      },
+      {
+        "line": "Sorry about that little mistake with your landing vehicle!",
+        "duration": 3889,
+        "start": 40632,
+        "end": 44521
+      },
+      {
+        "line": "I was so startled when it approached my vessel in a threatening manner that",
+        "duration": 5198,
+        "start": 44521,
+        "end": 49719
+      },
+      {
+        "line": "er",
+        "duration": 658,
+        "start": 49719,
+        "end": 50377
+      },
+      {
+        "line": "my automated defense systems fired on it when it got too close.",
+        "duration": 4540,
+        "start": 50377,
+        "end": 54917
+      },
+      {
+        "line": "I hope nobody got hurt!",
+        "duration": 1794,
+        "start": 54917,
+        "end": 56711
+      }
+    ]
+  },
+  "identify": {
+    "identifier": "identify",
+    "localizedText": "Attention alien vessel: Identify yourself or be destroyed!",
+    "timings": [],
+    "audioFileDuration": null,
+    "lineTimings": [
+      {
+        "line": "Attention alien vessel: Identify yourself or be destroyed!",
+        "start": 0,
+        "end": null
+      }
+    ]
+  },
+  "I_FWIFFO": {
+    "identifier": "I_FWIFFO",
+    "localizedText": "Of course, of course!\nAs I said, I am Captain Fwiffo of the Spathi voidship StarRunner.\nOur sensors have tracked your entry into this system\nwhich you are no doubt here to conquer\nand while you are certainly welcome to do so we would be greatly appreciative\nif you would please just go away and forget this star system ever existed.\nIf you don't go, it will greatly complicate our master-slave relationship with the Ur-Quan\nwho stationed us here to watch over the Earthlings.",
+    "audioFile": "spathi-001.ogg",
+    "timings": [
+      1863,
+      4746,
+      3465,
+      2374,
+      5528,
+      5237,
+      7161,
+      3313
+    ],
+    "audioFileDuration": 33687,
+    "lineTimings": [
+      {
+        "line": "Of course, of course!",
+        "duration": 1863,
+        "start": 0,
+        "end": 1863
+      },
+      {
+        "line": "As I said, I am Captain Fwiffo of the Spathi voidship StarRunner.",
+        "duration": 4746,
+        "start": 1863,
+        "end": 6609
+      },
+      {
+        "line": "Our sensors have tracked your entry into this system",
+        "duration": 3465,
+        "start": 6609,
+        "end": 10074
+      },
+      {
+        "line": "which you are no doubt here to conquer",
+        "duration": 2374,
+        "start": 10074,
+        "end": 12448
+      },
+      {
+        "line": "and while you are certainly welcome to do so we would be greatly appreciative",
+        "duration": 5528,
+        "start": 12448,
+        "end": 17976
+      },
+      {
+        "line": "if you would please just go away and forget this star system ever existed.",
+        "duration": 5237,
+        "start": 17976,
+        "end": 23213
+      },
+      {
+        "line": "If you don't go, it will greatly complicate our master-slave relationship with the Ur-Quan",
+        "duration": 7161,
+        "start": 23213,
+        "end": 30374
+      },
+      {
+        "line": "who stationed us here to watch over the Earthlings.",
+        "duration": 3313,
+        "start": 30374,
+        "end": 33687
+      }
+    ]
+  },
+  "hi_there": {
+    "identifier": "hi_there",
+    "localizedText": "Hi there friend! We come in peace and mean you no harm.",
+    "timings": [],
+    "audioFileDuration": null,
+    "lineTimings": [
+      {
+        "line": "Hi there friend! We come in peace and mean you no harm.",
+        "start": 0,
+        "end": null
+      }
+    ]
+  },
+  "ARE_YOU_SURE": {
+    "identifier": "ARE_YOU_SURE",
+    "localizedText": "Are you sure?\nBecause your statement is often just a more polite way of saying\n`Attention alien vessel: Identify yourself or be destroyed.'\nIn any event, I am Spathi Captain Fwiffo of the voidship StarRunner\nplaced here in this planetary system as part of the powerful Earthguard star force\nwhich our masters the Ur-Quan established here to make sure the Earthlings don't do anything tricky.",
+    "audioFile": "spathi-002.ogg",
+    "timings": [
+      1432,
+      4316,
+      4226,
+      5138,
+      5307,
+      5999
+    ],
+    "audioFileDuration": 26418,
+    "lineTimings": [
+      {
+        "line": "Are you sure?",
+        "duration": 1432,
+        "start": 0,
+        "end": 1432
+      },
+      {
+        "line": "Because your statement is often just a more polite way of saying",
+        "duration": 4316,
+        "start": 1432,
+        "end": 5748
+      },
+      {
+        "line": "`Attention alien vessel: Identify yourself or be destroyed.'",
+        "duration": 4226,
+        "start": 5748,
+        "end": 9974
+      },
+      {
+        "line": "In any event, I am Spathi Captain Fwiffo of the voidship StarRunner",
+        "duration": 5138,
+        "start": 9974,
+        "end": 15112
+      },
+      {
+        "line": "placed here in this planetary system as part of the powerful Earthguard star force",
+        "duration": 5307,
+        "start": 15112,
+        "end": 20419
+      },
+      {
+        "line": "which our masters the Ur-Quan established here to make sure the Earthlings don't do anything tricky.",
+        "duration": 5999,
+        "start": 20419,
+        "end": 26418
+      }
+    ]
+  },
+  "dont_kill": {
+    "identifier": "dont_kill",
+    "localizedText": "Don't kill us!",
+    "timings": [],
+    "audioFileDuration": null,
+    "lineTimings": [
+      {
+        "line": "Don't kill us!",
+        "start": 0,
+        "end": null
+      }
+    ]
+  },
+  "we_fight_1": {
+    "identifier": "we_fight_1",
+    "localizedText": "You attacked our lander -- killed our crew! Prepare to die.",
+    "timings": [],
+    "audioFileDuration": null,
+    "lineTimings": [
+      {
+        "line": "You attacked our lander -- killed our crew! Prepare to die.",
+        "start": 0,
+        "end": null
+      }
+    ]
+  },
+  "we_fight_2": {
+    "identifier": "we_fight_2",
+    "localizedText": "Enough of your slimy yammering. We fight!",
+    "timings": [],
+    "audioFileDuration": null,
+    "lineTimings": [
+      {
+        "line": "Enough of your slimy yammering. We fight!",
+        "start": 0,
+        "end": null
+      }
+    ]
+  },
+  "OK_WONT": {
+    "identifier": "OK_WONT",
+    "localizedText": "Uh, okay... sure, we won't!\nJust remember though -- this offer may be revoked at any time.",
+    "audioFile": "spathi-003.ogg",
+    "timings": [
+      2443,
+      4530
+    ],
+    "audioFileDuration": 6973,
+    "lineTimings": [
+      {
+        "line": "Uh, okay... sure, we won't!",
+        "duration": 2443,
+        "start": 0,
+        "end": 2443
+      },
+      {
+        "line": "Just remember though -- this offer may be revoked at any time.",
+        "duration": 4530,
+        "start": 2443,
+        "end": 6973
+      }
+    ]
+  },
+  "do_cultural": {
+    "identifier": "do_cultural",
+    "localizedText": "We suggest you immediately perform whatever cultural practices are customary to your species preceding death.",
+    "timings": [],
+    "audioFileDuration": null,
+    "lineTimings": [
+      {
+        "line": "We suggest you immediately perform whatever cultural practices are customary to your species preceding death.",
+        "start": 0,
+        "end": null
+      }
+    ]
+  },
+  "WEZZY_WEZZAH": {
+    "identifier": "WEZZY_WEZZAH",
+    "localizedText": "Certainly, most gracious destroyer, as is well known, before departing this mortal helix\nall Spathi must complete the short, poignant ritual of Wezzy-Wezzah to be assured of a secure afterlife\nand by allowing us to fulfill this requirement, you too shall be granted immortality in our beautiful afterworld\nwhich is absolutely guaranteed to be free of similarly immortal monsters who would otherwise eat the both of us.",
+    "audioFile": "spathi-004.ogg",
+    "timings": [
+      7000,
+      8472,
+      7851,
+      9437
+    ],
+    "audioFileDuration": 32760,
+    "lineTimings": [
+      {
+        "line": "Certainly, most gracious destroyer, as is well known, before departing this mortal helix",
+        "duration": 7000,
+        "start": 0,
+        "end": 7000
+      },
+      {
+        "line": "all Spathi must complete the short, poignant ritual of Wezzy-Wezzah to be assured of a secure afterlife",
+        "duration": 8472,
+        "start": 7000,
+        "end": 15472
+      },
+      {
+        "line": "and by allowing us to fulfill this requirement, you too shall be granted immortality in our beautiful afterworld",
+        "duration": 7851,
+        "start": 15472,
+        "end": 23323
+      },
+      {
+        "line": "which is absolutely guaranteed to be free of similarly immortal monsters who would otherwise eat the both of us.",
+        "duration": 9437,
+        "start": 23323,
+        "end": 32760
+      }
+    ]
+  },
+  "die_slugboy": {
+    "identifier": "die_slugboy",
+    "localizedText": "Die slugboy!",
+    "timings": [],
+    "audioFileDuration": null,
+    "lineTimings": [
+      {
+        "line": "Die slugboy!",
+        "start": 0,
+        "end": null
+      }
+    ]
+  },
+  "begin_ritual": {
+    "identifier": "begin_ritual",
+    "localizedText": "You may begin your ritual, and if I might make a small suggestion: be done in less than 2 minutes.",
+    "timings": [],
+    "audioFileDuration": null,
+    "lineTimings": [
+      {
+        "line": "You may begin your ritual, and if I might make a small suggestion: be done in less than 2 minutes.",
+        "start": 0,
+        "end": null
+      }
+    ]
+  },
+  "MUST_DO_RITUAL_AT_HOME": {
+    "identifier": "MUST_DO_RITUAL_AT_HOME",
+    "localizedText": "Grief and woe -- certainly a destroyer of innocents as well-travelled as yourself\nmust know that the formalities of Wezzy-Wezzah are invalid unless\nperformed on the large moon orbiting our homeworld, Spathiwa\nwhich is only 143 light years distant, and, if I remember correctly,\nis especially beautiful this time of year.\nShall we go now there?",
+    "audioFile": "spathi-005.ogg",
+    "timings": [
+      6519,
+      4557,
+      4917,
+      7170,
+      3505,
+      1619
+    ],
+    "audioFileDuration": 28287,
+    "lineTimings": [
+      {
+        "line": "Grief and woe -- certainly a destroyer of innocents as well-travelled as yourself",
+        "duration": 6519,
+        "start": 0,
+        "end": 6519
+      },
+      {
+        "line": "must know that the formalities of Wezzy-Wezzah are invalid unless",
+        "duration": 4557,
+        "start": 6519,
+        "end": 11076
+      },
+      {
+        "line": "performed on the large moon orbiting our homeworld, Spathiwa",
+        "duration": 4917,
+        "start": 11076,
+        "end": 15993
+      },
+      {
+        "line": "which is only 143 light years distant, and, if I remember correctly,",
+        "duration": 7170,
+        "start": 15993,
+        "end": 23163
+      },
+      {
+        "line": "is especially beautiful this time of year.",
+        "duration": 3505,
+        "start": 23163,
+        "end": 26668
+      },
+      {
+        "line": "Shall we go now there?",
+        "duration": 1619,
+        "start": 26668,
+        "end": 28287
+      }
+    ]
+  },
+  "you_wont_die_yet": {
+    "identifier": "you_wont_die_yet",
+    "localizedText": "Because I am compassionate, you will not die until you have exhausted your usefulness.",
+    "timings": [],
+    "audioFileDuration": null,
+    "lineTimings": [
+      {
+        "line": "Because I am compassionate, you will not die until you have exhausted your usefulness.",
+        "start": 0,
+        "end": null
+      }
+    ]
+  },
+  "ETERNAL_GRATITUDE": {
+    "identifier": "ETERNAL_GRATITUDE",
+    "localizedText": "My eternal gratitude is yours, oh devastator of helpless beings.\nIt's times like these that I am forced to feel almost, though not quite, sorry\nthat the Ur-Quan so thoroughly defeated and humiliated your species.",
+    "audioFile": "spathi-006.ogg",
+    "timings": [
+      5588,
+      5317,
+      5114
+    ],
+    "audioFileDuration": 16019,
+    "lineTimings": [
+      {
+        "line": "My eternal gratitude is yours, oh devastator of helpless beings.",
+        "duration": 5588,
+        "start": 0,
+        "end": 5588
+      },
+      {
+        "line": "It's times like these that I am forced to feel almost, though not quite, sorry",
+        "duration": 5317,
+        "start": 5588,
+        "end": 10905
+      },
+      {
+        "line": "that the Ur-Quan so thoroughly defeated and humiliated your species.",
+        "duration": 5114,
+        "start": 10905,
+        "end": 16019
+      }
+    ]
+  },
+  "we_fight": {
+    "identifier": "we_fight",
+    "localizedText": "We fight!",
+    "timings": [],
+    "audioFileDuration": null,
+    "lineTimings": [
+      {
+        "line": "We fight!",
+        "start": 0,
+        "end": null
+      }
+    ]
+  },
+  "pay_for_crimes": {
+    "identifier": "pay_for_crimes",
+    "localizedText": "Now you must pay for the crimes of your craven masters, the evil Ur-Quan.",
+    "timings": [],
+    "audioFileDuration": null,
+    "lineTimings": [
+      {
+        "line": "Now you must pay for the crimes of your craven masters, the evil Ur-Quan.",
+        "start": 0,
+        "end": null
+      }
+    ]
+  },
+  "CLUTCH_MAVEN": {
+    "identifier": "CLUTCH_MAVEN",
+    "localizedText": "In this difficult situation I am reminded of what my clutch maven once said to me before my first molting.\n`Sometimes the enemy is so swift and the path so treacherous that you can run no further.\nIt is then that you must turn and resolve to fight\nand in all likelihood die horribly\nbut you never know when you are going to get lucky, so go for it!'",
+    "audioFile": "spathi-007.ogg",
+    "timings": [
+      8022,
+      7580,
+      3596,
+      2954,
+      5414
+    ],
+    "audioFileDuration": 27566,
+    "lineTimings": [
+      {
+        "line": "In this difficult situation I am reminded of what my clutch maven once said to me before my first molting.",
+        "duration": 8022,
+        "start": 0,
+        "end": 8022
+      },
+      {
+        "line": "`Sometimes the enemy is so swift and the path so treacherous that you can run no further.",
+        "duration": 7580,
+        "start": 8022,
+        "end": 15602
+      },
+      {
+        "line": "It is then that you must turn and resolve to fight",
+        "duration": 3596,
+        "start": 15602,
+        "end": 19198
+      },
+      {
+        "line": "and in all likelihood die horribly",
+        "duration": 2954,
+        "start": 19198,
+        "end": 22152
+      },
+      {
+        "line": "but you never know when you are going to get lucky, so go for it!'",
+        "duration": 5414,
+        "start": 22152,
+        "end": 27566
+      }
+    ]
+  },
+  "you_may_live": {
+    "identifier": "you_may_live",
+    "localizedText": "I find myself moved by your deep commitment to your rituals and ancestral ways. You may live.",
+    "timings": [],
+    "audioFileDuration": null,
+    "lineTimings": [
+      {
+        "line": "I find myself moved by your deep commitment to your rituals and ancestral ways. You may live.",
+        "start": 0,
+        "end": null
+      }
+    ]
+  },
+  "HONEST_AND_FRIENDLY": {
+    "identifier": "HONEST_AND_FRIENDLY",
+    "localizedText": "That settles it, for now I am certain that you are an honest and friendly being\nwho is forced entirely through unfortunate circumstance - the unreasonable hostility of the Universe\nto travel the galaxy in a ship which, according to my sensors\nis best suited to conducting planetary-scale genocide.",
+    "audioFile": "spathi-008.ogg",
+    "timings": [
+      6400,
+      6950,
+      4676,
+      4715
+    ],
+    "audioFileDuration": 22741,
+    "lineTimings": [
+      {
+        "line": "That settles it, for now I am certain that you are an honest and friendly being",
+        "duration": 6400,
+        "start": 0,
+        "end": 6400
+      },
+      {
+        "line": "who is forced entirely through unfortunate circumstance - the unreasonable hostility of the Universe",
+        "duration": 6950,
+        "start": 6400,
+        "end": 13350
+      },
+      {
+        "line": "to travel the galaxy in a ship which, according to my sensors",
+        "duration": 4676,
+        "start": 13350,
+        "end": 18026
+      },
+      {
+        "line": "is best suited to conducting planetary-scale genocide.",
+        "duration": 4715,
+        "start": 18026,
+        "end": 22741
+      }
+    ]
+  },
+  "what_are_coordinates": {
+    "identifier": "what_are_coordinates",
+    "localizedText": "We'd be delighted to accompany you to your homeworld. What are its HyperSpace coordinates?",
+    "timings": [],
+    "audioFileDuration": null,
+    "lineTimings": [
+      {
+        "line": "We'd be delighted to accompany you to your homeworld. What are its HyperSpace coordinates?",
+        "start": 0,
+        "end": null
+      }
+    ]
+  },
+  "COORDINATES_ARE": {
+    "identifier": "COORDINATES_ARE",
+    "localizedText": "My most wonderful planet Spathiwa circles a safe distance from the orange giant star Yuffo\nwhich is at HyperSpace coordinates\nhey -- wait a minute!\nIs this some kind of Homosap trick to get the location of my homeworld\nso that you can visit it with devastation?!",
+    "audioFile": "spathi-009.ogg",
+    "timings": [
+      7271,
+      2443,
+      2794,
+      4367,
+      2720
+    ],
+    "audioFileDuration": 19595,
+    "lineTimings": [
+      {
+        "line": "My most wonderful planet Spathiwa circles a safe distance from the orange giant star Yuffo",
+        "duration": 7271,
+        "start": 0,
+        "end": 7271
+      },
+      {
+        "line": "which is at HyperSpace coordinates",
+        "duration": 2443,
+        "start": 7271,
+        "end": 9714
+      },
+      {
+        "line": "hey -- wait a minute!",
+        "duration": 2794,
+        "start": 9714,
+        "end": 12508
+      },
+      {
+        "line": "Is this some kind of Homosap trick to get the location of my homeworld",
+        "duration": 4367,
+        "start": 12508,
+        "end": 16875
+      },
+      {
+        "line": "so that you can visit it with devastation?!",
+        "duration": 2720,
+        "start": 16875,
+        "end": 19595
+      }
+    ]
+  },
+  "tell_me_coordinates": {
+    "identifier": "tell_me_coordinates",
+    "localizedText": "Just tell me the coordinates, alien dog-slime!",
+    "timings": [],
+    "audioFileDuration": null,
+    "lineTimings": [
+      {
+        "line": "Just tell me the coordinates, alien dog-slime!",
+        "start": 0,
+        "end": null
+      }
+    ]
+  },
+  "FAKE_COORDINATES": {
+    "identifier": "FAKE_COORDINATES",
+    "localizedText": "Hmmm... I see\nVery well then, your threats have convinced me to reveal this secret.\nSpathiwa is the 1st planet out from the star at HyperSpace (570.4, 979.5)",
+    "audioFile": "spathi-010.ogg",
+    "timings": [
+      1702,
+      4677,
+      11821
+    ],
+    "audioFileDuration": 18200,
+    "lineTimings": [
+      {
+        "line": "Hmmm... I see",
+        "duration": 1702,
+        "start": 0,
+        "end": 1702
+      },
+      {
+        "line": "Very well then, your threats have convinced me to reveal this secret.",
+        "duration": 4677,
+        "start": 1702,
+        "end": 6379
+      },
+      {
+        "line": "Spathiwa is the 1st planet out from the star at HyperSpace (570.4, 979.5)",
+        "duration": 11821,
+        "start": 6379,
+        "end": 18200
+      }
+    ]
+  },
+  "TOO_SCARY": {
+    "identifier": "TOO_SCARY",
+    "localizedText": "You've got so many ships in your fleet, that instead of joining you\nI think I'll just run away.",
+    "audioFile": "spathi-011.ogg",
+    "timings": [
+      3985,
+      1387
+    ],
+    "audioFileDuration": 5372,
+    "lineTimings": [
+      {
+        "line": "You've got so many ships in your fleet, that instead of joining you",
+        "duration": 3985,
+        "start": 0,
+        "end": 3985
+      },
+      {
+        "line": "I think I'll just run away.",
+        "duration": 1387,
+        "start": 3985,
+        "end": 5372
+      }
+    ]
+  },
+  "youve_got_me_all_wrong": {
+    "identifier": "youve_got_me_all_wrong",
+    "localizedText": "No, no, no! You've got me all wrong. I promise I'll be nice.",
+    "timings": [],
+    "audioFileDuration": null,
+    "lineTimings": [
+      {
+        "line": "No, no, no! You've got me all wrong. I promise I'll be nice.",
+        "start": 0,
+        "end": null
+      }
+    ]
+  },
+  "SORRY_NO_COORDS": {
+    "identifier": "SORRY_NO_COORDS",
+    "localizedText": "Er... I just don't know.\nI want to believe you, I really do, but the risk to my people is just too great.\nAnyway I think I just forgot the coordinates -- let me see if I can remember them\nnope!\nI'm afraid they're gone forever, so torturing me would just be a waste of your time.",
+    "audioFile": "spathi-012.ogg",
+    "timings": [
+      1893,
+      5848,
+      5588,
+      1592,
+      3925
+    ],
+    "audioFileDuration": 18846,
+    "lineTimings": [
+      {
+        "line": "Er... I just don't know.",
+        "duration": 1893,
+        "start": 0,
+        "end": 1893
+      },
+      {
+        "line": "I want to believe you, I really do, but the risk to my people is just too great.",
+        "duration": 5848,
+        "start": 1893,
+        "end": 7741
+      },
+      {
+        "line": "Anyway I think I just forgot the coordinates -- let me see if I can remember them",
+        "duration": 5588,
+        "start": 7741,
+        "end": 13329
+      },
+      {
+        "line": "nope!",
+        "duration": 1592,
+        "start": 13329,
+        "end": 14921
+      },
+      {
+        "line": "I'm afraid they're gone forever, so torturing me would just be a waste of your time.",
+        "duration": 3925,
+        "start": 14921,
+        "end": 18846
+      }
+    ]
+  },
+  "what_doing_on_pluto_1": {
+    "identifier": "what_doing_on_pluto_1",
+    "localizedText": "What are you doing here on Pluto?",
+    "timings": [],
+    "audioFileDuration": null,
+    "lineTimings": [
+      {
+        "line": "What are you doing here on Pluto?",
+        "start": 0,
+        "end": null
+      }
+    ]
+  },
+  "ABOUT_20_YEARS_AGO": {
+    "identifier": "ABOUT_20_YEARS_AGO",
+    "localizedText": "About 20 years ago, this region of space was dominated by a loose confederation known as the Alliance of Free Stars,\nwhich was composed of the aliens native to these parts who didn't want to be enslaved.\nThey made a valiant effort against the superior Ur-Quan forces\nand it even looked like they might miraculously defeat the combined Ur-Quan armada\nright up to the point at which the Ur-Quan totally defeated - indeed, annihilated them.",
+    "audioFile": "spathi-013.ogg",
+    "timings": [
+      8702,
+      5849,
+      4396,
+      4947,
+      6659
+    ],
+    "audioFileDuration": 30553,
+    "lineTimings": [
+      {
+        "line": "About 20 years ago, this region of space was dominated by a loose confederation known as the Alliance of Free Stars,",
+        "duration": 8702,
+        "start": 0,
+        "end": 8702
+      },
+      {
+        "line": "which was composed of the aliens native to these parts who didn't want to be enslaved.",
+        "duration": 5849,
+        "start": 8702,
+        "end": 14551
+      },
+      {
+        "line": "They made a valiant effort against the superior Ur-Quan forces",
+        "duration": 4396,
+        "start": 14551,
+        "end": 18947
+      },
+      {
+        "line": "and it even looked like they might miraculously defeat the combined Ur-Quan armada",
+        "duration": 4947,
+        "start": 18947,
+        "end": 23894
+      },
+      {
+        "line": "right up to the point at which the Ur-Quan totally defeated - indeed, annihilated them.",
+        "duration": 6659,
+        "start": 23894,
+        "end": 30553
+      }
+    ]
+  },
+  "what_doing_on_pluto_2": {
+    "identifier": "what_doing_on_pluto_2",
+    "localizedText": "So, what ARE you doing here on Pluto?",
+    "timings": [],
+    "audioFileDuration": null,
+    "lineTimings": [
+      {
+        "line": "So, what ARE you doing here on Pluto?",
+        "start": 0,
+        "end": null
+      }
+    ]
+  },
+  "WHEN_URQUAN_ARRIVED": {
+    "identifier": "WHEN_URQUAN_ARRIVED",
+    "localizedText": "When the Ur-Quan armada entered this system to subjugate formally the Earthlings,\nthe Ur-Quan presented the humans with the standard slave options:\njoin the Hierarchy as combat thralls, and retain some autonomy, including the right to travel through space\nor become a `fallow' species and return to pre-atomic savagery on the surface of their homeworld\nencased for all time beneath an impenetrable force shield.\nThe Humans chose the latter option, and so were swiftly imprisoned on the surface of Earth\nbut the Ur-Quan didn't trust them to obey the restrictions...so\nthey chose a small group of Hierarchy combat starships from the Ilwrath and Spathi fleets\nto create the so-called Earthguard, and stationed them at a base on Earth's moon.",
+    "audioFile": "spathi-014.ogg",
+    "timings": [
+      5047,
+      4306,
+      6830,
+      6429,
+      4196,
+      5779,
+      3795,
+      5678,
+      6091
+    ],
+    "audioFileDuration": 48151,
+    "lineTimings": [
+      {
+        "line": "When the Ur-Quan armada entered this system to subjugate formally the Earthlings,",
+        "duration": 5047,
+        "start": 0,
+        "end": 5047
+      },
+      {
+        "line": "the Ur-Quan presented the humans with the standard slave options:",
+        "duration": 4306,
+        "start": 5047,
+        "end": 9353
+      },
+      {
+        "line": "join the Hierarchy as combat thralls, and retain some autonomy, including the right to travel through space",
+        "duration": 6830,
+        "start": 9353,
+        "end": 16183
+      },
+      {
+        "line": "or become a `fallow' species and return to pre-atomic savagery on the surface of their homeworld",
+        "duration": 6429,
+        "start": 16183,
+        "end": 22612
+      },
+      {
+        "line": "encased for all time beneath an impenetrable force shield.",
+        "duration": 4196,
+        "start": 22612,
+        "end": 26808
+      },
+      {
+        "line": "The Humans chose the latter option, and so were swiftly imprisoned on the surface of Earth",
+        "duration": 5779,
+        "start": 26808,
+        "end": 32587
+      },
+      {
+        "line": "but the Ur-Quan didn't trust them to obey the restrictions...so",
+        "duration": 3795,
+        "start": 32587,
+        "end": 36382
+      },
+      {
+        "line": "they chose a small group of Hierarchy combat starships from the Ilwrath and Spathi fleets",
+        "duration": 5678,
+        "start": 36382,
+        "end": 42060
+      },
+      {
+        "line": "to create the so-called Earthguard, and stationed them at a base on Earth's moon.",
+        "duration": 6091,
+        "start": 42060,
+        "end": 48151
+      }
+    ]
+  },
+  "where_are_urquan": {
+    "identifier": "where_are_urquan",
+    "localizedText": "Where are the Ur-Quan now?",
+    "timings": [],
+    "audioFileDuration": null,
+    "lineTimings": [
+      {
+        "line": "Where are the Ur-Quan now?",
+        "start": 0,
+        "end": null
+      }
+    ]
+  },
+  "URQUAN_LEFT": {
+    "identifier": "URQUAN_LEFT",
+    "localizedText": "Our masters don't really keep us very well informed about their goings on\nso all that we know is that immediately after the subjugation of the last Alliance race\nthe Yehat, I think\nthe Ur-Quan gathered their dreadnoughts and departed towards the edge of the galaxy\ncommanding us to obey the slave laws or face their wrath when they returned.",
+    "audioFile": "spathi-015.ogg",
+    "timings": [
+      4607,
+      4947,
+      1692,
+      4897,
+      5222
+    ],
+    "audioFileDuration": 21365,
+    "lineTimings": [
+      {
+        "line": "Our masters don't really keep us very well informed about their goings on",
+        "duration": 4607,
+        "start": 0,
+        "end": 4607
+      },
+      {
+        "line": "so all that we know is that immediately after the subjugation of the last Alliance race",
+        "duration": 4947,
+        "start": 4607,
+        "end": 9554
+      },
+      {
+        "line": "the Yehat, I think",
+        "duration": 1692,
+        "start": 9554,
+        "end": 11246
+      },
+      {
+        "line": "the Ur-Quan gathered their dreadnoughts and departed towards the edge of the galaxy",
+        "duration": 4897,
+        "start": 11246,
+        "end": 16143
+      },
+      {
+        "line": "commanding us to obey the slave laws or face their wrath when they returned.",
+        "duration": 5222,
+        "start": 16143,
+        "end": 21365
+      }
+    ]
+  },
+  "what_about_other_races": {
+    "identifier": "what_about_other_races",
+    "localizedText": "Do you know anything about other alien races?",
+    "timings": [],
+    "audioFileDuration": null,
+    "lineTimings": [
+      {
+        "line": "Do you know anything about other alien races?",
+        "start": 0,
+        "end": null
+      }
+    ]
+  },
+  "ABOUT_OTHER_RACES": {
+    "identifier": "ABOUT_OTHER_RACES",
+    "localizedText": "We know only bits and pieces of what happened to each race; for instance,\nwhen defeated, the Yehat joined the Hierarchy as combat thralls,\nwhile the Syreen chose to be slave shielded on a planet in the BugSquirt star system.\nNo, that's not right -- I forget its name, anyway where was I?\nOh yes, the Shofixti! They were utterly wiped out in a gigantic `blaze of glory'.",
+    "audioFile": "spathi-016.ogg",
+    "timings": [
+      4647,
+      4466,
+      5288,
+      4206,
+      4646
+    ],
+    "audioFileDuration": 23253,
+    "lineTimings": [
+      {
+        "line": "We know only bits and pieces of what happened to each race; for instance,",
+        "duration": 4647,
+        "start": 0,
+        "end": 4647
+      },
+      {
+        "line": "when defeated, the Yehat joined the Hierarchy as combat thralls,",
+        "duration": 4466,
+        "start": 4647,
+        "end": 9113
+      },
+      {
+        "line": "while the Syreen chose to be slave shielded on a planet in the BugSquirt star system.",
+        "duration": 5288,
+        "start": 9113,
+        "end": 14401
+      },
+      {
+        "line": "No, that's not right -- I forget its name, anyway where was I?",
+        "duration": 4206,
+        "start": 14401,
+        "end": 18607
+      },
+      {
+        "line": "Oh yes, the Shofixti! They were utterly wiped out in a gigantic `blaze of glory'.",
+        "duration": 4646,
+        "start": 18607,
+        "end": 23253
+      }
+    ]
+  },
+  "what_doing_on_pluto_3": {
+    "identifier": "what_doing_on_pluto_3",
+    "localizedText": "TELL ME what you are doing on Pluto, NOW!",
+    "timings": [],
+    "audioFileDuration": null,
+    "lineTimings": [
+      {
+        "line": "TELL ME what you are doing on Pluto, NOW!",
+        "start": 0,
+        "end": null
+      }
+    ]
+  },
+  "what_about_yourself": {
+    "identifier": "what_about_yourself",
+    "localizedText": "What about yourself, Fwiffo?",
+    "timings": [],
+    "audioFileDuration": null,
+    "lineTimings": [
+      {
+        "line": "What about yourself, Fwiffo?",
+        "start": 0,
+        "end": null
+      }
+    ]
+  },
+  "ABOUT_MYSELF": {
+    "identifier": "ABOUT_MYSELF",
+    "localizedText": "Me? You mean me, personally? How nice of you to ask!\nI was born a poor, green encrustling, the youngest child of a family of 18,487.\nMy male parent had to work hard to support us, very hard\nbut each of my brothers and sisters and I tried to help out to make ends meet.\nThe female parent was kind and sweet to all of us.\nWhy, she once even called me by NAME; she said\n`Fwiffo! Fwiffo darling! Would you please answer the door? I think someone's there.'\nWhat a treat! A golden memory.\nI swiftly matured into a fine example of my species, and with my parents' assistance, achieved independence.\nSpecifically, they pried me from the doorjamb, and rolled me into the street.\nThus prepared, I set out to make my fortune.\nI had great dreams in those days, yes, great dreams!\nI knew that someday I would be vastly rich, wealthy enough to afford a large, well-fortified mansion.\nSurrounding my mansion would be vast tracts of land, through which I could slide at any time I wished!\nOf course, one can never be too sure that there aren't monsters hiding just behind the next bush\nso I would plant trees to climb at regular, easy to reach intervals.\nAnd being a Spathi of the World, I would know that some monsters climb trees, though often not well\nso I would have my servants place in each tree a basket of perfect stones\nnot too heavy, not too light -- just the right size for throwing at monsters.\nI was thinking about what color the stones would be painted (aqua, mauve or magenta)\nwhen a vegetable cart came careening down the street outside my house, and knocked me unconscious.\nWhen I awoke, I was aboard the voidship StarRunner, headed for Earth.\nApparently I had been out of my head for quite some time after the accident\nand with the assistance of some kind strangers\nhad been relieved of my funds and convinced to join the navy\nwhere I have been unpleasantly employed for the last 25 years.",
+    "audioFile": "spathi-017.ogg",
+    "timings": [
+      4035,
+      7832,
+      3835,
+      5538,
+      2844,
+      3605,
+      6570,
+      1762,
+      7461,
+      4126,
+      2964,
+      4967,
+      7161,
+      7300,
+      5378,
+      5037,
+      6780,
+      4537,
+      5167,
+      5648,
+      6099,
+      4767,
+      5087,
+      2754,
+      4316,
+      5666
+    ],
+    "audioFileDuration": 131236,
+    "lineTimings": [
+      {
+        "line": "Me? You mean me, personally? How nice of you to ask!",
+        "duration": 4035,
+        "start": 0,
+        "end": 4035
+      },
+      {
+        "line": "I was born a poor, green encrustling, the youngest child of a family of 18,487.",
+        "duration": 7832,
+        "start": 4035,
+        "end": 11867
+      },
+      {
+        "line": "My male parent had to work hard to support us, very hard",
+        "duration": 3835,
+        "start": 11867,
+        "end": 15702
+      },
+      {
+        "line": "but each of my brothers and sisters and I tried to help out to make ends meet.",
+        "duration": 5538,
+        "start": 15702,
+        "end": 21240
+      },
+      {
+        "line": "The female parent was kind and sweet to all of us.",
+        "duration": 2844,
+        "start": 21240,
+        "end": 24084
+      },
+      {
+        "line": "Why, she once even called me by NAME; she said",
+        "duration": 3605,
+        "start": 24084,
+        "end": 27689
+      },
+      {
+        "line": "`Fwiffo! Fwiffo darling! Would you please answer the door? I think someone's there.'",
+        "duration": 6570,
+        "start": 27689,
+        "end": 34259
+      },
+      {
+        "line": "What a treat! A golden memory.",
+        "duration": 1762,
+        "start": 34259,
+        "end": 36021
+      },
+      {
+        "line": "I swiftly matured into a fine example of my species, and with my parents' assistance, achieved independence.",
+        "duration": 7461,
+        "start": 36021,
+        "end": 43482
+      },
+      {
+        "line": "Specifically, they pried me from the doorjamb, and rolled me into the street.",
+        "duration": 4126,
+        "start": 43482,
+        "end": 47608
+      },
+      {
+        "line": "Thus prepared, I set out to make my fortune.",
+        "duration": 2964,
+        "start": 47608,
+        "end": 50572
+      },
+      {
+        "line": "I had great dreams in those days, yes, great dreams!",
+        "duration": 4967,
+        "start": 50572,
+        "end": 55539
+      },
+      {
+        "line": "I knew that someday I would be vastly rich, wealthy enough to afford a large, well-fortified mansion.",
+        "duration": 7161,
+        "start": 55539,
+        "end": 62700
+      },
+      {
+        "line": "Surrounding my mansion would be vast tracts of land, through which I could slide at any time I wished!",
+        "duration": 7300,
+        "start": 62700,
+        "end": 70000
+      },
+      {
+        "line": "Of course, one can never be too sure that there aren't monsters hiding just behind the next bush",
+        "duration": 5378,
+        "start": 70000,
+        "end": 75378
+      },
+      {
+        "line": "so I would plant trees to climb at regular, easy to reach intervals.",
+        "duration": 5037,
+        "start": 75378,
+        "end": 80415
+      },
+      {
+        "line": "And being a Spathi of the World, I would know that some monsters climb trees, though often not well",
+        "duration": 6780,
+        "start": 80415,
+        "end": 87195
+      },
+      {
+        "line": "so I would have my servants place in each tree a basket of perfect stones",
+        "duration": 4537,
+        "start": 87195,
+        "end": 91732
+      },
+      {
+        "line": "not too heavy, not too light -- just the right size for throwing at monsters.",
+        "duration": 5167,
+        "start": 91732,
+        "end": 96899
+      },
+      {
+        "line": "I was thinking about what color the stones would be painted (aqua, mauve or magenta)",
+        "duration": 5648,
+        "start": 96899,
+        "end": 102547
+      },
+      {
+        "line": "when a vegetable cart came careening down the street outside my house, and knocked me unconscious.",
+        "duration": 6099,
+        "start": 102547,
+        "end": 108646
+      },
+      {
+        "line": "When I awoke, I was aboard the voidship StarRunner, headed for Earth.",
+        "duration": 4767,
+        "start": 108646,
+        "end": 113413
+      },
+      {
+        "line": "Apparently I had been out of my head for quite some time after the accident",
+        "duration": 5087,
+        "start": 113413,
+        "end": 118500
+      },
+      {
+        "line": "and with the assistance of some kind strangers",
+        "duration": 2754,
+        "start": 118500,
+        "end": 121254
+      },
+      {
+        "line": "had been relieved of my funds and convinced to join the navy",
+        "duration": 4316,
+        "start": 121254,
+        "end": 125570
+      },
+      {
+        "line": "where I have been unpleasantly employed for the last 25 years.",
+        "duration": 5666,
+        "start": 125570,
+        "end": 131236
+      }
+    ]
+  },
+  "STATIONED_ON_EARTH_MOON": {
+    "identifier": "STATIONED_ON_EARTH_MOON",
+    "localizedText": "Originally, we were stationed on Earth's moon, which made us Spathi a bit uneasy\nbecause with each passing day we grew more and more worried about the sneaky Earthlings making a surprise attack\nthough the Ilwrath kept telling us that was impossible\nsince the Earthlings had no ships or weapons whatsoever.\nThat made us feel a bit better, but when the Ilwrath left, again we grew fearful\nand decided to make a strategic redeployment to Mars.\nLater on we decided it would be prudent to relocate to Jupiter's moon, Ganymede\nthen later Saturn's moon, Titan\nand finally here to Pluto.",
+    "audioFile": "spathi-018.ogg",
+    "timings": [
+      4626,
+      5929,
+      3355,
+      3234,
+      4997,
+      3455,
+      4978,
+      2283,
+      2234
+    ],
+    "audioFileDuration": 35091,
+    "lineTimings": [
+      {
+        "line": "Originally, we were stationed on Earth's moon, which made us Spathi a bit uneasy",
+        "duration": 4626,
+        "start": 0,
+        "end": 4626
+      },
+      {
+        "line": "because with each passing day we grew more and more worried about the sneaky Earthlings making a surprise attack",
+        "duration": 5929,
+        "start": 4626,
+        "end": 10555
+      },
+      {
+        "line": "though the Ilwrath kept telling us that was impossible",
+        "duration": 3355,
+        "start": 10555,
+        "end": 13910
+      },
+      {
+        "line": "since the Earthlings had no ships or weapons whatsoever.",
+        "duration": 3234,
+        "start": 13910,
+        "end": 17144
+      },
+      {
+        "line": "That made us feel a bit better, but when the Ilwrath left, again we grew fearful",
+        "duration": 4997,
+        "start": 17144,
+        "end": 22141
+      },
+      {
+        "line": "and decided to make a strategic redeployment to Mars.",
+        "duration": 3455,
+        "start": 22141,
+        "end": 25596
+      },
+      {
+        "line": "Later on we decided it would be prudent to relocate to Jupiter's moon, Ganymede",
+        "duration": 4978,
+        "start": 25596,
+        "end": 30574
+      },
+      {
+        "line": "then later Saturn's moon, Titan",
+        "duration": 2283,
+        "start": 30574,
+        "end": 32857
+      },
+      {
+        "line": "and finally here to Pluto.",
+        "duration": 2234,
+        "start": 32857,
+        "end": 35091
+      }
+    ]
+  },
+  "what_blaze_of_glory": {
+    "identifier": "what_blaze_of_glory",
+    "localizedText": "What do you mean, `blaze of glory'? What happened to the Shofixti?",
+    "timings": [],
+    "audioFileDuration": null,
+    "lineTimings": [
+      {
+        "line": "What do you mean, `blaze of glory'? What happened to the Shofixti?",
+        "start": 0,
+        "end": null
+      }
+    ]
+  },
+  "BLAZE_IS": {
+    "identifier": "BLAZE_IS",
+    "localizedText": "The Shofixti were half feral, as you know, having been uplifted by the Yehat\njust a few decades before the start of the war.\nGiven their habit of detonating those suicidal, so-called `Glory Devices' in combat\nit came as no particular surprise to me when, upon the arrival of the Ur-Quan primary task force at their homeworld\nthe Shofixti caused their sun to explode in a colossal supernova\ndestroying the entire planetary system, and not incidentally dozens of Ur-Quan Dreadnoughts!\n(Snork-snork-snork!)",
+    "audioFile": "spathi-019.ogg",
+    "timings": [
+      5288,
+      2944,
+      5698,
+      7070,
+      4647,
+      5468,
+      1663
+    ],
+    "audioFileDuration": 32778,
+    "lineTimings": [
+      {
+        "line": "The Shofixti were half feral, as you know, having been uplifted by the Yehat",
+        "duration": 5288,
+        "start": 0,
+        "end": 5288
+      },
+      {
+        "line": "just a few decades before the start of the war.",
+        "duration": 2944,
+        "start": 5288,
+        "end": 8232
+      },
+      {
+        "line": "Given their habit of detonating those suicidal, so-called `Glory Devices' in combat",
+        "duration": 5698,
+        "start": 8232,
+        "end": 13930
+      },
+      {
+        "line": "it came as no particular surprise to me when, upon the arrival of the Ur-Quan primary task force at their homeworld",
+        "duration": 7070,
+        "start": 13930,
+        "end": 21000
+      },
+      {
+        "line": "the Shofixti caused their sun to explode in a colossal supernova",
+        "duration": 4647,
+        "start": 21000,
+        "end": 25647
+      },
+      {
+        "line": "destroying the entire planetary system, and not incidentally dozens of Ur-Quan Dreadnoughts!",
+        "duration": 5468,
+        "start": 25647,
+        "end": 31115
+      },
+      {
+        "line": "(Snork-snork-snork!)",
+        "duration": 1663,
+        "start": 31115,
+        "end": 32778
+      }
+    ]
+  },
+  "what_about_moonbase": {
+    "identifier": "what_about_moonbase",
+    "localizedText": "What is happening at the base on Luna then?",
+    "timings": [],
+    "audioFileDuration": null,
+    "lineTimings": [
+      {
+        "line": "What is happening at the base on Luna then?",
+        "start": 0,
+        "end": null
+      }
+    ]
+  },
+  "SET_UP_BASE": {
+    "identifier": "SET_UP_BASE",
+    "localizedText": "We decided that if the Earthlings figured out we had abandoned the base on Luna\nthey would be more likely to try something sneaky.\nSo we rigged up some old service androids and ordered them to drive around on the lunar surface in bulldozers,\nendlessly pushing around the same piles of dirt.\nIn addition, we connected the base's local radio transmitter to an audio Melnorme FunRom\ncalled `Winky's Happy Night', hoping that they would think we were still there.",
+    "audioFile": "spathi-020.ogg",
+    "timings": [
+      5357,
+      2935,
+      7130,
+      3365,
+      7521,
+      6109
+    ],
+    "audioFileDuration": 32417,
+    "lineTimings": [
+      {
+        "line": "We decided that if the Earthlings figured out we had abandoned the base on Luna",
+        "duration": 5357,
+        "start": 0,
+        "end": 5357
+      },
+      {
+        "line": "they would be more likely to try something sneaky.",
+        "duration": 2935,
+        "start": 5357,
+        "end": 8292
+      },
+      {
+        "line": "So we rigged up some old service androids and ordered them to drive around on the lunar surface in bulldozers,",
+        "duration": 7130,
+        "start": 8292,
+        "end": 15422
+      },
+      {
+        "line": "endlessly pushing around the same piles of dirt.",
+        "duration": 3365,
+        "start": 15422,
+        "end": 18787
+      },
+      {
+        "line": "In addition, we connected the base's local radio transmitter to an audio Melnorme FunRom",
+        "duration": 7521,
+        "start": 18787,
+        "end": 26308
+      },
+      {
+        "line": "called `Winky's Happy Night', hoping that they would think we were still there.",
+        "duration": 6109,
+        "start": 26308,
+        "end": 32417
+      }
+    ]
+  },
+  "what_about_ilwrath": {
+    "identifier": "what_about_ilwrath",
+    "localizedText": "What happened to the Ilwrath stationed in this system?",
+    "timings": [],
+    "audioFileDuration": null,
+    "lineTimings": [
+      {
+        "line": "What happened to the Ilwrath stationed in this system?",
+        "start": 0,
+        "end": null
+      }
+    ]
+  },
+  "ABOUT_ILWRATH": {
+    "identifier": "ABOUT_ILWRATH",
+    "localizedText": "The Ilwrath contingent were supposed to be the toughest ridge-crest, er\nthe most rigid flipper, no\nah yes - the BACKBONE of the Earthguard force; but they departed the system en masse\nnot long after the last Ur-Quan Dreadnought vanished from this region of space.\nThey claimed to have received a direct order from their Gods of Evil and Darkness,\nwho had grown dissatisfied with the Ilwraths' passivity\nand wanted them to kill or at least torture someone soon.\nPersonally, I believe they just got bored and went off to have some fun.",
+    "audioFile": "spathi-021.ogg",
+    "timings": [
+      4476,
+      1993,
+      5859,
+      4756,
+      5779,
+      3064,
+      3946,
+      4566
+    ],
+    "audioFileDuration": 34439,
+    "lineTimings": [
+      {
+        "line": "The Ilwrath contingent were supposed to be the toughest ridge-crest, er",
+        "duration": 4476,
+        "start": 0,
+        "end": 4476
+      },
+      {
+        "line": "the most rigid flipper, no",
+        "duration": 1993,
+        "start": 4476,
+        "end": 6469
+      },
+      {
+        "line": "ah yes - the BACKBONE of the Earthguard force; but they departed the system en masse",
+        "duration": 5859,
+        "start": 6469,
+        "end": 12328
+      },
+      {
+        "line": "not long after the last Ur-Quan Dreadnought vanished from this region of space.",
+        "duration": 4756,
+        "start": 12328,
+        "end": 17084
+      },
+      {
+        "line": "They claimed to have received a direct order from their Gods of Evil and Darkness,",
+        "duration": 5779,
+        "start": 17084,
+        "end": 22863
+      },
+      {
+        "line": "who had grown dissatisfied with the Ilwraths' passivity",
+        "duration": 3064,
+        "start": 22863,
+        "end": 25927
+      },
+      {
+        "line": "and wanted them to kill or at least torture someone soon.",
+        "duration": 3946,
+        "start": 25927,
+        "end": 29873
+      },
+      {
+        "line": "Personally, I believe they just got bored and went off to have some fun.",
+        "duration": 4566,
+        "start": 29873,
+        "end": 34439
+      }
+    ]
+  },
+  "what_about_other_spathi": {
+    "identifier": "what_about_other_spathi",
+    "localizedText": "What happened to the other Spathi ships?",
+    "timings": [],
+    "audioFileDuration": null,
+    "lineTimings": [
+      {
+        "line": "What happened to the other Spathi ships?",
+        "start": 0,
+        "end": null
+      }
+    ]
+  },
+  "really_thousands": {
+    "identifier": "really_thousands",
+    "localizedText": "Hundreds? Come on.",
+    "timings": [],
+    "audioFileDuration": null,
+    "lineTimings": [
+      {
+        "line": "Hundreds? Come on.",
+        "start": 0,
+        "end": null
+      }
+    ]
+  },
+  "SPATHI_ARE": {
+    "identifier": "SPATHI_ARE",
+    "localizedText": "Over the past years, it became necessary to redeploy strategically some of our Earthguard forces\nto our homeworld in case of a sudden surprise attack by a vicious, unrelenting alien race which we Spathi call\nThe Ultimate Evil!",
+    "audioFile": "spathi-022.ogg",
+    "timings": [
+      6299,
+      6930,
+      3517
+    ],
+    "audioFileDuration": 16746,
+    "lineTimings": [
+      {
+        "line": "Over the past years, it became necessary to redeploy strategically some of our Earthguard forces",
+        "duration": 6299,
+        "start": 0,
+        "end": 6299
+      },
+      {
+        "line": "to our homeworld in case of a sudden surprise attack by a vicious, unrelenting alien race which we Spathi call",
+        "duration": 6930,
+        "start": 6299,
+        "end": 13229
+      },
+      {
+        "line": "The Ultimate Evil!",
+        "duration": 3517,
+        "start": 13229,
+        "end": 16746
+      }
+    ]
+  },
+  "what_enemy": {
+    "identifier": "what_enemy",
+    "localizedText": "Who or what is this `Ultimate Evil'?",
+    "timings": [],
+    "audioFileDuration": null,
+    "lineTimings": [
+      {
+        "line": "Who or what is this `Ultimate Evil'?",
+        "start": 0,
+        "end": null
+      }
+    ]
+  },
+  "ENEMY_IS": {
+    "identifier": "ENEMY_IS",
+    "localizedText": "As yet, the Ultimate Evil remains largely unmanifest, and its powers and exact intentions are still a bit obscure\nsince it lurks just outside the range of even the most sensitive, long-range detectors\nwhich we feel gives conclusive evidence as to The Ultimate Evil's nefarious intent.",
+    "audioFile": "spathi-023.ogg",
+    "timings": [
+      8822,
+      5388,
+      6685
+    ],
+    "audioFileDuration": 20895,
+    "lineTimings": [
+      {
+        "line": "As yet, the Ultimate Evil remains largely unmanifest, and its powers and exact intentions are still a bit obscure",
+        "duration": 8822,
+        "start": 0,
+        "end": 8822
+      },
+      {
+        "line": "since it lurks just outside the range of even the most sensitive, long-range detectors",
+        "duration": 5388,
+        "start": 8822,
+        "end": 14210
+      },
+      {
+        "line": "which we feel gives conclusive evidence as to The Ultimate Evil's nefarious intent.",
+        "duration": 6685,
+        "start": 14210,
+        "end": 20895
+      }
+    ]
+  },
+  "when_ilwrath": {
+    "identifier": "when_ilwrath",
+    "localizedText": "When do you expect the Ilwrath to return?",
+    "timings": [],
+    "audioFileDuration": null,
+    "lineTimings": [
+      {
+        "line": "When do you expect the Ilwrath to return?",
+        "start": 0,
+        "end": null
+      }
+    ]
+  },
+  "THEN_ILWRATH": {
+    "identifier": "THEN_ILWRATH",
+    "localizedText": "Well, when they were pushing up into HyperSpace 18 years ago, we asked them that very question\nand I think they said something to the effect of\n`Real Soon'.",
+    "audioFile": "spathi-024.ogg",
+    "timings": [
+      6990,
+      2534,
+      2031
+    ],
+    "audioFileDuration": 11555,
+    "lineTimings": [
+      {
+        "line": "Well, when they were pushing up into HyperSpace 18 years ago, we asked them that very question",
+        "duration": 6990,
+        "start": 0,
+        "end": 6990
+      },
+      {
+        "line": "and I think they said something to the effect of",
+        "duration": 2534,
+        "start": 6990,
+        "end": 9524
+      },
+      {
+        "line": "`Real Soon'.",
+        "duration": 2031,
+        "start": 9524,
+        "end": 11555
+      }
+    ]
+  },
+  "why_you_here": {
+    "identifier": "why_you_here",
+    "localizedText": "Why are you still here, Captain Fwiffo?",
+    "timings": [],
+    "audioFileDuration": null,
+    "lineTimings": [
+      {
+        "line": "Why are you still here, Captain Fwiffo?",
+        "start": 0,
+        "end": null
+      }
+    ]
+  },
+  "DREW_SHORT_STRAW": {
+    "identifier": "DREW_SHORT_STRAW",
+    "localizedText": "Since it was our most powerful and unforgiving masters, the Ur-Quan, who stationed us here\nwe knew it would be grossly stupid to disobey them completely\nbut we decided that it would be okay to send just one ship home.\nWe used one of our most ancient and solemn rituals, Puun-Taffy, to pick the lucky ship.\nThen... some months later, we decided that it wouldn't REALLY hurt if we sent one more ship home\nand then later we sent another, and then another... well, you get the idea.\nAlas, as fate would have it, when the final ritual was performed\nI, Fwiffo, was left here alone, for as even the most immature encrustling knows\nthere must always be one Spathi who picks the short Ta Puun stick.",
+    "audioFile": "spathi-025.ogg",
+    "timings": [
+      6239,
+      4396,
+      5498,
+      7100,
+      7491,
+      4797,
+      4436,
+      7091,
+      4851
+    ],
+    "audioFileDuration": 51899,
+    "lineTimings": [
+      {
+        "line": "Since it was our most powerful and unforgiving masters, the Ur-Quan, who stationed us here",
+        "duration": 6239,
+        "start": 0,
+        "end": 6239
+      },
+      {
+        "line": "we knew it would be grossly stupid to disobey them completely",
+        "duration": 4396,
+        "start": 6239,
+        "end": 10635
+      },
+      {
+        "line": "but we decided that it would be okay to send just one ship home.",
+        "duration": 5498,
+        "start": 10635,
+        "end": 16133
+      },
+      {
+        "line": "We used one of our most ancient and solemn rituals, Puun-Taffy, to pick the lucky ship.",
+        "duration": 7100,
+        "start": 16133,
+        "end": 23233
+      },
+      {
+        "line": "Then... some months later, we decided that it wouldn't REALLY hurt if we sent one more ship home",
+        "duration": 7491,
+        "start": 23233,
+        "end": 30724
+      },
+      {
+        "line": "and then later we sent another, and then another... well, you get the idea.",
+        "duration": 4797,
+        "start": 30724,
+        "end": 35521
+      },
+      {
+        "line": "Alas, as fate would have it, when the final ritual was performed",
+        "duration": 4436,
+        "start": 35521,
+        "end": 39957
+      },
+      {
+        "line": "I, Fwiffo, was left here alone, for as even the most immature encrustling knows",
+        "duration": 7091,
+        "start": 39957,
+        "end": 47048
+      },
+      {
+        "line": "there must always be one Spathi who picks the short Ta Puun stick.",
+        "duration": 4851,
+        "start": 47048,
+        "end": 51899
+      }
+    ]
+  },
+  "how_many_crew": {
+    "identifier": "how_many_crew",
+    "localizedText": "How many crew do you have aboard?",
+    "timings": [],
+    "audioFileDuration": null,
+    "lineTimings": [
+      {
+        "line": "How many crew do you have aboard?",
+        "start": 0,
+        "end": null
+      }
+    ]
+  },
+  "JUST_ME": {
+    "identifier": "JUST_ME",
+    "localizedText": "I am undone! You are far too clever for a poor Spathi like me\nand now I must submit to your superior, alien intellect.\nI guess I am not revealing any truly important secrets if I tell you\nthat each of my species' Eluder-class Voidships typically holds 30 Spathi crewmen\nthough at present my vessel, the StarRunner, is not up to full complement\ndue to the needs of my homeworld in their resistance against the Ultimate Evil\nand in fact my vessel is somewhat understaffed right now\nseeing as how I am the only Spathi on board, which is a bit frightening as I am sure you can understand.",
+    "audioFile": "spathi-026.ogg",
+    "timings": [
+      4777,
+      4696,
+      3435,
+      5718,
+      5028,
+      5187,
+      3806,
+      6232
+    ],
+    "audioFileDuration": 38879,
+    "lineTimings": [
+      {
+        "line": "I am undone! You are far too clever for a poor Spathi like me",
+        "duration": 4777,
+        "start": 0,
+        "end": 4777
+      },
+      {
+        "line": "and now I must submit to your superior, alien intellect.",
+        "duration": 4696,
+        "start": 4777,
+        "end": 9473
+      },
+      {
+        "line": "I guess I am not revealing any truly important secrets if I tell you",
+        "duration": 3435,
+        "start": 9473,
+        "end": 12908
+      },
+      {
+        "line": "that each of my species' Eluder-class Voidships typically holds 30 Spathi crewmen",
+        "duration": 5718,
+        "start": 12908,
+        "end": 18626
+      },
+      {
+        "line": "though at present my vessel, the StarRunner, is not up to full complement",
+        "duration": 5028,
+        "start": 18626,
+        "end": 23654
+      },
+      {
+        "line": "due to the needs of my homeworld in their resistance against the Ultimate Evil",
+        "duration": 5187,
+        "start": 23654,
+        "end": 28841
+      },
+      {
+        "line": "and in fact my vessel is somewhat understaffed right now",
+        "duration": 3806,
+        "start": 28841,
+        "end": 32647
+      },
+      {
+        "line": "seeing as how I am the only Spathi on board, which is a bit frightening as I am sure you can understand.",
+        "duration": 6232,
+        "start": 32647,
+        "end": 38879
+      }
+    ]
+  },
+  "THOUSANDS": {
+    "identifier": "THOUSANDS",
+    "localizedText": "Dozens -- that is to say, scores and perhaps even hundreds of my brethren stride through the corridors\nof this specially modified, super-efficient, mass-destruction-oriented starship\nwhich could lay siege to an entire planetary system should we choose to do so\nwhich, fortunately for you, we have decided not to do, today.",
+    "audioFile": "spathi-027.ogg",
+    "timings": [
+      6300,
+      5638,
+      5297,
+      5201
+    ],
+    "audioFileDuration": 22436,
+    "lineTimings": [
+      {
+        "line": "Dozens -- that is to say, scores and perhaps even hundreds of my brethren stride through the corridors",
+        "duration": 6300,
+        "start": 0,
+        "end": 6300
+      },
+      {
+        "line": "of this specially modified, super-efficient, mass-destruction-oriented starship",
+        "duration": 5638,
+        "start": 6300,
+        "end": 11938
+      },
+      {
+        "line": "which could lay siege to an entire planetary system should we choose to do so",
+        "duration": 5297,
+        "start": 11938,
+        "end": 17235
+      },
+      {
+        "line": "which, fortunately for you, we have decided not to do, today.",
+        "duration": 5201,
+        "start": 17235,
+        "end": 22436
+      }
+    ]
+  },
+  "full_of_monsters": {
+    "identifier": "full_of_monsters",
+    "localizedText": "The galaxy teems with threatening monsters. Are you happy here -- alone and vulnerable?",
+    "timings": [],
+    "audioFileDuration": null,
+    "lineTimings": [
+      {
+        "line": "The galaxy teems with threatening monsters. Are you happy here -- alone and vulnerable?",
+        "start": 0,
+        "end": null
+      }
+    ]
+  },
+  "HOW_TRUE": {
+    "identifier": "HOW_TRUE",
+    "localizedText": "How true, Captain, how true!\nIn truth, just between us, during the past seven years, I have been quite ill at ease\nand yet now I find myself enjoying your company, this witty dialog\nand the presence of your huge, powerful, death-dealing starship which being my friend\nyou would certainly feel compelled to use in order to save me from any hostile lifeforms\nwho threatened me with death.",
+    "audioFile": "spathi-028.ogg",
+    "timings": [
+      2433,
+      6139,
+      4987,
+      5728,
+      5538,
+      2397
+    ],
+    "audioFileDuration": 27222,
+    "lineTimings": [
+      {
+        "line": "How true, Captain, how true!",
+        "duration": 2433,
+        "start": 0,
+        "end": 2433
+      },
+      {
+        "line": "In truth, just between us, during the past seven years, I have been quite ill at ease",
+        "duration": 6139,
+        "start": 2433,
+        "end": 8572
+      },
+      {
+        "line": "and yet now I find myself enjoying your company, this witty dialog",
+        "duration": 4987,
+        "start": 8572,
+        "end": 13559
+      },
+      {
+        "line": "and the presence of your huge, powerful, death-dealing starship which being my friend",
+        "duration": 5728,
+        "start": 13559,
+        "end": 19287
+      },
+      {
+        "line": "you would certainly feel compelled to use in order to save me from any hostile lifeforms",
+        "duration": 5538,
+        "start": 19287,
+        "end": 24825
+      },
+      {
+        "line": "who threatened me with death.",
+        "duration": 2397,
+        "start": 24825,
+        "end": 27222
+      }
+    ]
+  },
+  "join_us": {
+    "identifier": "join_us",
+    "localizedText": "I'm sure you'd feel a lot safer if you were with us. Come on, Fwiffo, join our fleet!",
+    "timings": [],
+    "audioFileDuration": null,
+    "lineTimings": [
+      {
+        "line": "I'm sure you'd feel a lot safer if you were with us. Come on, Fwiffo, join our fleet!",
+        "start": 0,
+        "end": null
+      }
+    ]
+  },
+  "WILL_JOIN": {
+    "identifier": "WILL_JOIN",
+    "localizedText": "Happy days and jubilation!\nI discard all prejudice and hesitations and accept and celebrate your offer of protection\nand your undying commitment to my well-being!\nI must wax melancholy for just a moment though\nand make sure you understand that any other Spathi ships we meet at large in the galaxy\nare not going to be quite so responsive to your friendly gestures as myself\nsince they bear more heavily the yoke of Ur-Quan enslavement\nand are also apt to talk themselves out of allying with a totally unknown alien\nwhich I, having been left here alone, cannot do.\nWelcome me aboard, captain!",
+    "audioFile": "spathi-029.ogg",
+    "timings": [
+      2693,
+      6650,
+      3375,
+      2884,
+      5658,
+      5338,
+      4396,
+      5398,
+      4306,
+      2307
+    ],
+    "audioFileDuration": 43005,
+    "lineTimings": [
+      {
+        "line": "Happy days and jubilation!",
+        "duration": 2693,
+        "start": 0,
+        "end": 2693
+      },
+      {
+        "line": "I discard all prejudice and hesitations and accept and celebrate your offer of protection",
+        "duration": 6650,
+        "start": 2693,
+        "end": 9343
+      },
+      {
+        "line": "and your undying commitment to my well-being!",
+        "duration": 3375,
+        "start": 9343,
+        "end": 12718
+      },
+      {
+        "line": "I must wax melancholy for just a moment though",
+        "duration": 2884,
+        "start": 12718,
+        "end": 15602
+      },
+      {
+        "line": "and make sure you understand that any other Spathi ships we meet at large in the galaxy",
+        "duration": 5658,
+        "start": 15602,
+        "end": 21260
+      },
+      {
+        "line": "are not going to be quite so responsive to your friendly gestures as myself",
+        "duration": 5338,
+        "start": 21260,
+        "end": 26598
+      },
+      {
+        "line": "since they bear more heavily the yoke of Ur-Quan enslavement",
+        "duration": 4396,
+        "start": 26598,
+        "end": 30994
+      },
+      {
+        "line": "and are also apt to talk themselves out of allying with a totally unknown alien",
+        "duration": 5398,
+        "start": 30994,
+        "end": 36392
+      },
+      {
+        "line": "which I, having been left here alone, cannot do.",
+        "duration": 4306,
+        "start": 36392,
+        "end": 40698
+      },
+      {
+        "line": "Welcome me aboard, captain!",
+        "duration": 2307,
+        "start": 40698,
+        "end": 43005
+      }
+    ]
+  },
+  "WONT_JOIN_1": {
+    "identifier": "WONT_JOIN_1",
+    "localizedText": "Well... I really want to\nbut I am just not sure that under the present circumstances\njoining you in your exciting and also dangerous space-adventures would be the best course of action right now\nbecause the Ur-Quan could return at any minute and the punishment they would bestow on me for such treason\nwould make any other horrible death seem like big fun by comparison.\nThanks for the offer, though.",
+    "audioFile": "spathi-030.ogg",
+    "timings": [
+      1643,
+      4857,
+      7550,
+      7011,
+      5477,
+      1897
+    ],
+    "audioFileDuration": 28435,
+    "lineTimings": [
+      {
+        "line": "Well... I really want to",
+        "duration": 1643,
+        "start": 0,
+        "end": 1643
+      },
+      {
+        "line": "but I am just not sure that under the present circumstances",
+        "duration": 4857,
+        "start": 1643,
+        "end": 6500
+      },
+      {
+        "line": "joining you in your exciting and also dangerous space-adventures would be the best course of action right now",
+        "duration": 7550,
+        "start": 6500,
+        "end": 14050
+      },
+      {
+        "line": "because the Ur-Quan could return at any minute and the punishment they would bestow on me for such treason",
+        "duration": 7011,
+        "start": 14050,
+        "end": 21061
+      },
+      {
+        "line": "would make any other horrible death seem like big fun by comparison.",
+        "duration": 5477,
+        "start": 21061,
+        "end": 26538
+      },
+      {
+        "line": "Thanks for the offer, though.",
+        "duration": 1897,
+        "start": 26538,
+        "end": 28435
+      }
+    ]
+  },
+  "give_ship_or_die": {
+    "identifier": "give_ship_or_die",
+    "localizedText": "Give us your ship or you will be destroyed!",
+    "timings": [],
+    "audioFileDuration": null,
+    "lineTimings": [
+      {
+        "line": "Give us your ship or you will be destroyed!",
+        "start": 0,
+        "end": null
+      }
+    ]
+  },
+  "WONT_JOIN_2": {
+    "identifier": "WONT_JOIN_2",
+    "localizedText": "You build a strong case, Captain.\nHere I am, alone and undefended on the surface of a hostile alien world.\nAbove me you hover in orbit, encrusted with beam guns, missile launchers and other, more dreadful weapons.\nSo I think to myself: Fwiffo, is it prudent to remain here, as vulnerable as a moltling on a skillet?\n`NO', I answer myself, `JOIN THE HUMAN - HE IS KIND AND GOOD!'\nBut then a wicked voice whispers:\n`beware... the human is tricking you! If you join him, you will die alone, in the cold of space.'\nAnd for reasons beyond my understanding, Captain, this voice overwhelms the other\nand so I must remain here...largely against my will.",
+    "audioFile": "spathi-031.ogg",
+    "timings": [
+      2494,
+      5577,
+      7261,
+      7671,
+      5118,
+      2273,
+      8973,
+      4817,
+      4063
+    ],
+    "audioFileDuration": 48247,
+    "lineTimings": [
+      {
+        "line": "You build a strong case, Captain.",
+        "duration": 2494,
+        "start": 0,
+        "end": 2494
+      },
+      {
+        "line": "Here I am, alone and undefended on the surface of a hostile alien world.",
+        "duration": 5577,
+        "start": 2494,
+        "end": 8071
+      },
+      {
+        "line": "Above me you hover in orbit, encrusted with beam guns, missile launchers and other, more dreadful weapons.",
+        "duration": 7261,
+        "start": 8071,
+        "end": 15332
+      },
+      {
+        "line": "So I think to myself: Fwiffo, is it prudent to remain here, as vulnerable as a moltling on a skillet?",
+        "duration": 7671,
+        "start": 15332,
+        "end": 23003
+      },
+      {
+        "line": "`NO', I answer myself, `JOIN THE HUMAN - HE IS KIND AND GOOD!'",
+        "duration": 5118,
+        "start": 23003,
+        "end": 28121
+      },
+      {
+        "line": "But then a wicked voice whispers:",
+        "duration": 2273,
+        "start": 28121,
+        "end": 30394
+      },
+      {
+        "line": "`beware... the human is tricking you! If you join him, you will die alone, in the cold of space.'",
+        "duration": 8973,
+        "start": 30394,
+        "end": 39367
+      },
+      {
+        "line": "And for reasons beyond my understanding, Captain, this voice overwhelms the other",
+        "duration": 4817,
+        "start": 39367,
+        "end": 44184
+      },
+      {
+        "line": "and so I must remain here...largely against my will.",
+        "duration": 4063,
+        "start": 44184,
+        "end": 48247
+      }
+    ]
+  },
+  "WONT_JOIN_3": {
+    "identifier": "WONT_JOIN_3",
+    "localizedText": "Twice before you have asked this question, Captain. Will the third time be the charm?\nAlas, I fear not.",
+    "audioFile": "spathi-032.ogg",
+    "timings": [
+      4887,
+      1493
+    ],
+    "audioFileDuration": 6380,
+    "lineTimings": [
+      {
+        "line": "Twice before you have asked this question, Captain. Will the third time be the charm?",
+        "duration": 4887,
+        "start": 0,
+        "end": 4887
+      },
+      {
+        "line": "Alas, I fear not.",
+        "duration": 1493,
+        "start": 4887,
+        "end": 6380
+      }
+    ]
+  },
+  "GEE_THANKS": {
+    "identifier": "GEE_THANKS",
+    "localizedText": "Gee, thanks.",
+    "audioFile": "spathi-033.ogg",
+    "timings": [
+      1164
+    ],
+    "audioFileDuration": 1164,
+    "lineTimings": [
+      {
+        "line": "Gee, thanks.",
+        "duration": 1164,
+        "start": 0,
+        "end": 1164
+      }
+    ]
+  },
+  "changed_mind": {
+    "identifier": "changed_mind",
+    "localizedText": "I've changed my mind. We'll attack you.",
+    "timings": [],
+    "audioFileDuration": null,
+    "lineTimings": [
+      {
+        "line": "I've changed my mind. We'll attack you.",
+        "start": 0,
+        "end": null
+      }
+    ]
+  },
+  "youre_forgiven": {
+    "identifier": "youre_forgiven",
+    "localizedText": "We understand that sometimes these tragic misunderstandings happen. We grieve, but are not bitter.",
+    "timings": [],
+    "audioFileDuration": null,
+    "lineTimings": [
+      {
+        "line": "We understand that sometimes these tragic misunderstandings happen. We grieve, but are not bitter.",
+        "start": 0,
+        "end": null
+      }
+    ]
+  },
+  "THANKS_FOR_FORGIVENESS": {
+    "identifier": "THANKS_FOR_FORGIVENESS",
+    "localizedText": "Whew, thanks! For a minute there, I thought you were going to kill me!",
+    "audioFile": "spathi-034.ogg",
+    "timings": [
+      5071
+    ],
+    "audioFileDuration": 5071,
+    "lineTimings": [
+      {
+        "line": "Whew, thanks! For a minute there, I thought you were going to kill me!",
+        "duration": 5071,
+        "start": 0,
+        "end": 5071
+      }
+    ]
+  },
+  "HATE_YOU_FOREVER_SPACE": {
+    "identifier": "HATE_YOU_FOREVER_SPACE",
+    "localizedText": "I fear to face you in combat, but I know if I do not, you will just grow stronger with each passing week.\nTherefore I must face you now.\nI set the thrusters to maximum, close my eye, and begin pressing the fire stud wildly.",
+    "audioFile": "spathi-035.ogg",
+    "timings": [
+      6159,
+      2123,
+      5822
+    ],
+    "audioFileDuration": 14104,
+    "lineTimings": [
+      {
+        "line": "I fear to face you in combat, but I know if I do not, you will just grow stronger with each passing week.",
+        "duration": 6159,
+        "start": 0,
+        "end": 6159
+      },
+      {
+        "line": "Therefore I must face you now.",
+        "duration": 2123,
+        "start": 6159,
+        "end": 8282
+      },
+      {
+        "line": "I set the thrusters to maximum, close my eye, and begin pressing the fire stud wildly.",
+        "duration": 5822,
+        "start": 8282,
+        "end": 14104
+      }
+    ]
+  },
+  "INIT_ANGRY_HELLO_SPACE": {
+    "identifier": "INIT_ANGRY_HELLO_SPACE",
+    "localizedText": "You are mean, cruel and deceitful. I suspect you are an Ilwrath in ape's clothing.\nWhat do you want?",
+    "audioFile": "spathi-036.ogg",
+    "timings": [
+      5168,
+      1151
+    ],
+    "audioFileDuration": 6319,
+    "lineTimings": [
+      {
+        "line": "You are mean, cruel and deceitful. I suspect you are an Ilwrath in ape's clothing.",
+        "duration": 5168,
+        "start": 0,
+        "end": 5168
+      },
+      {
+        "line": "What do you want?",
+        "duration": 1151,
+        "start": 5168,
+        "end": 6319
+      }
+    ]
+  },
+  "SUBSEQUENT_ANGRY_HELLO_SPACE": {
+    "identifier": "SUBSEQUENT_ANGRY_HELLO_SPACE",
+    "localizedText": "Ah, Mister Nasty is back. I wonder what he wants today? Peace, Happiness, Joy for all?\nNo, I fear, death and unmitigated destruction is his traditional fare.\nAm I correct?",
+    "audioFile": "spathi-037.ogg",
+    "timings": [
+      7010,
+      5127,
+      1228
+    ],
+    "audioFileDuration": 13365,
+    "lineTimings": [
+      {
+        "line": "Ah, Mister Nasty is back. I wonder what he wants today? Peace, Happiness, Joy for all?",
+        "duration": 7010,
+        "start": 0,
+        "end": 7010
+      },
+      {
+        "line": "No, I fear, death and unmitigated destruction is his traditional fare.",
+        "duration": 5127,
+        "start": 7010,
+        "end": 12137
+      },
+      {
+        "line": "Am I correct?",
+        "duration": 1228,
+        "start": 12137,
+        "end": 13365
+      }
+    ]
+  },
+  "INIT_NEUTRAL_HELLO_SPACE": {
+    "identifier": "INIT_NEUTRAL_HELLO_SPACE",
+    "localizedText": "Surprise and Terror!\nI am greeted by the smooth and hostile face of our old enemy, the Hootmans\nno... the Huge-glands, no, I remember, the Hunams!",
+    "audioFile": "spathi-038.ogg",
+    "timings": [
+      2073,
+      4897,
+      4245
+    ],
+    "audioFileDuration": 11215,
+    "lineTimings": [
+      {
+        "line": "Surprise and Terror!",
+        "duration": 2073,
+        "start": 0,
+        "end": 2073
+      },
+      {
+        "line": "I am greeted by the smooth and hostile face of our old enemy, the Hootmans",
+        "duration": 4897,
+        "start": 2073,
+        "end": 6970
+      },
+      {
+        "line": "no... the Huge-glands, no, I remember, the Hunams!",
+        "duration": 4245,
+        "start": 6970,
+        "end": 11215
+      }
+    ]
+  },
+  "SUBSEQUENT_NEUTRAL_HELLO_SPACE": {
+    "identifier": "SUBSEQUENT_NEUTRAL_HELLO_SPACE",
+    "localizedText": "Hello, Hunam, what would you like to threaten me about today?",
+    "audioFile": "spathi-039.ogg",
+    "timings": [
+      3451
+    ],
+    "audioFileDuration": 3451,
+    "lineTimings": [
+      {
+        "line": "Hello, Hunam, what would you like to threaten me about today?",
+        "duration": 3451,
+        "start": 0,
+        "end": 3451
+      }
+    ]
+  },
+  "INIT_FRIENDLY_HELLO_SPACE": {
+    "identifier": "INIT_FRIENDLY_HELLO_SPACE",
+    "localizedText": "Hello friend Hunam! How nice to see you again. Kill anyone today?",
+    "audioFile": "spathi-040.ogg",
+    "timings": [
+      4714
+    ],
+    "audioFileDuration": 4714,
+    "lineTimings": [
+      {
+        "line": "Hello friend Hunam! How nice to see you again. Kill anyone today?",
+        "duration": 4714,
+        "start": 0,
+        "end": 4714
+      }
+    ]
+  },
+  "SUBSEQUENT_FRIENDLY_HELLO_SPACE": {
+    "identifier": "SUBSEQUENT_FRIENDLY_HELLO_SPACE",
+    "localizedText": "...No! No! Weapons Officer, don't fire! It's the Hunam again, you idiot!\nWhat! The viewscreen? What are you...oh.\nHello Friend Hunam! How are you? We are just fine, real swell.\nNo problems at all! Just fine. No problems at all!",
+    "audioFile": "spathi-041.ogg",
+    "timings": [
+      6079,
+      3073,
+      5965,
+      3934
+    ],
+    "audioFileDuration": 19051,
+    "lineTimings": [
+      {
+        "line": "...No! No! Weapons Officer, don't fire! It's the Hunam again, you idiot!",
+        "duration": 6079,
+        "start": 0,
+        "end": 6079
+      },
+      {
+        "line": "What! The viewscreen? What are you...oh.",
+        "duration": 3073,
+        "start": 6079,
+        "end": 9152
+      },
+      {
+        "line": "Hello Friend Hunam! How are you? We are just fine, real swell.",
+        "duration": 5965,
+        "start": 9152,
+        "end": 15117
+      },
+      {
+        "line": "No problems at all! Just fine. No problems at all!",
+        "duration": 3934,
+        "start": 15117,
+        "end": 19051
+      }
+    ]
+  },
+  "INIT_ALLIED_HELLO_SPACE": {
+    "identifier": "INIT_ALLIED_HELLO_SPACE",
+    "localizedText": "Hello Captain Ally Hunam! We are here in this place at this time\njust like you -- how wonderful.",
+    "audioFile": "spathi-042.ogg",
+    "timings": [
+      4566,
+      2120
+    ],
+    "audioFileDuration": 6686,
+    "lineTimings": [
+      {
+        "line": "Hello Captain Ally Hunam! We are here in this place at this time",
+        "duration": 4566,
+        "start": 0,
+        "end": 4566
+      },
+      {
+        "line": "just like you -- how wonderful.",
+        "duration": 2120,
+        "start": 4566,
+        "end": 6686
+      }
+    ]
+  },
+  "SUBSEQUENT_ALLIED_HELLO_SPACE": {
+    "identifier": "SUBSEQUENT_ALLIED_HELLO_SPACE",
+    "localizedText": "Ah, Hunam! I was just wondering... is Tuffa-Yuf still alive?\nHave you seen him, is he well?\nHe was sent to your Earth Starbase a while ago\nto captain an Eluder vessel as part of our mutual assistance pact.\nRest assured, he will be an excellent addition to your elite force.\nThose weeks of intense training always result in an officer of the highest caliber.\nIf you see him, please let him know\nthat I still consider his debt valid, and expect prompt payment.\nThank you.",
+    "audioFile": "spathi-043.ogg",
+    "timings": [
+      4797,
+      1913,
+      3004,
+      4406,
+      5058,
+      5508,
+      2633,
+      5117,
+      1136
+    ],
+    "audioFileDuration": 33572,
+    "lineTimings": [
+      {
+        "line": "Ah, Hunam! I was just wondering... is Tuffa-Yuf still alive?",
+        "duration": 4797,
+        "start": 0,
+        "end": 4797
+      },
+      {
+        "line": "Have you seen him, is he well?",
+        "duration": 1913,
+        "start": 4797,
+        "end": 6710
+      },
+      {
+        "line": "He was sent to your Earth Starbase a while ago",
+        "duration": 3004,
+        "start": 6710,
+        "end": 9714
+      },
+      {
+        "line": "to captain an Eluder vessel as part of our mutual assistance pact.",
+        "duration": 4406,
+        "start": 9714,
+        "end": 14120
+      },
+      {
+        "line": "Rest assured, he will be an excellent addition to your elite force.",
+        "duration": 5058,
+        "start": 14120,
+        "end": 19178
+      },
+      {
+        "line": "Those weeks of intense training always result in an officer of the highest caliber.",
+        "duration": 5508,
+        "start": 19178,
+        "end": 24686
+      },
+      {
+        "line": "If you see him, please let him know",
+        "duration": 2633,
+        "start": 24686,
+        "end": 27319
+      },
+      {
+        "line": "that I still consider his debt valid, and expect prompt payment.",
+        "duration": 5117,
+        "start": 27319,
+        "end": 32436
+      },
+      {
+        "line": "Thank you.",
+        "duration": 1136,
+        "start": 32436,
+        "end": 33572
+      }
+    ]
+  },
+  "give_info_space": {
+    "identifier": "give_info_space",
+    "localizedText": "Spathi - though we are not on the best of terms, would you please give me some information?",
+    "timings": [],
+    "audioFileDuration": null,
+    "lineTimings": [
+      {
+        "line": "Spathi - though we are not on the best of terms, would you please give me some information?",
+        "start": 0,
+        "end": null
+      }
+    ]
+  },
+  "HERES_SOME_INFO": {
+    "identifier": "HERES_SOME_INFO",
+    "localizedText": "Gladly, and here it is - now listen carefully for I will only say it once.\nDo not ask favors of people you routinely ambush and murder.",
+    "audioFile": "spathi-044.ogg",
+    "timings": [
+      6049,
+      3550
+    ],
+    "audioFileDuration": 9599,
+    "lineTimings": [
+      {
+        "line": "Gladly, and here it is - now listen carefully for I will only say it once.",
+        "duration": 6049,
+        "start": 0,
+        "end": 6049
+      },
+      {
+        "line": "Do not ask favors of people you routinely ambush and murder.",
+        "duration": 3550,
+        "start": 6049,
+        "end": 9599
+      }
+    ]
+  },
+  "we_sorry_space": {
+    "identifier": "we_sorry_space",
+    "localizedText": "Hey, look. We've made mistakes, I admit it! But we'll just be friends, hmmm?",
+    "timings": [],
+    "audioFileDuration": null,
+    "lineTimings": [
+      {
+        "line": "Hey, look. We've made mistakes, I admit it! But we'll just be friends, hmmm?",
+        "start": 0,
+        "end": null
+      }
+    ]
+  },
+  "APOLOGIZE_AT_HOMEWORLD": {
+    "identifier": "APOLOGIZE_AT_HOMEWORLD",
+    "localizedText": "My soul is warmed by your sincere and heartfelt words.\nIt is decided -- we shall be friends forever.\nHowever, I soon must go about my duties, and sadly we may never see each other again.\nI will remember you forever, Captain.\nAnd as your new friend, I can confide that should you decide to make a more general plea to the Spathi\nsay for your past deeds of thuggery\nyou would be well advised to seek the High Ruling Council at Spathiwa.\nGoodbye...friend.",
+    "audioFile": "spathi-045.ogg",
+    "timings": [
+      4336,
+      2684,
+      5878,
+      2654,
+      6690,
+      2443,
+      4306,
+      2155
+    ],
+    "audioFileDuration": 31146,
+    "lineTimings": [
+      {
+        "line": "My soul is warmed by your sincere and heartfelt words.",
+        "duration": 4336,
+        "start": 0,
+        "end": 4336
+      },
+      {
+        "line": "It is decided -- we shall be friends forever.",
+        "duration": 2684,
+        "start": 4336,
+        "end": 7020
+      },
+      {
+        "line": "However, I soon must go about my duties, and sadly we may never see each other again.",
+        "duration": 5878,
+        "start": 7020,
+        "end": 12898
+      },
+      {
+        "line": "I will remember you forever, Captain.",
+        "duration": 2654,
+        "start": 12898,
+        "end": 15552
+      },
+      {
+        "line": "And as your new friend, I can confide that should you decide to make a more general plea to the Spathi",
+        "duration": 6690,
+        "start": 15552,
+        "end": 22242
+      },
+      {
+        "line": "say for your past deeds of thuggery",
+        "duration": 2443,
+        "start": 22242,
+        "end": 24685
+      },
+      {
+        "line": "you would be well advised to seek the High Ruling Council at Spathiwa.",
+        "duration": 4306,
+        "start": 24685,
+        "end": 28991
+      },
+      {
+        "line": "Goodbye...friend.",
+        "duration": 2155,
+        "start": 28991,
+        "end": 31146
+      }
+    ]
+  },
+  "we_fight_again_space": {
+    "identifier": "we_fight_again_space",
+    "localizedText": "This battle stuff is fun! Let's do some more of it!",
+    "timings": [],
+    "audioFileDuration": null,
+    "lineTimings": [
+      {
+        "line": "This battle stuff is fun! Let's do some more of it!",
+        "start": 0,
+        "end": null
+      }
+    ]
+  },
+  "OK_FIGHT_AGAIN_SPACE": {
+    "identifier": "OK_FIGHT_AGAIN_SPACE",
+    "localizedText": "Aghk! You are twisted and perverse! You deserve to die.",
+    "audioFile": "spathi-046.ogg",
+    "timings": [
+      5069
+    ],
+    "audioFileDuration": 5069,
+    "lineTimings": [
+      {
+        "line": "Aghk! You are twisted and perverse! You deserve to die.",
+        "duration": 5069,
+        "start": 0,
+        "end": 5069
+      }
+    ]
+  },
+  "bye_angry_space": {
+    "identifier": "bye_angry_space",
+    "localizedText": "Don't go away mad, Spathi. Just go away.",
+    "timings": [],
+    "audioFileDuration": null,
+    "lineTimings": [
+      {
+        "line": "Don't go away mad, Spathi. Just go away.",
+        "start": 0,
+        "end": null
+      }
+    ]
+  },
+  "GOODBYE_ANGRY_SPACE": {
+    "identifier": "GOODBYE_ANGRY_SPACE",
+    "localizedText": "I would like to suggest a new plan for you, Hunam:\ndepart this region of space, and never return.",
+    "audioFile": "spathi-047.ogg",
+    "timings": [
+      3235,
+      3308
+    ],
+    "audioFileDuration": 6543,
+    "lineTimings": [
+      {
+        "line": "I would like to suggest a new plan for you, Hunam:",
+        "duration": 3235,
+        "start": 0,
+        "end": 3235
+      },
+      {
+        "line": "depart this region of space, and never return.",
+        "duration": 3308,
+        "start": 3235,
+        "end": 6543
+      }
+    ]
+  },
+  "look_weird": {
+    "identifier": "look_weird",
+    "localizedText": "Man! You look weird -- all those claws and your gooey eyeball. Yuck!",
+    "timings": [],
+    "audioFileDuration": null,
+    "lineTimings": [
+      {
+        "line": "Man! You look weird -- all those claws and your gooey eyeball. Yuck!",
+        "start": 0,
+        "end": null
+      }
+    ]
+  },
+  "YOU_LOOK_WEIRD": {
+    "identifier": "YOU_LOOK_WEIRD",
+    "localizedText": "Beauty is in the eye of the beholder.",
+    "audioFile": "spathi-048.ogg",
+    "timings": [
+      3853
+    ],
+    "audioFileDuration": 3853,
+    "lineTimings": [
+      {
+        "line": "Beauty is in the eye of the beholder.",
+        "duration": 3853,
+        "start": 0,
+        "end": 3853
+      }
+    ]
+  },
+  "no_look_really_weird": {
+    "identifier": "no_look_really_weird",
+    "localizedText": "No, it's not. You are plain, dog ugly.",
+    "timings": [],
+    "audioFileDuration": null,
+    "lineTimings": [
+      {
+        "line": "No, it's not. You are plain, dog ugly.",
+        "start": 0,
+        "end": null
+      }
+    ]
+  },
+  "NO_YOU_LOOK_REALLY_WEIRD": {
+    "identifier": "NO_YOU_LOOK_REALLY_WEIRD",
+    "localizedText": "Oh yeah? Oh YEAH!?\nWell...\nYou are too.",
+    "audioFile": "spathi-049.ogg",
+    "timings": [
+      1822,
+      832,
+      1113
+    ],
+    "audioFileDuration": 3767,
+    "lineTimings": [
+      {
+        "line": "Oh yeah? Oh YEAH!?",
+        "duration": 1822,
+        "start": 0,
+        "end": 1822
+      },
+      {
+        "line": "Well...",
+        "duration": 832,
+        "start": 1822,
+        "end": 2654
+      },
+      {
+        "line": "You are too.",
+        "duration": 1113,
+        "start": 2654,
+        "end": 3767
+      }
+    ]
+  },
+  "come_in_peace": {
+    "identifier": "come_in_peace",
+    "localizedText": "We are on a peaceful mission through the Cosmos.",
+    "timings": [],
+    "audioFileDuration": null,
+    "lineTimings": [
+      {
+        "line": "We are on a peaceful mission through the Cosmos.",
+        "start": 0,
+        "end": null
+      }
+    ]
+  },
+  "AGAINST_NATURE": {
+    "identifier": "AGAINST_NATURE",
+    "localizedText": "Two aspects of your last statement defy the course of nature as I know it.\nFirst\n`Peace' as you call it, is an illusion.\nIf you have `Peace', you simply haven't yet seen the thing that's trying to kill you.\nSecond\nPeaceful missions through the Cosmos rarely require weapons large enough to punch holes through a small moon.",
+    "audioFile": "spathi-050.ogg",
+    "timings": [
+      4900,
+      700,
+      3400,
+      5849,
+      1000,
+      7189
+    ],
+    "audioFileDuration": 23038,
+    "lineTimings": [
+      {
+        "line": "Two aspects of your last statement defy the course of nature as I know it.",
+        "duration": 4900,
+        "start": 0,
+        "end": 4900
+      },
+      {
+        "line": "First",
+        "duration": 700,
+        "start": 4900,
+        "end": 5600
+      },
+      {
+        "line": "`Peace' as you call it, is an illusion.",
+        "duration": 3400,
+        "start": 5600,
+        "end": 9000
+      },
+      {
+        "line": "If you have `Peace', you simply haven't yet seen the thing that's trying to kill you.",
+        "duration": 5849,
+        "start": 9000,
+        "end": 14849
+      },
+      {
+        "line": "Second",
+        "duration": 1000,
+        "start": 14849,
+        "end": 15849
+      },
+      {
+        "line": "Peaceful missions through the Cosmos rarely require weapons large enough to punch holes through a small moon.",
+        "duration": 7189,
+        "start": 15849,
+        "end": 23038
+      }
+    ]
+  },
+  "prepare_to_die": {
+    "identifier": "prepare_to_die",
+    "localizedText": "Are you prepared to die today, Spathi?",
+    "timings": [],
+    "audioFileDuration": null,
+    "lineTimings": [
+      {
+        "line": "Are you prepared to die today, Spathi?",
+        "start": 0,
+        "end": null
+      }
+    ]
+  },
+  "ALWAYS_PREPARED": {
+    "identifier": "ALWAYS_PREPARED",
+    "localizedText": "We Spathi are always prepared to die, we know just what to do.\nIt goes something like this\nAIEEEE! No! Please be merciful! Not my claw! Please, no! I beg of you! The Pain! NO!",
+    "audioFile": "spathi-051.ogg",
+    "timings": [
+      4136,
+      2423,
+      13411
+    ],
+    "audioFileDuration": 19970,
+    "lineTimings": [
+      {
+        "line": "We Spathi are always prepared to die, we know just what to do.",
+        "duration": 4136,
+        "start": 0,
+        "end": 4136
+      },
+      {
+        "line": "It goes something like this",
+        "duration": 2423,
+        "start": 4136,
+        "end": 6559
+      },
+      {
+        "line": "AIEEEE! No! Please be merciful! Not my claw! Please, no! I beg of you! The Pain! NO!",
+        "duration": 13411,
+        "start": 6559,
+        "end": 19970
+      }
+    ]
+  },
+  "since_friendly_give_stuff": {
+    "identifier": "since_friendly_give_stuff",
+    "localizedText": "Since we are now friends, it is customary for you to give us things.",
+    "timings": [],
+    "audioFileDuration": null,
+    "lineTimings": [
+      {
+        "line": "Since we are now friends, it is customary for you to give us things.",
+        "start": 0,
+        "end": null
+      }
+    ]
+  },
+  "GIVE_ADVICE": {
+    "identifier": "GIVE_ADVICE",
+    "localizedText": "Certainly, perhaps beginning with some advice.\nDon't presume we are stupid.",
+    "audioFile": "spathi-052.ogg",
+    "timings": [
+      3075,
+      1734
+    ],
+    "audioFileDuration": 4809,
+    "lineTimings": [
+      {
+        "line": "Certainly, perhaps beginning with some advice.",
+        "duration": 3075,
+        "start": 0,
+        "end": 3075
+      },
+      {
+        "line": "Don't presume we are stupid.",
+        "duration": 1734,
+        "start": 3075,
+        "end": 4809
+      }
+    ]
+  },
+  "whats_up_space_1": {
+    "identifier": "whats_up_space_1",
+    "localizedText": "Friend Spathi, what important facts can you relate?",
+    "timings": [],
+    "audioFileDuration": null,
+    "lineTimings": [
+      {
+        "line": "Friend Spathi, what important facts can you relate?",
+        "start": 0,
+        "end": null
+      }
+    ]
+  },
+  "GENERAL_INFO_SPACE_1": {
+    "identifier": "GENERAL_INFO_SPACE_1",
+    "localizedText": "I guess the only event of importance I know about concerns the low and stupid Umgah\nwhose pranks we must suffer on a regular basis.\nAt least we have removed one source of their annoying jokes -- an unusually strong HyperWave 'Caster\nwhich they used on several occasions to impersonate such frightening characters as\nthe Grand Master Planet Eaters\nJud the Ineffable Vug\nand Killmaster 18.\nNeedless to say, we did not fall for any of their high jinks.\nIn fact, we succeeded in taking from the Umgah their precious 'Caster,\nthus ending their attempts at sick levity.",
+    "audioFile": "spathi-053.ogg",
+    "timings": [
+      5909,
+      3304,
+      6860,
+      5428,
+      2804,
+      2454,
+      2774,
+      3815,
+      5107,
+      3901
+    ],
+    "audioFileDuration": 42356,
+    "lineTimings": [
+      {
+        "line": "I guess the only event of importance I know about concerns the low and stupid Umgah",
+        "duration": 5909,
+        "start": 0,
+        "end": 5909
+      },
+      {
+        "line": "whose pranks we must suffer on a regular basis.",
+        "duration": 3304,
+        "start": 5909,
+        "end": 9213
+      },
+      {
+        "line": "At least we have removed one source of their annoying jokes -- an unusually strong HyperWave 'Caster",
+        "duration": 6860,
+        "start": 9213,
+        "end": 16073
+      },
+      {
+        "line": "which they used on several occasions to impersonate such frightening characters as",
+        "duration": 5428,
+        "start": 16073,
+        "end": 21501
+      },
+      {
+        "line": "the Grand Master Planet Eaters",
+        "duration": 2804,
+        "start": 21501,
+        "end": 24305
+      },
+      {
+        "line": "Jud the Ineffable Vug",
+        "duration": 2454,
+        "start": 24305,
+        "end": 26759
+      },
+      {
+        "line": "and Killmaster 18.",
+        "duration": 2774,
+        "start": 26759,
+        "end": 29533
+      },
+      {
+        "line": "Needless to say, we did not fall for any of their high jinks.",
+        "duration": 3815,
+        "start": 29533,
+        "end": 33348
+      },
+      {
+        "line": "In fact, we succeeded in taking from the Umgah their precious 'Caster,",
+        "duration": 5107,
+        "start": 33348,
+        "end": 38455
+      },
+      {
+        "line": "thus ending their attempts at sick levity.",
+        "duration": 3901,
+        "start": 38455,
+        "end": 42356
+      }
+    ]
+  },
+  "bye_friendly_space": {
+    "identifier": "bye_friendly_space",
+    "localizedText": "Goodbye, Spathi, I hope you remain well.",
+    "timings": [],
+    "audioFileDuration": null,
+    "lineTimings": [
+      {
+        "line": "Goodbye, Spathi, I hope you remain well.",
+        "start": 0,
+        "end": null
+      }
+    ]
+  },
+  "GOODBYE_FRIENDLY_SPACE": {
+    "identifier": "GOODBYE_FRIENDLY_SPACE",
+    "localizedText": "Goodbye, Hunam, I hope you aren't eaten by monsters.",
+    "audioFile": "spathi-054.ogg",
+    "timings": [
+      3628
+    ],
+    "audioFileDuration": 3628,
+    "lineTimings": [
+      {
+        "line": "Goodbye, Hunam, I hope you aren't eaten by monsters.",
+        "duration": 3628,
+        "start": 0,
+        "end": 3628
+      }
+    ]
+  },
+  "looking_for_a_few_good_squids": {
+    "identifier": "looking_for_a_few_good_squids",
+    "localizedText": "Let me be frank. We seek allies.",
+    "timings": [],
+    "audioFileDuration": null,
+    "lineTimings": [
+      {
+        "line": "Let me be frank. We seek allies.",
+        "start": 0,
+        "end": null
+      }
+    ]
+  },
+  "URQUAN_SLAVES": {
+    "identifier": "URQUAN_SLAVES",
+    "localizedText": "In case you have not forgotten, we are bonded to the Ur-Quan as slaves.\nThe punishment for the plan you propose can be described as `Death'.",
+    "audioFile": "spathi-055.ogg",
+    "timings": [
+      5498,
+      4027
+    ],
+    "audioFileDuration": 9525,
+    "lineTimings": [
+      {
+        "line": "In case you have not forgotten, we are bonded to the Ur-Quan as slaves.",
+        "duration": 5498,
+        "start": 0,
+        "end": 5498
+      },
+      {
+        "line": "The punishment for the plan you propose can be described as `Death'.",
+        "duration": 4027,
+        "start": 5498,
+        "end": 9525
+      }
+    ]
+  },
+  "why_slaves": {
+    "identifier": "why_slaves",
+    "localizedText": "That brings up a good point. If you are such cowards, why do you fight for the Ur-Quan?",
+    "timings": [],
+    "audioFileDuration": null,
+    "lineTimings": [
+      {
+        "line": "That brings up a good point. If you are such cowards, why do you fight for the Ur-Quan?",
+        "start": 0,
+        "end": null
+      }
+    ]
+  },
+  "UMGAH_TRICK": {
+    "identifier": "UMGAH_TRICK",
+    "localizedText": "This is a sad tale, so do not even try to contain your tears.\nAfter the Ur-Quan demolished the Ilwrath, they turned the force of their Armada against us Spathi.\nThe term `rapidly subjugated' would best describe what happened next.\nWhen the Ur-Quan arrived at Spathiwa, there was a great ceremony.\nPart of that ceremony involved blasting portions of our planet's surface into radioactive dust\nand this part we did not enjoy.\nBut the worst was yet to come.\nOur leaders were called into the command chamber of Ur-Quan Lord 1's dreadnought\nwhere they were read a long and complicated document explaining the choices given new slaves.\nWhen our leaders heard the term `forever encased' and `impenetrable shield'\nthey grew over-excited, I'm afraid, and made a fatal error.\nThe decision was to be transmitted to the Ur-Quan via one of two rods, one colored black, the other white.\nOur leader handed the white rod to one of the Ur-Quan's servants, signifying `Fallow Slavery',\nbut the servant somehow exchanged rods and handed the Ur-Quan Lord a black rod\nindicating our desire to become fighting slaves!\nBy the time we learned of the switch, it was too late -- the Ur-Quan would not permit a change in status.\nFollowing that most tragic day, we were forced to assume the role of an Ur-Quan star-thug.\nWe tried to avoid combat, but the Ur-Quan gave us three warnings, each more strident than the last.\nWhen we learned that there would be no fourth warning, simply annihilation\nwe attended to our new role with improved vigor.\nOh, and perhaps you have already guessed -- the Ur-Quan's servant who made the switch\nwas an Umgah.",
+    "audioFile": "spathi-056.ogg",
+    "timings": [
+      5058,
+      6369,
+      5167,
+      4667,
+      6369,
+      2754,
+      2814,
+      5518,
+      6900,
+      5798,
+      4847,
+      8061,
+      7111,
+      5358,
+      3595,
+      6539,
+      7050,
+      7331,
+      5077,
+      3996,
+      4817,
+      2531
+    ],
+    "audioFileDuration": 117727,
+    "lineTimings": [
+      {
+        "line": "This is a sad tale, so do not even try to contain your tears.",
+        "duration": 5058,
+        "start": 0,
+        "end": 5058
+      },
+      {
+        "line": "After the Ur-Quan demolished the Ilwrath, they turned the force of their Armada against us Spathi.",
+        "duration": 6369,
+        "start": 5058,
+        "end": 11427
+      },
+      {
+        "line": "The term `rapidly subjugated' would best describe what happened next.",
+        "duration": 5167,
+        "start": 11427,
+        "end": 16594
+      },
+      {
+        "line": "When the Ur-Quan arrived at Spathiwa, there was a great ceremony.",
+        "duration": 4667,
+        "start": 16594,
+        "end": 21261
+      },
+      {
+        "line": "Part of that ceremony involved blasting portions of our planet's surface into radioactive dust",
+        "duration": 6369,
+        "start": 21261,
+        "end": 27630
+      },
+      {
+        "line": "and this part we did not enjoy.",
+        "duration": 2754,
+        "start": 27630,
+        "end": 30384
+      },
+      {
+        "line": "But the worst was yet to come.",
+        "duration": 2814,
+        "start": 30384,
+        "end": 33198
+      },
+      {
+        "line": "Our leaders were called into the command chamber of Ur-Quan Lord 1's dreadnought",
+        "duration": 5518,
+        "start": 33198,
+        "end": 38716
+      },
+      {
+        "line": "where they were read a long and complicated document explaining the choices given new slaves.",
+        "duration": 6900,
+        "start": 38716,
+        "end": 45616
+      },
+      {
+        "line": "When our leaders heard the term `forever encased' and `impenetrable shield'",
+        "duration": 5798,
+        "start": 45616,
+        "end": 51414
+      },
+      {
+        "line": "they grew over-excited, I'm afraid, and made a fatal error.",
+        "duration": 4847,
+        "start": 51414,
+        "end": 56261
+      },
+      {
+        "line": "The decision was to be transmitted to the Ur-Quan via one of two rods, one colored black, the other white.",
+        "duration": 8061,
+        "start": 56261,
+        "end": 64322
+      },
+      {
+        "line": "Our leader handed the white rod to one of the Ur-Quan's servants, signifying `Fallow Slavery',",
+        "duration": 7111,
+        "start": 64322,
+        "end": 71433
+      },
+      {
+        "line": "but the servant somehow exchanged rods and handed the Ur-Quan Lord a black rod",
+        "duration": 5358,
+        "start": 71433,
+        "end": 76791
+      },
+      {
+        "line": "indicating our desire to become fighting slaves!",
+        "duration": 3595,
+        "start": 76791,
+        "end": 80386
+      },
+      {
+        "line": "By the time we learned of the switch, it was too late -- the Ur-Quan would not permit a change in status.",
+        "duration": 6539,
+        "start": 80386,
+        "end": 86925
+      },
+      {
+        "line": "Following that most tragic day, we were forced to assume the role of an Ur-Quan star-thug.",
+        "duration": 7050,
+        "start": 86925,
+        "end": 93975
+      },
+      {
+        "line": "We tried to avoid combat, but the Ur-Quan gave us three warnings, each more strident than the last.",
+        "duration": 7331,
+        "start": 93975,
+        "end": 101306
+      },
+      {
+        "line": "When we learned that there would be no fourth warning, simply annihilation",
+        "duration": 5077,
+        "start": 101306,
+        "end": 106383
+      },
+      {
+        "line": "we attended to our new role with improved vigor.",
+        "duration": 3996,
+        "start": 106383,
+        "end": 110379
+      },
+      {
+        "line": "Oh, and perhaps you have already guessed -- the Ur-Quan's servant who made the switch",
+        "duration": 4817,
+        "start": 110379,
+        "end": 115196
+      },
+      {
+        "line": "was an Umgah.",
+        "duration": 2531,
+        "start": 115196,
+        "end": 117727
+      }
+    ]
+  },
+  "tell_us_about_you": {
+    "identifier": "tell_us_about_you",
+    "localizedText": "What can you tell us of your species?",
+    "timings": [],
+    "audioFileDuration": null,
+    "lineTimings": [
+      {
+        "line": "What can you tell us of your species?",
+        "start": 0,
+        "end": null
+      }
+    ]
+  },
+  "ABOUT_US": {
+    "identifier": "ABOUT_US",
+    "localizedText": "We can best be described as `Meta-Mollusks'\npossessing the best qualities of both the clam and the Dravatz, which is not native to your world.\nWe are intelligent and clever, though you would never call us cunning.\nEach day when we awaken we call forth the traditional Spathi prayer\n`Oh God...Please don't let me die today! Tomorrow would be so much better!'",
+    "audioFile": "spathi-057.ogg",
+    "timings": [
+      3285,
+      6719,
+      4557,
+      5147,
+      10053
+    ],
+    "audioFileDuration": 29761,
+    "lineTimings": [
+      {
+        "line": "We can best be described as `Meta-Mollusks'",
+        "duration": 3285,
+        "start": 0,
+        "end": 3285
+      },
+      {
+        "line": "possessing the best qualities of both the clam and the Dravatz, which is not native to your world.",
+        "duration": 6719,
+        "start": 3285,
+        "end": 10004
+      },
+      {
+        "line": "We are intelligent and clever, though you would never call us cunning.",
+        "duration": 4557,
+        "start": 10004,
+        "end": 14561
+      },
+      {
+        "line": "Each day when we awaken we call forth the traditional Spathi prayer",
+        "duration": 5147,
+        "start": 14561,
+        "end": 19708
+      },
+      {
+        "line": "`Oh God...Please don't let me die today! Tomorrow would be so much better!'",
+        "duration": 10053,
+        "start": 19708,
+        "end": 29761
+      }
+    ]
+  },
+  "what_you_really_want": {
+    "identifier": "what_you_really_want",
+    "localizedText": "But what do you really want out of this great mystery called `Life'?",
+    "timings": [],
+    "audioFileDuration": null,
+    "lineTimings": [
+      {
+        "line": "But what do you really want out of this great mystery called `Life'?",
+        "start": 0,
+        "end": null
+      }
+    ]
+  },
+  "WANT_THIS": {
+    "identifier": "WANT_THIS",
+    "localizedText": "I want to live forever, with no pain whatsoever, owning vast personal property plus a company of nubiles.\nIf this is in your power to give, I beg of you to do so.",
+    "audioFile": "spathi-058.ogg",
+    "timings": [
+      8902,
+      4417
+    ],
+    "audioFileDuration": 13319,
+    "lineTimings": [
+      {
+        "line": "I want to live forever, with no pain whatsoever, owning vast personal property plus a company of nubiles.",
+        "duration": 8902,
+        "start": 0,
+        "end": 8902
+      },
+      {
+        "line": "If this is in your power to give, I beg of you to do so.",
+        "duration": 4417,
+        "start": 8902,
+        "end": 13319
+      }
+    ]
+  },
+  "how_about_alliance": {
+    "identifier": "how_about_alliance",
+    "localizedText": "Under the circumstances, I think it would be best if you allied with Earth immediately.",
+    "timings": [],
+    "audioFileDuration": null,
+    "lineTimings": [
+      {
+        "line": "Under the circumstances, I think it would be best if you allied with Earth immediately.",
+        "start": 0,
+        "end": null
+      }
+    ]
+  },
+  "SURE": {
+    "identifier": "SURE",
+    "localizedText": "Sure, consider it done. Allies to the bitter end.\nNOT!",
+    "audioFile": "spathi-059.ogg",
+    "timings": [
+      4444,
+      447
+    ],
+    "audioFileDuration": 4891,
+    "lineTimings": [
+      {
+        "line": "Sure, consider it done. Allies to the bitter end.",
+        "duration": 4444,
+        "start": 0,
+        "end": 4444
+      },
+      {
+        "line": "NOT!",
+        "duration": 447,
+        "start": 4444,
+        "end": 4891
+      }
+    ]
+  },
+  "part_in_peace": {
+    "identifier": "part_in_peace",
+    "localizedText": "We leave as we came, in peace.",
+    "timings": [],
+    "audioFileDuration": null,
+    "lineTimings": [
+      {
+        "line": "We leave as we came, in peace.",
+        "start": 0,
+        "end": null
+      }
+    ]
+  },
+  "KEEP_IT_SECRET": {
+    "identifier": "KEEP_IT_SECRET",
+    "localizedText": "Look, can we keep this as a secret between the two of us?\nIt's really rather embarrassing.",
+    "audioFile": "spathi-060.ogg",
+    "timings": [
+      4016,
+      1997
+    ],
+    "audioFileDuration": 6013,
+    "lineTimings": [
+      {
+        "line": "Look, can we keep this as a secret between the two of us?",
+        "duration": 4016,
+        "start": 0,
+        "end": 4016
+      },
+      {
+        "line": "It's really rather embarrassing.",
+        "duration": 1997,
+        "start": 4016,
+        "end": 6013
+      }
+    ]
+  },
+  "heard_youre_cowards": {
+    "identifier": "heard_youre_cowards",
+    "localizedText": "We have heard that you are a race of cowards. Is this true?",
+    "timings": [],
+    "audioFileDuration": null,
+    "lineTimings": [
+      {
+        "line": "We have heard that you are a race of cowards. Is this true?",
+        "start": 0,
+        "end": null
+      }
+    ]
+  },
+  "DARN_TOOTIN": {
+    "identifier": "DARN_TOOTIN",
+    "localizedText": "Yes, absolutely, and with no qualifications.\nThis system has kept us alive for millennia, and we see no reason to change it now.",
+    "audioFile": "spathi-061.ogg",
+    "timings": [
+      3224,
+      6337
+    ],
+    "audioFileDuration": 9561,
+    "lineTimings": [
+      {
+        "line": "Yes, absolutely, and with no qualifications.",
+        "duration": 3224,
+        "start": 0,
+        "end": 3224
+      },
+      {
+        "line": "This system has kept us alive for millennia, and we see no reason to change it now.",
+        "duration": 6337,
+        "start": 3224,
+        "end": 9561
+      }
+    ]
+  },
+  "wanna_fight": {
+    "identifier": "wanna_fight",
+    "localizedText": "Wanna fight?",
+    "timings": [],
+    "audioFileDuration": null,
+    "lineTimings": [
+      {
+        "line": "Wanna fight?",
+        "start": 0,
+        "end": null
+      }
+    ]
+  },
+  "YES_WE_DO": {
+    "identifier": "YES_WE_DO",
+    "localizedText": "Er... Yeah, we do.",
+    "audioFile": "spathi-062.ogg",
+    "timings": [
+      1942
+    ],
+    "audioFileDuration": 1942,
+    "lineTimings": [
+      {
+        "line": "Er... Yeah, we do.",
+        "duration": 1942,
+        "start": 0,
+        "end": 1942
+      }
+    ]
+  },
+  "so_lets_fight": {
+    "identifier": "so_lets_fight",
+    "localizedText": "So let us fight.",
+    "timings": [],
+    "audioFileDuration": null,
+    "lineTimings": [
+      {
+        "line": "So let us fight.",
+        "start": 0,
+        "end": null
+      }
+    ]
+  },
+  "OK_LETS_FIGHT": {
+    "identifier": "OK_LETS_FIGHT",
+    "localizedText": "Okay, let's fight. Here we go. We're rarin' to fight.",
+    "audioFile": "spathi-063.ogg",
+    "timings": [
+      3187
+    ],
+    "audioFileDuration": 3187,
+    "lineTimings": [
+      {
+        "line": "Okay, let's fight. Here we go. We're rarin' to fight.",
+        "duration": 3187,
+        "start": 0,
+        "end": 3187
+      }
+    ]
+  },
+  "so_lets_fight_already": {
+    "identifier": "so_lets_fight_already",
+    "localizedText": "So let's fight, already!",
+    "timings": [],
+    "audioFileDuration": null,
+    "lineTimings": [
+      {
+        "line": "So let's fight, already!",
+        "start": 0,
+        "end": null
+      }
+    ]
+  },
+  "DONT_REALLY_WANT_TO_FIGHT": {
+    "identifier": "DONT_REALLY_WANT_TO_FIGHT",
+    "localizedText": "Oh! Um... we changed our minds. We don't want to. Sorry.\n(Pwappy, you idiot! I told you that wouldn't work!)",
+    "audioFile": "spathi-064.ogg",
+    "timings": [
+      3896,
+      3702
+    ],
+    "audioFileDuration": 7598,
+    "lineTimings": [
+      {
+        "line": "Oh! Um... we changed our minds. We don't want to. Sorry.",
+        "duration": 3896,
+        "start": 0,
+        "end": 3896
+      },
+      {
+        "line": "(Pwappy, you idiot! I told you that wouldn't work!)",
+        "duration": 3702,
+        "start": 3896,
+        "end": 7598
+      }
+    ]
+  },
+  "attack_you_now": {
+    "identifier": "attack_you_now",
+    "localizedText": "Evil squid -- Prepare to Die!",
+    "timings": [],
+    "audioFileDuration": null,
+    "lineTimings": [
+      {
+        "line": "Evil squid -- Prepare to Die!",
+        "start": 0,
+        "end": null
+      }
+    ]
+  },
+  "YIPES": {
+    "identifier": "YIPES",
+    "localizedText": "I can't believe this!\nNot only is the Hunam alien unreasonably hostile but he doesn't even know his biological analogs!\nWe are much more closely related to Earth clams and\nwhat was that, Weapons Officer? His ship approaches with shields up and weapons armed...\nYipes!",
+    "audioFile": "spathi-065.ogg",
+    "timings": [
+      1763,
+      8032,
+      5097,
+      5778,
+      984
+    ],
+    "audioFileDuration": 21654,
+    "lineTimings": [
+      {
+        "line": "I can't believe this!",
+        "duration": 1763,
+        "start": 0,
+        "end": 1763
+      },
+      {
+        "line": "Not only is the Hunam alien unreasonably hostile but he doesn't even know his biological analogs!",
+        "duration": 8032,
+        "start": 1763,
+        "end": 9795
+      },
+      {
+        "line": "We are much more closely related to Earth clams and",
+        "duration": 5097,
+        "start": 9795,
+        "end": 14892
+      },
+      {
+        "line": "what was that, Weapons Officer? His ship approaches with shields up and weapons armed...",
+        "duration": 5778,
+        "start": 14892,
+        "end": 20670
+      },
+      {
+        "line": "Yipes!",
+        "duration": 984,
+        "start": 20670,
+        "end": 21654
+      }
+    ]
+  },
+  "whats_up_space_2": {
+    "identifier": "whats_up_space_2",
+    "localizedText": "Hi folks, what's new?",
+    "timings": [],
+    "audioFileDuration": null,
+    "lineTimings": [
+      {
+        "line": "Hi folks, what's new?",
+        "start": 0,
+        "end": null
+      }
+    ]
+  },
+  "GENERAL_INFO_SPACE_2": {
+    "identifier": "GENERAL_INFO_SPACE_2",
+    "localizedText": "Very little, I'm afraid. We've just been watching the stars.\nYou know, actually there was something that happened\nlast month on the 17th; we saw a new star appear between the Circini and Chandrasekhar star clusters.\nWe watched it and watched it -- for three days, we just watched it\nThen it went away, vanished, just like that.\nI hope it comes back.",
+    "audioFile": "spathi-066.ogg",
+    "timings": [
+      3956,
+      3064,
+      7892,
+      4376,
+      2784,
+      1544
+    ],
+    "audioFileDuration": 23616,
+    "lineTimings": [
+      {
+        "line": "Very little, I'm afraid. We've just been watching the stars.",
+        "duration": 3956,
+        "start": 0,
+        "end": 3956
+      },
+      {
+        "line": "You know, actually there was something that happened",
+        "duration": 3064,
+        "start": 3956,
+        "end": 7020
+      },
+      {
+        "line": "last month on the 17th; we saw a new star appear between the Circini and Chandrasekhar star clusters.",
+        "duration": 7892,
+        "start": 7020,
+        "end": 14912
+      },
+      {
+        "line": "We watched it and watched it -- for three days, we just watched it",
+        "duration": 4376,
+        "start": 14912,
+        "end": 19288
+      },
+      {
+        "line": "Then it went away, vanished, just like that.",
+        "duration": 2784,
+        "start": 19288,
+        "end": 22072
+      },
+      {
+        "line": "I hope it comes back.",
+        "duration": 1544,
+        "start": 22072,
+        "end": 23616
+      }
+    ]
+  },
+  "give_us_info_from_space": {
+    "identifier": "give_us_info_from_space",
+    "localizedText": "Allies, grant us the boon of your wisdom.",
+    "timings": [],
+    "audioFileDuration": null,
+    "lineTimings": [
+      {
+        "line": "Allies, grant us the boon of your wisdom.",
+        "start": 0,
+        "end": null
+      }
+    ]
+  },
+  "GET_INFO_FROM_SPATHIWA": {
+    "identifier": "GET_INFO_FROM_SPATHIWA",
+    "localizedText": "Stuck as we are, here out in deep space, we learn little of interest.\nI suggest you consult the more interesting folk at Spathiwa.",
+    "audioFile": "spathi-067.ogg",
+    "timings": [
+      5348,
+      3394
+    ],
+    "audioFileDuration": 8742,
+    "lineTimings": [
+      {
+        "line": "Stuck as we are, here out in deep space, we learn little of interest.",
+        "duration": 5348,
+        "start": 0,
+        "end": 5348
+      },
+      {
+        "line": "I suggest you consult the more interesting folk at Spathiwa.",
+        "duration": 3394,
+        "start": 5348,
+        "end": 8742
+      }
+    ]
+  },
+  "give_us_resources_space": {
+    "identifier": "give_us_resources_space",
+    "localizedText": "Please share your mineral wealth with us, as allies.",
+    "timings": [],
+    "audioFileDuration": null,
+    "lineTimings": [
+      {
+        "line": "Please share your mineral wealth with us, as allies.",
+        "start": 0,
+        "end": null
+      }
+    ]
+  },
+  "GET_RESOURCES_FROM_SPATHIWA": {
+    "identifier": "GET_RESOURCES_FROM_SPATHIWA",
+    "localizedText": "As you wish. Our waste recycling unit is at your disposal.\nThere you will find quantities of methane, sulfurous gas, and some interesting organic compounds.\nFeel free, take all you want.",
+    "audioFile": "spathi-068.ogg",
+    "timings": [
+      4917,
+      5958,
+      2090
+    ],
+    "audioFileDuration": 12965,
+    "lineTimings": [
+      {
+        "line": "As you wish. Our waste recycling unit is at your disposal.",
+        "duration": 4917,
+        "start": 0,
+        "end": 4917
+      },
+      {
+        "line": "There you will find quantities of methane, sulfurous gas, and some interesting organic compounds.",
+        "duration": 5958,
+        "start": 4917,
+        "end": 10875
+      },
+      {
+        "line": "Feel free, take all you want.",
+        "duration": 2090,
+        "start": 10875,
+        "end": 12965
+      }
+    ]
+  },
+  "what_do_for_fun": {
+    "identifier": "what_do_for_fun",
+    "localizedText": "What do you guys do for fun out here in deep space?",
+    "timings": [],
+    "audioFileDuration": null,
+    "lineTimings": [
+      {
+        "line": "What do you guys do for fun out here in deep space?",
+        "start": 0,
+        "end": null
+      }
+    ]
+  },
+  "DO_THIS_FOR_FUN": {
+    "identifier": "DO_THIS_FOR_FUN",
+    "localizedText": "We used to be bored, but then we bought this cool entertainment product.\nIt simulated a grand adventure through a thousand parsecs of hostile space\nwhere we met interesting aliens, uncovered the secrets of a long-lost superior race\nand eventually, to save our world from destruction, we had to face the dread...\nnever mind, I can tell you aren't really interested.",
+    "audioFile": "spathi-069.ogg",
+    "timings": [
+      4917,
+      5048,
+      5527,
+      5408,
+      2964
+    ],
+    "audioFileDuration": 23864,
+    "lineTimings": [
+      {
+        "line": "We used to be bored, but then we bought this cool entertainment product.",
+        "duration": 4917,
+        "start": 0,
+        "end": 4917
+      },
+      {
+        "line": "It simulated a grand adventure through a thousand parsecs of hostile space",
+        "duration": 5048,
+        "start": 4917,
+        "end": 9965
+      },
+      {
+        "line": "where we met interesting aliens, uncovered the secrets of a long-lost superior race",
+        "duration": 5527,
+        "start": 9965,
+        "end": 15492
+      },
+      {
+        "line": "and eventually, to save our world from destruction, we had to face the dread...",
+        "duration": 5408,
+        "start": 15492,
+        "end": 20900
+      },
+      {
+        "line": "never mind, I can tell you aren't really interested.",
+        "duration": 2964,
+        "start": 20900,
+        "end": 23864
+      }
+    ]
+  },
+  "bye_ally_space": {
+    "identifier": "bye_ally_space",
+    "localizedText": "Goodbye, Friend Spathi. I hope your journey is a safe one.",
+    "timings": [],
+    "audioFileDuration": null,
+    "lineTimings": [
+      {
+        "line": "Goodbye, Friend Spathi. I hope your journey is a safe one.",
+        "start": 0,
+        "end": null
+      }
+    ]
+  },
+  "GOODBYE_ALLY_SPACE": {
+    "identifier": "GOODBYE_ALLY_SPACE",
+    "localizedText": "Same to you.",
+    "audioFile": "spathi-070.ogg",
+    "timings": [
+      1690
+    ],
+    "audioFileDuration": 1690,
+    "lineTimings": [
+      {
+        "line": "Same to you.",
+        "duration": 1690,
+        "start": 0,
+        "end": 1690
+      }
+    ]
+  },
+  "OK_WE_FIGHT_AT_PLUTO": {
+    "identifier": "OK_WE_FIGHT_AT_PLUTO",
+    "localizedText": "My ichors pulse through my body with unusual ferocity!\nYour arrogance has whipped me into a violent frenzy\nand I am compelled to engage you in a preemptive-defensive action.\nNow you shall never learn my important secrets\nsuch as the location of the Orange Giant star around which my home planet orbits\noops -- dang! -- you made me give that away!\nCaptain, if you somehow survive my attack, I have one sincere hope\nthat you may soon be devoured slowly by an ugly, flat-toothed herbivore!",
+    "audioFile": "spathi-071.ogg",
+    "timings": [
+      4256,
+      4106,
+      4426,
+      3384,
+      5109,
+      2934,
+      4877,
+      7174
+    ],
+    "audioFileDuration": 36266,
+    "lineTimings": [
+      {
+        "line": "My ichors pulse through my body with unusual ferocity!",
+        "duration": 4256,
+        "start": 0,
+        "end": 4256
+      },
+      {
+        "line": "Your arrogance has whipped me into a violent frenzy",
+        "duration": 4106,
+        "start": 4256,
+        "end": 8362
+      },
+      {
+        "line": "and I am compelled to engage you in a preemptive-defensive action.",
+        "duration": 4426,
+        "start": 8362,
+        "end": 12788
+      },
+      {
+        "line": "Now you shall never learn my important secrets",
+        "duration": 3384,
+        "start": 12788,
+        "end": 16172
+      },
+      {
+        "line": "such as the location of the Orange Giant star around which my home planet orbits",
+        "duration": 5109,
+        "start": 16172,
+        "end": 21281
+      },
+      {
+        "line": "oops -- dang! -- you made me give that away!",
+        "duration": 2934,
+        "start": 21281,
+        "end": 24215
+      },
+      {
+        "line": "Captain, if you somehow survive my attack, I have one sincere hope",
+        "duration": 4877,
+        "start": 24215,
+        "end": 29092
+      },
+      {
+        "line": "that you may soon be devoured slowly by an ugly, flat-toothed herbivore!",
+        "duration": 7174,
+        "start": 29092,
+        "end": 36266
+      }
+    ]
+  }
+}
