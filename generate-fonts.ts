@@ -53,18 +53,24 @@ async function buildFont(dir: string) {
     const y = Math.floor(BUF / 2);
     return { x, y };
   }
+  let lastX = BUF;
+  let lastY = 1;
   for (let i = minCharCode; i <= maxCharCode; i++) {
-    const { x, y } = getXY(i);
-    jRoot.scan(x, y, charWidth, charHeight, (x, y, offset) => {
-      jRoot.bitmap.data.writeUInt32BE(0x00000000, offset);
-    });
+    const frame = jimpImagesMap.get(i);
+    if (!frame) {
+      jRoot.scan(lastX, lastY, charWidth, charHeight, (x, y, offset) => {
+        jRoot.bitmap.data.writeUInt32BE(0x00000000, offset);
+      });
+      lastX += charWidth;
+    } else {
+      jRoot.scan(lastX, lastY, frame.getWidth() + 2, frame.getHeight(), (x, y, offset) => {
+        jRoot.bitmap.data.writeUInt32BE(0x00000000, offset);
+      });
+      jRoot.blit(frame, lastX + 1, lastY);
+      lastX += frame.getWidth() + 2;
+    }
+    lastX += BUF;
   };
-  Array.from(jimpImagesMap.entries()).forEach(entry => {
-    const charCode = entry[0];
-    const frame = entry[1];
-    const { x, y } = getXY(charCode);
-    jRoot.blit(frame, x, y);
-  });
 
   await jRoot.writeAsync(`${dir}.png`);
 }
