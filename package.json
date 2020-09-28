@@ -6,7 +6,8 @@
   "scripts": {
     "start": "ts-node build.ts",
     "compute-line-timings": "ts-node compute-line-timings.ts",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "generate-fonts": "ts-node generate-fonts.ts"
   },
   "repository": {
     "type": "git",
