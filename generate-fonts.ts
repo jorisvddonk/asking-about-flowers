@@ -45,17 +45,18 @@ async function buildFont(dir: string) {
     }
   });
 
-  const BUF = 10;
-  const jRoot = await Jimp.create((charWidth + BUF) * ((maxCharCode - minCharCode) + 1), charHeight + BUF, "#FF00FFFF");
+  const BUF = 2;
+  const OFF = 1;
+  const jRoot = await Jimp.create((charWidth + BUF) * ((maxCharCode - minCharCode) + 1) + OFF*2, charHeight + BUF, "#FF00FFFF");
   function getXY(charCode: number) {
-    const x = ((charCode - minCharCode) * (charWidth + BUF)) + Math.floor(BUF / 2);
+    const x = ((charCode - minCharCode) * (charWidth + BUF)) + Math.floor(BUF / 2) + OFF;
     const y = Math.floor(BUF / 2);
     return { x, y };
   }
   for (let i = minCharCode; i <= maxCharCode; i++) {
     const { x, y } = getXY(i);
     jRoot.scan(x, y, charWidth, charHeight, (x, y, offset) => {
-      jRoot.bitmap.data.writeUInt32BE(0x000000FF, offset);
+      jRoot.bitmap.data.writeUInt32BE(0x00000000, offset);
     });
   };
   Array.from(jimpImagesMap.entries()).forEach(entry => {
