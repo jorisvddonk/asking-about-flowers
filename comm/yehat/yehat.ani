@@ -66,7 +66,7 @@ yehat-051.png -1 10 -61 -26
 #@ anidef 13 YO_YO 0.03333333333333333 0.03333333333333333 0 [anim_13]
 #@ anidef 14 YO_YO 0.03333333333333333 0.03333333333333333 0 [anim_14]
 #@ anidef 15 YO_YO 1 3 20 [anim_15]
-#@ anidef 16 BACKGROUND 0.08333333333333333 0 0 [anim_16]
+#@ anidef 16 TALK 0.08333333333333333 0 0 [anim_16]
 #@ aniframe 0 0 [yehat-000.png -1 10 0 0]
 #@ aniframe 1 0.1 [yehat-004.png -1 10 -52 -68]
 #@ aniframe 1 0.1 [yehat-005.png -1 10 -52 -68]

@@ -81,6 +81,7 @@ async function transform(cfile, anifile, anifilepath) {
     wait_talk: false
   });
   animInfo.ambient_animations.forEach(anim => parseAnim(anim));
+  animInfo.talk_animation.anim_type = AnimationType.TALK; // TODO: fix in parser!?
   parseAnim(animInfo.talk_animation);
 
   const outfilecontents = framelines.concat(anideflines).concat(aniframelines).join('\n');
