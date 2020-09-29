@@ -6,6 +6,7 @@
   "scripts": {
     "start": "ts-node build.ts",
     "compute-line-timings": "ts-node compute-line-timings.ts",
+    "parse-c-and-extract-anim": "ts-node parse-c-and-extract-anim.ts",
     "test": "echo \"Error: no test specified\" && exit 1",
     "generate-fonts": "ts-node generate-fonts.ts"
   },
@@ -29,6 +30,6 @@
     "shuffle-seed": "^1.1.6",
     "ts-node": "^9.0.0",
     "typescript": "^4.0.3",
-    "uqm-files-parsers": "^1.0.2"
+    "uqm-files-parsers": "^1.0.4"
   }
 }
