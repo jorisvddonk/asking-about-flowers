@@ -20,6 +20,7 @@
 // 0 "YEHAT_REBEL_TOLD_PKUNK" setContext
 // 0 "HAVE_SHOFIXTI_ESCORT_SHIP" setContext
 // 0 "YEHAT_REBEL_VISITS" setContext
+// 0 "YEHAT_ABSORBED_PKUNK" setContext
 
 // "Intro" goto
 
@@ -523,7 +524,7 @@ YehatSpace(RESPONSE_REF R)								 // nop #YehatSpace
 	{																										// {
 		if (GET_GAME_STATE(YEHAT_ABSORBED_PKUNK))					// "YEHAT_ABSORBED_PKUNK" getContext dup jgz
 		{																									// {
-			NPCPhrase(PKUNK_ABSORBED_ROYALIST);							// "iPKUNK_ABSORBED_ROYALIST" emit
+			NPCPhrase(PKUNK_ABSORBED_ROYALIST);							// "PKUNK_ABSORBED_ROYALIST" emit
 		}																									// }
 		else																							// jz
 		{																									// {
