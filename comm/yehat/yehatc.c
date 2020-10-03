@@ -2,7 +2,7 @@
 
 // 0 "WON_LAST_BATTLE" setContext
 // 0 "YEHAT_CIVIL_WAR" setContext
-// 1 "GLOBAL_FLAGS_AND_DATA_7" setContext
+// 0 "GLOBAL_FLAGS_AND_DATA_7" setContext
 // 0 "YEHAT_HOME_VISITS" setContext
 // 0 "YEHAT_VISITS" setContext
 // "-" "player_said" setContext
@@ -13,6 +13,11 @@
 // 0 "NO_YEHAT_INFO" setContext
 // 0 "NO_YEHAT_HELP_HOME" setContext
 // 0 "NO_YEHAT_ALLY_HOME" setContext
+// 0 "YEHAT_REBEL_INFO" setContext
+// 0 "NO_YEHAT_HELP_SPACE" setContext
+// 0 "NO_YEHAT_ALLY_SPACE" setContext
+// 0 "SHOFIXTI_VISITS" setContext
+// 0 "YEHAT_REBEL_TOLD_PKUNK" setContext
 
 // "Intro" goto
 
@@ -364,11 +369,11 @@ StartRevolt(RESPONSE_REF R)										 // nop #StartRevolt
 																							 //
 	if (HaveEscortShip(SHOFIXTI_SHIP))					 // "HAVE_SHOFIXTI_ESCORT_SHIP" getContext 1 eq dup jgz
 	{																						 // {
-		Response(ok_send, ExitConversation);			 // "ok_send" ppc 4 + { "ok_send" "player_said" setContext "ExitConversation" goto } response }
+		Response(ok_send, ExitConversation);			 // "ok_send" ppc 4 + { "ok_send" "player_said" setContext "ExitConversation" goto } response
 	}																						 // }
 	else																				 //
 	{																						 // jz {
-		Response(not_here, ExitConversation);			 // "not_here" ppc 4 + { "not_here" "player_said" setContext "ExitConversation" goto } response }
+		Response(not_here, ExitConversation);			 // "not_here" ppc 4 + { "not_here" "player_said" setContext "ExitConversation" goto } response
 	}																						 // }
 	Response(not_send, ExitConversation);				 // "not_send" ppc 4 + { "not_send" "player_said" setContext "ExitConversation" goto } response }
 } // getResponse goto exit
@@ -401,7 +406,7 @@ YehatHome(RESPONSE_REF R)																		 // nop #YehatHome
 		NPCPhrase(NO_HELP_ENEMY);																 // "NO_HELP_ENEMY" emit
 																														 //
 		SET_GAME_STATE(NO_YEHAT_HELP_HOME, 1);									 // 1 "NO_YEHAT_HELP_HOME" setContext
-	}																													 //
+	}																													 // }
 	else if (PLAYER_SAID(R, give_info))												 // "player_said" getContext "give_info" eq jgz
 	{																													 // {
 		NPCPhrase(NO_INFO_FOR_ENEMY);														 // "NO_INFO_FOR_ENEMY" emit
@@ -424,164 +429,176 @@ YehatHome(RESPONSE_REF R)																		 // nop #YehatHome
 																														 //
 	if (PHRASE_ENABLED(whats_up_homeworld))										 // "whats_up_homeworld" optionEnabled 1 eq jgz
 	{																													 // {
-		Response(whats_up_homeworld, YehatHome);								 // "whats_up_homeworld" ppc 4 + { "whats_up_homeworld" "player_said" setContext "YehatHome" goto } response }
+		Response(whats_up_homeworld, YehatHome);								 // "whats_up_homeworld" ppc 4 + { "whats_up_homeworld" "player_said" setContext "YehatHome" goto } response
 	}																													 // }
 	if (!GET_GAME_STATE(YEHAT_ROYALIST_TOLD_PKUNK)						 // "YEHAT_ROYALIST_TOLD_PKUNK" getContext not
 			&& GET_GAME_STATE(PKUNK_VISITS)												 // "PKUNK_VISITS" getContext and
 			&& GET_GAME_STATE(PKUNK_HOME_VISITS))									 // "PKUNK_HOME_VISITS" getContext and 1 eq jgz
 	{																													 // {
-		Response(what_about_pkunk_royalist, YehatHome);					 // "what_about_pkunk_royalist" ppc 4 + { "what_about_pkunk_royalist" "player_said" setContext "YehatHome" goto } response }
+		Response(what_about_pkunk_royalist, YehatHome);					 // "what_about_pkunk_royalist" ppc 4 + { "what_about_pkunk_royalist" "player_said" setContext "YehatHome" goto } response
 	}																													 // }
 	if (!GET_GAME_STATE(NO_YEHAT_HELP_HOME))									 // "NO_YEHAT_HELP_HOME" getContext not 1 eq jgz
 	{																													 // {
-		Response(at_least_help_us_homeworld, YehatHome);				 // "at_least_help_us_homeworld" ppc 4 + { "at_least_help_us_homeworld" "player_said" setContext "YehatHome" goto } response }
+		Response(at_least_help_us_homeworld, YehatHome);				 // "at_least_help_us_homeworld" ppc 4 + { "at_least_help_us_homeworld" "player_said" setContext "YehatHome" goto } response
 	}																													 // }
 	if (!GET_GAME_STATE(NO_YEHAT_INFO))												 // "NO_YEHAT_INFO" getContext not 1 eq jgz
 	{																													 // {
-		Response(give_info, YehatHome);													 // "give_info" ppc 4 + { "give_info" "player_said" setContext "YehatHome" goto } response }
+		Response(give_info, YehatHome);													 // "give_info" ppc 4 + { "give_info" "player_said" setContext "YehatHome" goto } response
 	}																													 // }
 	if (!GET_GAME_STATE(NO_YEHAT_ALLY_HOME))									 // "NO_YEHAT_ALLY_HOME" getContext not 1 eq jgz
 	{																													 // {
-		Response(i_demand_you_ally_homeworld, ExitConversation); // "i_demand_you_ally_homeworld" ppc 4 + { "i_demand_you_ally_homeworld" "player_said" setContext "ExitConversation" goto } response }
+		Response(i_demand_you_ally_homeworld, ExitConversation); // "i_demand_you_ally_homeworld" ppc 4 + { "i_demand_you_ally_homeworld" "player_said" setContext "ExitConversation" goto } response
 	}																													 // }
 	Response(bye_homeworld, ExitConversation);								 // "bye_homeworld" ppc 4 + { "bye_homeworld" "player_said" setContext "ExitConversation" goto } response }
 } // getResponse goto exit
 
 static void
-YehatSpace(RESPONSE_REF R)
-{
-	BYTE i, LastStack;
-	RESPONSE_REF pStr[3];
-
-	LastStack = 0;
-	pStr[0] = pStr[1] = pStr[2] = 0;
-	if (PLAYER_SAID(R, whats_up_space_1) || PLAYER_SAID(R, whats_up_space_2) || PLAYER_SAID(R, whats_up_space_3) || PLAYER_SAID(R, whats_up_space_4))
-	{
+YehatSpace(RESPONSE_REF R)								 // nop #YehatSpace
+{																					 //
+	BYTE i, LastStack;											 //
+	RESPONSE_REF pStr[3];										 //
+																					 //
+	LastStack = 0;													 //
+	pStr[0] = pStr[1] = pStr[2] = 0;				 //
+	if (PLAYER_SAID(R, whats_up_space_1)		 // "player_said" getContext "whats_up_space_1" eq
+			|| PLAYER_SAID(R, whats_up_space_2)	 // "player_said" getContext "whats_up_space_2" eq or
+			|| PLAYER_SAID(R, whats_up_space_3)	 // "player_said" getContext "whats_up_space_3" eq or
+			|| PLAYER_SAID(R, whats_up_space_4)) // "player_said" getContext "whats_up_space_4" eq or jgz
+	{																				 // {
 		BYTE NumVisits;
 
-		NumVisits = GET_GAME_STATE(YEHAT_REBEL_INFO);
-		switch (NumVisits++)
-		{
-		case 0:
-			NPCPhrase(GENERAL_INFO_SPACE_1);
-			break;
-		case 1:
-			NPCPhrase(GENERAL_INFO_SPACE_2);
-			break;
-		case 2:
-			NPCPhrase(GENERAL_INFO_SPACE_3);
-			break;
-		case 3:
-			NPCPhrase(GENERAL_INFO_SPACE_4);
-			--NumVisits;
-			break;
-		}
-		SET_GAME_STATE(YEHAT_REBEL_INFO, NumVisits);
-
-		DISABLE_PHRASE(whats_up_space_1);
-	}
-	else if (PLAYER_SAID(R, i_demand_you_ally_space))
-	{
-		NPCPhrase(WE_CANNOT_1);
-
-		LastStack = 2;
-		SET_GAME_STATE(NO_YEHAT_ALLY_SPACE, 1);
-	}
-	else if (PLAYER_SAID(R, obligation))
-	{
-		NPCPhrase(WE_CANNOT_2);
-
-		setSegue(Segue_peace);
-		SET_GAME_STATE(NO_YEHAT_ALLY_SPACE, 2);
-
-		return;
-	}
-	else if (PLAYER_SAID(R, at_least_help_us_space))
-	{
-		NPCPhrase(SORRY_CANNOT);
-
-		LastStack = 1;
-		SET_GAME_STATE(NO_YEHAT_HELP_SPACE, 1);
-	}
-	else if (PLAYER_SAID(R, dishonor))
-	{
-		NPCPhrase(HERES_A_HINT);
-
-		SET_GAME_STATE(NO_YEHAT_HELP_SPACE, 2);
-	}
-	else if (PLAYER_SAID(R, what_about_pkunk_royalist))
-	{
-		if (GET_GAME_STATE(YEHAT_ABSORBED_PKUNK))
-			NPCPhrase(PKUNK_ABSORBED_ROYALIST);
-		else
-			NPCPhrase(HATE_PKUNK_ROYALIST);
-
-		SET_GAME_STATE(YEHAT_ROYALIST_TOLD_PKUNK, 1);
-	}
-
-	/* SET_FUNCPTR (&PtrDesc, YehatSpace); */
-	if (PHRASE_ENABLED(whats_up_space_1))
-	{
-		switch (GET_GAME_STATE(YEHAT_REBEL_INFO))
-		{
-		case 0:
-			pStr[0] = whats_up_space_1;
-			break;
-		case 1:
-			pStr[0] = whats_up_space_2;
-			break;
-		case 2:
-			pStr[0] = whats_up_space_3;
-			break;
-		case 3:
-			pStr[0] = whats_up_space_4;
-			break;
-		}
-	}
-	switch (GET_GAME_STATE(NO_YEHAT_HELP_SPACE))
-	{
-	case 0:
-		pStr[1] = at_least_help_us_space;
-		break;
-	case 1:
-		pStr[1] = dishonor;
-		break;
-	}
-	switch (GET_GAME_STATE(NO_YEHAT_ALLY_SPACE))
-	{
-	case 0:
-	{
-		pStr[2] = i_demand_you_ally_space;
-		break;
-	}
-	case 1:
-		pStr[2] = obligation;
-		break;
-	}
-
-	if (pStr[LastStack])
-		Response(pStr[LastStack], YehatSpace);
-	for (i = 0; i < 3; ++i)
-	{
-		if (i != LastStack && pStr[i])
-			Response(pStr[i], YehatSpace);
-	}
-	if (!GET_GAME_STATE(YEHAT_ROYALIST_TOLD_PKUNK) && GET_GAME_STATE(PKUNK_VISITS) && GET_GAME_STATE(PKUNK_HOME_VISITS))
-		Response(what_about_pkunk_royalist, YehatSpace);
-	if (GET_GAME_STATE(SHOFIXTI_VISITS))
-	{
-		switch (GET_GAME_STATE(YEHAT_REBEL_TOLD_PKUNK))
-		{
-		case 0:
-			Response(shofixti_alive_1, StartRevolt);
-			break;
-		case 1:
-			Response(shofixti_alive_2, StartRevolt);
-			break;
-		}
-	}
-	Response(bye_space, ExitConversation);
-}
+		NumVisits = GET_GAME_STATE(YEHAT_REBEL_INFO);			// "YEHAT_REBEL_INFO" getContext
+		switch (NumVisits++)															//
+		{																									//
+		case 0:																						// dup 0 eq jgz {
+			NPCPhrase(GENERAL_INFO_SPACE_1);								// "GENERAL_INFO_SPACE_1" emit "YEHAT_REBEL_INFO" getContext 1 + "YEHAT_REBEL_INFO" setContext
+			break;																					// }
+		case 1:																						// dup 1 eq jgz {
+			NPCPhrase(GENERAL_INFO_SPACE_2);								// "GENERAL_INFO_SPACE_2" emit "YEHAT_REBEL_INFO" getContext 1 + "YEHAT_REBEL_INFO" setContext
+			break;																					// }
+		case 2:																						// dup 2 eq jgz {
+			NPCPhrase(GENERAL_INFO_SPACE_3);								// "GENERAL_INFO_SPACE_3" emit "YEHAT_REBEL_INFO" getContext 1 + "YEHAT_REBEL_INFO" setContext
+			break;																					// }
+		case 3:																						// 3 eq jgz {
+			NPCPhrase(GENERAL_INFO_SPACE_4);								// "GENERAL_INFO_SPACE_4" emit
+			--NumVisits;																		//
+			break;																					// }
+		}																									//
+		SET_GAME_STATE(YEHAT_REBEL_INFO, NumVisits);			//
+																											//
+		DISABLE_PHRASE(whats_up_space_1);									// "whats_up_space_1" disableOption "whats_up_space_2" disableOption "whats_up_space_3" disableOption "whats_up_space_4" disableOption
+	}																										// }
+	else if (PLAYER_SAID(R, i_demand_you_ally_space))		// "player_said" getContext "i_demand_you_ally_space" eq jgz
+	{																										// {
+		NPCPhrase(WE_CANNOT_1);														// "WE_CANNOT_1" emit
+																											//
+		LastStack = 2;																		//
+		SET_GAME_STATE(NO_YEHAT_ALLY_SPACE, 1);						// 1 "NO_YEHAT_ALLY_SPACE" setContext
+	}																										// }
+	else if (PLAYER_SAID(R, obligation))								// "player_said" getContext "obligation" eq jgz
+	{																										// {
+		NPCPhrase(WE_CANNOT_2);														// "WE_CANNOT_2" emit
+																											//
+		setSegue(Segue_peace);														// "peace" "segue" setContext
+		SET_GAME_STATE(NO_YEHAT_ALLY_SPACE, 2);						// 2 "NO_YEHAT_ALLY_SPACE" setContext
+																											//
+		return;																						/* ??? */
+	}																										// }
+	else if (PLAYER_SAID(R, at_least_help_us_space))		// "player_said" getContext "at_least_help_us_space" eq jgz
+	{																										// {
+		NPCPhrase(SORRY_CANNOT);													// "SORRY_CANNOT" emit
+																											//
+		LastStack = 1;																		//
+		SET_GAME_STATE(NO_YEHAT_HELP_SPACE, 1);						// 1 "NO_YEHAT_HELP_SPACE" setContext
+	}																										// }
+	else if (PLAYER_SAID(R, dishonor))									// "player_said" getContext "dishonor" eq jgz
+	{																										// {
+		NPCPhrase(HERES_A_HINT);													// "HERES_A_HINT" emit
+																											//
+		SET_GAME_STATE(NO_YEHAT_HELP_SPACE, 2);						// 2 "NO_YEHAT_HELP_SPACE" setContext
+	}																										// }
+	else if (PLAYER_SAID(R, what_about_pkunk_royalist)) // "player_said" getContext "what_about_pkunk_royalist" eq jgz
+	{																										// {
+		if (GET_GAME_STATE(YEHAT_ABSORBED_PKUNK))					// "YEHAT_ABSORBED_PKUNK" getContext dup jgz
+		{																									// {
+			NPCPhrase(PKUNK_ABSORBED_ROYALIST);							// "iPKUNK_ABSORBED_ROYALIST" emit
+		}																									// }
+		else																							// jz
+		{																									// {
+			NPCPhrase(HATE_PKUNK_ROYALIST);									// "HATE_PKUNK_ROYALIST" emit
+		}																									// }
+		SET_GAME_STATE(YEHAT_ROYALIST_TOLD_PKUNK, 1);			// 1 "YEHAT_ROYALIST_TOLD_PKUNK" setContext
+	}																										// }
+																											//
+	/* SET_FUNCPTR (&PtrDesc, YehatSpace); */						//
+	if (PHRASE_ENABLED(whats_up_space_1))								// "whats_up_space_1" optionEnabled 1 eq jgz
+	{																										// {
+		switch (GET_GAME_STATE(YEHAT_REBEL_INFO))					// "YEHAT_REBEL_INFO" getContext
+		{																									//
+		case 0:																						// dup 0 eq jgz {
+			pStr[0] = whats_up_space_1;											// "whats_up_space_1" ppc 4 + { "whats_up_space_1" "player_said" setContext "YehatSpace" goto } response
+			break;																					// }
+		case 1:																						// dup 1 eq jgz {
+			pStr[0] = whats_up_space_2;											// "whats_up_space_2" ppc 4 + { "whats_up_space_2" "player_said" setContext "YehatSpace" goto } response
+			break;																					// }
+		case 2:																						// dup 2 eq jgz {
+			pStr[0] = whats_up_space_3;											// "whats_up_space_3" ppc 4 + { "whats_up_space_3" "player_said" setContext "YehatSpace" goto } response
+			break;																					// }
+		case 3:																						// 3 eq jgz {
+			pStr[0] = whats_up_space_4;											// "whats_up_space_4" ppc 4 + { "whats_up_space_4" "player_said" setContext "YehatSpace" goto } response
+			break;																					// }
+		}																									//
+	}																										// }
+	switch (GET_GAME_STATE(NO_YEHAT_HELP_SPACE))				// "NO_YEHAT_HELP_SPACE" getContext
+	{																										//
+	case 0:																							// dup 0 eq jgz {
+		pStr[1] = at_least_help_us_space;									// "at_least_help_us_space" ppc 4 + { "at_least_help_us_space" "player_said" setContext "YehatSpace" goto } response
+		break;																						// }
+	case 1:																							// 1 eq jgz {
+		pStr[1] = dishonor;																// "dishonor" ppc 4 + { "dishonor" "player_said" setContext "YehatSpace" goto } response
+		break;																						// }
+	}																										//
+	switch (GET_GAME_STATE(NO_YEHAT_ALLY_SPACE))				// "NO_YEHAT_ALLY_SPACE" getContext
+	{																										//
+	case 0:																							// dup 0 eq jgz
+	{																										// {
+		pStr[2] = i_demand_you_ally_space;								// "i_demand_you_ally_space" ppc 4 + { "i_demand_you_ally_space" "player_said" setContext "YehatSpace" goto } response
+		break;																						//
+	}																										// }
+	case 1:																							// 1 eq jgz {
+		pStr[2] = obligation;															// "obligation" ppc 4 + { "obligation" "player_said" setContext "YehatSpace" goto } response
+		break;																						// }
+	}																										//
+																											//
+	if (pStr[LastStack])																//
+		Response(pStr[LastStack], YehatSpace);						//
+	for (i = 0; i < 3; ++i)															//
+	{																										//
+		if (i != LastStack && pStr[i])										//
+			Response(pStr[i], YehatSpace);									//
+																											//
+	}																										//
+																											//
+	if (!GET_GAME_STATE(YEHAT_ROYALIST_TOLD_PKUNK)			// "YEHAT_ROYALIST_TOLD_PKUNK" getContext not
+			&& GET_GAME_STATE(PKUNK_VISITS)									//  "PKUNK_VISITS" getContext and
+			&& GET_GAME_STATE(PKUNK_HOME_VISITS))						// "PKUNK_HOME_VISITS" getContext and 1 eq jgz
+	{																										// {
+		Response(what_about_pkunk_royalist, YehatSpace);	// "what_about_pkunk_royalist" ppc 4 + { "what_about_pkunk_royalist" "player_said" setContext "YehatSpace" goto } response
+	}																										// }
+	if (GET_GAME_STATE(SHOFIXTI_VISITS))								// "SHOFIXTI_VISITS" getContext jgz
+	{																										// {
+		switch (GET_GAME_STATE(YEHAT_REBEL_TOLD_PKUNK))		// "YEHAT_REBEL_TOLD_PKUNK" getContext
+		{																									//
+		case 0:																						// dup 0 eq jgz {
+			Response(shofixti_alive_1, StartRevolt);				// "shofixti_alive_1" ppc 4 + { "shofixti_alive_1" "player_said" setContext "StartRevolt" goto } response
+			break;																					// }
+		case 1:																						// 1 eq jgz {
+			Response(shofixti_alive_2, StartRevolt);				// "shofixti_alive_2" ppc 4 + { "shofixti_alive_2" "player_said" setContext "StartRevolt" goto } response
+			break;																					// }
+		}																									//
+	}																										// }
+	Response(bye_space, ExitConversation);							// "bye_space" ppc 4 + { "bye_space" "player_said" setContext "ExitConversation" goto } response }
+} // getResponse goto exit
 
 static void
 Intro(void)																									 // nop #Intro
