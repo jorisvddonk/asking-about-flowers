@@ -18,6 +18,8 @@
 // 0 "NO_YEHAT_ALLY_SPACE" setContext
 // 0 "SHOFIXTI_VISITS" setContext
 // 0 "YEHAT_REBEL_TOLD_PKUNK" setContext
+// 0 "HAVE_SHOFIXTI_ESCORT_SHIP" setContext
+// 0 "YEHAT_REBEL_VISITS" setContext
 
 // "Intro" goto
 
