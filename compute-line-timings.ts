@@ -12,7 +12,7 @@ async function main() {
         try {
             const alienname = `${path.basename(file).split(".").shift()}`;
             const base = path.join(path.dirname(file), alienname);
-            const commFile = fs.readFileSync(file).toString();
+            const commFile = fs.readFileSync(file).toString().replace(/\r\n/g, "\n");
             const timingsFile = fs.readFileSync(`${base}.ts`).toString();
             await transform(timingsFile, commFile, base);
         } catch (e) {
@@ -39,7 +39,7 @@ async function transform(timings, comm, base) {
         }
         let start = 0;
 
-        const lineTimings = entry[1].localizedText.split(/\n/).reduce((mem, line, i) => {
+        const lineTimings = entry[1].localizedText.split(/\r?\n/).reduce((mem, line, i) => {
             if (synch === undefined) {
                 return mem;
             }
@@ -60,7 +60,7 @@ async function transform(timings, comm, base) {
         return memo;
     }, Promise.resolve({}));
 
-    fs.writeFileSync(`${base}.json`, JSON.stringify(rmap, null, 2));
+    fs.writeFileSync(`${base}.json`, JSON.stringify(rmap, null, 2), { encoding: "utf-8" });
     return rmap;
 }
 

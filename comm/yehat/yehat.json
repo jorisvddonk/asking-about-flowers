@@ -1,7 +1,7 @@
 {
   "HOMEWORLD_HELLO_1": {
     "identifier": "HOMEWORLD_HELLO_1",
-    "localizedText": "It is sure and a true thing that the alien interloper has now been warned\r\nnot to approach Caer Zeep-Reep, the Queen's High Perch\r\nlest it be blasted without further warning!",
+    "localizedText": "It is sure and a true thing that the alien interloper has now been warned\nnot to approach Caer Zeep-Reep, the Queen's High Perch\nlest it be blasted without further warning!",
     "audioFile": "yehat-000.ogg",
     "timings": [
       4867,
@@ -11,13 +11,13 @@
     "audioFileDuration": 12639,
     "lineTimings": [
       {
-        "line": "It is sure and a true thing that the alien interloper has now been warned\r",
+        "line": "It is sure and a true thing that the alien interloper has now been warned",
         "duration": 4867,
         "start": 0,
         "end": 4867
       },
       {
-        "line": "not to approach Caer Zeep-Reep, the Queen's High Perch\r",
+        "line": "not to approach Caer Zeep-Reep, the Queen's High Perch",
         "duration": 3776,
         "start": 4867,
         "end": 8643
@@ -32,7 +32,7 @@
   },
   "HOMEWORLD_HELLO_2": {
     "identifier": "HOMEWORLD_HELLO_2",
-    "localizedText": "It is a shocking thing to see the return of the human renegade!\r\nOne knows this will not be boding well with her Majesty today.",
+    "localizedText": "It is a shocking thing to see the return of the human renegade!\nOne knows this will not be boding well with her Majesty today.",
     "audioFile": "yehat-001.ogg",
     "timings": [
       4286,
@@ -41,7 +41,7 @@
     "audioFileDuration": 10177,
     "lineTimings": [
       {
-        "line": "It is a shocking thing to see the return of the human renegade!\r",
+        "line": "It is a shocking thing to see the return of the human renegade!",
         "duration": 4286,
         "start": 0,
         "end": 4286
@@ -69,7 +69,7 @@
   },
   "GENERAL_INFO_HOMEWORLD_1": {
     "identifier": "GENERAL_INFO_HOMEWORLD_1",
-    "localizedText": "It is a wondering thought that crosses my mind human starship Captain.\r\nAre ye not knowing that the cause of our Queen and empire\r\nis now allied with the fortunes of the mighty Ur-Quan?...\r\n...and that yer presence here is being only the end of yer life?\r\nHaven't ye got the sense, human, to know this simple thing?",
+    "localizedText": "It is a wondering thought that crosses my mind human starship Captain.\nAre ye not knowing that the cause of our Queen and empire\nis now allied with the fortunes of the mighty Ur-Quan?...\n...and that yer presence here is being only the end of yer life?\nHaven't ye got the sense, human, to know this simple thing?",
     "audioFile": "yehat-002.ogg",
     "timings": [
       5328,
@@ -81,25 +81,25 @@
     "audioFileDuration": 20696,
     "lineTimings": [
       {
-        "line": "It is a wondering thought that crosses my mind human starship Captain.\r",
+        "line": "It is a wondering thought that crosses my mind human starship Captain.",
         "duration": 5328,
         "start": 0,
         "end": 5328
       },
       {
-        "line": "Are ye not knowing that the cause of our Queen and empire\r",
+        "line": "Are ye not knowing that the cause of our Queen and empire",
         "duration": 3615,
         "start": 5328,
         "end": 8943
       },
       {
-        "line": "is now allied with the fortunes of the mighty Ur-Quan?...\r",
+        "line": "is now allied with the fortunes of the mighty Ur-Quan?...",
         "duration": 4176,
         "start": 8943,
         "end": 13119
       },
       {
-        "line": "...and that yer presence here is being only the end of yer life?\r",
+        "line": "...and that yer presence here is being only the end of yer life?",
         "duration": 4236,
         "start": 13119,
         "end": 17355
@@ -114,7 +114,7 @@
   },
   "GENERAL_INFO_HOMEWORLD_2": {
     "identifier": "GENERAL_INFO_HOMEWORLD_2",
-    "localizedText": "Ye are asking the words of a mindless child, human!\r\nHere, in the Hall of the Queen's High Perch\r\nye shall not be finding the sympathies ye so vainly seek.\r\nThere are none here but the nobles and battlemasters of the Yehat Clans.\r\nIt is a sure thing that we will not be casting flower petals in yer path of rebellion.",
+    "localizedText": "Ye are asking the words of a mindless child, human!\nHere, in the Hall of the Queen's High Perch\nye shall not be finding the sympathies ye so vainly seek.\nThere are none here but the nobles and battlemasters of the Yehat Clans.\nIt is a sure thing that we will not be casting flower petals in yer path of rebellion.",
     "audioFile": "yehat-003.ogg",
     "timings": [
       3755,
@@ -126,25 +126,25 @@
     "audioFileDuration": 21851,
     "lineTimings": [
       {
-        "line": "Ye are asking the words of a mindless child, human!\r",
+        "line": "Ye are asking the words of a mindless child, human!",
         "duration": 3755,
         "start": 0,
         "end": 3755
       },
       {
-        "line": "Here, in the Hall of the Queen's High Perch\r",
+        "line": "Here, in the Hall of the Queen's High Perch",
         "duration": 3005,
         "start": 3755,
         "end": 6760
       },
       {
-        "line": "ye shall not be finding the sympathies ye so vainly seek.\r",
+        "line": "ye shall not be finding the sympathies ye so vainly seek.",
         "duration": 3805,
         "start": 6760,
         "end": 10565
       },
       {
-        "line": "There are none here but the nobles and battlemasters of the Yehat Clans.\r",
+        "line": "There are none here but the nobles and battlemasters of the Yehat Clans.",
         "duration": 5298,
         "start": 10565,
         "end": 15863
@@ -172,7 +172,7 @@
   },
   "ENEMY_MUST_DIE": {
     "identifier": "ENEMY_MUST_DIE",
-    "localizedText": "Are ye DAFT human!? Have ye not heard our words?\r\nYou and yer kind are slaves, just as we\r\nbut you humans have been confined within a shield of slaves!\r\nTo be found outside this selfsame shield is surely yer own doom!\r\nIt is NOT a permitted thing fer ye to be a-travelling through space\r\nand now, we must be conforming to our Queen's oath to the Ur-Quan.\r\nWe must be getting about the business of killing you!",
+    "localizedText": "Are ye DAFT human!? Have ye not heard our words?\nYou and yer kind are slaves, just as we\nbut you humans have been confined within a shield of slaves!\nTo be found outside this selfsame shield is surely yer own doom!\nIt is NOT a permitted thing fer ye to be a-travelling through space\nand now, we must be conforming to our Queen's oath to the Ur-Quan.\nWe must be getting about the business of killing you!",
     "audioFile": "yehat-004.ogg",
     "timings": [
       4346,
@@ -186,37 +186,37 @@
     "audioFileDuration": 27872,
     "lineTimings": [
       {
-        "line": "Are ye DAFT human!? Have ye not heard our words?\r",
+        "line": "Are ye DAFT human!? Have ye not heard our words?",
         "duration": 4346,
         "start": 0,
         "end": 4346
       },
       {
-        "line": "You and yer kind are slaves, just as we\r",
+        "line": "You and yer kind are slaves, just as we",
         "duration": 3685,
         "start": 4346,
         "end": 8031
       },
       {
-        "line": "but you humans have been confined within a shield of slaves!\r",
+        "line": "but you humans have been confined within a shield of slaves!",
         "duration": 4106,
         "start": 8031,
         "end": 12137
       },
       {
-        "line": "To be found outside this selfsame shield is surely yer own doom!\r",
+        "line": "To be found outside this selfsame shield is surely yer own doom!",
         "duration": 4457,
         "start": 12137,
         "end": 16594
       },
       {
-        "line": "It is NOT a permitted thing fer ye to be a-travelling through space\r",
+        "line": "It is NOT a permitted thing fer ye to be a-travelling through space",
         "duration": 4016,
         "start": 16594,
         "end": 20610
       },
       {
-        "line": "and now, we must be conforming to our Queen's oath to the Ur-Quan.\r",
+        "line": "and now, we must be conforming to our Queen's oath to the Ur-Quan.",
         "duration": 4476,
         "start": 20610,
         "end": 25086
@@ -244,7 +244,7 @@
   },
   "NO_HELP_ENEMY": {
     "identifier": "NO_HELP_ENEMY",
-    "localizedText": "It is an unbelievable thing!\r\nYe speak the words that ruffle our feathers and cause our blood to boil!\r\nWe, the loyal servants of our Queen, bless her Beak, will not be helping the likes of you\r\nor any of the traitor Yehat bastards ye may have found among the ranks of the starship Clans!",
+    "localizedText": "It is an unbelievable thing!\nYe speak the words that ruffle our feathers and cause our blood to boil!\nWe, the loyal servants of our Queen, bless her Beak, will not be helping the likes of you\nor any of the traitor Yehat bastards ye may have found among the ranks of the starship Clans!",
     "audioFile": "yehat-005.ogg",
     "timings": [
       2643,
@@ -255,19 +255,19 @@
     "audioFileDuration": 19403,
     "lineTimings": [
       {
-        "line": "It is an unbelievable thing!\r",
+        "line": "It is an unbelievable thing!",
         "duration": 2643,
         "start": 0,
         "end": 2643
       },
       {
-        "line": "Ye speak the words that ruffle our feathers and cause our blood to boil!\r",
+        "line": "Ye speak the words that ruffle our feathers and cause our blood to boil!",
         "duration": 4797,
         "start": 2643,
         "end": 7440
       },
       {
-        "line": "We, the loyal servants of our Queen, bless her Beak, will not be helping the likes of you\r",
+        "line": "We, the loyal servants of our Queen, bless her Beak, will not be helping the likes of you",
         "duration": 6309,
         "start": 7440,
         "end": 13749
@@ -295,7 +295,7 @@
   },
   "NO_INFO_FOR_ENEMY": {
     "identifier": "NO_INFO_FOR_ENEMY",
-    "localizedText": "Our Queen has spoken the commands to us, and we are obeying her words!\r\nNo assistance, of any kind at all, shall be given to you, human\r\nso do not be making the assumptions, that ye know a right thing from a wrong!\r\nAre ye smarter than the Queen, is that what yer saying, human?\r\nWe shall not be giving ye a SCRAP OF MEAT!... much less our secrets.",
+    "localizedText": "Our Queen has spoken the commands to us, and we are obeying her words!\nNo assistance, of any kind at all, shall be given to you, human\nso do not be making the assumptions, that ye know a right thing from a wrong!\nAre ye smarter than the Queen, is that what yer saying, human?\nWe shall not be giving ye a SCRAP OF MEAT!... much less our secrets.",
     "audioFile": "yehat-006.ogg",
     "timings": [
       5228,
@@ -307,25 +307,25 @@
     "audioFileDuration": 22467,
     "lineTimings": [
       {
-        "line": "Our Queen has spoken the commands to us, and we are obeying her words!\r",
+        "line": "Our Queen has spoken the commands to us, and we are obeying her words!",
         "duration": 5228,
         "start": 0,
         "end": 5228
       },
       {
-        "line": "No assistance, of any kind at all, shall be given to you, human\r",
+        "line": "No assistance, of any kind at all, shall be given to you, human",
         "duration": 5067,
         "start": 5228,
         "end": 10295
       },
       {
-        "line": "so do not be making the assumptions, that ye know a right thing from a wrong!\r",
+        "line": "so do not be making the assumptions, that ye know a right thing from a wrong!",
         "duration": 4056,
         "start": 10295,
         "end": 14351
       },
       {
-        "line": "Are ye smarter than the Queen, is that what yer saying, human?\r",
+        "line": "Are ye smarter than the Queen, is that what yer saying, human?",
         "duration": 3565,
         "start": 14351,
         "end": 17916
@@ -353,7 +353,7 @@
   },
   "PKUNK_ABSORBED_ROYALIST": {
     "identifier": "PKUNK_ABSORBED_ROYALIST",
-    "localizedText": "The Pkunk have been absorbed.\r\nThey are no more. This is how it should be.\r\nNow the matter is settled, human. Do not be bringing it up again...",
+    "localizedText": "The Pkunk have been absorbed.\nThey are no more. This is how it should be.\nNow the matter is settled, human. Do not be bringing it up again...",
     "audioFile": "yehat-007.ogg",
     "timings": [
       3818,
@@ -363,13 +363,13 @@
     "audioFileDuration": 12505,
     "lineTimings": [
       {
-        "line": "The Pkunk have been absorbed.\r",
+        "line": "The Pkunk have been absorbed.",
         "duration": 3818,
         "start": 0,
         "end": 3818
       },
       {
-        "line": "They are no more. This is how it should be.\r",
+        "line": "They are no more. This is how it should be.",
         "duration": 3399,
         "start": 3818,
         "end": 7217
@@ -384,7 +384,7 @@
   },
   "HATE_PKUNK_ROYALIST": {
     "identifier": "HATE_PKUNK_ROYALIST",
-    "localizedText": "The cowards live?!! This is unbelievable!!\r\nIt is a SAD, SAD day to be hearing this thing from ye, human.\r\nThe P... the Pku... I canna even say their vile name!\r\nThe Pku... PKU-NK! are the greatest embarrassment our species has ever suffered!\r\nDo not be calling these wretched creatures an offshoot of our species!\r\nBetter it is that ye be calling them GARBAGE or DROPPINGS!\r\nOr better yet do not be talking about them at all!",
+    "localizedText": "The cowards live?!! This is unbelievable!!\nIt is a SAD, SAD day to be hearing this thing from ye, human.\nThe P... the Pku... I canna even say their vile name!\nThe Pku... PKU-NK! are the greatest embarrassment our species has ever suffered!\nDo not be calling these wretched creatures an offshoot of our species!\nBetter it is that ye be calling them GARBAGE or DROPPINGS!\nOr better yet do not be talking about them at all!",
     "audioFile": "yehat-008.ogg",
     "timings": [
       3884,
@@ -398,37 +398,37 @@
     "audioFileDuration": 26144,
     "lineTimings": [
       {
-        "line": "The cowards live?!! This is unbelievable!!\r",
+        "line": "The cowards live?!! This is unbelievable!!",
         "duration": 3884,
         "start": 0,
         "end": 3884
       },
       {
-        "line": "It is a SAD, SAD day to be hearing this thing from ye, human.\r",
+        "line": "It is a SAD, SAD day to be hearing this thing from ye, human.",
         "duration": 4610,
         "start": 3884,
         "end": 8494
       },
       {
-        "line": "The P... the Pku... I canna even say their vile name!\r",
+        "line": "The P... the Pku... I canna even say their vile name!",
         "duration": 3369,
         "start": 8494,
         "end": 11863
       },
       {
-        "line": "The Pku... PKU-NK! are the greatest embarrassment our species has ever suffered!\r",
+        "line": "The Pku... PKU-NK! are the greatest embarrassment our species has ever suffered!",
         "duration": 4808,
         "start": 11863,
         "end": 16671
       },
       {
-        "line": "Do not be calling these wretched creatures an offshoot of our species!\r",
+        "line": "Do not be calling these wretched creatures an offshoot of our species!",
         "duration": 3691,
         "start": 16671,
         "end": 20362
       },
       {
-        "line": "Better it is that ye be calling them GARBAGE or DROPPINGS!\r",
+        "line": "Better it is that ye be calling them GARBAGE or DROPPINGS!",
         "duration": 3118,
         "start": 20362,
         "end": 23480
@@ -456,7 +456,7 @@
   },
   "GOODBYE_AND_DIE_HOMEWORLD": {
     "identifier": "GOODBYE_AND_DIE_HOMEWORLD",
-    "localizedText": "So human, now ye be thinking that ye shall slink away\r\nto commit some vile treason and dirty our Queen's good name. Isn't this true?\r\nDo not be answering! We know the truth.\r\nWe will not let ye pass!",
+    "localizedText": "So human, now ye be thinking that ye shall slink away\nto commit some vile treason and dirty our Queen's good name. Isn't this true?\nDo not be answering! We know the truth.\nWe will not let ye pass!",
     "audioFile": "yehat-009.ogg",
     "timings": [
       3375,
@@ -467,19 +467,19 @@
     "audioFileDuration": 12621,
     "lineTimings": [
       {
-        "line": "So human, now ye be thinking that ye shall slink away\r",
+        "line": "So human, now ye be thinking that ye shall slink away",
         "duration": 3375,
         "start": 0,
         "end": 3375
       },
       {
-        "line": "to commit some vile treason and dirty our Queen's good name. Isn't this true?\r",
+        "line": "to commit some vile treason and dirty our Queen's good name. Isn't this true?",
         "duration": 4756,
         "start": 3375,
         "end": 8131
       },
       {
-        "line": "Do not be answering! We know the truth.\r",
+        "line": "Do not be answering! We know the truth.",
         "duration": 2594,
         "start": 8131,
         "end": 10725
@@ -494,7 +494,7 @@
   },
   "SPACE_HELLO_1": {
     "identifier": "SPACE_HELLO_1",
-    "localizedText": "What am I seeing on my view screen!?\r\nIt is none other than the flattened old face of our friends the human!\r\nBut old ally, are ye not knowing that we, the Yehat are allied with the Ur-Quan now?...\r\nand yer presence outside the slave shield, and in an armed starship\r\nare clear violations of yer Oath of Fealty?!\r\nWhatever shall we do? It just isn't a right thing to kill you, human,\r\nbut as a loyal member of my Clan, I must obey the wishes of our Queen!",
+    "localizedText": "What am I seeing on my view screen!?\nIt is none other than the flattened old face of our friends the human!\nBut old ally, are ye not knowing that we, the Yehat are allied with the Ur-Quan now?...\nand yer presence outside the slave shield, and in an armed starship\nare clear violations of yer Oath of Fealty?!\nWhatever shall we do? It just isn't a right thing to kill you, human,\nbut as a loyal member of my Clan, I must obey the wishes of our Queen!",
     "audioFile": "yehat-010.ogg",
     "timings": [
       1903,
@@ -508,37 +508,37 @@
     "audioFileDuration": 27853,
     "lineTimings": [
       {
-        "line": "What am I seeing on my view screen!?\r",
+        "line": "What am I seeing on my view screen!?",
         "duration": 1903,
         "start": 0,
         "end": 1903
       },
       {
-        "line": "It is none other than the flattened old face of our friends the human!\r",
+        "line": "It is none other than the flattened old face of our friends the human!",
         "duration": 3565,
         "start": 1903,
         "end": 5468
       },
       {
-        "line": "But old ally, are ye not knowing that we, the Yehat are allied with the Ur-Quan now?...\r",
+        "line": "But old ally, are ye not knowing that we, the Yehat are allied with the Ur-Quan now?...",
         "duration": 5999,
         "start": 5468,
         "end": 11467
       },
       {
-        "line": "and yer presence outside the slave shield, and in an armed starship\r",
+        "line": "and yer presence outside the slave shield, and in an armed starship",
         "duration": 4737,
         "start": 11467,
         "end": 16204
       },
       {
-        "line": "are clear violations of yer Oath of Fealty?!\r",
+        "line": "are clear violations of yer Oath of Fealty?!",
         "duration": 2834,
         "start": 16204,
         "end": 19038
       },
       {
-        "line": "Whatever shall we do? It just isn't a right thing to kill you, human,\r",
+        "line": "Whatever shall we do? It just isn't a right thing to kill you, human,",
         "duration": 4596,
         "start": 19038,
         "end": 23634
@@ -553,7 +553,7 @@
   },
   "SPACE_HELLO_2": {
     "identifier": "SPACE_HELLO_2",
-    "localizedText": "Human, what are you doing back here!? Are you totally off yer perch!?\r\nWe have sympathies fer yer cause, tis true\r\nbut we must obey the orders of our Queen, however much we may disagree with them!",
+    "localizedText": "Human, what are you doing back here!? Are you totally off yer perch!?\nWe have sympathies fer yer cause, tis true\nbut we must obey the orders of our Queen, however much we may disagree with them!",
     "audioFile": "yehat-011.ogg",
     "timings": [
       4496,
@@ -563,13 +563,13 @@
     "audioFileDuration": 10558,
     "lineTimings": [
       {
-        "line": "Human, what are you doing back here!? Are you totally off yer perch!?\r",
+        "line": "Human, what are you doing back here!? Are you totally off yer perch!?",
         "duration": 4496,
         "start": 0,
         "end": 4496
       },
       {
-        "line": "We have sympathies fer yer cause, tis true\r",
+        "line": "We have sympathies fer yer cause, tis true",
         "duration": 2284,
         "start": 4496,
         "end": 6780
@@ -584,7 +584,7 @@
   },
   "SPACE_HELLO_3": {
     "identifier": "SPACE_HELLO_3",
-    "localizedText": "Human! I am beginning to think that ye are touched, fer sure!\r\nYe tempt fate and our sympathy too much, I think.\r\nThis time, perhaps we cannot be as much yer friends as ye would like.",
+    "localizedText": "Human! I am beginning to think that ye are touched, fer sure!\nYe tempt fate and our sympathy too much, I think.\nThis time, perhaps we cannot be as much yer friends as ye would like.",
     "audioFile": "yehat-012.ogg",
     "timings": [
       3275,
@@ -594,13 +594,13 @@
     "audioFileDuration": 10883,
     "lineTimings": [
       {
-        "line": "Human! I am beginning to think that ye are touched, fer sure!\r",
+        "line": "Human! I am beginning to think that ye are touched, fer sure!",
         "duration": 3275,
         "start": 0,
         "end": 3275
       },
       {
-        "line": "Ye tempt fate and our sympathy too much, I think.\r",
+        "line": "Ye tempt fate and our sympathy too much, I think.",
         "duration": 3114,
         "start": 3275,
         "end": 6389
@@ -615,7 +615,7 @@
   },
   "SPACE_HELLO_4": {
     "identifier": "SPACE_HELLO_4",
-    "localizedText": "Human! Human. You try our souls with yer return!\r\nWhat is it ye be wanting now?",
+    "localizedText": "Human! Human. You try our souls with yer return!\nWhat is it ye be wanting now?",
     "audioFile": "yehat-013.ogg",
     "timings": [
       3805,
@@ -624,7 +624,7 @@
     "audioFileDuration": 5945,
     "lineTimings": [
       {
-        "line": "Human! Human. You try our souls with yer return!\r",
+        "line": "Human! Human. You try our souls with yer return!",
         "duration": 3805,
         "start": 0,
         "end": 3805
@@ -652,7 +652,7 @@
   },
   "GENERAL_INFO_SPACE_1": {
     "identifier": "GENERAL_INFO_SPACE_1",
-    "localizedText": "Your words are flying in the face of the facts, human.\r\nWe are no longer being your allies.\r\nBut unlike the nobles of our homeworld, we, of the Starship Clans\r\nare bereaved at this course of events.\r\nThe Queen's decision to be joining the Hierarchy, pains us!",
+    "localizedText": "Your words are flying in the face of the facts, human.\nWe are no longer being your allies.\nBut unlike the nobles of our homeworld, we, of the Starship Clans\nare bereaved at this course of events.\nThe Queen's decision to be joining the Hierarchy, pains us!",
     "audioFile": "yehat-014.ogg",
     "timings": [
       3345,
@@ -664,25 +664,25 @@
     "audioFileDuration": 17937,
     "lineTimings": [
       {
-        "line": "Your words are flying in the face of the facts, human.\r",
+        "line": "Your words are flying in the face of the facts, human.",
         "duration": 3345,
         "start": 0,
         "end": 3345
       },
       {
-        "line": "We are no longer being your allies.\r",
+        "line": "We are no longer being your allies.",
         "duration": 3284,
         "start": 3345,
         "end": 6629
       },
       {
-        "line": "But unlike the nobles of our homeworld, we, of the Starship Clans\r",
+        "line": "But unlike the nobles of our homeworld, we, of the Starship Clans",
         "duration": 4347,
         "start": 6629,
         "end": 10976
       },
       {
-        "line": "are bereaved at this course of events.\r",
+        "line": "are bereaved at this course of events.",
         "duration": 2353,
         "start": 10976,
         "end": 13329
@@ -710,7 +710,7 @@
   },
   "GENERAL_INFO_SPACE_2": {
     "identifier": "GENERAL_INFO_SPACE_2",
-    "localizedText": "WE - WERE - NOT - DEFEATED, HUMAN!!!!\r\nNever! Never in the two-thousand years of the Veep-Neep Queens\r\nhave the Yehat ever, EVER suffered a defeat!\r\nIt is this fact ALONE that is making our loyalty to the Queen so strong!\r\nThis is the unbreakable bond that keeps the Clans together!\r\nWhen the Ur-Quan were entering our home star system at Gamma Serpentis\r\nwe had a thousand starships prepared to defend our home\r\nand then... the Queen... She... she\r\nallied with the Ur-Quan\r\nand the fight is over before it is even begun. AWK!",
+    "localizedText": "WE - WERE - NOT - DEFEATED, HUMAN!!!!\nNever! Never in the two-thousand years of the Veep-Neep Queens\nhave the Yehat ever, EVER suffered a defeat!\nIt is this fact ALONE that is making our loyalty to the Queen so strong!\nThis is the unbreakable bond that keeps the Clans together!\nWhen the Ur-Quan were entering our home star system at Gamma Serpentis\nwe had a thousand starships prepared to defend our home\nand then... the Queen... She... she\nallied with the Ur-Quan\nand the fight is over before it is even begun. AWK!",
     "audioFile": "yehat-015.ogg",
     "timings": [
       3822,
@@ -727,55 +727,55 @@
     "audioFileDuration": 36487,
     "lineTimings": [
       {
-        "line": "WE - WERE - NOT - DEFEATED, HUMAN!!!!\r",
+        "line": "WE - WERE - NOT - DEFEATED, HUMAN!!!!",
         "duration": 3822,
         "start": 0,
         "end": 3822
       },
       {
-        "line": "Never! Never in the two-thousand years of the Veep-Neep Queens\r",
+        "line": "Never! Never in the two-thousand years of the Veep-Neep Queens",
         "duration": 4410,
         "start": 3822,
         "end": 8232
       },
       {
-        "line": "have the Yehat ever, EVER suffered a defeat!\r",
+        "line": "have the Yehat ever, EVER suffered a defeat!",
         "duration": 3379,
         "start": 8232,
         "end": 11611
       },
       {
-        "line": "It is this fact ALONE that is making our loyalty to the Queen so strong!\r",
+        "line": "It is this fact ALONE that is making our loyalty to the Queen so strong!",
         "duration": 4379,
         "start": 11611,
         "end": 15990
       },
       {
-        "line": "This is the unbreakable bond that keeps the Clans together!\r",
+        "line": "This is the unbreakable bond that keeps the Clans together!",
         "duration": 3879,
         "start": 15990,
         "end": 19869
       },
       {
-        "line": "When the Ur-Quan were entering our home star system at Gamma Serpentis\r",
+        "line": "When the Ur-Quan were entering our home star system at Gamma Serpentis",
         "duration": 4738,
         "start": 19869,
         "end": 24607
       },
       {
-        "line": "we had a thousand starships prepared to defend our home\r",
+        "line": "we had a thousand starships prepared to defend our home",
         "duration": 2900,
         "start": 24607,
         "end": 27507
       },
       {
-        "line": "and then... the Queen... She... she\r",
+        "line": "and then... the Queen... She... she",
         "duration": 3519,
         "start": 27507,
         "end": 31026
       },
       {
-        "line": "allied with the Ur-Quan\r",
+        "line": "allied with the Ur-Quan",
         "duration": 1480,
         "start": 31026,
         "end": 32506
@@ -803,7 +803,7 @@
   },
   "GENERAL_INFO_SPACE_3": {
     "identifier": "GENERAL_INFO_SPACE_3",
-    "localizedText": "(sob!)... (whimper) We have fallen so far. (sob!)\r\nWe are not being the same (whimper!) great birds of prey your people were once knowing and trusting.\r\nWe have each betrayed the honor of our Clan, (whimper!)... just as our Queen\r\nis betraying each of us with her association with the Ur-Quan...\r\nIf the valiant child species, the (sob-gulp!)... Shofixti were being here today\r\nthe shame!... Oh the shame!... it would be unbearable!\r\n(whimper!)... awk!",
+    "localizedText": "(sob!)... (whimper) We have fallen so far. (sob!)\nWe are not being the same (whimper!) great birds of prey your people were once knowing and trusting.\nWe have each betrayed the honor of our Clan, (whimper!)... just as our Queen\nis betraying each of us with her association with the Ur-Quan...\nIf the valiant child species, the (sob-gulp!)... Shofixti were being here today\nthe shame!... Oh the shame!... it would be unbearable!\n(whimper!)... awk!",
     "audioFile": "yehat-016.ogg",
     "timings": [
       5483,
@@ -817,37 +817,37 @@
     "audioFileDuration": 31552,
     "lineTimings": [
       {
-        "line": "(sob!)... (whimper) We have fallen so far. (sob!)\r",
+        "line": "(sob!)... (whimper) We have fallen so far. (sob!)",
         "duration": 5483,
         "start": 0,
         "end": 5483
       },
       {
-        "line": "We are not being the same (whimper!) great birds of prey your people were once knowing and trusting.\r",
+        "line": "We are not being the same (whimper!) great birds of prey your people were once knowing and trusting.",
         "duration": 5959,
         "start": 5483,
         "end": 11442
       },
       {
-        "line": "We have each betrayed the honor of our Clan, (whimper!)... just as our Queen\r",
+        "line": "We have each betrayed the honor of our Clan, (whimper!)... just as our Queen",
         "duration": 5149,
         "start": 11442,
         "end": 16591
       },
       {
-        "line": "is betraying each of us with her association with the Ur-Quan...\r",
+        "line": "is betraying each of us with her association with the Ur-Quan...",
         "duration": 3810,
         "start": 16591,
         "end": 20401
       },
       {
-        "line": "If the valiant child species, the (sob-gulp!)... Shofixti were being here today\r",
+        "line": "If the valiant child species, the (sob-gulp!)... Shofixti were being here today",
         "duration": 6068,
         "start": 20401,
         "end": 26469
       },
       {
-        "line": "the shame!... Oh the shame!... it would be unbearable!\r",
+        "line": "the shame!... Oh the shame!... it would be unbearable!",
         "duration": 4019,
         "start": 26469,
         "end": 30488
@@ -875,7 +875,7 @@
   },
   "GENERAL_INFO_SPACE_4": {
     "identifier": "GENERAL_INFO_SPACE_4",
-    "localizedText": "NO!  WE ARE NOT SLAVES!! WE ARE!... We are!... we are...\r\nBattle Thralls.",
+    "localizedText": "NO!  WE ARE NOT SLAVES!! WE ARE!... We are!... we are...\nBattle Thralls.",
     "audioFile": "yehat-017.ogg",
     "timings": [
       5771,
@@ -884,7 +884,7 @@
     "audioFileDuration": 7686,
     "lineTimings": [
       {
-        "line": "NO!  WE ARE NOT SLAVES!! WE ARE!... We are!... we are...\r",
+        "line": "NO!  WE ARE NOT SLAVES!! WE ARE!... We are!... we are...",
         "duration": 5771,
         "start": 0,
         "end": 5771
@@ -912,7 +912,7 @@
   },
   "WE_CANNOT_1": {
     "identifier": "WE_CANNOT_1",
-    "localizedText": "As much as my heart cries to aid ye, valiant human, I cannot!\r\nEach of us is sworn first to our Queen who\r\nhas commanded us to treat ye as an enemy of the Crown!",
+    "localizedText": "As much as my heart cries to aid ye, valiant human, I cannot!\nEach of us is sworn first to our Queen who\nhas commanded us to treat ye as an enemy of the Crown!",
     "audioFile": "yehat-018.ogg",
     "timings": [
       5778,
@@ -922,13 +922,13 @@
     "audioFileDuration": 12922,
     "lineTimings": [
       {
-        "line": "As much as my heart cries to aid ye, valiant human, I cannot!\r",
+        "line": "As much as my heart cries to aid ye, valiant human, I cannot!",
         "duration": 5778,
         "start": 0,
         "end": 5778
       },
       {
-        "line": "Each of us is sworn first to our Queen who\r",
+        "line": "Each of us is sworn first to our Queen who",
         "duration": 2935,
         "start": 5778,
         "end": 8713
@@ -956,7 +956,7 @@
   },
   "WE_CANNOT_2": {
     "identifier": "WE_CANNOT_2",
-    "localizedText": "Can't ye see that ye are killing me human?\r\nThe shame!... the awful shame of it!\r\nWhat ye say is true, we SHOULD be under the same wing\r\nbut DAMN YER EYES!... our Queen has given the Ur-Quan our allegiance\r\nand there is nothing I can be doing about it now!",
+    "localizedText": "Can't ye see that ye are killing me human?\nThe shame!... the awful shame of it!\nWhat ye say is true, we SHOULD be under the same wing\nbut DAMN YER EYES!... our Queen has given the Ur-Quan our allegiance\nand there is nothing I can be doing about it now!",
     "audioFile": "yehat-019.ogg",
     "timings": [
       3345,
@@ -968,25 +968,25 @@
     "audioFileDuration": 18683,
     "lineTimings": [
       {
-        "line": "Can't ye see that ye are killing me human?\r",
+        "line": "Can't ye see that ye are killing me human?",
         "duration": 3345,
         "start": 0,
         "end": 3345
       },
       {
-        "line": "The shame!... the awful shame of it!\r",
+        "line": "The shame!... the awful shame of it!",
         "duration": 3545,
         "start": 3345,
         "end": 6890
       },
       {
-        "line": "What ye say is true, we SHOULD be under the same wing\r",
+        "line": "What ye say is true, we SHOULD be under the same wing",
         "duration": 3805,
         "start": 6890,
         "end": 10695
       },
       {
-        "line": "but DAMN YER EYES!... our Queen has given the Ur-Quan our allegiance\r",
+        "line": "but DAMN YER EYES!... our Queen has given the Ur-Quan our allegiance",
         "duration": 4857,
         "start": 10695,
         "end": 15552
@@ -1014,7 +1014,7 @@
   },
   "SORRY_CANNOT": {
     "identifier": "SORRY_CANNOT",
-    "localizedText": "We cannot!\r\nTo be doing so would be a direct violation of our royal Queen's commands!",
+    "localizedText": "We cannot!\nTo be doing so would be a direct violation of our royal Queen's commands!",
     "audioFile": "yehat-020.ogg",
     "timings": [
       1452,
@@ -1023,7 +1023,7 @@
     "audioFileDuration": 5995,
     "lineTimings": [
       {
-        "line": "We cannot!\r",
+        "line": "We cannot!",
         "duration": 1452,
         "start": 0,
         "end": 1452
@@ -1051,7 +1051,7 @@
   },
   "HERES_A_HINT": {
     "identifier": "HERES_A_HINT",
-    "localizedText": "We cannot be giving ye material aid, Captain.\r\nBut perhaps ye can make use of this information, Captain.\r\nWhen we were fighting the Great War against the Mycons\r\nwe encountered a number of odd worlds which seemed to be having their crust shattered.\r\nMolten lava ran across the surface in huge rivers, and dense metallic elements were abundant.\r\nBut the strangest world we found was the first planet at the star at coordinates 639.5 : 231.2.\r\nThe Mycons were guarding this planet with an almost limitless number of their Podships\r\nas though there were something of great value there.\r\nWe could never break through their forces, though we destroyed scores of their ships.\r\nPerhaps, if ye fare better than us, or can somehow trick the Mycons to let ye land\r\nyou may discover this secret, and it may help ye in yer quest.",
+    "localizedText": "We cannot be giving ye material aid, Captain.\nBut perhaps ye can make use of this information, Captain.\nWhen we were fighting the Great War against the Mycons\nwe encountered a number of odd worlds which seemed to be having their crust shattered.\nMolten lava ran across the surface in huge rivers, and dense metallic elements were abundant.\nBut the strangest world we found was the first planet at the star at coordinates 639.5 : 231.2.\nThe Mycons were guarding this planet with an almost limitless number of their Podships\nas though there were something of great value there.\nWe could never break through their forces, though we destroyed scores of their ships.\nPerhaps, if ye fare better than us, or can somehow trick the Mycons to let ye land\nyou may discover this secret, and it may help ye in yer quest.",
     "audioFile": "yehat-021.ogg",
     "timings": [
       4077,
@@ -1069,61 +1069,61 @@
     "audioFileDuration": 53024,
     "lineTimings": [
       {
-        "line": "We cannot be giving ye material aid, Captain.\r",
+        "line": "We cannot be giving ye material aid, Captain.",
         "duration": 4077,
         "start": 0,
         "end": 4077
       },
       {
-        "line": "But perhaps ye can make use of this information, Captain.\r",
+        "line": "But perhaps ye can make use of this information, Captain.",
         "duration": 5238,
         "start": 4077,
         "end": 9315
       },
       {
-        "line": "When we were fighting the Great War against the Mycons\r",
+        "line": "When we were fighting the Great War against the Mycons",
         "duration": 3869,
         "start": 9315,
         "end": 13184
       },
       {
-        "line": "we encountered a number of odd worlds which seemed to be having their crust shattered.\r",
+        "line": "we encountered a number of odd worlds which seemed to be having their crust shattered.",
         "duration": 4720,
         "start": 13184,
         "end": 17904
       },
       {
-        "line": "Molten lava ran across the surface in huge rivers, and dense metallic elements were abundant.\r",
+        "line": "Molten lava ran across the surface in huge rivers, and dense metallic elements were abundant.",
         "duration": 6237,
         "start": 17904,
         "end": 24141
       },
       {
-        "line": "But the strangest world we found was the first planet at the star at coordinates 639.5 : 231.2.\r",
+        "line": "But the strangest world we found was the first planet at the star at coordinates 639.5 : 231.2.",
         "duration": 9198,
         "start": 24141,
         "end": 33339
       },
       {
-        "line": "The Mycons were guarding this planet with an almost limitless number of their Podships\r",
+        "line": "The Mycons were guarding this planet with an almost limitless number of their Podships",
         "duration": 4579,
         "start": 33339,
         "end": 37918
       },
       {
-        "line": "as though there were something of great value there.\r",
+        "line": "as though there were something of great value there.",
         "duration": 2070,
         "start": 37918,
         "end": 39988
       },
       {
-        "line": "We could never break through their forces, though we destroyed scores of their ships.\r",
+        "line": "We could never break through their forces, though we destroyed scores of their ships.",
         "duration": 3809,
         "start": 39988,
         "end": 43797
       },
       {
-        "line": "Perhaps, if ye fare better than us, or can somehow trick the Mycons to let ye land\r",
+        "line": "Perhaps, if ye fare better than us, or can somehow trick the Mycons to let ye land",
         "duration": 5528,
         "start": 43797,
         "end": 49325
@@ -1151,7 +1151,7 @@
   },
   "PKUNK_ABSORBED_SPACE": {
     "identifier": "PKUNK_ABSORBED_SPACE",
-    "localizedText": "This is a matter for the Yehat, human, and ONLY for the Yehat.\r\nThe Pkunk have been absorbed... and that is being the end of it.\r\nDo not ask further about this matter.",
+    "localizedText": "This is a matter for the Yehat, human, and ONLY for the Yehat.\nThe Pkunk have been absorbed... and that is being the end of it.\nDo not ask further about this matter.",
     "audioFile": "yehat-022.ogg",
     "timings": [
       4796,
@@ -1161,13 +1161,13 @@
     "audioFileDuration": 11307,
     "lineTimings": [
       {
-        "line": "This is a matter for the Yehat, human, and ONLY for the Yehat.\r",
+        "line": "This is a matter for the Yehat, human, and ONLY for the Yehat.",
         "duration": 4796,
         "start": 0,
         "end": 4796
       },
       {
-        "line": "The Pkunk have been absorbed... and that is being the end of it.\r",
+        "line": "The Pkunk have been absorbed... and that is being the end of it.",
         "duration": 4086,
         "start": 4796,
         "end": 8882
@@ -1182,7 +1182,7 @@
   },
   "HATE_PKUNK_SPACE": {
     "identifier": "HATE_PKUNK_SPACE",
-    "localizedText": "You have met them!?? The wretched creatures are alive?!!\r\nYou should be telling us where they are, Captain!\r\nTell us so that we can be correcting the mistake made a thousand years ago\r\nwhen we permitted the Pkunk to leave our Nest alive.\r\nBy all rights, we should have eliminated the craven cowards down to the last bird!",
+    "localizedText": "You have met them!?? The wretched creatures are alive?!!\nYou should be telling us where they are, Captain!\nTell us so that we can be correcting the mistake made a thousand years ago\nwhen we permitted the Pkunk to leave our Nest alive.\nBy all rights, we should have eliminated the craven cowards down to the last bird!",
     "audioFile": "yehat-023.ogg",
     "timings": [
       4704,
@@ -1194,25 +1194,25 @@
     "audioFileDuration": 19195,
     "lineTimings": [
       {
-        "line": "You have met them!?? The wretched creatures are alive?!!\r",
+        "line": "You have met them!?? The wretched creatures are alive?!!",
         "duration": 4704,
         "start": 0,
         "end": 4704
       },
       {
-        "line": "You should be telling us where they are, Captain!\r",
+        "line": "You should be telling us where they are, Captain!",
         "duration": 2989,
         "start": 4704,
         "end": 7693
       },
       {
-        "line": "Tell us so that we can be correcting the mistake made a thousand years ago\r",
+        "line": "Tell us so that we can be correcting the mistake made a thousand years ago",
         "duration": 4049,
         "start": 7693,
         "end": 11742
       },
       {
-        "line": "when we permitted the Pkunk to leave our Nest alive.\r",
+        "line": "when we permitted the Pkunk to leave our Nest alive.",
         "duration": 2819,
         "start": 11742,
         "end": 14561
@@ -1240,7 +1240,7 @@
   },
   "GO_IN_PEACE": {
     "identifier": "GO_IN_PEACE",
-    "localizedText": "Though honoring our past commitment we are not,\r\nwe will be letting you go in peace.",
+    "localizedText": "Though honoring our past commitment we are not,\nwe will be letting you go in peace.",
     "audioFile": "yehat-024.ogg",
     "timings": [
       3415,
@@ -1249,7 +1249,7 @@
     "audioFileDuration": 6571,
     "lineTimings": [
       {
-        "line": "Though honoring our past commitment we are not,\r",
+        "line": "Though honoring our past commitment we are not,",
         "duration": 3415,
         "start": 0,
         "end": 3415
@@ -1264,7 +1264,7 @@
   },
   "GOODBYE_AND_DIE_SPACE": {
     "identifier": "GOODBYE_AND_DIE_SPACE",
-    "localizedText": "You are causing us sorrow, human, sorrow indeed,\r\nbecause now we must obey the commands of our Queen and destroy you.",
+    "localizedText": "You are causing us sorrow, human, sorrow indeed,\nbecause now we must obey the commands of our Queen and destroy you.",
     "audioFile": "yehat-025.ogg",
     "timings": [
       4286,
@@ -1273,7 +1273,7 @@
     "audioFileDuration": 8813,
     "lineTimings": [
       {
-        "line": "You are causing us sorrow, human, sorrow indeed,\r",
+        "line": "You are causing us sorrow, human, sorrow indeed,",
         "duration": 4286,
         "start": 0,
         "end": 4286
@@ -1314,7 +1314,7 @@
   },
   "SEND_HIM_OVER_1": {
     "identifier": "SEND_HIM_OVER_1",
-    "localizedText": "If this is being a true thing, there will be many changes.\r\nBut we are a species long wise in the ways of deceit.\r\nYe must be proving these words ye say, Captain.\r\nSend the Shofixti to us as a way of proof.",
+    "localizedText": "If this is being a true thing, there will be many changes.\nBut we are a species long wise in the ways of deceit.\nYe must be proving these words ye say, Captain.\nSend the Shofixti to us as a way of proof.",
     "audioFile": "yehat-026.ogg",
     "timings": [
       3675,
@@ -1325,19 +1325,19 @@
     "audioFileDuration": 13942,
     "lineTimings": [
       {
-        "line": "If this is being a true thing, there will be many changes.\r",
+        "line": "If this is being a true thing, there will be many changes.",
         "duration": 3675,
         "start": 0,
         "end": 3675
       },
       {
-        "line": "But we are a species long wise in the ways of deceit.\r",
+        "line": "But we are a species long wise in the ways of deceit.",
         "duration": 4166,
         "start": 3675,
         "end": 7841
       },
       {
-        "line": "Ye must be proving these words ye say, Captain.\r",
+        "line": "Ye must be proving these words ye say, Captain.",
         "duration": 2724,
         "start": 7841,
         "end": 10565
@@ -1352,7 +1352,7 @@
   },
   "SEND_HIM_OVER_2": {
     "identifier": "SEND_HIM_OVER_2",
-    "localizedText": "Ye are lying to us once, Captain. Now we need the hard evidence.\r\nOrder yer supposed Shofixti to come to us, Captain.",
+    "localizedText": "Ye are lying to us once, Captain. Now we need the hard evidence.\nOrder yer supposed Shofixti to come to us, Captain.",
     "audioFile": "yehat-027.ogg",
     "timings": [
       5098,
@@ -1361,7 +1361,7 @@
     "audioFileDuration": 9112,
     "lineTimings": [
       {
-        "line": "Ye are lying to us once, Captain. Now we need the hard evidence.\r",
+        "line": "Ye are lying to us once, Captain. Now we need the hard evidence.",
         "duration": 5098,
         "start": 0,
         "end": 5098
@@ -1402,7 +1402,7 @@
   },
   "JUST_A_TRICK_1": {
     "identifier": "JUST_A_TRICK_1",
-    "localizedText": "It is a trick then, isn't it! And nothing more.\r\nHuman, we have been patient with ye up to this point, but now ye have gone too far.\r\nYe have most skillfully rubbed the salt into our wounds, and ye shall pay fer it in blood!",
+    "localizedText": "It is a trick then, isn't it! And nothing more.\nHuman, we have been patient with ye up to this point, but now ye have gone too far.\nYe have most skillfully rubbed the salt into our wounds, and ye shall pay fer it in blood!",
     "audioFile": "yehat-028.ogg",
     "timings": [
       3986,
@@ -1412,13 +1412,13 @@
     "audioFileDuration": 14576,
     "lineTimings": [
       {
-        "line": "It is a trick then, isn't it! And nothing more.\r",
+        "line": "It is a trick then, isn't it! And nothing more.",
         "duration": 3986,
         "start": 0,
         "end": 3986
       },
       {
-        "line": "Human, we have been patient with ye up to this point, but now ye have gone too far.\r",
+        "line": "Human, we have been patient with ye up to this point, but now ye have gone too far.",
         "duration": 5448,
         "start": 3986,
         "end": 9434
@@ -1433,7 +1433,7 @@
   },
   "JUST_A_TRICK_2": {
     "identifier": "JUST_A_TRICK_2",
-    "localizedText": "Another TRICK!\r\nYer lying tongue has doomed ye!",
+    "localizedText": "Another TRICK!\nYer lying tongue has doomed ye!",
     "audioFile": "yehat-029.ogg",
     "timings": [
       1502,
@@ -1442,7 +1442,7 @@
     "audioFileDuration": 4256,
     "lineTimings": [
       {
-        "line": "Another TRICK!\r",
+        "line": "Another TRICK!",
         "duration": 1502,
         "start": 0,
         "end": 1502
@@ -1470,7 +1470,7 @@
   },
   "WE_REVOLT": {
     "identifier": "WE_REVOLT",
-    "localizedText": "We are scanning the separation of a vessel from yer fleet, Captain\r\nand indeed, its configuration matches that of a Shofixti Scout vessel.\r\nThis had better not be a trick, Captain!\r\nWe are knowing the power of a Glory Device, and if you detonate the weapon near us\r\nthe price for you shall be dear, very dear.\r\nThe Scout has docked, and we await the pilot's appearance at the airlock.\r\nThe atmosphere cycle is complete... the door slides open... and\r\nIT IS TRUE!!! THE SHOFIXTI ARE ALIVE!!!\r\nLook at that furred muzzle, those shining black eyes, the sweet claws!\r\nOur children have returned from oblivion!!\r\nBut now we are faced with the cruellest truth!...\r\n...We who have sacrificed our honor! We who have lain with the enemy!\r\nWE ARE NOT WORTHY! WE ARE NOTHING!...We are less than nothing.\r\nBut wait! We are not Spathi. We are Yehat... OF THE STARSHIP CLANS!\r\nWe will NOT live this lie any longer!\r\nListen as I speak these words! If our Queen makes the dishonorable command\r\nthen it is THE QUEEN WHO HAS NO HONOR!\r\nAnd a dishonorable Queen is NO QUEEN AT ALL!\r\nWe, the Zeep-Zeep, are the only Clan who remember the TRUE MEANING of honor\r\nwe shall TEAR THE QUEEN FROM HER THRONE!\r\nThe two-thousand year reign of the Veep-Neep Queens IS OVER!\r\nTHE REVOLUTION HAS BEGUN!",
+    "localizedText": "We are scanning the separation of a vessel from yer fleet, Captain\nand indeed, its configuration matches that of a Shofixti Scout vessel.\nThis had better not be a trick, Captain!\nWe are knowing the power of a Glory Device, and if you detonate the weapon near us\nthe price for you shall be dear, very dear.\nThe Scout has docked, and we await the pilot's appearance at the airlock.\nThe atmosphere cycle is complete... the door slides open... and\nIT IS TRUE!!! THE SHOFIXTI ARE ALIVE!!!\nLook at that furred muzzle, those shining black eyes, the sweet claws!\nOur children have returned from oblivion!!\nBut now we are faced with the cruellest truth!...\n...We who have sacrificed our honor! We who have lain with the enemy!\nWE ARE NOT WORTHY! WE ARE NOTHING!...We are less than nothing.\nBut wait! We are not Spathi. We are Yehat... OF THE STARSHIP CLANS!\nWe will NOT live this lie any longer!\nListen as I speak these words! If our Queen makes the dishonorable command\nthen it is THE QUEEN WHO HAS NO HONOR!\nAnd a dishonorable Queen is NO QUEEN AT ALL!\nWe, the Zeep-Zeep, are the only Clan who remember the TRUE MEANING of honor\nwe shall TEAR THE QUEEN FROM HER THRONE!\nThe two-thousand year reign of the Veep-Neep Queens IS OVER!\nTHE REVOLUTION HAS BEGUN!",
     "audioFile": "yehat-030.ogg",
     "timings": [
       3885,
@@ -1499,127 +1499,127 @@
     "audioFileDuration": 96482,
     "lineTimings": [
       {
-        "line": "We are scanning the separation of a vessel from yer fleet, Captain\r",
+        "line": "We are scanning the separation of a vessel from yer fleet, Captain",
         "duration": 3885,
         "start": 0,
         "end": 3885
       },
       {
-        "line": "and indeed, its configuration matches that of a Shofixti Scout vessel.\r",
+        "line": "and indeed, its configuration matches that of a Shofixti Scout vessel.",
         "duration": 4176,
         "start": 3885,
         "end": 8061
       },
       {
-        "line": "This had better not be a trick, Captain!\r",
+        "line": "This had better not be a trick, Captain!",
         "duration": 2524,
         "start": 8061,
         "end": 10585
       },
       {
-        "line": "We are knowing the power of a Glory Device, and if you detonate the weapon near us\r",
+        "line": "We are knowing the power of a Glory Device, and if you detonate the weapon near us",
         "duration": 4126,
         "start": 10585,
         "end": 14711
       },
       {
-        "line": "the price for you shall be dear, very dear.\r",
+        "line": "the price for you shall be dear, very dear.",
         "duration": 3074,
         "start": 14711,
         "end": 17785
       },
       {
-        "line": "The Scout has docked, and we await the pilot's appearance at the airlock.\r",
+        "line": "The Scout has docked, and we await the pilot's appearance at the airlock.",
         "duration": 4006,
         "start": 17785,
         "end": 21791
       },
       {
-        "line": "The atmosphere cycle is complete... the door slides open... and\r",
+        "line": "The atmosphere cycle is complete... the door slides open... and",
         "duration": 4026,
         "start": 21791,
         "end": 25817
       },
       {
-        "line": "IT IS TRUE!!! THE SHOFIXTI ARE ALIVE!!!\r",
+        "line": "IT IS TRUE!!! THE SHOFIXTI ARE ALIVE!!!",
         "duration": 4206,
         "start": 25817,
         "end": 30023
       },
       {
-        "line": "Look at that furred muzzle, those shining black eyes, the sweet claws!\r",
+        "line": "Look at that furred muzzle, those shining black eyes, the sweet claws!",
         "duration": 6900,
         "start": 30023,
         "end": 36923
       },
       {
-        "line": "Our children have returned from oblivion!!\r",
+        "line": "Our children have returned from oblivion!!",
         "duration": 3104,
         "start": 36923,
         "end": 40027
       },
       {
-        "line": "But now we are faced with the cruellest truth!...\r",
+        "line": "But now we are faced with the cruellest truth!...",
         "duration": 3445,
         "start": 40027,
         "end": 43472
       },
       {
-        "line": "...We who have sacrificed our honor! We who have lain with the enemy!\r",
+        "line": "...We who have sacrificed our honor! We who have lain with the enemy!",
         "duration": 5869,
         "start": 43472,
         "end": 49341
       },
       {
-        "line": "WE ARE NOT WORTHY! WE ARE NOTHING!...We are less than nothing.\r",
+        "line": "WE ARE NOT WORTHY! WE ARE NOTHING!...We are less than nothing.",
         "duration": 6719,
         "start": 49341,
         "end": 56060
       },
       {
-        "line": "But wait! We are not Spathi. We are Yehat... OF THE STARSHIP CLANS!\r",
+        "line": "But wait! We are not Spathi. We are Yehat... OF THE STARSHIP CLANS!",
         "duration": 7551,
         "start": 56060,
         "end": 63611
       },
       {
-        "line": "We will NOT live this lie any longer!\r",
+        "line": "We will NOT live this lie any longer!",
         "duration": 2714,
         "start": 63611,
         "end": 66325
       },
       {
-        "line": "Listen as I speak these words! If our Queen makes the dishonorable command\r",
+        "line": "Listen as I speak these words! If our Queen makes the dishonorable command",
         "duration": 6930,
         "start": 66325,
         "end": 73255
       },
       {
-        "line": "then it is THE QUEEN WHO HAS NO HONOR!\r",
+        "line": "then it is THE QUEEN WHO HAS NO HONOR!",
         "duration": 2614,
         "start": 73255,
         "end": 75869
       },
       {
-        "line": "And a dishonorable Queen is NO QUEEN AT ALL!\r",
+        "line": "And a dishonorable Queen is NO QUEEN AT ALL!",
         "duration": 3565,
         "start": 75869,
         "end": 79434
       },
       {
-        "line": "We, the Zeep-Zeep, are the only Clan who remember the TRUE MEANING of honor\r",
+        "line": "We, the Zeep-Zeep, are the only Clan who remember the TRUE MEANING of honor",
         "duration": 6119,
         "start": 79434,
         "end": 85553
       },
       {
-        "line": "we shall TEAR THE QUEEN FROM HER THRONE!\r",
+        "line": "we shall TEAR THE QUEEN FROM HER THRONE!",
         "duration": 3254,
         "start": 85553,
         "end": 88807
       },
       {
-        "line": "The two-thousand year reign of the Veep-Neep Queens IS OVER!\r",
+        "line": "The two-thousand year reign of the Veep-Neep Queens IS OVER!",
         "duration": 4257,
         "start": 88807,
         "end": 93064
@@ -1634,7 +1634,7 @@
   },
   "ROYALIST_SPACE_HELLO_1": {
     "identifier": "ROYALIST_SPACE_HELLO_1",
-    "localizedText": "Human... ye shall never be fully comprehending the damage you are doing now to our Yehat culture.\r\nFor fully TWO THOUSAND YEARS there has been peace between the Clans!...\r\n...and now you have cast the ancient seed of dissension between our beaks!\r\nThe bloody Wars of Ascension are renewed, and YOU are the cause, Captain!\r\nWhile the Zeep-Zeep traitors may be your allies, Captain\r\nI can be assuring you that we, of the Feep-Eeep Starship Clan\r\nare wanting nothing more dearly than your death!",
+    "localizedText": "Human... ye shall never be fully comprehending the damage you are doing now to our Yehat culture.\nFor fully TWO THOUSAND YEARS there has been peace between the Clans!...\n...and now you have cast the ancient seed of dissension between our beaks!\nThe bloody Wars of Ascension are renewed, and YOU are the cause, Captain!\nWhile the Zeep-Zeep traitors may be your allies, Captain\nI can be assuring you that we, of the Feep-Eeep Starship Clan\nare wanting nothing more dearly than your death!",
     "audioFile": "yehat-031.ogg",
     "timings": [
       6479,
@@ -1648,37 +1648,37 @@
     "audioFileDuration": 30379,
     "lineTimings": [
       {
-        "line": "Human... ye shall never be fully comprehending the damage you are doing now to our Yehat culture.\r",
+        "line": "Human... ye shall never be fully comprehending the damage you are doing now to our Yehat culture.",
         "duration": 6479,
         "start": 0,
         "end": 6479
       },
       {
-        "line": "For fully TWO THOUSAND YEARS there has been peace between the Clans!...\r",
+        "line": "For fully TWO THOUSAND YEARS there has been peace between the Clans!...",
         "duration": 3906,
         "start": 6479,
         "end": 10385
       },
       {
-        "line": "...and now you have cast the ancient seed of dissension between our beaks!\r",
+        "line": "...and now you have cast the ancient seed of dissension between our beaks!",
         "duration": 4256,
         "start": 10385,
         "end": 14641
       },
       {
-        "line": "The bloody Wars of Ascension are renewed, and YOU are the cause, Captain!\r",
+        "line": "The bloody Wars of Ascension are renewed, and YOU are the cause, Captain!",
         "duration": 4466,
         "start": 14641,
         "end": 19107
       },
       {
-        "line": "While the Zeep-Zeep traitors may be your allies, Captain\r",
+        "line": "While the Zeep-Zeep traitors may be your allies, Captain",
         "duration": 3886,
         "start": 19107,
         "end": 22993
       },
       {
-        "line": "I can be assuring you that we, of the Feep-Eeep Starship Clan\r",
+        "line": "I can be assuring you that we, of the Feep-Eeep Starship Clan",
         "duration": 4256,
         "start": 22993,
         "end": 27249
@@ -1693,7 +1693,7 @@
   },
   "ROYALIST_SPACE_HELLO_2": {
     "identifier": "ROYALIST_SPACE_HELLO_2",
-    "localizedText": "It is the human Agitator who would see Her Radiant Majesty pulled from the High Perch!\r\nYe will rue the day ye devised this wicked scheme!",
+    "localizedText": "It is the human Agitator who would see Her Radiant Majesty pulled from the High Perch!\nYe will rue the day ye devised this wicked scheme!",
     "audioFile": "yehat-032.ogg",
     "timings": [
       6199,
@@ -1702,7 +1702,7 @@
     "audioFileDuration": 10537,
     "lineTimings": [
       {
-        "line": "It is the human Agitator who would see Her Radiant Majesty pulled from the High Perch!\r",
+        "line": "It is the human Agitator who would see Her Radiant Majesty pulled from the High Perch!",
         "duration": 6199,
         "start": 0,
         "end": 6199
@@ -1717,7 +1717,7 @@
   },
   "ROYALIST_HOMEWORLD_HELLO_1": {
     "identifier": "ROYALIST_HOMEWORLD_HELLO_1",
-    "localizedText": "Human! Like all heroes, ye be as brainless as ye are brave.\r\nDo ye not know, that here there be none of the traitorous Zeep-Zeep Starship Clans!\r\nYe are as good as dead, human.",
+    "localizedText": "Human! Like all heroes, ye be as brainless as ye are brave.\nDo ye not know, that here there be none of the traitorous Zeep-Zeep Starship Clans!\nYe are as good as dead, human.",
     "audioFile": "yehat-033.ogg",
     "timings": [
       4767,
@@ -1727,13 +1727,13 @@
     "audioFileDuration": 12939,
     "lineTimings": [
       {
-        "line": "Human! Like all heroes, ye be as brainless as ye are brave.\r",
+        "line": "Human! Like all heroes, ye be as brainless as ye are brave.",
         "duration": 4767,
         "start": 0,
         "end": 4767
       },
       {
-        "line": "Do ye not know, that here there be none of the traitorous Zeep-Zeep Starship Clans!\r",
+        "line": "Do ye not know, that here there be none of the traitorous Zeep-Zeep Starship Clans!",
         "duration": 6118,
         "start": 4767,
         "end": 10885
@@ -1748,7 +1748,7 @@
   },
   "ROYALIST_HOMEWORLD_HELLO_2": {
     "identifier": "ROYALIST_HOMEWORLD_HELLO_2",
-    "localizedText": "Cease yer bloody taunting, human!\r\nYe dance like a sick breeg, never engaging us in battle-to-the-death\r\nas honor and true courage are demanding!",
+    "localizedText": "Cease yer bloody taunting, human!\nYe dance like a sick breeg, never engaging us in battle-to-the-death\nas honor and true courage are demanding!",
     "audioFile": "yehat-034.ogg",
     "timings": [
       2173,
@@ -1758,13 +1758,13 @@
     "audioFileDuration": 8973,
     "lineTimings": [
       {
-        "line": "Cease yer bloody taunting, human!\r",
+        "line": "Cease yer bloody taunting, human!",
         "duration": 2173,
         "start": 0,
         "end": 2173
       },
       {
-        "line": "Ye dance like a sick breeg, never engaging us in battle-to-the-death\r",
+        "line": "Ye dance like a sick breeg, never engaging us in battle-to-the-death",
         "duration": 4336,
         "start": 2173,
         "end": 6509
@@ -1792,7 +1792,7 @@
   },
   "ROYALIST_REBELLION_1": {
     "identifier": "ROYALIST_REBELLION_1",
-    "localizedText": "Revolution!? Ye compliment yerself unnecessarily, Captain.\r\nThis is nothing more than a... band of thugs trying to undo the peace of a hundred generations!\r\nWe will roast the traitors in their ships, and crack the eggs in their Clanhome\r\nso that never again will the Zeep-Zeep criminals be flying though our stars.",
+    "localizedText": "Revolution!? Ye compliment yerself unnecessarily, Captain.\nThis is nothing more than a... band of thugs trying to undo the peace of a hundred generations!\nWe will roast the traitors in their ships, and crack the eggs in their Clanhome\nso that never again will the Zeep-Zeep criminals be flying though our stars.",
     "audioFile": "yehat-035.ogg",
     "timings": [
       5238,
@@ -1803,19 +1803,19 @@
     "audioFileDuration": 23250,
     "lineTimings": [
       {
-        "line": "Revolution!? Ye compliment yerself unnecessarily, Captain.\r",
+        "line": "Revolution!? Ye compliment yerself unnecessarily, Captain.",
         "duration": 5238,
         "start": 0,
         "end": 5238
       },
       {
-        "line": "This is nothing more than a... band of thugs trying to undo the peace of a hundred generations!\r",
+        "line": "This is nothing more than a... band of thugs trying to undo the peace of a hundred generations!",
         "duration": 6970,
         "start": 5238,
         "end": 12208
       },
       {
-        "line": "We will roast the traitors in their ships, and crack the eggs in their Clanhome\r",
+        "line": "We will roast the traitors in their ships, and crack the eggs in their Clanhome",
         "duration": 5047,
         "start": 12208,
         "end": 17255
@@ -1860,7 +1860,7 @@
   },
   "ALL_YOUR_FAULT": {
     "identifier": "ALL_YOUR_FAULT",
-    "localizedText": "The pain and suffering of this useless conflict are being nothing but a tragic waste of life.\r\nCongratulate yourself, Captain. The source of all this death and misery is yerself.",
+    "localizedText": "The pain and suffering of this useless conflict are being nothing but a tragic waste of life.\nCongratulate yourself, Captain. The source of all this death and misery is yerself.",
     "audioFile": "yehat-037.ogg",
     "timings": [
       8272,
@@ -1869,7 +1869,7 @@
     "audioFileDuration": 16354,
     "lineTimings": [
       {
-        "line": "The pain and suffering of this useless conflict are being nothing but a tragic waste of life.\r",
+        "line": "The pain and suffering of this useless conflict are being nothing but a tragic waste of life.",
         "duration": 8272,
         "start": 0,
         "end": 8272
@@ -1966,7 +1966,7 @@
   },
   "OUT_TAKES": {
     "identifier": "OUT_TAKES",
-    "localizedText": "So, I suppose you are wondering what I'm doing at this control console\r\nwell, I guess I can tell you now.\r\nI'm writing a screenplay!\r\nIt's an existential thriller!\r\nKind of a cross between a Woody Allen angst-fest mixed with some of Tobe Hooper's best work.\r\nBut actually, this is just my way of getting my wing in the door, you see\r\nwhat I really want to do is DIRECT!",
+    "localizedText": "So, I suppose you are wondering what I'm doing at this control console\nwell, I guess I can tell you now.\nI'm writing a screenplay!\nIt's an existential thriller!\nKind of a cross between a Woody Allen angst-fest mixed with some of Tobe Hooper's best work.\nBut actually, this is just my way of getting my wing in the door, you see\nwhat I really want to do is DIRECT!",
     "timings": [
       6000,
       3000,
@@ -1978,37 +1978,37 @@
     "audioFileDuration": null,
     "lineTimings": [
       {
-        "line": "So, I suppose you are wondering what I'm doing at this control console\r",
+        "line": "So, I suppose you are wondering what I'm doing at this control console",
         "duration": 6000,
         "start": 0,
         "end": 6000
       },
       {
-        "line": "well, I guess I can tell you now.\r",
+        "line": "well, I guess I can tell you now.",
         "duration": 3000,
         "start": 6000,
         "end": 9000
       },
       {
-        "line": "I'm writing a screenplay!\r",
+        "line": "I'm writing a screenplay!",
         "duration": 2500,
         "start": 9000,
         "end": 11500
       },
       {
-        "line": "It's an existential thriller!\r",
+        "line": "It's an existential thriller!",
         "duration": 2750,
         "start": 11500,
         "end": 14250
       },
       {
-        "line": "Kind of a cross between a Woody Allen angst-fest mixed with some of Tobe Hooper's best work.\r",
+        "line": "Kind of a cross between a Woody Allen angst-fest mixed with some of Tobe Hooper's best work.",
         "duration": 7000,
         "start": 14250,
         "end": 21250
       },
       {
-        "line": "But actually, this is just my way of getting my wing in the door, you see\r",
+        "line": "But actually, this is just my way of getting my wing in the door, you see",
         "duration": 6000,
         "start": 21250,
         "end": 27250
