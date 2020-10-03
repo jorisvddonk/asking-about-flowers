@@ -18,8 +18,6 @@
 
 // nop #peace
 // "PEACE" emit exit
-// nop #ExitConversation
-// "EXITCONVERSATION" emit exit
 //
 
 /*
@@ -240,60 +238,66 @@ static LOCDATA yehat_desc =
 };
 
 static void
-ExitConversation(RESPONSE_REF R)
-{
-	setSegue(Segue_hostile);
-
-	if (PLAYER_SAID(R, bye_homeworld))
-		NPCPhrase(GOODBYE_AND_DIE_HOMEWORLD);
-	else if (PLAYER_SAID(R, bye_royalist))
-		NPCPhrase(GOODBYE_AND_DIE_ROYALIST);
-	else if (PLAYER_SAID(R, i_demand_you_ally_homeworld))
-	{
-		NPCPhrase(ENEMY_MUST_DIE);
-
-		SET_GAME_STATE(NO_YEHAT_ALLY_HOME, 1);
-	}
-	else if (PLAYER_SAID(R, bye_space))
-	{
-		if ((BYTE)TFB_Random() & 1)
-			NPCPhrase(GOODBYE_AND_DIE_SPACE);
-		else
-		{
-			NPCPhrase(GO_IN_PEACE);
-
-			setSegue(Segue_peace);
-		}
-	}
-	else if (PLAYER_SAID(R, not_here) || PLAYER_SAID(R, not_send))
-	{
-		switch (GET_GAME_STATE(YEHAT_REBEL_VISITS))
-		{
-		case 0:
-			NPCPhrase(JUST_A_TRICK_1);
-			break;
-		case 1:
-			NPCPhrase(JUST_A_TRICK_2);
-			break;
-		}
-		SET_GAME_STATE(YEHAT_REBEL_VISITS, 1);
-	}
-	else if (PLAYER_SAID(R, ok_send))
-	{
-		NPCPhrase(WE_REVOLT);
-
-		setSegue(Segue_peace);
-		SET_GAME_STATE(YEHAT_CIVIL_WAR, 1);
-		SET_GAME_STATE(YEHAT_VISITS, 0);
-		SET_GAME_STATE(YEHAT_HOME_VISITS, 0);
-		SET_GAME_STATE(YEHAT_REBEL_VISITS, 0);
-		SET_GAME_STATE(YEHAT_REBEL_INFO, 0);
-		SET_GAME_STATE(YEHAT_REBEL_TOLD_PKUNK, 0);
-		SET_GAME_STATE(NO_YEHAT_INFO, 0);
-
-		AddEvent(RELATIVE_EVENT, 0, 0, 0, YEHAT_REBEL_EVENT);
-	}
-}
+ExitConversation(RESPONSE_REF R)																 // nop #ExitConversation
+{																																 //
+	setSegue(Segue_hostile);																			 // "hostile" "segue" setContext
+																																 //
+	if (PLAYER_SAID(R, bye_homeworld))														 // "player_said" getContext "bye_homeworld" eq jgz
+	{																															 // {
+		NPCPhrase(GOODBYE_AND_DIE_HOMEWORLD);												 // "GOODBYE_AND_DIE_HOMEWORLD" emit
+	}																															 // }
+	else if (PLAYER_SAID(R, bye_royalist))												 // "player_said" getContext "bye_royalist" eq jgz
+	{																															 // {
+		NPCPhrase(GOODBYE_AND_DIE_ROYALIST);												 // "GOODBYE_AND_DIE_ROYALIST" emit
+	}																															 // }
+	else if (PLAYER_SAID(R, i_demand_you_ally_homeworld))					 // "player_said" getContext "i_demand_you_ally_homeworld" eq jgz
+	{																															 // {
+		NPCPhrase(ENEMY_MUST_DIE);																	 // "ENEMY_MUST_DIE" emit
+																																 //
+		SET_GAME_STATE(NO_YEHAT_ALLY_HOME, 1);											 // 1 "NO_YEHAT_ALLY_HOME" setContext
+	}																															 // }
+	else if (PLAYER_SAID(R, bye_space))														 // "player_said" getContext "bye_space" eq jgz
+	{																															 // {
+		if ((BYTE)TFB_Random() & 1)																	 // 2 randInt dup 1 eq jgz
+		{																														 // {
+			NPCPhrase(GOODBYE_AND_DIE_SPACE);													 // "GOODBYE_AND_DIE_SPACE" emit
+		}																														 // }
+		else																												 // jz
+		{																														 // {
+			NPCPhrase(GO_IN_PEACE);																		 // "GO_IN_PEACE" emit
+																																 //
+			setSegue(Segue_peace);																		 // "peace" "segue" setContext
+		}																														 // }
+	}																															 // }
+	else if (PLAYER_SAID(R, not_here) || PLAYER_SAID(R, not_send)) // "player_said" getContext "not_here" eq "player_said" getContext "not_send" eq or jgz
+	{																															 // {
+		switch (GET_GAME_STATE(YEHAT_REBEL_VISITS))									 //
+		{																														 // "YEHAT_REBEL_VISITS" getContext
+		case 0:																											 // dup 0 eq jgz {
+			NPCPhrase(JUST_A_TRICK_1);																 // "JUST_A_TRICK_1" emit "YEHAT_REBEL_VISITS" getContext 1 + "YEHAT_REBEL_VISITS" setContext
+			break;																										 // }
+		case 1:																											 // jgz {
+			NPCPhrase(JUST_A_TRICK_2);																 // "JUST_A_TRICK_2" emit
+			break;																										 // }
+		}																														 //
+		SET_GAME_STATE(YEHAT_REBEL_VISITS, 1);											 //
+	}																															 // }
+	else if (PLAYER_SAID(R, ok_send))															 // "player_said" getContext "ok_send" eq jgz
+	{																															 // {
+		NPCPhrase(WE_REVOLT);																				 // "WE_REVOLT" emit
+																																 //
+		setSegue(Segue_peace);																			 // "peace" "segue" setContext
+		SET_GAME_STATE(YEHAT_CIVIL_WAR, 1);													 // 1 "YEHAT_CIVIL_WAR" setContext
+		SET_GAME_STATE(YEHAT_VISITS, 0);														 //	0 "YEHAT_VISITS" setContext
+		SET_GAME_STATE(YEHAT_HOME_VISITS, 0);												 // 0 "YEHAT_HOME_VISITS" setContext
+		SET_GAME_STATE(YEHAT_REBEL_VISITS, 0);											 // 0 "YEHAT_REBEL_VISITS" setContext
+		SET_GAME_STATE(YEHAT_REBEL_INFO, 0);												 // 0 "YEHAT_REBEL_INFO" setContext
+		SET_GAME_STATE(YEHAT_REBEL_TOLD_PKUNK, 0);									 // 0 "YEHAT_REBEL_TOLD_PKUNK" setContext
+		SET_GAME_STATE(NO_YEHAT_INFO, 0);														 // 0 "NO_YEHAT_INFO" setContext
+																																 //
+		AddEvent(RELATIVE_EVENT, 0, 0, 0, YEHAT_REBEL_EVENT);				 /* ???????? */
+	}																															 // }
+} // getResponse goto exit
 
 static void
 Royalists(RESPONSE_REF R)															// nop #Royalists
