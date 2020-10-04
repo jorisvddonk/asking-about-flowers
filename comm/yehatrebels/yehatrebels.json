@@ -1,0 +1,1355 @@
+{
+  "REBEL_HELLO_1": {
+    "identifier": "REBEL_HELLO_1",
+    "localizedText": "Welcome to ye, human friend and ally!\nThe revolution has begun and clans flock to our cause!",
+    "audioFile": "yehatrebels-000.ogg",
+    "timings": [
+      2694,
+      4790
+    ],
+    "audioFileDuration": 7484,
+    "lineTimings": [
+      {
+        "line": "Welcome to ye, human friend and ally!",
+        "duration": 2694,
+        "start": 0,
+        "end": 2694
+      },
+      {
+        "line": "The revolution has begun and clans flock to our cause!",
+        "duration": 4790,
+        "start": 2694,
+        "end": 7484
+      }
+    ]
+  },
+  "REBEL_HELLO_2": {
+    "identifier": "REBEL_HELLO_2",
+    "localizedText": "Greetings friend from Earth!\nThe head of our revolution, Cheep-Guava, has led us to many great victories.\nWe have cleaned the Royalist traitors from five star systems!",
+    "audioFile": "yehatrebels-001.ogg",
+    "timings": [
+      2053,
+      4286,
+      4158
+    ],
+    "audioFileDuration": 10497,
+    "lineTimings": [
+      {
+        "line": "Greetings friend from Earth!",
+        "duration": 2053,
+        "start": 0,
+        "end": 2053
+      },
+      {
+        "line": "The head of our revolution, Cheep-Guava, has led us to many great victories.",
+        "duration": 4286,
+        "start": 2053,
+        "end": 6339
+      },
+      {
+        "line": "We have cleaned the Royalist traitors from five star systems!",
+        "duration": 4158,
+        "start": 6339,
+        "end": 10497
+      }
+    ]
+  },
+  "REBEL_HELLO_3": {
+    "identifier": "REBEL_HELLO_3",
+    "localizedText": "A greeting to ye, Captain!\nWe hope yer battles have been fierce and yer enemies are left in ruin.\nNow what can we be doing fer ye?",
+    "audioFile": "yehatrebels-002.ogg",
+    "timings": [
+      1862,
+      4026,
+      2232
+    ],
+    "audioFileDuration": 8120,
+    "lineTimings": [
+      {
+        "line": "A greeting to ye, Captain!",
+        "duration": 1862,
+        "start": 0,
+        "end": 1862
+      },
+      {
+        "line": "We hope yer battles have been fierce and yer enemies are left in ruin.",
+        "duration": 4026,
+        "start": 1862,
+        "end": 5888
+      },
+      {
+        "line": "Now what can we be doing fer ye?",
+        "duration": 2232,
+        "start": 5888,
+        "end": 8120
+      }
+    ]
+  },
+  "REBEL_HELLO_4": {
+    "identifier": "REBEL_HELLO_4",
+    "localizedText": "Hello Captain. What are you needing from us this day?",
+    "audioFile": "yehatrebels-003.ogg",
+    "timings": [
+      3101
+    ],
+    "audioFileDuration": 3101,
+    "lineTimings": [
+      {
+        "line": "Hello Captain. What are you needing from us this day?",
+        "duration": 3101,
+        "start": 0,
+        "end": 3101
+      }
+    ]
+  },
+  "how_goes_revolution": {
+    "identifier": "how_goes_revolution",
+    "localizedText": "How is the revolution going?",
+    "timings": [],
+    "audioFileDuration": null,
+    "lineTimings": [
+      {
+        "line": "How is the revolution going?",
+        "start": 0,
+        "end": null
+      }
+    ]
+  },
+  "REBEL_REVOLUTION_1": {
+    "identifier": "REBEL_REVOLUTION_1",
+    "localizedText": "We have cleaned the Royalist traitors from five systems\nand even the Veep-Kreep Clan is joining with us against the false Queen!",
+    "audioFile": "yehatrebels-004.ogg",
+    "timings": [
+      4146,
+      4420
+    ],
+    "audioFileDuration": 8566,
+    "lineTimings": [
+      {
+        "line": "We have cleaned the Royalist traitors from five systems",
+        "duration": 4146,
+        "start": 0,
+        "end": 4146
+      },
+      {
+        "line": "and even the Veep-Kreep Clan is joining with us against the false Queen!",
+        "duration": 4420,
+        "start": 4146,
+        "end": 8566
+      }
+    ]
+  },
+  "REBEL_REVOLUTION_2": {
+    "identifier": "REBEL_REVOLUTION_2",
+    "localizedText": "It is a sad thing, this battle that has pitched Clan against Clan, ship against ship\nI myself have sent three Royalist Terminators and their brave crew to the Great Beyond!\nWhat a waste.\nWe pray that the struggle ends quickly.",
+    "audioFile": "yehatrebels-005.ogg",
+    "timings": [
+      6519,
+      6299,
+      1643,
+      3571
+    ],
+    "audioFileDuration": 18032,
+    "lineTimings": [
+      {
+        "line": "It is a sad thing, this battle that has pitched Clan against Clan, ship against ship",
+        "duration": 6519,
+        "start": 0,
+        "end": 6519
+      },
+      {
+        "line": "I myself have sent three Royalist Terminators and their brave crew to the Great Beyond!",
+        "duration": 6299,
+        "start": 6519,
+        "end": 12818
+      },
+      {
+        "line": "What a waste.",
+        "duration": 1643,
+        "start": 12818,
+        "end": 14461
+      },
+      {
+        "line": "We pray that the struggle ends quickly.",
+        "duration": 3571,
+        "start": 14461,
+        "end": 18032
+      }
+    ]
+  },
+  "REBEL_REVOLUTION_3": {
+    "identifier": "REBEL_REVOLUTION_3",
+    "localizedText": "Though we have taken grave losses -- lost brave and true shipmates\nthe enemy -- the fake Queen and her cronies,  have suffered far worse.",
+    "audioFile": "yehatrebels-006.ogg",
+    "timings": [
+      5218,
+      5578
+    ],
+    "audioFileDuration": 10796,
+    "lineTimings": [
+      {
+        "line": "Though we have taken grave losses -- lost brave and true shipmates",
+        "duration": 5218,
+        "start": 0,
+        "end": 5218
+      },
+      {
+        "line": "the enemy -- the fake Queen and her cronies,  have suffered far worse.",
+        "duration": 5578,
+        "start": 5218,
+        "end": 10796
+      }
+    ]
+  },
+  "REBEL_REVOLUTION_4": {
+    "identifier": "REBEL_REVOLUTION_4",
+    "localizedText": "Our victory is in sight, just beyond the next battle\nor perhaps the next.",
+    "audioFile": "yehatrebels-007.ogg",
+    "timings": [
+      4547,
+      2597
+    ],
+    "audioFileDuration": 7144,
+    "lineTimings": [
+      {
+        "line": "Our victory is in sight, just beyond the next battle",
+        "duration": 4547,
+        "start": 0,
+        "end": 4547
+      },
+      {
+        "line": "or perhaps the next.",
+        "duration": 2597,
+        "start": 4547,
+        "end": 7144
+      }
+    ]
+  },
+  "any_ships": {
+    "identifier": "any_ships",
+    "localizedText": "Do you have any ships available to join our fleet?",
+    "timings": [],
+    "audioFileDuration": null,
+    "lineTimings": [
+      {
+        "line": "Do you have any ships available to join our fleet?",
+        "start": 0,
+        "end": null
+      }
+    ]
+  },
+  "NO_ROOM": {
+    "identifier": "NO_ROOM",
+    "localizedText": "The question is moot, is it not, since ye have no room fer such ships in yer fleet?",
+    "audioFile": "yehatrebels-008.ogg",
+    "timings": [
+      5021
+    ],
+    "audioFileDuration": 5021,
+    "lineTimings": [
+      {
+        "line": "The question is moot, is it not, since ye have no room fer such ships in yer fleet?",
+        "duration": 5021,
+        "start": 0,
+        "end": 5021
+      }
+    ]
+  },
+  "HAVE_ALL_SHIPS": {
+    "identifier": "HAVE_ALL_SHIPS",
+    "localizedText": "We are honored to help ye, Captain!\nWe shall attach four Terminators to yer fleet immediately.",
+    "audioFile": "yehatrebels-009.ogg",
+    "timings": [
+      2193,
+      3491
+    ],
+    "audioFileDuration": 5684,
+    "lineTimings": [
+      {
+        "line": "We are honored to help ye, Captain!",
+        "duration": 2193,
+        "start": 0,
+        "end": 2193
+      },
+      {
+        "line": "We shall attach four Terminators to yer fleet immediately.",
+        "duration": 3491,
+        "start": 2193,
+        "end": 5684
+      }
+    ]
+  },
+  "HAVE_FEW_SHIPS": {
+    "identifier": "HAVE_FEW_SHIPS",
+    "localizedText": "We are happy assisting ye, Captain.\nWe shall provide ye with enough of our Terminator vessels to complete yer fleet.\nFight well with them, Captain. They are our best and brightest.",
+    "audioFile": "yehatrebels-010.ogg",
+    "timings": [
+      2153,
+      4356,
+      4060
+    ],
+    "audioFileDuration": 10569,
+    "lineTimings": [
+      {
+        "line": "We are happy assisting ye, Captain.",
+        "duration": 2153,
+        "start": 0,
+        "end": 2153
+      },
+      {
+        "line": "We shall provide ye with enough of our Terminator vessels to complete yer fleet.",
+        "duration": 4356,
+        "start": 2153,
+        "end": 6509
+      },
+      {
+        "line": "Fight well with them, Captain. They are our best and brightest.",
+        "duration": 4060,
+        "start": 6509,
+        "end": 10569
+      }
+    ]
+  },
+  "NO_SHIPS_YET": {
+    "identifier": "NO_SHIPS_YET",
+    "localizedText": "Alas, as yet we have no ships which we can be making available to ye at this time.\nHowever, if ye return at a later date, perhaps then we shall have something fer ye.",
+    "audioFile": "yehatrebels-011.ogg",
+    "timings": [
+      4817,
+      5238
+    ],
+    "audioFileDuration": 10055,
+    "lineTimings": [
+      {
+        "line": "Alas, as yet we have no ships which we can be making available to ye at this time.",
+        "duration": 4817,
+        "start": 0,
+        "end": 4817
+      },
+      {
+        "line": "However, if ye return at a later date, perhaps then we shall have something fer ye.",
+        "duration": 5238,
+        "start": 4817,
+        "end": 10055
+      }
+    ]
+  },
+  "give_info_rebels": {
+    "identifier": "give_info_rebels",
+    "localizedText": "Would you share some information with us?",
+    "timings": [],
+    "audioFileDuration": null,
+    "lineTimings": [
+      {
+        "line": "Would you share some information with us?",
+        "start": 0,
+        "end": null
+      }
+    ]
+  },
+  "WHAT_INFO": {
+    "identifier": "WHAT_INFO",
+    "localizedText": "Of course! What knowledge do ye seek?",
+    "audioFile": "yehatrebels-012.ogg",
+    "timings": [
+      2616
+    ],
+    "audioFileDuration": 2616,
+    "lineTimings": [
+      {
+        "line": "Of course! What knowledge do ye seek?",
+        "duration": 2616,
+        "start": 0,
+        "end": 2616
+      }
+    ]
+  },
+  "what_about_royalty": {
+    "identifier": "what_about_royalty",
+    "localizedText": "Can you tell me about your Royal Family?",
+    "timings": [],
+    "audioFileDuration": null,
+    "lineTimings": [
+      {
+        "line": "Can you tell me about your Royal Family?",
+        "start": 0,
+        "end": null
+      }
+    ]
+  },
+  "ABOUT_ROYALTY": {
+    "identifier": "ABOUT_ROYALTY",
+    "localizedText": "The FALSE Royals, ye should say, Captain!\nTo understand our relationship with the Veep-Neep Queens, ye must first learn a bit of our history.\nIn the ancient past, we Yehat were little more than a collection of warring Clans.\nThat history is bloody, Captain... hideous. We were barbarous then, aye... murderers all.\nMany great warlords rose from the hills and forests of our verdant homeworld to unite the clans\nto become King of all Yehat Clans. Each one failed.\nIt was no male who finally won the great prize, the High Perch of Caer Zeep-Reep!\nNo, Captain, it was a female!... a wise and powerful Queen... the first of the Veep-Neep Dynasty.\nIn exchange fer the Clans' fealty, she gave a simple, compelling promise.\nShe guaranteed that united under her wing, the Clans would NEVER suffer defeat!\nAnd she kept her promise. At long last, there was peace on our world.\nHer line kept true to this promise fer over twenty centuries\nsoothing ruffled feathers, dispensing justice, stamping out foment\nbut then came the present Queen... a true harridan!\nUnder her rule, the power of the Starship Clans was transferred\nto the sycophantic Homeworld dandies... to `warlords' who had nae seen true combat.\nWe, the beak and claw of the Yehat Empire were powerless to influence her decisions.\nWhen the Queen showed the true colors of her plumage and allied with the evil Ur-Quan worms\nwe realized that she would do anything, ANYTHING!...\n...to maintain the illusion of upholding her ancestor's promise\neven if it meant destroying our honor, everything that we stand fer, in the exchange.\nNow we, the true Yehat Clans, seek to pull the false Queen from the High Perch.\nPerhaps we will find a new Queen someday who will bring together the Clans once more.\nOr sadly, I fear we may never replace the Veep-Neeps Queens\nand we shall fight Clan against Clan until only the bloody feathers remain.",
+    "audioFile": "yehatrebels-013.ogg",
+    "timings": [
+      2484,
+      5858,
+      5398,
+      5738,
+      5729,
+      4136,
+      5417,
+      6860,
+      4347,
+      5898,
+      5017,
+      4647,
+      3715,
+      5528,
+      4136,
+      5148,
+      4596,
+      4937,
+      2574,
+      2844,
+      5047,
+      6610,
+      6018,
+      5318,
+      6806
+    ],
+    "audioFileDuration": 124806,
+    "lineTimings": [
+      {
+        "line": "The FALSE Royals, ye should say, Captain!",
+        "duration": 2484,
+        "start": 0,
+        "end": 2484
+      },
+      {
+        "line": "To understand our relationship with the Veep-Neep Queens, ye must first learn a bit of our history.",
+        "duration": 5858,
+        "start": 2484,
+        "end": 8342
+      },
+      {
+        "line": "In the ancient past, we Yehat were little more than a collection of warring Clans.",
+        "duration": 5398,
+        "start": 8342,
+        "end": 13740
+      },
+      {
+        "line": "That history is bloody, Captain... hideous. We were barbarous then, aye... murderers all.",
+        "duration": 5738,
+        "start": 13740,
+        "end": 19478
+      },
+      {
+        "line": "Many great warlords rose from the hills and forests of our verdant homeworld to unite the clans",
+        "duration": 5729,
+        "start": 19478,
+        "end": 25207
+      },
+      {
+        "line": "to become King of all Yehat Clans. Each one failed.",
+        "duration": 4136,
+        "start": 25207,
+        "end": 29343
+      },
+      {
+        "line": "It was no male who finally won the great prize, the High Perch of Caer Zeep-Reep!",
+        "duration": 5417,
+        "start": 29343,
+        "end": 34760
+      },
+      {
+        "line": "No, Captain, it was a female!... a wise and powerful Queen... the first of the Veep-Neep Dynasty.",
+        "duration": 6860,
+        "start": 34760,
+        "end": 41620
+      },
+      {
+        "line": "In exchange fer the Clans' fealty, she gave a simple, compelling promise.",
+        "duration": 4347,
+        "start": 41620,
+        "end": 45967
+      },
+      {
+        "line": "She guaranteed that united under her wing, the Clans would NEVER suffer defeat!",
+        "duration": 5898,
+        "start": 45967,
+        "end": 51865
+      },
+      {
+        "line": "And she kept her promise. At long last, there was peace on our world.",
+        "duration": 5017,
+        "start": 51865,
+        "end": 56882
+      },
+      {
+        "line": "Her line kept true to this promise fer over twenty centuries",
+        "duration": 4647,
+        "start": 56882,
+        "end": 61529
+      },
+      {
+        "line": "soothing ruffled feathers, dispensing justice, stamping out foment",
+        "duration": 3715,
+        "start": 61529,
+        "end": 65244
+      },
+      {
+        "line": "but then came the present Queen... a true harridan!",
+        "duration": 5528,
+        "start": 65244,
+        "end": 70772
+      },
+      {
+        "line": "Under her rule, the power of the Starship Clans was transferred",
+        "duration": 4136,
+        "start": 70772,
+        "end": 74908
+      },
+      {
+        "line": "to the sycophantic Homeworld dandies... to `warlords' who had nae seen true combat.",
+        "duration": 5148,
+        "start": 74908,
+        "end": 80056
+      },
+      {
+        "line": "We, the beak and claw of the Yehat Empire were powerless to influence her decisions.",
+        "duration": 4596,
+        "start": 80056,
+        "end": 84652
+      },
+      {
+        "line": "When the Queen showed the true colors of her plumage and allied with the evil Ur-Quan worms",
+        "duration": 4937,
+        "start": 84652,
+        "end": 89589
+      },
+      {
+        "line": "we realized that she would do anything, ANYTHING!...",
+        "duration": 2574,
+        "start": 89589,
+        "end": 92163
+      },
+      {
+        "line": "...to maintain the illusion of upholding her ancestor's promise",
+        "duration": 2844,
+        "start": 92163,
+        "end": 95007
+      },
+      {
+        "line": "even if it meant destroying our honor, everything that we stand fer, in the exchange.",
+        "duration": 5047,
+        "start": 95007,
+        "end": 100054
+      },
+      {
+        "line": "Now we, the true Yehat Clans, seek to pull the false Queen from the High Perch.",
+        "duration": 6610,
+        "start": 100054,
+        "end": 106664
+      },
+      {
+        "line": "Perhaps we will find a new Queen someday who will bring together the Clans once more.",
+        "duration": 6018,
+        "start": 106664,
+        "end": 112682
+      },
+      {
+        "line": "Or sadly, I fear we may never replace the Veep-Neeps Queens",
+        "duration": 5318,
+        "start": 112682,
+        "end": 118000
+      },
+      {
+        "line": "and we shall fight Clan against Clan until only the bloody feathers remain.",
+        "duration": 6806,
+        "start": 118000,
+        "end": 124806
+      }
+    ]
+  },
+  "what_about_war": {
+    "identifier": "what_about_war",
+    "localizedText": "Tell me about the end of the War.",
+    "timings": [],
+    "audioFileDuration": null,
+    "lineTimings": [
+      {
+        "line": "Tell me about the end of the War.",
+        "start": 0,
+        "end": null
+      }
+    ]
+  },
+  "ABOUT_WAR": {
+    "identifier": "ABOUT_WAR",
+    "localizedText": "I will describe these events, Captain.\nThey make fer a tale, Captain, wrought with sadness... and heroism!... and betrayal.\nAfter the Chenjesu, Mmrnmhrm and yer species were defeated\nWe prepared a defense in the Shofixti homestar, Delta Gorno.\nAside our Shofixti, our adopted children, we awaited the onslaught of the Ur-Quan armada.\nWe waited with eagerness, with the hot anticipation of battle!\nBut then we received an unbelievable message from our Queen... `Retreat'.\nWe could not believe it! Tactical withdrawals, yes... but to pull back the entire fleet?\nThere was no mistake... no garbled orders.\nWe obeyed.\nOh, Captain! The eyes of the Shofixti! Their bright and valiant eyes!... as we moved away.\nWithout us... they had no hope of forming a tactical wedge.\nThey would barely slow the Hierarchy fleet.\nWhen the Ur-Quan came, the Shofixti fought as immortal heroes!...\ndarting in and out of the Dreadnought formations\nand then suddenly BLAZING!... like dying stars.\nBut... in only a few hours... the Shofixti fleet was gone\nand the Dreadnoughts moved towards the homeworld.",
+    "audioFile": "yehatrebels-014.ogg",
+    "timings": [
+      2373,
+      5869,
+      5327,
+      4967,
+      6700,
+      3826,
+      5718,
+      5227,
+      2774,
+      1352,
+      8172,
+      4236,
+      3075,
+      4626,
+      2634,
+      3715,
+      5268,
+      4216
+    ],
+    "audioFileDuration": 80075,
+    "lineTimings": [
+      {
+        "line": "I will describe these events, Captain.",
+        "duration": 2373,
+        "start": 0,
+        "end": 2373
+      },
+      {
+        "line": "They make fer a tale, Captain, wrought with sadness... and heroism!... and betrayal.",
+        "duration": 5869,
+        "start": 2373,
+        "end": 8242
+      },
+      {
+        "line": "After the Chenjesu, Mmrnmhrm and yer species were defeated",
+        "duration": 5327,
+        "start": 8242,
+        "end": 13569
+      },
+      {
+        "line": "We prepared a defense in the Shofixti homestar, Delta Gorno.",
+        "duration": 4967,
+        "start": 13569,
+        "end": 18536
+      },
+      {
+        "line": "Aside our Shofixti, our adopted children, we awaited the onslaught of the Ur-Quan armada.",
+        "duration": 6700,
+        "start": 18536,
+        "end": 25236
+      },
+      {
+        "line": "We waited with eagerness, with the hot anticipation of battle!",
+        "duration": 3826,
+        "start": 25236,
+        "end": 29062
+      },
+      {
+        "line": "But then we received an unbelievable message from our Queen... `Retreat'.",
+        "duration": 5718,
+        "start": 29062,
+        "end": 34780
+      },
+      {
+        "line": "We could not believe it! Tactical withdrawals, yes... but to pull back the entire fleet?",
+        "duration": 5227,
+        "start": 34780,
+        "end": 40007
+      },
+      {
+        "line": "There was no mistake... no garbled orders.",
+        "duration": 2774,
+        "start": 40007,
+        "end": 42781
+      },
+      {
+        "line": "We obeyed.",
+        "duration": 1352,
+        "start": 42781,
+        "end": 44133
+      },
+      {
+        "line": "Oh, Captain! The eyes of the Shofixti! Their bright and valiant eyes!... as we moved away.",
+        "duration": 8172,
+        "start": 44133,
+        "end": 52305
+      },
+      {
+        "line": "Without us... they had no hope of forming a tactical wedge.",
+        "duration": 4236,
+        "start": 52305,
+        "end": 56541
+      },
+      {
+        "line": "They would barely slow the Hierarchy fleet.",
+        "duration": 3075,
+        "start": 56541,
+        "end": 59616
+      },
+      {
+        "line": "When the Ur-Quan came, the Shofixti fought as immortal heroes!...",
+        "duration": 4626,
+        "start": 59616,
+        "end": 64242
+      },
+      {
+        "line": "darting in and out of the Dreadnought formations",
+        "duration": 2634,
+        "start": 64242,
+        "end": 66876
+      },
+      {
+        "line": "and then suddenly BLAZING!... like dying stars.",
+        "duration": 3715,
+        "start": 66876,
+        "end": 70591
+      },
+      {
+        "line": "But... in only a few hours... the Shofixti fleet was gone",
+        "duration": 5268,
+        "start": 70591,
+        "end": 75859
+      },
+      {
+        "line": "and the Dreadnoughts moved towards the homeworld.",
+        "duration": 4216,
+        "start": 75859,
+        "end": 80075
+      }
+    ]
+  },
+  "what_about_urquan": {
+    "identifier": "what_about_urquan",
+    "localizedText": "How were the Shofixti defeated?",
+    "timings": [],
+    "audioFileDuration": null,
+    "lineTimings": [
+      {
+        "line": "How were the Shofixti defeated?",
+        "start": 0,
+        "end": null
+      }
+    ]
+  },
+  "ABOUT_URQUAN": {
+    "identifier": "ABOUT_URQUAN",
+    "localizedText": "As we abandoned the Shofixti to the oncoming Ur-Quan armada\nwe watched the situation on the sterile displays of our long-range sensors.\nSuddenly the screens flared and went black... burnt out! We ran to the windows\njust in time to see the Shofixti's sun burning with incredible light\nmany orders of magnitude greater than its normal brilliance!\nA million tongues of fusion fire spread through the star system\ndevastating the inner system's planets, but incinerating ALL the Ur-Quan vessels!\nIn that moment, the Hierarchy's war fleet was reduced by almost thirty percent.\nWe later remembered that not too many years before the appearance of the Ur-Quan\nthe Shofixti had told us that they had found `something'.\nWith the pride of a hatchling's first flight, they unveiled their find\nit was about the size of a surface transport, but cylindrical and entirely black.\nAcross its surface were a million characters scrawled in an alien script.\nThe message was clear... DANGER! DO NOT TOUCH!\nWe trusted the Shofixti to respect the warning, and left the device in their possession.\nAt the end, when the Ur-Quan were approaching their planet\nthe Shofixti must have realized that they could not win\nbut at least they could insure that both sides would lose.\nThey must have detonated the device in the outer layer of their sun.\nThe sudden removal of a section of the sun's surface layers\nallowed the pressurized plasma from the interior to burst out\nlike a miniature super nova.",
+    "audioFile": "yehatrebels-015.ogg",
+    "timings": [
+      4657,
+      5057,
+      5548,
+      3866,
+      3886,
+      4416,
+      5999,
+      6148,
+      5398,
+      3495,
+      4997,
+      5749,
+      4556,
+      4126,
+      5298,
+      3965,
+      3045,
+      3214,
+      3515,
+      3365,
+      3916,
+      2665
+    ],
+    "audioFileDuration": 96881,
+    "lineTimings": [
+      {
+        "line": "As we abandoned the Shofixti to the oncoming Ur-Quan armada",
+        "duration": 4657,
+        "start": 0,
+        "end": 4657
+      },
+      {
+        "line": "we watched the situation on the sterile displays of our long-range sensors.",
+        "duration": 5057,
+        "start": 4657,
+        "end": 9714
+      },
+      {
+        "line": "Suddenly the screens flared and went black... burnt out! We ran to the windows",
+        "duration": 5548,
+        "start": 9714,
+        "end": 15262
+      },
+      {
+        "line": "just in time to see the Shofixti's sun burning with incredible light",
+        "duration": 3866,
+        "start": 15262,
+        "end": 19128
+      },
+      {
+        "line": "many orders of magnitude greater than its normal brilliance!",
+        "duration": 3886,
+        "start": 19128,
+        "end": 23014
+      },
+      {
+        "line": "A million tongues of fusion fire spread through the star system",
+        "duration": 4416,
+        "start": 23014,
+        "end": 27430
+      },
+      {
+        "line": "devastating the inner system's planets, but incinerating ALL the Ur-Quan vessels!",
+        "duration": 5999,
+        "start": 27430,
+        "end": 33429
+      },
+      {
+        "line": "In that moment, the Hierarchy's war fleet was reduced by almost thirty percent.",
+        "duration": 6148,
+        "start": 33429,
+        "end": 39577
+      },
+      {
+        "line": "We later remembered that not too many years before the appearance of the Ur-Quan",
+        "duration": 5398,
+        "start": 39577,
+        "end": 44975
+      },
+      {
+        "line": "the Shofixti had told us that they had found `something'.",
+        "duration": 3495,
+        "start": 44975,
+        "end": 48470
+      },
+      {
+        "line": "With the pride of a hatchling's first flight, they unveiled their find",
+        "duration": 4997,
+        "start": 48470,
+        "end": 53467
+      },
+      {
+        "line": "it was about the size of a surface transport, but cylindrical and entirely black.",
+        "duration": 5749,
+        "start": 53467,
+        "end": 59216
+      },
+      {
+        "line": "Across its surface were a million characters scrawled in an alien script.",
+        "duration": 4556,
+        "start": 59216,
+        "end": 63772
+      },
+      {
+        "line": "The message was clear... DANGER! DO NOT TOUCH!",
+        "duration": 4126,
+        "start": 63772,
+        "end": 67898
+      },
+      {
+        "line": "We trusted the Shofixti to respect the warning, and left the device in their possession.",
+        "duration": 5298,
+        "start": 67898,
+        "end": 73196
+      },
+      {
+        "line": "At the end, when the Ur-Quan were approaching their planet",
+        "duration": 3965,
+        "start": 73196,
+        "end": 77161
+      },
+      {
+        "line": "the Shofixti must have realized that they could not win",
+        "duration": 3045,
+        "start": 77161,
+        "end": 80206
+      },
+      {
+        "line": "but at least they could insure that both sides would lose.",
+        "duration": 3214,
+        "start": 80206,
+        "end": 83420
+      },
+      {
+        "line": "They must have detonated the device in the outer layer of their sun.",
+        "duration": 3515,
+        "start": 83420,
+        "end": 86935
+      },
+      {
+        "line": "The sudden removal of a section of the sun's surface layers",
+        "duration": 3365,
+        "start": 86935,
+        "end": 90300
+      },
+      {
+        "line": "allowed the pressurized plasma from the interior to burst out",
+        "duration": 3916,
+        "start": 90300,
+        "end": 94216
+      },
+      {
+        "line": "like a miniature super nova.",
+        "duration": 2665,
+        "start": 94216,
+        "end": 96881
+      }
+    ]
+  },
+  "what_about_vux": {
+    "identifier": "what_about_vux",
+    "localizedText": "Do you know anything about the VUX?",
+    "timings": [],
+    "audioFileDuration": null,
+    "lineTimings": [
+      {
+        "line": "Do you know anything about the VUX?",
+        "start": 0,
+        "end": null
+      }
+    ]
+  },
+  "ABOUT_VUX": {
+    "identifier": "ABOUT_VUX",
+    "localizedText": "The grotesque monsters? They are an effete and bigoted race, unworthy prey\nwith one exception... General ZEX.\nHe commanded the entire VUX fleet during the Great War\nand even by our high standards of battle skill, he is a genius.\nThe brilliant tactics of Fortress Square and the Dynamic Triangle are his creations.\nWithout ZEX, the VUX would have fallen to our Alliance fleets in weeks\nbut ZEX always found a way to turn his own weakness into an advantage.\nAfter the War, we learned that the Primat and the VUX High Council\ndecided to move ZEX out of the picture, and sent him off to `luxurious retirement' at Alpha Cerenkov I.\nWe have heard that he spends his time pursuing his hobby, though we do not know what more than that.",
+    "audioFile": "yehatrebels-016.ogg",
+    "timings": [
+      5659,
+      4005,
+      3435,
+      4747,
+      6109,
+      4657,
+      4797,
+      4336,
+      7621,
+      6932
+    ],
+    "audioFileDuration": 52298,
+    "lineTimings": [
+      {
+        "line": "The grotesque monsters? They are an effete and bigoted race, unworthy prey",
+        "duration": 5659,
+        "start": 0,
+        "end": 5659
+      },
+      {
+        "line": "with one exception... General ZEX.",
+        "duration": 4005,
+        "start": 5659,
+        "end": 9664
+      },
+      {
+        "line": "He commanded the entire VUX fleet during the Great War",
+        "duration": 3435,
+        "start": 9664,
+        "end": 13099
+      },
+      {
+        "line": "and even by our high standards of battle skill, he is a genius.",
+        "duration": 4747,
+        "start": 13099,
+        "end": 17846
+      },
+      {
+        "line": "The brilliant tactics of Fortress Square and the Dynamic Triangle are his creations.",
+        "duration": 6109,
+        "start": 17846,
+        "end": 23955
+      },
+      {
+        "line": "Without ZEX, the VUX would have fallen to our Alliance fleets in weeks",
+        "duration": 4657,
+        "start": 23955,
+        "end": 28612
+      },
+      {
+        "line": "but ZEX always found a way to turn his own weakness into an advantage.",
+        "duration": 4797,
+        "start": 28612,
+        "end": 33409
+      },
+      {
+        "line": "After the War, we learned that the Primat and the VUX High Council",
+        "duration": 4336,
+        "start": 33409,
+        "end": 37745
+      },
+      {
+        "line": "decided to move ZEX out of the picture, and sent him off to `luxurious retirement' at Alpha Cerenkov I.",
+        "duration": 7621,
+        "start": 37745,
+        "end": 45366
+      },
+      {
+        "line": "We have heard that he spends his time pursuing his hobby, though we do not know what more than that.",
+        "duration": 6932,
+        "start": 45366,
+        "end": 52298
+      }
+    ]
+  },
+  "what_about_clue": {
+    "identifier": "what_about_clue",
+    "localizedText": "How can we defeat the Ur-Quan?",
+    "timings": [],
+    "audioFileDuration": null,
+    "lineTimings": [
+      {
+        "line": "How can we defeat the Ur-Quan?",
+        "start": 0,
+        "end": null
+      }
+    ]
+  },
+  "ABOUT_CLUE": {
+    "identifier": "ABOUT_CLUE",
+    "localizedText": "If I were ye, brave human, I'd probably be seeking the focus of the Ur-Quan's power\nand do whatever is necessary to destroy it.\nWe may have a hint as to just what that weak spot is.\nWhen we were being Hierarchy battle slaves\nwe learned that the Ur-Quan were possessing some kind of super-weapon\na huge battleship they called `Sa-Matra' with the firepower to destroy an entire star fleet.\nFor some reason, the Ur-Quan were reluctant to use the vessel.\nIt wasn't until their armada was finally held back at the coreward front\nthat they brought the Sa-Matra's power to bear on the Alliance.\nCaptain, here's my advice... ye can be destroying Dreadnoughts until the breegs come home\nbut ye are never going to defeat the Ur-Quan Hierarchy until ye eliminate their Sa-Matra.",
+    "audioFile": "yehatrebels-017.ogg",
+    "timings": [
+      5538,
+      3154,
+      3976,
+      2353,
+      3916,
+      7741,
+      4126,
+      4286,
+      3465,
+      6960,
+      7178
+    ],
+    "audioFileDuration": 52693,
+    "lineTimings": [
+      {
+        "line": "If I were ye, brave human, I'd probably be seeking the focus of the Ur-Quan's power",
+        "duration": 5538,
+        "start": 0,
+        "end": 5538
+      },
+      {
+        "line": "and do whatever is necessary to destroy it.",
+        "duration": 3154,
+        "start": 5538,
+        "end": 8692
+      },
+      {
+        "line": "We may have a hint as to just what that weak spot is.",
+        "duration": 3976,
+        "start": 8692,
+        "end": 12668
+      },
+      {
+        "line": "When we were being Hierarchy battle slaves",
+        "duration": 2353,
+        "start": 12668,
+        "end": 15021
+      },
+      {
+        "line": "we learned that the Ur-Quan were possessing some kind of super-weapon",
+        "duration": 3916,
+        "start": 15021,
+        "end": 18937
+      },
+      {
+        "line": "a huge battleship they called `Sa-Matra' with the firepower to destroy an entire star fleet.",
+        "duration": 7741,
+        "start": 18937,
+        "end": 26678
+      },
+      {
+        "line": "For some reason, the Ur-Quan were reluctant to use the vessel.",
+        "duration": 4126,
+        "start": 26678,
+        "end": 30804
+      },
+      {
+        "line": "It wasn't until their armada was finally held back at the coreward front",
+        "duration": 4286,
+        "start": 30804,
+        "end": 35090
+      },
+      {
+        "line": "that they brought the Sa-Matra's power to bear on the Alliance.",
+        "duration": 3465,
+        "start": 35090,
+        "end": 38555
+      },
+      {
+        "line": "Captain, here's my advice... ye can be destroying Dreadnoughts until the breegs come home",
+        "duration": 6960,
+        "start": 38555,
+        "end": 45515
+      },
+      {
+        "line": "but ye are never going to defeat the Ur-Quan Hierarchy until ye eliminate their Sa-Matra.",
+        "duration": 7178,
+        "start": 45515,
+        "end": 52693
+      }
+    ]
+  },
+  "enough_info": {
+    "identifier": "enough_info",
+    "localizedText": "That's sufficient information for now.",
+    "timings": [],
+    "audioFileDuration": null,
+    "lineTimings": [
+      {
+        "line": "That's sufficient information for now.",
+        "start": 0,
+        "end": null
+      }
+    ]
+  },
+  "OK_ENOUGH_INFO": {
+    "identifier": "OK_ENOUGH_INFO",
+    "localizedText": "If you need to know anything more, just ask.",
+    "audioFile": "yehatrebels-018.ogg",
+    "timings": [
+      2955
+    ],
+    "audioFileDuration": 2955,
+    "lineTimings": [
+      {
+        "line": "If you need to know anything more, just ask.",
+        "duration": 2955,
+        "start": 0,
+        "end": 2955
+      }
+    ]
+  },
+  "bye_rebel": {
+    "identifier": "bye_rebel",
+    "localizedText": "Goodbye brave rebels. Viva la Revolution!",
+    "timings": [],
+    "audioFileDuration": null,
+    "lineTimings": [
+      {
+        "line": "Goodbye brave rebels. Viva la Revolution!",
+        "start": 0,
+        "end": null
+      }
+    ]
+  },
+  "GOODBYE_REBEL": {
+    "identifier": "GOODBYE_REBEL",
+    "localizedText": "Goodbye human comrade. Fight well!",
+    "audioFile": "yehatrebels-019.ogg",
+    "timings": [
+      3390
+    ],
+    "audioFileDuration": 3390,
+    "lineTimings": [
+      {
+        "line": "Goodbye human comrade. Fight well!",
+        "duration": 3390,
+        "start": 0,
+        "end": 3390
+      }
+    ]
+  },
+  "YEHAT_CAVALRY": {
+    "identifier": "YEHAT_CAVALRY",
+    "localizedText": "Greetings human friend! We know ye are about to be attacking the Sa-Matra\nand probably don't like being interrupted, but we have important news!...\nThe Rebellion is WON! We are VICTORIOUS!\nWe have pulled the Veep-Neep harpy Queen and her cronies from the High Perch!\nAnd better yet... we have found a new Queen!...\n...A Queen who will unite the Clans in peace and harmony as never before!\nYou will never guess who it is, Captain!\nA PKUNK! Yes! It is TRUE!\nThey survived their absorption into our culture\nand are now providing us with insights into ourselves we never dreamed of!\nWe only THOUGHT we were being happy birds of prey! We were fooling ourselves!\nOur new Queen's name is Braky Girdy the First!... and her first command\nwas to rush here and bring ye these ships...Yehat Terminators and Pkunk Furies.\nNow, Captain, together we can attack the Sa-Matra!",
+    "audioFile": "yehatrebels-020.ogg",
+    "timings": [
+      5189,
+      3863,
+      5182,
+      5109,
+      3068,
+      5350,
+      2138,
+      3130,
+      2749,
+      4439,
+      5989,
+      5288,
+      6239,
+      5519
+    ],
+    "audioFileDuration": 63252,
+    "lineTimings": [
+      {
+        "line": "Greetings human friend! We know ye are about to be attacking the Sa-Matra",
+        "duration": 5189,
+        "start": 0,
+        "end": 5189
+      },
+      {
+        "line": "and probably don't like being interrupted, but we have important news!...",
+        "duration": 3863,
+        "start": 5189,
+        "end": 9052
+      },
+      {
+        "line": "The Rebellion is WON! We are VICTORIOUS!",
+        "duration": 5182,
+        "start": 9052,
+        "end": 14234
+      },
+      {
+        "line": "We have pulled the Veep-Neep harpy Queen and her cronies from the High Perch!",
+        "duration": 5109,
+        "start": 14234,
+        "end": 19343
+      },
+      {
+        "line": "And better yet... we have found a new Queen!...",
+        "duration": 3068,
+        "start": 19343,
+        "end": 22411
+      },
+      {
+        "line": "...A Queen who will unite the Clans in peace and harmony as never before!",
+        "duration": 5350,
+        "start": 22411,
+        "end": 27761
+      },
+      {
+        "line": "You will never guess who it is, Captain!",
+        "duration": 2138,
+        "start": 27761,
+        "end": 29899
+      },
+      {
+        "line": "A PKUNK! Yes! It is TRUE!",
+        "duration": 3130,
+        "start": 29899,
+        "end": 33029
+      },
+      {
+        "line": "They survived their absorption into our culture",
+        "duration": 2749,
+        "start": 33029,
+        "end": 35778
+      },
+      {
+        "line": "and are now providing us with insights into ourselves we never dreamed of!",
+        "duration": 4439,
+        "start": 35778,
+        "end": 40217
+      },
+      {
+        "line": "We only THOUGHT we were being happy birds of prey! We were fooling ourselves!",
+        "duration": 5989,
+        "start": 40217,
+        "end": 46206
+      },
+      {
+        "line": "Our new Queen's name is Braky Girdy the First!... and her first command",
+        "duration": 5288,
+        "start": 46206,
+        "end": 51494
+      },
+      {
+        "line": "was to rush here and bring ye these ships...Yehat Terminators and Pkunk Furies.",
+        "duration": 6239,
+        "start": 51494,
+        "end": 57733
+      },
+      {
+        "line": "Now, Captain, together we can attack the Sa-Matra!",
+        "duration": 5519,
+        "start": 57733,
+        "end": 63252
+      }
+    ]
+  },
+  "what_about_pkunk_rebel": {
+    "identifier": "what_about_pkunk_rebel",
+    "localizedText": "We have encountered an offshoot of your species, the Pkunk. Tell us about them.",
+    "timings": [],
+    "audioFileDuration": null,
+    "lineTimings": [
+      {
+        "line": "We have encountered an offshoot of your species, the Pkunk. Tell us about them.",
+        "start": 0,
+        "end": null
+      }
+    ]
+  },
+  "PKUNK_ABSORBED_REBEL": {
+    "identifier": "PKUNK_ABSORBED_REBEL",
+    "localizedText": "The Pkunk have been absorbed.\nThey are no more. This is how it should be.\nNow the matter is settled, human. Do not be bringing it up again.",
+    "audioFile": "yehatrebels-021.ogg",
+    "timings": [
+      3818,
+      3399,
+      5288
+    ],
+    "audioFileDuration": 12505,
+    "lineTimings": [
+      {
+        "line": "The Pkunk have been absorbed.",
+        "duration": 3818,
+        "start": 0,
+        "end": 3818
+      },
+      {
+        "line": "They are no more. This is how it should be.",
+        "duration": 3399,
+        "start": 3818,
+        "end": 7217
+      },
+      {
+        "line": "Now the matter is settled, human. Do not be bringing it up again.",
+        "duration": 5288,
+        "start": 7217,
+        "end": 12505
+      }
+    ]
+  },
+  "HATE_PKUNK_REBEL": {
+    "identifier": "HATE_PKUNK_REBEL",
+    "localizedText": "The cowards live?!! This is unbelievable!!\nIt is a SAD, SAD day to be hearing this thing from ye, human.\nThe P... the Pku... I canna even say their vile name!\nThe Pku... PKU-NK! are the greatest embarrassment our species has ever suffered!\nDo not be calling these wretched creatures an offshoot of our species!\nBetter it is that ye be calling them GARBAGE! or DROPPINGS!\nOr better yet do not be talking about them at all!",
+    "audioFile": "yehatrebels-022.ogg",
+    "timings": [
+      3884,
+      4610,
+      3369,
+      4808,
+      3691,
+      3118,
+      2664
+    ],
+    "audioFileDuration": 26144,
+    "lineTimings": [
+      {
+        "line": "The cowards live?!! This is unbelievable!!",
+        "duration": 3884,
+        "start": 0,
+        "end": 3884
+      },
+      {
+        "line": "It is a SAD, SAD day to be hearing this thing from ye, human.",
+        "duration": 4610,
+        "start": 3884,
+        "end": 8494
+      },
+      {
+        "line": "The P... the Pku... I canna even say their vile name!",
+        "duration": 3369,
+        "start": 8494,
+        "end": 11863
+      },
+      {
+        "line": "The Pku... PKU-NK! are the greatest embarrassment our species has ever suffered!",
+        "duration": 4808,
+        "start": 11863,
+        "end": 16671
+      },
+      {
+        "line": "Do not be calling these wretched creatures an offshoot of our species!",
+        "duration": 3691,
+        "start": 16671,
+        "end": 20362
+      },
+      {
+        "line": "Better it is that ye be calling them GARBAGE! or DROPPINGS!",
+        "duration": 3118,
+        "start": 20362,
+        "end": 23480
+      },
+      {
+        "line": "Or better yet do not be talking about them at all!",
+        "duration": 2664,
+        "start": 23480,
+        "end": 26144
+      }
+    ]
+  }
+}
