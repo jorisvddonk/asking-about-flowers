@@ -8,7 +8,8 @@
     "compute-line-timings": "ts-node compute-line-timings.ts",
     "parse-c-and-extract-anim": "ts-node parse-c-and-extract-anim.ts",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "generate-fonts": "ts-node generate-fonts.ts"
+    "generate-fonts": "ts-node generate-fonts.ts",
+    "ts-node": "ts-node"
   },
   "repository": {
     "type": "git",
@@ -23,6 +24,7 @@
   "dependencies": {
     "@pdf-lib/upng": "^1.0.1",
     "@types/node": "^14.11.1",
+    "astyle": "^2.0.0",
     "get-audio-duration": "^2.0.3",
     "jimp": "^0.16.1",
     "mkdirp": "^1.0.4",
