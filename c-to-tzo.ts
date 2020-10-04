@@ -197,6 +197,9 @@ async function transform(cfile, dirname, base, cfilename) {
       const grp = stripped.match(/(.*?)\s*\(RESPONSE_REF R\)/);
       o(`{ nop #${grp[1]}`);
     }
+    if (stripped.includes("Intro(void)")) {
+      o(`{ nop #Intro`);
+    }
 
     // and/or. This needs to be done at the end as Tzo is a stack machine!
     if (stripped.includes("&&")) {
