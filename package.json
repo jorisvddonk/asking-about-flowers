@@ -4,7 +4,7 @@
   "description": "This is a project aiming to convert content from [The Ur-Quan Masters](http://sc2.sourceforge.net/) into different, more easily parseable (or usable) formats, using a variety of (homebrewn) tools.",
   "main": "index.js",
   "scripts": {
-    "start": "ts-node build.ts",
+    "build-animations": "ts-node build_animations.ts",
     "compute-line-timings": "ts-node compute-line-timings.ts",
     "parse-c-and-extract-anim": "ts-node parse-c-and-extract-anim.ts",
     "test": "echo \"Error: no test specified\" && exit 1",
