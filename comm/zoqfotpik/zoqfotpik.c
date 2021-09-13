@@ -87,7 +87,7 @@ static LOCDATA zoqfot_desc =
 		},
 	},
 	{ /* AlienTransitionDesc - Move Eye */
-		FOT_TO_ZOQ, /* StartIndex */
+		23, /* StartIndex */
 		3, /* NumFrames */
 		0, /* AnimFlags */
 		ONE_SECOND / 30, 0, /* FrameRate */
@@ -95,8 +95,8 @@ static LOCDATA zoqfot_desc =
 		0, /* BlockMask */
 	},
 	{ /* AlienTalkDesc */
-		ZOQ_TALK_INDEX, /* StartIndex */
-		ZOQ_TALK_FRAMES, /* NumFrames */
+		18, /* StartIndex */
+		5, /* NumFrames */
 		0, /* AnimFlags */
 		ONE_SECOND / 15, 0, /* FrameRate */
 		ONE_SECOND / 12, 0, /* RestartRate */
