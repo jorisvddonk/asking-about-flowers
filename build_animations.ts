@@ -6,6 +6,8 @@ import mkdirp from "mkdirp";
 import rimraf from "rimraf";
 import { AnimationType, Graphics, AnimationsMap, Frame, Animation } from "uqm-files-parsers/dist/interfaces";
 import shuffleSeed from "shuffle-seed";
+import glob from "glob";
+import path from "path";
 
 
 async function parseGraphicsFile(filename: string, fileResolver: (input: string) => string, animationPathFunc: (input: string) => string) {
@@ -69,19 +71,32 @@ async function parseGraphicsFile(filename: string, fileResolver: (input: string)
   return graphics;
 }
 
-async function main() {
-  rimraf.sync("./out");
-  await mkdirp("./out");
+async function one_iter(anifilename) {
+  const parsed_filename = path.parse(anifilename);
+  console.log(`Parsing: ${parsed_filename.name}`);
+  const out_folder = `${parsed_filename.dir}/anim_apng_out`;
+  console.log(`Output folder: ${out_folder}`);
+  rimraf.sync(out_folder);
+  await mkdirp(out_folder);
   const anims = [];
-  await parseGraphicsFile("./comm/chmmr/chmmr.ani", fname => `./comm/chmmr/${fname}`, aniname => {
-    const retval = `./out/${aniname}.png`;
+
+  await parseGraphicsFile(anifilename, resolve_input => `./comm/${parsed_filename.name}/${resolve_input}`, aniname => {
+    const retval = `${out_folder}/${aniname}.png`;
     anims.push(retval);
     return retval;
   });
   const html = `<html><head><style>* { position: absolute; top: 0px; left: 0px; }</style></head><body>${anims.map(fpath => {
     return `<img src="${fpath.split("/").pop()}"/>`;
   }).join("")}</body></html>`;
-  fs.writeFileSync("./out/index.html", html);
+  fs.writeFileSync(`${out_folder}/index.html`, html);
+  console.log(`Done with ${parsed_filename.name}.`);
+}
+
+async function main() {
+  const files = glob.sync("./comm/**/*.ani");
+  for (let fname of files) {
+    await one_iter(fname);
+  }
 }
 
 main().then(console.log).catch(console.error);
