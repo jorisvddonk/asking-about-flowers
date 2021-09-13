@@ -1,0 +1,90 @@
+supox-000.png -1 10 0 0
+supox-001.png -1 10 -81 -30
+supox-002.png -1 10 -81 -30
+supox-003.png -1 10 -81 -30
+supox-004.png -1 10 -66 -14
+supox-005.png -1 10 -66 -14
+supox-006.png -1 10 -66 -14
+supox-007.png -1 10 -66 -14
+supox-008.png -1 10 -66 -14
+supox-009.png -1 10 -4 -56
+supox-010.png -1 10 -4 -56
+supox-011.png -1 10 -4 -56
+supox-012.png -1 10 -4 -56
+supox-013.png -1 10 -4 -56
+supox-014.png -1 10 -4 -56
+supox-015.png -1 10 -4 -56
+supox-016.png -1 10 -4 -56
+supox-017.png -1 10 -4 -56
+supox-018.png -1 10 -4 -56
+supox-019.png -1 10 -199 -35
+supox-020.png -1 10 -199 -35
+supox-021.png -1 10 -199 -35
+supox-022.png -1 10 -199 -35
+supox-023.png -1 10 -199 -35
+supox-024.png -1 10 -199 -35
+supox-025.png -1 10 -199 -35
+supox-026.png -1 10 -199 -35
+supox-027.png -1 10 -199 -35
+supox-028.png -1 10 -199 -35
+supox-029.png -1 10 -206 -74
+supox-030.png -1 10 -206 -74
+supox-031.png -1 10 -206 -74
+supox-032.png -1 10 -206 -74
+supox-033.png -1 10 -206 -74
+supox-034.png -1 10 -206 -74
+supox-035.png -1 10 -206 -74
+supox-036.png -1 10 -206 -74
+supox-037.png -1 10 -206 -74
+supox-038.png -1 10 -206 -74
+supox-039.png -1 10 -206 -74
+supox-040.png -1 10 -206 -74
+supox-041.png -1 10 -206 -74
+#@ anidef 0 BACKGROUND 0 0 0 [anim_0]
+#@ anidef 1 YO_YO 1 3 0 [anim_1]
+#@ anidef 2 CIRCULAR 1 3 0 [anim_2]
+#@ anidef 3 CIRCULAR 1 3 0 [anim_3]
+#@ anidef 4 CIRCULAR 1 3 0 [anim_4]
+#@ anidef 5 TALK 0.08333333333333333 0 0 [anim_5]
+#@ aniframe 0 0 [supox-000.png -1 10 0 0]
+#@ aniframe 1 0.1 [supox-004.png -1 10 -66 -14]
+#@ aniframe 1 0.1 [supox-005.png -1 10 -66 -14]
+#@ aniframe 1 0.1 [supox-006.png -1 10 -66 -14]
+#@ aniframe 1 0.1 [supox-007.png -1 10 -66 -14]
+#@ aniframe 1 0.1 [supox-008.png -1 10 -66 -14]
+#@ aniframe 2 0.06666666666666667 [supox-009.png -1 10 -4 -56]
+#@ aniframe 2 0.06666666666666667 [supox-010.png -1 10 -4 -56]
+#@ aniframe 2 0.06666666666666667 [supox-011.png -1 10 -4 -56]
+#@ aniframe 2 0.06666666666666667 [supox-012.png -1 10 -4 -56]
+#@ aniframe 2 0.06666666666666667 [supox-013.png -1 10 -4 -56]
+#@ aniframe 2 0.06666666666666667 [supox-014.png -1 10 -4 -56]
+#@ aniframe 2 0.06666666666666667 [supox-015.png -1 10 -4 -56]
+#@ aniframe 2 0.06666666666666667 [supox-016.png -1 10 -4 -56]
+#@ aniframe 2 0.06666666666666667 [supox-017.png -1 10 -4 -56]
+#@ aniframe 2 0.06666666666666667 [supox-018.png -1 10 -4 -56]
+#@ aniframe 3 0.06666666666666667 [supox-019.png -1 10 -199 -35]
+#@ aniframe 3 0.06666666666666667 [supox-020.png -1 10 -199 -35]
+#@ aniframe 3 0.06666666666666667 [supox-021.png -1 10 -199 -35]
+#@ aniframe 3 0.06666666666666667 [supox-022.png -1 10 -199 -35]
+#@ aniframe 3 0.06666666666666667 [supox-023.png -1 10 -199 -35]
+#@ aniframe 3 0.06666666666666667 [supox-024.png -1 10 -199 -35]
+#@ aniframe 3 0.06666666666666667 [supox-025.png -1 10 -199 -35]
+#@ aniframe 3 0.06666666666666667 [supox-026.png -1 10 -199 -35]
+#@ aniframe 3 0.06666666666666667 [supox-027.png -1 10 -199 -35]
+#@ aniframe 3 0.06666666666666667 [supox-028.png -1 10 -199 -35]
+#@ aniframe 4 0.06666666666666667 [supox-029.png -1 10 -206 -74]
+#@ aniframe 4 0.06666666666666667 [supox-030.png -1 10 -206 -74]
+#@ aniframe 4 0.06666666666666667 [supox-031.png -1 10 -206 -74]
+#@ aniframe 4 0.06666666666666667 [supox-032.png -1 10 -206 -74]
+#@ aniframe 4 0.06666666666666667 [supox-033.png -1 10 -206 -74]
+#@ aniframe 4 0.06666666666666667 [supox-034.png -1 10 -206 -74]
+#@ aniframe 4 0.06666666666666667 [supox-035.png -1 10 -206 -74]
+#@ aniframe 4 0.06666666666666667 [supox-036.png -1 10 -206 -74]
+#@ aniframe 4 0.06666666666666667 [supox-037.png -1 10 -206 -74]
+#@ aniframe 4 0.06666666666666667 [supox-038.png -1 10 -206 -74]
+#@ aniframe 4 0.06666666666666667 [supox-039.png -1 10 -206 -74]
+#@ aniframe 4 0.06666666666666667 [supox-040.png -1 10 -206 -74]
+#@ aniframe 4 0.06666666666666667 [supox-041.png -1 10 -206 -74]
+#@ aniframe 5 0.06666666666666667 [supox-001.png -1 10 -81 -30]
+#@ aniframe 5 0.06666666666666667 [supox-002.png -1 10 -81 -30]
+#@ aniframe 5 0.06666666666666667 [supox-003.png -1 10 -81 -30]

@@ -1,0 +1,170 @@
+slylandro-000.png -1 10 0 0
+slylandro-001.png -1 10 -194 -47
+slylandro-002.png -1 10 -194 -47
+slylandro-003.png -1 10 -194 -47
+slylandro-004.png -1 10 -194 -47
+slylandro-005.png -1 10 -194 -47
+slylandro-006.png -1 10 -214 -61
+slylandro-007.png -1 10 -214 -61
+slylandro-008.png -1 10 -214 -61
+slylandro-009.png -1 10 -214 -61
+slylandro-010.png -1 10 -213 -60
+slylandro-011.png -1 10 -16 -36
+slylandro-012.png -1 10 -16 -36
+slylandro-013.png -1 10 -16 -36
+slylandro-014.png -1 10 -16 -36
+slylandro-015.png -1 10 -16 -36
+slylandro-016.png -1 10 -27 -36
+slylandro-017.png -1 10 -27 -36
+slylandro-018.png -1 10 -27 -36
+slylandro-019.png -1 10 -27 -36
+slylandro-020.png -1 10 -27 -36
+slylandro-021.png -1 10 -27 -36
+slylandro-022.png -1 10 -19 -62
+slylandro-023.png -1 10 -19 -62
+slylandro-024.png -1 10 -19 -62
+slylandro-025.png -1 10 -19 -62
+slylandro-026.png -1 10 -19 -62
+slylandro-027.png -1 10 -19 -62
+slylandro-028.png -1 10 -19 -62
+slylandro-029.png -1 10 -19 -62
+slylandro-030.png -1 10 -218 -34
+slylandro-031.png -1 10 -218 -34
+slylandro-032.png -1 10 -218 -34
+slylandro-033.png -1 10 -218 -34
+slylandro-034.png -1 10 -218 -34
+slylandro-035.png -1 10 -218 -34
+slylandro-036.png -1 10 -200 -73
+slylandro-037.png -1 10 -200 -73
+slylandro-038.png -1 10 -200 -73
+slylandro-039.png -1 10 -1 -66
+slylandro-040.png -1 10 -15 -80
+slylandro-041.png -1 10 -35 -95
+slylandro-042.png -1 10 -35 -95
+slylandro-043.png -1 10 -178 -1
+slylandro-044.png -1 10 -186 -17
+slylandro-045.png -1 10 -202 -34
+slylandro-046.png -1 10 -228 -47
+slylandro-047.png -1 10 -228 -47
+slylandro-048.png -1 10 -163 -28
+slylandro-049.png -1 10 -168 -45
+slylandro-050.png -1 10 -179 -63
+slylandro-051.png -1 10 -193 -80
+slylandro-052.png -1 10 -212 -93
+slylandro-053.png -1 10 -212 -93
+slylandro-054.png -1 10 -187 -3
+slylandro-055.png -1 10 -175 -26
+slylandro-056.png -1 10 -141 -35
+slylandro-057.png -1 10 -76 -20
+slylandro-058.png -1 10 -56 -2
+slylandro-059.png -1 10 -56 -2
+slylandro-060.png -1 10 -139 -73
+slylandro-061.png -1 10 -150 -86
+slylandro-062.png -1 10 -118 -94
+slylandro-063.png -1 10 -86 -88
+slylandro-064.png -1 10 -63 -72
+slylandro-065.png -1 10 -48 -48
+slylandro-066.png -1 10 -48 -48
+slylandro-067.png -1 10 -82 -23
+slylandro-068.png -1 10 -82 -23
+slylandro-069.png -1 10 -82 -23
+slylandro-070.png -1 10 -82 -23
+slylandro-071.png -1 10 -82 -23
+slylandro-072.png -1 10 -82 -23
+slylandro-073.png -1 10 -82 -23
+slylandro-074.png -1 10 -82 -23
+#@ anidef 0 BACKGROUND 0 0 0 [anim_0]
+#@ anidef 1 RANDOM 0.125 0.625 0 [anim_1]
+#@ anidef 2 YO_YO 1 3 0 [anim_2]
+#@ anidef 3 YO_YO 1 3 0 [anim_3]
+#@ anidef 4 YO_YO 1 3 0 [anim_4]
+#@ anidef 5 YO_YO 1 3 0 [anim_5]
+#@ anidef 6 CIRCULAR 0.06666666666666667 0 0 [anim_6]
+#@ anidef 7 CIRCULAR 1 3 768 [anim_7]
+#@ anidef 8 CIRCULAR 1 3 0 [anim_8]
+#@ anidef 9 CIRCULAR 1 3 64 [anim_9]
+#@ anidef 10 CIRCULAR 1 3 64 [anim_10]
+#@ anidef 11 CIRCULAR 1 3 4096 [anim_11]
+#@ anidef 12 CIRCULAR 1 3 4096 [anim_12]
+#@ anidef 13 CIRCULAR 1 3 3072 [anim_13]
+#@ anidef 14 TALK 0 0 0 [anim_14]
+#@ aniframe 0 0 [slylandro-000.png -1 10 0 0]
+#@ aniframe 1 0.125 [slylandro-000.png -1 10 0 0]
+#@ aniframe 1 0.125 [slylandro-001.png -1 10 -194 -47]
+#@ aniframe 1 0.125 [slylandro-002.png -1 10 -194 -47]
+#@ aniframe 1 0.125 [slylandro-003.png -1 10 -194 -47]
+#@ aniframe 1 0.125 [slylandro-004.png -1 10 -194 -47]
+#@ aniframe 2 0.06666666666666667 [slylandro-001.png -1 10 -194 -47]
+#@ aniframe 2 0.06666666666666667 [slylandro-002.png -1 10 -194 -47]
+#@ aniframe 2 0.06666666666666667 [slylandro-003.png -1 10 -194 -47]
+#@ aniframe 2 0.06666666666666667 [slylandro-004.png -1 10 -194 -47]
+#@ aniframe 2 0.06666666666666667 [slylandro-005.png -1 10 -194 -47]
+#@ aniframe 3 0.06666666666666667 [slylandro-006.png -1 10 -214 -61]
+#@ aniframe 3 0.06666666666666667 [slylandro-007.png -1 10 -214 -61]
+#@ aniframe 3 0.06666666666666667 [slylandro-008.png -1 10 -214 -61]
+#@ aniframe 3 0.06666666666666667 [slylandro-009.png -1 10 -214 -61]
+#@ aniframe 3 0.06666666666666667 [slylandro-010.png -1 10 -213 -60]
+#@ aniframe 4 0.06666666666666667 [slylandro-011.png -1 10 -16 -36]
+#@ aniframe 4 0.06666666666666667 [slylandro-012.png -1 10 -16 -36]
+#@ aniframe 4 0.06666666666666667 [slylandro-013.png -1 10 -16 -36]
+#@ aniframe 4 0.06666666666666667 [slylandro-014.png -1 10 -16 -36]
+#@ aniframe 4 0.06666666666666667 [slylandro-015.png -1 10 -16 -36]
+#@ aniframe 5 0.06666666666666667 [slylandro-016.png -1 10 -27 -36]
+#@ aniframe 5 0.06666666666666667 [slylandro-017.png -1 10 -27 -36]
+#@ aniframe 5 0.06666666666666667 [slylandro-018.png -1 10 -27 -36]
+#@ aniframe 5 0.06666666666666667 [slylandro-019.png -1 10 -27 -36]
+#@ aniframe 5 0.06666666666666667 [slylandro-020.png -1 10 -27 -36]
+#@ aniframe 5 0.06666666666666667 [slylandro-021.png -1 10 -27 -36]
+#@ aniframe 6 0.06666666666666667 [slylandro-022.png -1 10 -19 -62]
+#@ aniframe 6 0.06666666666666667 [slylandro-023.png -1 10 -19 -62]
+#@ aniframe 6 0.06666666666666667 [slylandro-024.png -1 10 -19 -62]
+#@ aniframe 6 0.06666666666666667 [slylandro-025.png -1 10 -19 -62]
+#@ aniframe 6 0.06666666666666667 [slylandro-026.png -1 10 -19 -62]
+#@ aniframe 6 0.06666666666666667 [slylandro-027.png -1 10 -19 -62]
+#@ aniframe 6 0.06666666666666667 [slylandro-028.png -1 10 -19 -62]
+#@ aniframe 6 0.06666666666666667 [slylandro-029.png -1 10 -19 -62]
+#@ aniframe 7 0.06666666666666667 [slylandro-030.png -1 10 -218 -34]
+#@ aniframe 7 0.06666666666666667 [slylandro-031.png -1 10 -218 -34]
+#@ aniframe 7 0.06666666666666667 [slylandro-032.png -1 10 -218 -34]
+#@ aniframe 7 0.06666666666666667 [slylandro-033.png -1 10 -218 -34]
+#@ aniframe 7 0.06666666666666667 [slylandro-034.png -1 10 -218 -34]
+#@ aniframe 7 0.06666666666666667 [slylandro-035.png -1 10 -218 -34]
+#@ aniframe 7 0.06666666666666667 [slylandro-036.png -1 10 -200 -73]
+#@ aniframe 7 0.06666666666666667 [slylandro-037.png -1 10 -200 -73]
+#@ aniframe 7 0.06666666666666667 [slylandro-038.png -1 10 -200 -73]
+#@ aniframe 8 0.06666666666666667 [slylandro-039.png -1 10 -1 -66]
+#@ aniframe 8 0.06666666666666667 [slylandro-040.png -1 10 -15 -80]
+#@ aniframe 8 0.06666666666666667 [slylandro-041.png -1 10 -35 -95]
+#@ aniframe 8 0.06666666666666667 [slylandro-042.png -1 10 -35 -95]
+#@ aniframe 9 0.06666666666666667 [slylandro-043.png -1 10 -178 -1]
+#@ aniframe 9 0.06666666666666667 [slylandro-044.png -1 10 -186 -17]
+#@ aniframe 9 0.06666666666666667 [slylandro-045.png -1 10 -202 -34]
+#@ aniframe 9 0.06666666666666667 [slylandro-046.png -1 10 -228 -47]
+#@ aniframe 9 0.06666666666666667 [slylandro-047.png -1 10 -228 -47]
+#@ aniframe 10 0.06666666666666667 [slylandro-048.png -1 10 -163 -28]
+#@ aniframe 10 0.06666666666666667 [slylandro-049.png -1 10 -168 -45]
+#@ aniframe 10 0.06666666666666667 [slylandro-050.png -1 10 -179 -63]
+#@ aniframe 10 0.06666666666666667 [slylandro-051.png -1 10 -193 -80]
+#@ aniframe 10 0.06666666666666667 [slylandro-052.png -1 10 -212 -93]
+#@ aniframe 10 0.06666666666666667 [slylandro-053.png -1 10 -212 -93]
+#@ aniframe 11 0.06666666666666667 [slylandro-054.png -1 10 -187 -3]
+#@ aniframe 11 0.06666666666666667 [slylandro-055.png -1 10 -175 -26]
+#@ aniframe 11 0.06666666666666667 [slylandro-056.png -1 10 -141 -35]
+#@ aniframe 11 0.06666666666666667 [slylandro-057.png -1 10 -76 -20]
+#@ aniframe 11 0.06666666666666667 [slylandro-058.png -1 10 -56 -2]
+#@ aniframe 11 0.06666666666666667 [slylandro-059.png -1 10 -56 -2]
+#@ aniframe 12 0.06666666666666667 [slylandro-060.png -1 10 -139 -73]
+#@ aniframe 12 0.06666666666666667 [slylandro-061.png -1 10 -150 -86]
+#@ aniframe 12 0.06666666666666667 [slylandro-062.png -1 10 -118 -94]
+#@ aniframe 12 0.06666666666666667 [slylandro-063.png -1 10 -86 -88]
+#@ aniframe 12 0.06666666666666667 [slylandro-064.png -1 10 -63 -72]
+#@ aniframe 12 0.06666666666666667 [slylandro-065.png -1 10 -48 -48]
+#@ aniframe 12 0.06666666666666667 [slylandro-066.png -1 10 -48 -48]
+#@ aniframe 13 0.06666666666666667 [slylandro-067.png -1 10 -82 -23]
+#@ aniframe 13 0.06666666666666667 [slylandro-068.png -1 10 -82 -23]
+#@ aniframe 13 0.06666666666666667 [slylandro-069.png -1 10 -82 -23]
+#@ aniframe 13 0.06666666666666667 [slylandro-070.png -1 10 -82 -23]
+#@ aniframe 13 0.06666666666666667 [slylandro-071.png -1 10 -82 -23]
+#@ aniframe 13 0.06666666666666667 [slylandro-072.png -1 10 -82 -23]
+#@ aniframe 13 0.06666666666666667 [slylandro-073.png -1 10 -82 -23]
+#@ aniframe 13 0.06666666666666667 [slylandro-074.png -1 10 -82 -23]

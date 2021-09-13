@@ -1,0 +1,34 @@
+pkunk-000.png -1 10 0 0
+pkunk-001.png -1 10 -17 0
+pkunk-002.png -1 10 -17 0
+pkunk-003.png -1 10 -40 -70
+pkunk-004.png -1 10 -40 -70
+pkunk-005.png -1 10 -40 -70
+pkunk-006.png -1 10 -40 -70
+pkunk-007.png -1 10 -70 -44
+pkunk-008.png -1 10 -70 -44
+pkunk-009.png -1 10 -70 -44
+pkunk-010.png -1 10 -70 -44
+pkunk-011.png -1 10 -64 -42
+pkunk-012.png -1 10 -64 -42
+pkunk-013.png -1 10 -64 -42
+pkunk-014.png -1 10 -64 -42
+#@ anidef 0 BACKGROUND 0 0 0 [anim_0]
+#@ anidef 1 CIRCULAR 1 3 0 [anim_1]
+#@ anidef 2 YO_YO 1 3 4 [anim_2]
+#@ anidef 3 YO_YO 1 3 2 [anim_3]
+#@ anidef 4 TALK 0.08333333333333333 0.5 0 [anim_4]
+#@ aniframe 0 0 [pkunk-000.png -1 10 0 0]
+#@ aniframe 1 0.03333333333333333 [pkunk-003.png -1 10 -40 -70]
+#@ aniframe 1 0.03333333333333333 [pkunk-004.png -1 10 -40 -70]
+#@ aniframe 1 0.03333333333333333 [pkunk-005.png -1 10 -40 -70]
+#@ aniframe 1 0.03333333333333333 [pkunk-006.png -1 10 -40 -70]
+#@ aniframe 2 0.1 [pkunk-007.png -1 10 -70 -44]
+#@ aniframe 2 0.1 [pkunk-008.png -1 10 -70 -44]
+#@ aniframe 2 0.1 [pkunk-009.png -1 10 -70 -44]
+#@ aniframe 2 0.1 [pkunk-010.png -1 10 -70 -44]
+#@ aniframe 3 0.03333333333333333 [pkunk-011.png -1 10 -64 -42]
+#@ aniframe 3 0.03333333333333333 [pkunk-012.png -1 10 -64 -42]
+#@ aniframe 3 0.03333333333333333 [pkunk-013.png -1 10 -64 -42]
+#@ aniframe 4 0.06666666666666667 [pkunk-001.png -1 10 -17 0]
+#@ aniframe 4 0.06666666666666667 [pkunk-002.png -1 10 -17 0]

@@ -1,0 +1,118 @@
+umgah-000.png -1 10 0 0
+umgah-001.png -1 10 -108 -70
+umgah-002.png -1 10 -108 -70
+umgah-003.png -1 10 -108 -70
+umgah-004.png -1 10 -108 -70
+umgah-005.png -1 10 -104 -58
+umgah-006.png -1 10 -104 -58
+umgah-007.png -1 10 -104 -58
+umgah-008.png -1 10 -137 -69
+umgah-009.png -1 10 -137 -69
+umgah-010.png -1 10 -137 -69
+umgah-011.png -1 10 -86 -49
+umgah-012.png -1 10 -86 -49
+umgah-013.png -1 10 -118 -47
+umgah-014.png -1 10 -118 -47
+umgah-015.png -1 10 -156 -65
+umgah-016.png -1 10 -156 -65
+umgah-017.png -1 10 -106 -59
+umgah-018.png -1 10 -106 -59
+umgah-019.png -1 10 -106 -59
+umgah-020.png -1 10 -140 -74
+umgah-021.png -1 10 -140 -74
+umgah-022.png -1 10 -140 -74
+umgah-023.png -1 10 -88 -49
+umgah-024.png -1 10 -88 -49
+umgah-025.png -1 10 -156 -65
+umgah-026.png -1 10 -156 -65
+umgah-027.png -1 10 -120 -47
+umgah-028.png -1 10 -120 -47
+umgah-029.png -1 10 -27 -25
+umgah-030.png -1 10 -27 -25
+umgah-031.png -1 10 -27 -25
+umgah-032.png -1 10 -65 -15
+umgah-033.png -1 10 -65 -15
+umgah-034.png -1 10 -65 -15
+umgah-035.png -1 10 -10 -60
+umgah-036.png -1 10 -10 -60
+umgah-037.png -1 10 -10 -60
+umgah-038.png -1 10 -10 -60
+umgah-039.png -1 10 -10 -60
+umgah-040.png -1 10 -171 -51
+umgah-041.png -1 10 -171 -51
+umgah-042.png -1 10 -171 -51
+umgah-043.png -1 10 -171 -51
+umgah-044.png -1 10 -171 -51
+umgah-045.png -1 10 -171 -51
+umgah-046.png -1 10 -176 -7
+umgah-047.png -1 10 -176 -7
+umgah-048.png -1 10 -201 -6
+umgah-049.png -1 10 -201 -6
+#@ anidef 0 BACKGROUND 0 0 0 [anim_0]
+#@ anidef 1 YO_YO 1 3 32 [anim_1]
+#@ anidef 2 YO_YO 1 3 64 [anim_2]
+#@ anidef 3 YO_YO 1 3 128 [anim_3]
+#@ anidef 4 YO_YO 1 3 256 [anim_4]
+#@ anidef 5 YO_YO 1 3 512 [anim_5]
+#@ anidef 6 CIRCULAR 3 3 1 [anim_6]
+#@ anidef 7 CIRCULAR 3 3 2 [anim_7]
+#@ anidef 8 CIRCULAR 3 3 4 [anim_8]
+#@ anidef 9 CIRCULAR 3 3 8 [anim_9]
+#@ anidef 10 CIRCULAR 3 3 16 [anim_10]
+#@ anidef 11 YO_YO 1 3 0 [anim_11]
+#@ anidef 12 YO_YO 1 3 0 [anim_12]
+#@ anidef 13 YO_YO 1 3 0 [anim_13]
+#@ anidef 14 YO_YO 0.1 0 0 [anim_14]
+#@ anidef 15 CIRCULAR 1 3 32768 [anim_15]
+#@ anidef 16 CIRCULAR 1 3 16384 [anim_16]
+#@ anidef 17 TALK 0.08333333333333333 0 0 [anim_17]
+#@ aniframe 0 0 [umgah-000.png -1 10 0 0]
+#@ aniframe 1 0.05 [umgah-005.png -1 10 -104 -58]
+#@ aniframe 1 0.05 [umgah-006.png -1 10 -104 -58]
+#@ aniframe 1 0.05 [umgah-007.png -1 10 -104 -58]
+#@ aniframe 2 0.05 [umgah-008.png -1 10 -137 -69]
+#@ aniframe 2 0.05 [umgah-009.png -1 10 -137 -69]
+#@ aniframe 2 0.05 [umgah-010.png -1 10 -137 -69]
+#@ aniframe 3 0.05 [umgah-011.png -1 10 -86 -49]
+#@ aniframe 3 0.05 [umgah-012.png -1 10 -86 -49]
+#@ aniframe 4 0.05 [umgah-013.png -1 10 -118 -47]
+#@ aniframe 4 0.05 [umgah-014.png -1 10 -118 -47]
+#@ aniframe 5 0.05 [umgah-015.png -1 10 -156 -65]
+#@ aniframe 5 0.05 [umgah-016.png -1 10 -156 -65]
+#@ aniframe 6 0.11666666666666667 [umgah-017.png -1 10 -106 -59]
+#@ aniframe 6 0.11666666666666667 [umgah-018.png -1 10 -106 -59]
+#@ aniframe 6 0.11666666666666667 [umgah-019.png -1 10 -106 -59]
+#@ aniframe 7 0.11666666666666667 [umgah-020.png -1 10 -140 -74]
+#@ aniframe 7 0.11666666666666667 [umgah-021.png -1 10 -140 -74]
+#@ aniframe 7 0.11666666666666667 [umgah-022.png -1 10 -140 -74]
+#@ aniframe 8 0.11666666666666667 [umgah-023.png -1 10 -88 -49]
+#@ aniframe 8 0.11666666666666667 [umgah-024.png -1 10 -88 -49]
+#@ aniframe 9 0.11666666666666667 [umgah-025.png -1 10 -156 -65]
+#@ aniframe 9 0.11666666666666667 [umgah-026.png -1 10 -156 -65]
+#@ aniframe 10 0.11666666666666667 [umgah-027.png -1 10 -120 -47]
+#@ aniframe 10 0.11666666666666667 [umgah-028.png -1 10 -120 -47]
+#@ aniframe 11 0.1 [umgah-029.png -1 10 -27 -25]
+#@ aniframe 11 0.1 [umgah-030.png -1 10 -27 -25]
+#@ aniframe 11 0.1 [umgah-031.png -1 10 -27 -25]
+#@ aniframe 12 0.1 [umgah-032.png -1 10 -65 -15]
+#@ aniframe 12 0.1 [umgah-033.png -1 10 -65 -15]
+#@ aniframe 12 0.1 [umgah-034.png -1 10 -65 -15]
+#@ aniframe 13 0.1 [umgah-035.png -1 10 -10 -60]
+#@ aniframe 13 0.1 [umgah-036.png -1 10 -10 -60]
+#@ aniframe 13 0.1 [umgah-037.png -1 10 -10 -60]
+#@ aniframe 13 0.1 [umgah-038.png -1 10 -10 -60]
+#@ aniframe 13 0.1 [umgah-039.png -1 10 -10 -60]
+#@ aniframe 14 0.1 [umgah-040.png -1 10 -171 -51]
+#@ aniframe 14 0.1 [umgah-041.png -1 10 -171 -51]
+#@ aniframe 14 0.1 [umgah-042.png -1 10 -171 -51]
+#@ aniframe 14 0.1 [umgah-043.png -1 10 -171 -51]
+#@ aniframe 14 0.1 [umgah-044.png -1 10 -171 -51]
+#@ aniframe 14 0.1 [umgah-045.png -1 10 -171 -51]
+#@ aniframe 15 0.2 [umgah-046.png -1 10 -176 -7]
+#@ aniframe 15 0.2 [umgah-047.png -1 10 -176 -7]
+#@ aniframe 16 0.2 [umgah-048.png -1 10 -201 -6]
+#@ aniframe 16 0.2 [umgah-049.png -1 10 -201 -6]
+#@ aniframe 17 0.06666666666666667 [umgah-001.png -1 10 -108 -70]
+#@ aniframe 17 0.06666666666666667 [umgah-002.png -1 10 -108 -70]
+#@ aniframe 17 0.06666666666666667 [umgah-003.png -1 10 -108 -70]
+#@ aniframe 17 0.06666666666666667 [umgah-004.png -1 10 -108 -70]

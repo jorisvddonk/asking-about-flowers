@@ -1,0 +1,96 @@
+urquan-000.png -1 10 0 0
+urquan-001.png -1 10 -175 -70
+urquan-002.png -1 11 -175 -70
+urquan-003.png -1 11 -175 -70
+urquan-004.png -1 11 -175 -70
+urquan-005.png -1 11 -175 -70
+urquan-006.png -1 11 -175 -70
+urquan-007.png -1 10 -100 -74
+urquan-008.png -1 10 -100 -74
+urquan-009.png -1 10 -100 -74
+urquan-010.png -1 10 -100 -74
+urquan-011.png -1 10 -100 -74
+urquan-012.png -1 10 -100 -74
+urquan-013.png -1 10 -92 -50
+urquan-014.png -1 10 -92 -50
+urquan-015.png -1 10 -92 -50
+urquan-016.png -1 10 -116 -24
+urquan-017.png -1 10 -116 -24
+urquan-018.png -1 10 -116 -24
+urquan-019.png -1 10 -138 -50
+urquan-020.png -1 10 -138 -50
+urquan-021.png -1 10 -138 -50
+urquan-022.png -1 10 -86 -22
+urquan-023.png -1 10 -86 -22
+urquan-024.png -1 10 -86 -22
+urquan-025.png -1 10 -86 -22
+urquan-026.png -1 10 -86 -22
+urquan-027.png -1 10 -86 -22
+urquan-028.png -1 10 -86 -22
+urquan-029.png -1 10 -131 -22
+urquan-030.png -1 10 -131 -22
+urquan-031.png -1 10 -131 -22
+urquan-032.png -1 10 -131 -22
+urquan-033.png -1 10 -131 -22
+urquan-034.png -1 10 -131 -22
+urquan-035.png -1 10 -131 -22
+urquan-036.png -1 10 -108 -43
+urquan-037.png -1 10 -108 -43
+urquan-038.png -1 10 -108 -43
+urquan-039.png -1 10 -108 -43
+urquan-040.png -1 10 -108 -43
+urquan-041.png -1 10 -108 -43
+urquan-042.png -1 10 -108 -43
+urquan-043.png -1 10 -108 -43
+#@ anidef 0 BACKGROUND 0 0 0 [anim_0]
+#@ anidef 1 CIRCULAR 0.1 0 0 [anim_1]
+#@ anidef 2 YO_YO 1 3 0 [anim_2]
+#@ anidef 3 YO_YO 1 3 0 [anim_3]
+#@ anidef 4 YO_YO 1 3 0 [anim_4]
+#@ anidef 5 CIRCULAR 1 3 0 [anim_5]
+#@ anidef 6 CIRCULAR 1 3 0 [anim_6]
+#@ anidef 7 CIRCULAR 1 3 0 [anim_7]
+#@ anidef 8 TALK 0.08333333333333333 0 0 [anim_8]
+#@ aniframe 0 0 [urquan-000.png -1 10 0 0]
+#@ aniframe 1 0.1 [urquan-007.png -1 10 -100 -74]
+#@ aniframe 1 0.1 [urquan-008.png -1 10 -100 -74]
+#@ aniframe 1 0.1 [urquan-009.png -1 10 -100 -74]
+#@ aniframe 1 0.1 [urquan-010.png -1 10 -100 -74]
+#@ aniframe 1 0.1 [urquan-011.png -1 10 -100 -74]
+#@ aniframe 1 0.1 [urquan-012.png -1 10 -100 -74]
+#@ aniframe 2 0.05 [urquan-013.png -1 10 -92 -50]
+#@ aniframe 2 0.05 [urquan-014.png -1 10 -92 -50]
+#@ aniframe 2 0.05 [urquan-015.png -1 10 -92 -50]
+#@ aniframe 3 0.05 [urquan-016.png -1 10 -116 -24]
+#@ aniframe 3 0.05 [urquan-017.png -1 10 -116 -24]
+#@ aniframe 3 0.05 [urquan-018.png -1 10 -116 -24]
+#@ aniframe 4 0.05 [urquan-019.png -1 10 -138 -50]
+#@ aniframe 4 0.05 [urquan-020.png -1 10 -138 -50]
+#@ aniframe 4 0.05 [urquan-021.png -1 10 -138 -50]
+#@ aniframe 5 0.06666666666666667 [urquan-022.png -1 10 -86 -22]
+#@ aniframe 5 0.06666666666666667 [urquan-023.png -1 10 -86 -22]
+#@ aniframe 5 0.06666666666666667 [urquan-024.png -1 10 -86 -22]
+#@ aniframe 5 0.06666666666666667 [urquan-025.png -1 10 -86 -22]
+#@ aniframe 5 0.06666666666666667 [urquan-026.png -1 10 -86 -22]
+#@ aniframe 5 0.06666666666666667 [urquan-027.png -1 10 -86 -22]
+#@ aniframe 5 0.06666666666666667 [urquan-028.png -1 10 -86 -22]
+#@ aniframe 6 0.06666666666666667 [urquan-029.png -1 10 -131 -22]
+#@ aniframe 6 0.06666666666666667 [urquan-030.png -1 10 -131 -22]
+#@ aniframe 6 0.06666666666666667 [urquan-031.png -1 10 -131 -22]
+#@ aniframe 6 0.06666666666666667 [urquan-032.png -1 10 -131 -22]
+#@ aniframe 6 0.06666666666666667 [urquan-033.png -1 10 -131 -22]
+#@ aniframe 6 0.06666666666666667 [urquan-034.png -1 10 -131 -22]
+#@ aniframe 6 0.06666666666666667 [urquan-035.png -1 10 -131 -22]
+#@ aniframe 7 0.06666666666666667 [urquan-036.png -1 10 -108 -43]
+#@ aniframe 7 0.06666666666666667 [urquan-037.png -1 10 -108 -43]
+#@ aniframe 7 0.06666666666666667 [urquan-038.png -1 10 -108 -43]
+#@ aniframe 7 0.06666666666666667 [urquan-039.png -1 10 -108 -43]
+#@ aniframe 7 0.06666666666666667 [urquan-040.png -1 10 -108 -43]
+#@ aniframe 7 0.06666666666666667 [urquan-041.png -1 10 -108 -43]
+#@ aniframe 7 0.06666666666666667 [urquan-042.png -1 10 -108 -43]
+#@ aniframe 7 0.06666666666666667 [urquan-043.png -1 10 -108 -43]
+#@ aniframe 8 0.06666666666666667 [urquan-002.png -1 11 -175 -70]
+#@ aniframe 8 0.06666666666666667 [urquan-003.png -1 11 -175 -70]
+#@ aniframe 8 0.06666666666666667 [urquan-004.png -1 11 -175 -70]
+#@ aniframe 8 0.06666666666666667 [urquan-005.png -1 11 -175 -70]
+#@ aniframe 8 0.06666666666666667 [urquan-006.png -1 11 -175 -70]

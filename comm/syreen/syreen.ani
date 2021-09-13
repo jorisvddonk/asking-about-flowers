@@ -1,0 +1,119 @@
+syreen-000.png -1 10 0 0
+syreen-001.png -1 10 -189 -37
+syreen-002.png -1 10 -189 -37
+syreen-003.png -1 10 -189 -37
+syreen-004.png -1 10 -189 -37
+syreen-005.png -1 10 -58 -42
+syreen-006.png -1 10 -58 -42
+syreen-007.png -1 10 -68 -39
+syreen-008.png -1 10 -68 -39
+syreen-009.png -1 10 -80 -39
+syreen-010.png -1 10 -80 -39
+syreen-011.png -1 10 -88 -48
+syreen-012.png -1 10 -88 -48
+syreen-013.png -1 10 -91 -38
+syreen-014.png -1 10 -91 -38
+syreen-015.png -1 10 -104 -50
+syreen-016.png -1 10 -104 -50
+syreen-017.png -1 10 -71 -45
+syreen-018.png -1 10 -71 -45
+syreen-019.png -1 10 -146 -39
+syreen-020.png -1 10 -146 -39
+syreen-021.png -1 10 -135 -85
+syreen-022.png -1 10 -135 -85
+syreen-023.png -1 10 -135 -85
+syreen-024.png -1 10 -135 -85
+syreen-025.png -1 10 -135 -85
+syreen-026.png -1 10 -135 -85
+syreen-027.png -1 10 -188 -25
+syreen-028.png -1 10 -188 -25
+syreen-029.png -1 10 -188 -25
+syreen-030.png -1 10 -188 -25
+syreen-031.png -1 10 -164 -87
+syreen-032.png -1 10 -164 -87
+syreen-033.png -1 10 -164 -87
+syreen-034.png -1 10 -164 -87
+syreen-035.png -1 10 -164 -87
+syreen-036.png -1 10 -164 -87
+syreen-037.png -1 10 -113 -41
+syreen-038.png -1 10 -113 -41
+syreen-039.png -1 10 -113 -41
+syreen-040.png -1 10 -113 -41
+syreen-041.png -1 10 -13 -48
+syreen-042.png -1 10 -13 -48
+syreen-043.png -1 10 -13 -48
+syreen-044.png -1 10 -143 -36
+syreen-045.png -1 10 -143 -36
+syreen-046.png -1 10 -143 -36
+syreen-047.png -1 10 -143 -36
+syreen-048.png -1 10 -177 -12
+syreen-049.png -1 10 -177 -12
+syreen-050.png -1 10 -177 -12
+#@ anidef 0 BACKGROUND 0 0 0 [anim_0]
+#@ anidef 1 RANDOM 1 3 0 [anim_1]
+#@ anidef 2 RANDOM 1 3 0 [anim_2]
+#@ anidef 3 RANDOM 1 3 0 [anim_3]
+#@ anidef 4 RANDOM 1 3 0 [anim_4]
+#@ anidef 5 RANDOM 1 3 0 [anim_5]
+#@ anidef 6 RANDOM 1 3 4096 [anim_6]
+#@ anidef 7 RANDOM 1 3 0 [anim_7]
+#@ anidef 8 RANDOM 1 3 8192 [anim_8]
+#@ anidef 9 RANDOM 1 3 0 [anim_9]
+#@ anidef 10 YO_YO 10 3 16384 [anim_10]
+#@ anidef 11 CIRCULAR 1 3 0 [anim_11]
+#@ anidef 12 RANDOM 0.06666666666666667 0.06666666666666667 0 [anim_12]
+#@ anidef 13 YO_YO 10 3 32 [anim_13]
+#@ anidef 14 YO_YO 3 1 16512 [anim_14]
+#@ anidef 15 YO_YO 10 1 8704 [anim_15]
+#@ anidef 16 TALK 0.08333333333333333 0 0 [anim_16]
+#@ aniframe 0 0 [syreen-000.png -1 10 0 0]
+#@ aniframe 1 0.06666666666666667 [syreen-005.png -1 10 -58 -42]
+#@ aniframe 1 0.06666666666666667 [syreen-006.png -1 10 -58 -42]
+#@ aniframe 2 0.06666666666666667 [syreen-007.png -1 10 -68 -39]
+#@ aniframe 2 0.06666666666666667 [syreen-008.png -1 10 -68 -39]
+#@ aniframe 3 0.06666666666666667 [syreen-009.png -1 10 -80 -39]
+#@ aniframe 3 0.06666666666666667 [syreen-010.png -1 10 -80 -39]
+#@ aniframe 4 0.06666666666666667 [syreen-011.png -1 10 -88 -48]
+#@ aniframe 4 0.06666666666666667 [syreen-012.png -1 10 -88 -48]
+#@ aniframe 5 0.06666666666666667 [syreen-013.png -1 10 -91 -38]
+#@ aniframe 5 0.06666666666666667 [syreen-014.png -1 10 -91 -38]
+#@ aniframe 6 0.06666666666666667 [syreen-015.png -1 10 -104 -50]
+#@ aniframe 6 0.06666666666666667 [syreen-016.png -1 10 -104 -50]
+#@ aniframe 7 0.06666666666666667 [syreen-017.png -1 10 -71 -45]
+#@ aniframe 7 0.06666666666666667 [syreen-018.png -1 10 -71 -45]
+#@ aniframe 8 0.06666666666666667 [syreen-019.png -1 10 -146 -39]
+#@ aniframe 8 0.06666666666666667 [syreen-020.png -1 10 -146 -39]
+#@ aniframe 9 0.06666666666666667 [syreen-021.png -1 10 -135 -85]
+#@ aniframe 9 0.06666666666666667 [syreen-022.png -1 10 -135 -85]
+#@ aniframe 9 0.06666666666666667 [syreen-023.png -1 10 -135 -85]
+#@ aniframe 9 0.06666666666666667 [syreen-024.png -1 10 -135 -85]
+#@ aniframe 9 0.06666666666666667 [syreen-025.png -1 10 -135 -85]
+#@ aniframe 9 0.06666666666666667 [syreen-026.png -1 10 -135 -85]
+#@ aniframe 10 0.06666666666666667 [syreen-027.png -1 10 -188 -25]
+#@ aniframe 10 0.06666666666666667 [syreen-028.png -1 10 -188 -25]
+#@ aniframe 10 0.06666666666666667 [syreen-029.png -1 10 -188 -25]
+#@ aniframe 10 0.06666666666666667 [syreen-030.png -1 10 -188 -25]
+#@ aniframe 11 0.06666666666666667 [syreen-031.png -1 10 -164 -87]
+#@ aniframe 11 0.06666666666666667 [syreen-032.png -1 10 -164 -87]
+#@ aniframe 11 0.06666666666666667 [syreen-033.png -1 10 -164 -87]
+#@ aniframe 11 0.06666666666666667 [syreen-034.png -1 10 -164 -87]
+#@ aniframe 11 0.06666666666666667 [syreen-035.png -1 10 -164 -87]
+#@ aniframe 11 0.06666666666666667 [syreen-036.png -1 10 -164 -87]
+#@ aniframe 12 0.06666666666666667 [syreen-037.png -1 10 -113 -41]
+#@ aniframe 12 0.06666666666666667 [syreen-038.png -1 10 -113 -41]
+#@ aniframe 12 0.06666666666666667 [syreen-039.png -1 10 -113 -41]
+#@ aniframe 12 0.06666666666666667 [syreen-040.png -1 10 -113 -41]
+#@ aniframe 13 0.1 [syreen-041.png -1 10 -13 -48]
+#@ aniframe 13 0.1 [syreen-042.png -1 10 -13 -48]
+#@ aniframe 13 0.1 [syreen-043.png -1 10 -13 -48]
+#@ aniframe 14 0.16666666666666666 [syreen-044.png -1 10 -143 -36]
+#@ aniframe 14 0.16666666666666666 [syreen-045.png -1 10 -143 -36]
+#@ aniframe 14 0.16666666666666666 [syreen-046.png -1 10 -143 -36]
+#@ aniframe 14 0.16666666666666666 [syreen-047.png -1 10 -143 -36]
+#@ aniframe 15 0.13333333333333333 [syreen-048.png -1 10 -177 -12]
+#@ aniframe 15 0.13333333333333333 [syreen-049.png -1 10 -177 -12]
+#@ aniframe 15 0.13333333333333333 [syreen-050.png -1 10 -177 -12]
+#@ aniframe 16 0.06666666666666667 [syreen-001.png -1 10 -189 -37]
+#@ aniframe 16 0.06666666666666667 [syreen-002.png -1 10 -189 -37]
+#@ aniframe 16 0.06666666666666667 [syreen-003.png -1 10 -189 -37]
+#@ aniframe 16 0.06666666666666667 [syreen-004.png -1 10 -189 -37]

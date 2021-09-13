@@ -1,0 +1,93 @@
+kohrah-000.png -1 10 0 0
+kohrah-001.png -1 10 -1 -70
+kohrah-002.png -1 11 -1 -70
+kohrah-003.png -1 11 -1 -70
+kohrah-004.png -1 11 -1 -70
+kohrah-005.png -1 11 -1 -70
+kohrah-006.png -1 11 -1 -70
+kohrah-007.png -1 10 -98 -31
+kohrah-008.png -1 10 -98 -31
+kohrah-009.png -1 10 -98 -31
+kohrah-010.png -1 10 -98 -31
+kohrah-011.png -1 10 -98 -31
+kohrah-012.png -1 10 -98 -31
+kohrah-013.png -1 10 -129 -34
+kohrah-014.png -1 10 -129 -34
+kohrah-015.png -1 10 -129 -34
+kohrah-016.png -1 10 -129 -34
+kohrah-017.png -1 10 -129 -34
+kohrah-018.png -1 10 -129 -34
+kohrah-019.png -1 10 -129 -34
+kohrah-020.png -1 10 -124 -27
+kohrah-021.png -1 10 -124 -27
+kohrah-022.png -1 10 -124 -27
+kohrah-023.png -1 10 -97 -59
+kohrah-024.png -1 10 -97 -59
+kohrah-025.png -1 10 -97 -59
+kohrah-026.png -1 10 -143 -62
+kohrah-027.png -1 10 -143 -62
+kohrah-028.png -1 10 -143 -62
+kohrah-029.png -1 10 -111 -87
+kohrah-030.png -1 10 -111 -87
+kohrah-031.png -1 10 -111 -87
+kohrah-032.png -1 10 -111 -87
+kohrah-033.png -1 10 -10 -66
+kohrah-034.png -1 10 -10 -66
+kohrah-035.png -1 10 -10 -66
+kohrah-036.png -1 10 -10 -66
+kohrah-037.png -1 10 -10 -66
+kohrah-038.png -1 10 -194 -71
+kohrah-039.png -1 10 -194 -71
+kohrah-040.png -1 10 -194 -71
+kohrah-041.png -1 10 -194 -71
+#@ anidef 0 BACKGROUND 0 0 0 [anim_0]
+#@ anidef 1 CIRCULAR 1 3 0 [anim_1]
+#@ anidef 2 CIRCULAR 1 3 0 [anim_2]
+#@ anidef 3 YO_YO 1 3 0 [anim_3]
+#@ anidef 4 YO_YO 1 3 0 [anim_4]
+#@ anidef 5 YO_YO 1 3 0 [anim_5]
+#@ anidef 6 RANDOM 0.1 0 0 [anim_6]
+#@ anidef 7 CIRCULAR 1 3 0 [anim_7]
+#@ anidef 8 CIRCULAR 1 3 0 [anim_8]
+#@ anidef 9 TALK 0.08333333333333333 0 0 [anim_9]
+#@ aniframe 0 0 [kohrah-000.png -1 10 0 0]
+#@ aniframe 1 0.06666666666666667 [kohrah-007.png -1 10 -98 -31]
+#@ aniframe 1 0.06666666666666667 [kohrah-008.png -1 10 -98 -31]
+#@ aniframe 1 0.06666666666666667 [kohrah-009.png -1 10 -98 -31]
+#@ aniframe 1 0.06666666666666667 [kohrah-010.png -1 10 -98 -31]
+#@ aniframe 1 0.06666666666666667 [kohrah-011.png -1 10 -98 -31]
+#@ aniframe 1 0.06666666666666667 [kohrah-012.png -1 10 -98 -31]
+#@ aniframe 2 0.06666666666666667 [kohrah-013.png -1 10 -129 -34]
+#@ aniframe 2 0.06666666666666667 [kohrah-014.png -1 10 -129 -34]
+#@ aniframe 2 0.06666666666666667 [kohrah-015.png -1 10 -129 -34]
+#@ aniframe 2 0.06666666666666667 [kohrah-016.png -1 10 -129 -34]
+#@ aniframe 2 0.06666666666666667 [kohrah-017.png -1 10 -129 -34]
+#@ aniframe 2 0.06666666666666667 [kohrah-018.png -1 10 -129 -34]
+#@ aniframe 2 0.06666666666666667 [kohrah-019.png -1 10 -129 -34]
+#@ aniframe 3 0.06666666666666667 [kohrah-020.png -1 10 -124 -27]
+#@ aniframe 3 0.06666666666666667 [kohrah-021.png -1 10 -124 -27]
+#@ aniframe 3 0.06666666666666667 [kohrah-022.png -1 10 -124 -27]
+#@ aniframe 4 0.06666666666666667 [kohrah-023.png -1 10 -97 -59]
+#@ aniframe 4 0.06666666666666667 [kohrah-024.png -1 10 -97 -59]
+#@ aniframe 4 0.06666666666666667 [kohrah-025.png -1 10 -97 -59]
+#@ aniframe 5 0.06666666666666667 [kohrah-026.png -1 10 -143 -62]
+#@ aniframe 5 0.06666666666666667 [kohrah-027.png -1 10 -143 -62]
+#@ aniframe 5 0.06666666666666667 [kohrah-028.png -1 10 -143 -62]
+#@ aniframe 6 0.1 [kohrah-029.png -1 10 -111 -87]
+#@ aniframe 6 0.1 [kohrah-030.png -1 10 -111 -87]
+#@ aniframe 6 0.1 [kohrah-031.png -1 10 -111 -87]
+#@ aniframe 6 0.1 [kohrah-032.png -1 10 -111 -87]
+#@ aniframe 7 0.1 [kohrah-033.png -1 10 -10 -66]
+#@ aniframe 7 0.1 [kohrah-034.png -1 10 -10 -66]
+#@ aniframe 7 0.1 [kohrah-035.png -1 10 -10 -66]
+#@ aniframe 7 0.1 [kohrah-036.png -1 10 -10 -66]
+#@ aniframe 7 0.1 [kohrah-037.png -1 10 -10 -66]
+#@ aniframe 8 0.1 [kohrah-038.png -1 10 -194 -71]
+#@ aniframe 8 0.1 [kohrah-039.png -1 10 -194 -71]
+#@ aniframe 8 0.1 [kohrah-040.png -1 10 -194 -71]
+#@ aniframe 8 0.1 [kohrah-041.png -1 10 -194 -71]
+#@ aniframe 9 0.06666666666666667 [kohrah-002.png -1 11 -1 -70]
+#@ aniframe 9 0.06666666666666667 [kohrah-003.png -1 11 -1 -70]
+#@ aniframe 9 0.06666666666666667 [kohrah-004.png -1 11 -1 -70]
+#@ aniframe 9 0.06666666666666667 [kohrah-005.png -1 11 -1 -70]
+#@ aniframe 9 0.06666666666666667 [kohrah-006.png -1 11 -1 -70]
