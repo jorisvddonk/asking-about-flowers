@@ -95,7 +95,12 @@ async function one_iter(anifilename) {
 async function main() {
   const files = glob.sync("./comm/**/*.ani");
   for (let fname of files) {
-    await one_iter(fname);
+    try {
+      await one_iter(fname);
+    } catch (e) {
+      console.log(e)
+      console.log(`Error parsing ${fname} - continuing with next file(s)...`);
+    }
   }
 }
 
