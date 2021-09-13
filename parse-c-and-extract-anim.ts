@@ -85,7 +85,7 @@ async function transform(cfile, anifile, anifilepath) {
   parseAnim(animInfo.talk_animation);
 
   const outfilecontents = framelines.concat(anideflines).concat(aniframelines).join('\n');
-  fs.writeFileSync(anifilepath, outfilecontents);
+  fs.writeFileSync(anifilepath, outfilecontents + '\n');
 }
 
 main().then(console.log).catch(console.error);
