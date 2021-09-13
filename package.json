@@ -32,6 +32,6 @@
     "shuffle-seed": "^1.1.6",
     "ts-node": "^9.0.0",
     "typescript": "^4.0.3",
-    "uqm-files-parsers": "^1.0.4"
+    "uqm-files-parsers": "^1.0.5"
   }
 }
