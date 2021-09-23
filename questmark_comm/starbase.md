@@ -146,6 +146,12 @@
 
 # init
 
+```comment
+TODO: support all of the stacks (pstack[1] etc) from starbase.c!
+(at the moment the logic in a lot of the deep history stuf is not equal
+to the logic of the game)
+```
+
 `"NORMAL_HELLO_" 8 randInt 65 + charCode rconcat goto`
 
 # BEFORE_WE_GO_ON_1
@@ -686,33 +692,22 @@ todo:
 # NeedInfo
 
 * [Would you elaborate on your facilities here at the starbase?](#TellStarBase)
+
 `"starbase-047.ogg" _playAudio pop`
 We can modify your Precursor ship, build additional combat vessels
 and supply you with fuel and crew.
 
-```comment
-		stack0 = 0;
-		stack1 = 0;
-		stack2 = 0;
-		stack3 = 0;
-```
+
 * [I would like some historical data.](#TellHistory)
+
 `"starbase-048.ogg" _playAudio pop`
 What aspect of history, Captain?
-```comment
-		stack0 = 0;
-		stack1 = 0;
-		stack2 = 0;
-```
+
 * [I would like your input on how we can defeat the Ur-Quan.](#TellMission)
+
 `"starbase-049.ogg" _playAudio pop`
 Can you be more specific?
-```comment
-		stack0 = 0;
-		stack1 = 0;
-		stack2 = 0;
-		stack3 = 0;
-```
+
 * [I do not require additional information.](#NormalStarbase)
 
 `"starbase-050.ogg" _playAudio pop`
@@ -826,361 +821,57 @@ What else can I tell you?
 
 # TellHistory
 
-# TellMission
-
-
-
-# OK_ENOUGH_MISSION
-
-`"starbase-059.ogg" _playAudio pop`
-What else can I tell you?
-
-# GET_MINERALS
-
-`"starbase-060.ogg" _playAudio pop`
-If you have the patience, I would recommend you spend several months
-or even a year gathering mineral resources.
-You can find such minerals on almost any planet surface,
-but the quality and density will vary depending on the type of planet you're on.
-Base metals are probably the most common materials you'll find, but they aren't particularly valuable.
-You can find rarer precious and radioactive elements on metal-rich worlds such as Mercury.
-An old miner once told me that you could tell the relative quality of a planet's minerals
-based on the planet's color as seen from space.
-To remember the color sequence from good to bad
-The miner had a mnemonic which went something like
-`Very Young Orangutans Could Grow Bananas, Perhaps Rather Well'.
-It is also the case that mineral yields will be better at hotter stars.
-Temperature is related to the size and color of a star
-Red stars are the coolest, then orange, yellow, green, blue
-And the hottest stars are white.
-
-# ABOUT_ALIENS
-
-`"starbase-061.ogg" _playAudio pop`
-That all depends on whom you meet, doesn't it, Captain?
-Well, in all seriousness, if you encounter the Ilwrath, VUX, Androsynth, or other Hierarchy battle thralls
-I wouldn't hold out much hope for a peaceful encounter.
-So if you feel you have the advantage, attack!
-The resources you will scavenge from the enemies' wreckage are well worth the effort.
-If you can find Alliance races who are in a position to help us
-then you MUST convince them to join with us!
-Their assistance may be crucial to our success.
-
-# MUST_DEFEAT
-
-`"starbase-062.ogg" _playAudio pop`
-Captain, I wish I had an easy answer, but I don't.
-The only way I can see of liberating Earth, as well as the Alliance allies
-is to destroy the Ur-Quan and their armada of battle thralls entirely.
-
-# DEFEAT_LIKE_SO
-
-`"starbase-063.ogg" _playAudio pop`
-To defeat our enemies, we will need awesome strength, both in your flagship and the fleet
-as well as the assistance of powerful new allies.
-Though combat will be unavoidable, and sometimes necessary to achieve our goals
-I am certain your wits will be at least as important as your weapons.
-You will need to explore this region of space, gathering resources and information wherever you go.
-
-# FIND_URQUAN
-
-`"starbase-064.ogg" _playAudio pop`
-I don't know, Captain,
-but I suspect their battle thralls know more than we do;
-so I suggest you try to gather information from them, perhaps by force.
-
-# FIGHT_URQUAN
-
-`"starbase-065.ogg" _playAudio pop`
-At first, your ship will be far too vulnerable to permit frontal assaults on the Ur-Quan.
-Even when your ship is at full power, we are faced with the reality
-that the Hierarchy has THOUSANDS of ships
-You cannot win the fight alone, Captain. You need allies.
-Also, towards the end of the War, when the Hierarchy broke through the coreward front,
-we heard rumors that the Ur-Quan had unleashed some kind of super-weapon
-which was unstoppable by normal means.
-You need to find out if that rumor was true, Captain
-because if the Ur-Quan do have such a weapon, we'll have to find some way to stop it
-or all our efforts are for naught.
-
-# ALLY_LIKE_SO
-
-`"starbase-066.ogg" _playAudio pop`
-If you encounter an unknown alien race, proceed carefully and diplomatically --
--- we need all the friends we can get, and we certainly can't afford any more enemies. 
-Remember, Captain, with your Precursor starship, you hold awesome power
-but there will be situations when dealing with an alien race
-where a 'carrot' will serve better than a 'stick'.
-But first you must determine what 'carrot' the alien wants.
-
-# STRONG_LIKE_SO
-
-`"starbase-067.ogg" _playAudio pop`
-You need to accumulate enough resources so that we can build up your flagship
-and assemble a strong fleet. I'd also recommend
-that you acquire blueprints for other, more powerful ships than our trusty Cruiser.
-I suspect that aliens will not give you such `prints unless you form an alliance with them.
-
-# OK_ENOUGH_DEFEAT
-
-`"starbase-068.ogg" _playAudio pop`
-What else can we discuss?
-
-# WHICH_ALIEN
+* [I would like to know about the other starfaring races.](#AlienRaces)
 
 `"starbase-069.ogg" _playAudio pop`
 Which group of aliens?
 
-# WHICH_WAR
+* [I am interested in the War against the Hierarchy.](#WarInfo)
 
 `"starbase-070.ogg" _playAudio pop`
 What about the War?
 
-# WHICH_ANCIENT
+* [I need some information on ancient galactic history.](#AncientHistory)
 
 `"starbase-071.ogg" _playAudio pop`
 We have some data on this subject.  What do you want to know about?
 
-# OK_ENOUGH_HISTORY
+* [No more history, thank you.](#NeedInfo)
 
 `"starbase-072.ogg" _playAudio pop`
 Sure. Anything else?
 
-# WHICH_ALLIANCE
+# AlienRaces
+
+* [The members of the old Alliance.](#AllianceInfo)
 
 `"starbase-073.ogg" _playAudio pop`
 Okay, which race?
 
-# WHICH_HIERARCHY
+* [The Hierarchy and their battle thralls.](#HierarchyInfo)
 
 `"starbase-074.ogg" _playAudio pop`
 Which species?
 
-# ABOUT_OTHER
+* Were there any alien races who weren't in the War?
 
 `"starbase-075.ogg" _playAudio pop`
 None that we had made formal contact with.
 The Chenjesu implied that they had met 2 other starfaring species
 one near the Giclas constellation, and the other directly coreward from Procyon.
-The Ariloulaleelay once mentioned having `some fun' with an alien race in Draconis
+The Ariloulaleelay once mentioned having \`some fun' with an alien race in Draconis
 but like so much else with the Arilou, they never revealed the whole story.
 I am sure there are hundreds more alien races in our galaxy,
 but beyond what I've told you, your guess is as good as mine.
 
-# OK_ENOUGH_ALIENS
+* [I have sufficient information on this subject.](#TellHistory)
 
 `"starbase-076.ogg" _playAudio pop`
 Would you like information on any other aspect of history?
 
-# ABOUT_SHOFIXTI
+# WarInfo
 
-`"starbase-077.ogg" _playAudio pop`
-The Shofixti are a race of intelligent marsupials who had been 'civilized' for only a few decades when the War began.
-They were discovered in the Delta Gorno star system by the Yehat
-who adopted and then 'uplifted' the Shofixti, giving them advanced technology and cultural definition.
-Shofixti are noble and fearless Warriors, Captain. In addition, their incredible fecundity and rapid maturation rate
-kept Alliance ranks solid even at the worst part of the War.
-You know, I once flew as a observer aboard one of their ships
-on routine patrol, we never saw the enemy
-but I could never stop thinking about the 'Glory Device' it had strapped to the bottom of its hull.
-
-# ABOUT_YEHAT
-
-`"starbase-078.ogg" _playAudio pop`
-The Yehat are a race of ancient warrior clans that have been traveling the stars for many centuries.
-The clans are highly competitive and sometimes even wage war on each other;
-but the clans are all loyal to the Queen and her royal family, known as the Veep-Zeeps.
-The Veep-Zeeps have been in power for over 2,000 years, and it is said that during their rule
-the Yehat never lost a battle.
-
-# ABOUT_ARILOU
-
-`"starbase-079.ogg" _playAudio pop`
-I'd like to think I'm not a bigoted person, Captain, especially when it comes to allies
-but there is just something about those Arilou that gives me the creeps.
-One thing I'll say for them, though
-they possess some technique for moving REALLY fast through HyperSpace.
-They never let us know what it was, but it sure beats the pants off our fastest ships.
-
-# ABOUT_CHENJESU
-
-`"starbase-080.ogg" _playAudio pop`
-The Chenjesu were leaders of the Alliance, even though they refused to accept formally the title.
-I don't know if their silicon-based biology is just plain superior to our old carbon models
-or if their fantastic intellects were the product of an ancient, peaceful culture.
-Whatever the reason, I'd rather be taking orders from a Chenjesu than any other lifeform, absolutely.
-One of the more amazing things about them was that they never used HyperWave communicators.
-They could send messages naturally
-And their natural HyperWave receptors were much more sensitive than even our best units.
-
-# ABOUT_MMRNMHRM
-
-`"starbase-081.ogg" _playAudio pop`
-We didn't really get much of a chance to learn about those mechanical beings,
-but I'll tell you what I know.
-They are the product of a distant, unknown culture
-who sent a giant Factory-Ark into our region of space many centuries ago.
-The Mother-Ark (that's what the Earth press called it) churned out millions of robots and finally broke down.
-I don't know why the Mmrnmhrm didn't repair the Mother-Ark, maybe they can't.
-My personal guess as to why they were sent here is that they're on the leading edge of a colonization project
-and once the Mmrnmhrm have tamed enough new worlds, the genuine colonists -- whoever they are
-will arrive and claim their due.
-
-# ABOUT_SYREEN
-
-`"starbase-082.ogg" _playAudio pop`
-Most raw recruits saw the Syreen as nothing more than warm, breathing pin-ups.
-Warm they are, and yes, they do breathe most magnificently
-but Captain, they are far more than simple joy units.
-Their history shows that the Syreen established and maintained a peaceful culture
-from their Bronze Age through their discovery of starflight.
-Before their planet was destroyed in a horrible cataclysm, their world was an Eden.
-
-# OK_ENOUGH_ALLIANCE
-
-`"starbase-083.ogg" _playAudio pop`
-What other group of aliens are you interested in?
-
-# ABOUT_URQUAN
-
-`"starbase-084.ogg" _playAudio pop`
-Our enemy is cunning, relentless and possesses technology superior to all but, perhaps
-that found aboard your starship.
-The Ur-Quan are born, live and die for one purpose only:
-the subjugation of all other intelligent life in the galaxy.
-Why? I don't know.
-They'd probably have an easier time just destroying intelligence
-but they are very careful not to use more force than is necessary to achieve their victim's submission.
-I'd sure like to know what made those wormy bastards as twisted as they are
-and I'd like to know why they keep on the move, never stopping longer than it takes
-to enslave whomever they find.
-
-# ABOUT_MYCON
-
-`"starbase-085.ogg" _playAudio pop`
-The Mycons are hard to get a handle on.
-In fact, I'm not sure any human has ever had a real conversation with a Mycon.
-What we know of them we have learned from their corpses, which, I may add
-have a nasty habit of coming back to life when thawed out from a decompression quick-freeze.
-Mycon ships seem to expend a significant amount of energy on life support.
-This is probably because the Mycon only thrive in temperatures close to the melting point of lead.
-As far as we know, the Mycon are the only race to actively seek out the Ur-Quan
-in order to become combat slaves.
-
-# ABOUT_SPATHI
-
-`"starbase-086.ogg" _playAudio pop`
-Imagine facing a cowardly, mobile clam armed with a howitzer
-and you've got good idea of what it's like dealing with a Spathi.
-Although they tend to avoid battles as much as their masters will allow
-Once in battle, a Spathi Eluder is one tough cookie.
-I once heard a rumor, though I don't like to believe in it myself,
-that a rogue band of courageous Spathi broke away from the main starfleet,
-painted their ships black with bright red stripes
-and formed the `Black Spathi Squadron', dedicated to performing brave and hostile deeds.
-Like I said, I'd have to see it to believe it.
-
-# ABOUT_UMGAH
-
-`"starbase-087.ogg" _playAudio pop`
-It's unfortunate that the Umgah fell to the Ur-Quan so early in the War
-because I suspect we would have gotten along well with those big blob creatures;
-at the very least it would have been entertaining.
-We know them a bit better than most races, because they were eager to talk with our ships
-before, after, and during battle.
-The Arilou intimated that they had a relationship with the Umgah before the Ur-Quan arrived
-but I don't know any details.
-
-# ABOUT_ANDROSYNTH
-
-`"starbase-088.ogg" _playAudio pop`
-When I was flying combat missions along the Coreward Front
-there was nothing we feared more than the Androsynth Hit-And-Run Squadron.
-Their Blazer ships were more than a match for our Cruisers
-so we stayed clear of Eta Vulpeculae, their home star.
-In addition, I think each of us aboard the ship knew deep down in our hearts
-that the Androsynth had a damn good reason for hating us.
-Our grandparents had kept them as slaves for nearly 50 years.
-
-# ABOUT_VUX
-
-`"starbase-089.ogg" _playAudio pop`
-The starship Far Voyager, under the command of Captain Jeffry L. Rand, encountered the VUX near Beta Mira.
-Although the details are hazy, it is generally accepted that Rand offended the VUX starship Commander
-with an inadvertent insult.
-
-# ABOUT_ILWRATH
-
-`"starbase-090.ogg" _playAudio pop`
-I still have nightmares about those spiders
-taking me prisoner -- using me as one of their sick sacrifices to Dogar and Kazon
-their twin gods of destruction and torment.
-Those guys were almost as scary as the Androsynth to those of us in deep-space patrol.
-Their Avenger ships could appear out of nowhere and melt a Cruiser down to slag in seconds.
-Luckily for us, the bulk of the Ilwrath fleet was thrown against the Chenjesu and the Mmrnmhrm.
-
-# OK_ENOUGH_HIERARCHY
-
-`"starbase-091.ogg" _playAudio pop`
-What other group of aliens are you interested in?
-
-# ABOUT_PRECURSORS
-
-`"starbase-092.ogg" _playAudio pop`
-Hell, you probably know more about them than I do, but here goes... about 200,000 years ago
-when our great-to-the-nth-grandparents were just starting to play with stone knives and bearskins
-a starfaring species suddenly appeared on the galactic scene and spread like wildfire.
-We've found evidence of their presence just about everywhere
-from an orbital platform in Alpha Centauri, to a stack of DataPlates in a cave on Pluto
-to some nameless widget found in a voodoo shop in New Orleans.
-Though we've never found a Precursor body, or even a picture of one
-we can conjecture what they looked like by examining the scale and layout of their equipment.
-Such an analysis indicates they were giants, say 5 to 8 meters tall, and twice as wide.
-I don't know if they looked more like a brontosaur or an elephant.
-Anyway, about three thousand years after the Precursors made their dramatic appearance
-they vanished, poof! As far as we can tell, it took less than a decade to happen.
-
-# ABOUT_OLD_RACES
-
-`"starbase-093.ogg" _playAudio pop`
-You mean besides the Precursors? Well, the only information we have is second-hand
-based on some research by a Chenjesu historian that I read at the Academy.
-Tzzz-Tzer-Tzak, the historian, found some evidence that there was a group of alien races
-who formed an interstellar empire not too far from here about 22,000 years ago.
-The only species in this empire actually lived in our region of space
-was a race of rocklike creatures who lived in the Vulpeculae constellation.
-The presence of the hostile Androsynth in that part of space
-severely limited Tzzz-Tzer-Tzak's research.
-He never even found out the race's name.
-
-# ABOUT_ALIENS_ON_EARTH
-
-`"starbase-094.ogg" _playAudio pop`
-Yes, there is.
-Aside from the Precursor relics we have found on Earth --
--- often in museums, mislabeled as 'modern art' --
--- we have discovered disturbing evidence of much more recent visitations.
-Perhaps you are already aware that during the mid-to-late 20th century
-there were uncountable UFO sightings, as well as dozens of reported 'encounters' with alien life forms.
-Although we can discount many of the reports as wishful fabrication or traumatic-translation
-the military authorities of that time kept a secret record of the 'incidents' which were legitimate.
-In each such case, the aliens are almost identical in appearance.
-They have white skin and minimal facial features, except for huge, almond-shaped eyes
-which are often described as 'glowing' or 'luminescent'.
-This description fits, almost perfectly, the Ariloulaleelay.
-In most of the legitimate encounters
-the people involved described being physically examined or modified by the aliens.
-In some cases, unusual pregnancies occurred, and in almost every instance, there were repeat visitations
-as though the Ariloulaleelay were doing 'check-ups' on their subjects.
-We never got the chance to confront the Ariloulaleelay about what they did to us and why.
-I wonder if we ever will?
-
-# OK_ENOUGH_ANCIENT
-
-`"starbase-095.ogg" _playAudio pop`
-Would you like information on any other aspect of history?
-
-# URQUAN_STARTED_WAR
+* How did the War with the Ur-Quan start? 
 
 `"starbase-096.ogg" _playAudio pop`
 Earth got involved late in the game, in 2112, when the Chenjesu arrived in our solar system for the first time
@@ -1204,7 +895,7 @@ The timing seemed unusual and the Arilou were definitely weird, looking like Sau
 but we were too busy cranking up our moth-balled heavy industry
 that we didn't really pay it much attention at the time.
 
-# WAR_WAS_LIKE_SO
+* What happened during the War? 
 
 `"starbase-097.ogg" _playAudio pop`
 At the start of the war, here on Earth we were working like crazy
@@ -1222,7 +913,7 @@ The last entrants to the conflict were the Syreen, a race of space gypsies
 who had escaped the Hierarchy by moving their vast fleet of slow-moving habitats into human space.
 With the sides set, the last Ur-Quan offensive began.
 
-# LOST_WAR_BECAUSE
+* How did the War end, Commander?
 
 `"starbase-098.ogg" _playAudio pop`
 The Ur-Quan came roaring through VUX space, and tried to push past the Indi and Mira star systems.
@@ -1245,7 +936,7 @@ Moscow, Beijing, Tokyo, London, Buenos Aires, and Washington.
 We'd lost the War and we knew it, but the Ur-Quan decided to make it real clear --
 -- and that's why if you check any of our most recent maps, you won't find Buenos Aires.
 
-# AFTER_WAR
+* What happened after the War?
 
 `"starbase-099.ogg" _playAudio pop`
 After the UN submitted their formal surrender
@@ -1279,10 +970,335 @@ and our contact with the outside world stopped.
 The next time I saw the stars was 8 years ago,
 when I was transferred up here to be the new commander of this starbase.
 
-# OK_ENOUGH_WAR
+* [Thanks, Commander, for the briefing.](#TellHistory)
 
 `"starbase-100.ogg" _playAudio pop`
 Would you like any information on any other aspect of history?
+
+
+# AllianceInfo
+
+* The Shofixti.
+
+`"starbase-077.ogg" _playAudio pop`
+The Shofixti are a race of intelligent marsupials who had been 'civilized' for only a few decades when the War began.
+They were discovered in the Delta Gorno star system by the Yehat
+who adopted and then 'uplifted' the Shofixti, giving them advanced technology and cultural definition.
+Shofixti are noble and fearless Warriors, Captain. In addition, their incredible fecundity and rapid maturation rate
+kept Alliance ranks solid even at the worst part of the War.
+You know, I once flew as a observer aboard one of their ships
+on routine patrol, we never saw the enemy
+but I could never stop thinking about the 'Glory Device' it had strapped to the bottom of its hull.
+
+* The Yehat.
+
+`"starbase-078.ogg" _playAudio pop`
+The Yehat are a race of ancient warrior clans that have been traveling the stars for many centuries.
+The clans are highly competitive and sometimes even wage war on each other;
+but the clans are all loyal to the Queen and her royal family, known as the Veep-Zeeps.
+The Veep-Zeeps have been in power for over 2,000 years, and it is said that during their rule
+the Yehat never lost a battle.
+
+* The Arilou.
+
+`"starbase-079.ogg" _playAudio pop`
+I'd like to think I'm not a bigoted person, Captain, especially when it comes to allies
+but there is just something about those Arilou that gives me the creeps.
+One thing I'll say for them, though
+they possess some technique for moving REALLY fast through HyperSpace.
+They never let us know what it was, but it sure beats the pants off our fastest ships.
+
+* The Chenjesu.
+
+`"starbase-080.ogg" _playAudio pop`
+The Chenjesu were leaders of the Alliance, even though they refused to accept formally the title.
+I don't know if their silicon-based biology is just plain superior to our old carbon models
+or if their fantastic intellects were the product of an ancient, peaceful culture.
+Whatever the reason, I'd rather be taking orders from a Chenjesu than any other lifeform, absolutely.
+One of the more amazing things about them was that they never used HyperWave communicators.
+They could send messages naturally
+And their natural HyperWave receptors were much more sensitive than even our best units.
+
+* The Mmrnmhrm.
+
+`"starbase-081.ogg" _playAudio pop`
+We didn't really get much of a chance to learn about those mechanical beings,
+but I'll tell you what I know.
+They are the product of a distant, unknown culture
+who sent a giant Factory-Ark into our region of space many centuries ago.
+The Mother-Ark (that's what the Earth press called it) churned out millions of robots and finally broke down.
+I don't know why the Mmrnmhrm didn't repair the Mother-Ark, maybe they can't.
+My personal guess as to why they were sent here is that they're on the leading edge of a colonization project
+and once the Mmrnmhrm have tamed enough new worlds, the genuine colonists -- whoever they are
+will arrive and claim their due.
+
+* The Syreen.
+
+`"starbase-082.ogg" _playAudio pop`
+Most raw recruits saw the Syreen as nothing more than warm, breathing pin-ups.
+Warm they are, and yes, they do breathe most magnificently
+but Captain, they are far more than simple joy units.
+Their history shows that the Syreen established and maintained a peaceful culture
+from their Bronze Age through their discovery of starflight.
+Before their planet was destroyed in a horrible cataclysm, their world was an Eden.
+
+* [That is enough about the Alliance for now.](#AlienRaces)
+
+`"starbase-083.ogg" _playAudio pop`
+What other group of aliens are you interested in?
+
+# HierarchyInfo
+
+* The Ur-Quan.
+
+`"starbase-084.ogg" _playAudio pop`
+Our enemy is cunning, relentless and possesses technology superior to all but, perhaps
+that found aboard your starship.
+The Ur-Quan are born, live and die for one purpose only:
+the subjugation of all other intelligent life in the galaxy.
+Why? I don't know.
+They'd probably have an easier time just destroying intelligence
+but they are very careful not to use more force than is necessary to achieve their victim's submission.
+I'd sure like to know what made those wormy bastards as twisted as they are
+and I'd like to know why they keep on the move, never stopping longer than it takes
+to enslave whomever they find.
+
+* The Mycon.
+
+`"starbase-085.ogg" _playAudio pop`
+The Mycons are hard to get a handle on.
+In fact, I'm not sure any human has ever had a real conversation with a Mycon.
+What we know of them we have learned from their corpses, which, I may add
+have a nasty habit of coming back to life when thawed out from a decompression quick-freeze.
+Mycon ships seem to expend a significant amount of energy on life support.
+This is probably because the Mycon only thrive in temperatures close to the melting point of lead.
+As far as we know, the Mycon are the only race to actively seek out the Ur-Quan
+in order to become combat slaves.
+
+* The Spathi.
+
+`"starbase-086.ogg" _playAudio pop`
+Imagine facing a cowardly, mobile clam armed with a howitzer
+and you've got good idea of what it's like dealing with a Spathi.
+Although they tend to avoid battles as much as their masters will allow
+Once in battle, a Spathi Eluder is one tough cookie.
+I once heard a rumor, though I don't like to believe in it myself,
+that a rogue band of courageous Spathi broke away from the main starfleet,
+painted their ships black with bright red stripes
+and formed the `Black Spathi Squadron', dedicated to performing brave and hostile deeds.
+Like I said, I'd have to see it to believe it.
+
+* The Umgah.
+
+`"starbase-087.ogg" _playAudio pop`
+It's unfortunate that the Umgah fell to the Ur-Quan so early in the War
+because I suspect we would have gotten along well with those big blob creatures;
+at the very least it would have been entertaining.
+We know them a bit better than most races, because they were eager to talk with our ships
+before, after, and during battle.
+The Arilou intimated that they had a relationship with the Umgah before the Ur-Quan arrived
+but I don't know any details.
+
+* The Androsynth.
+
+`"starbase-088.ogg" _playAudio pop`
+When I was flying combat missions along the Coreward Front
+there was nothing we feared more than the Androsynth Hit-And-Run Squadron.
+Their Blazer ships were more than a match for our Cruisers
+so we stayed clear of Eta Vulpeculae, their home star.
+In addition, I think each of us aboard the ship knew deep down in our hearts
+that the Androsynth had a damn good reason for hating us.
+Our grandparents had kept them as slaves for nearly 50 years.
+
+* The Ilwrath.
+
+`"starbase-090.ogg" _playAudio pop`
+I still have nightmares about those spiders
+taking me prisoner -- using me as one of their sick sacrifices to Dogar and Kazon
+their twin gods of destruction and torment.
+Those guys were almost as scary as the Androsynth to those of us in deep-space patrol.
+Their Avenger ships could appear out of nowhere and melt a Cruiser down to slag in seconds.
+Luckily for us, the bulk of the Ilwrath fleet was thrown against the Chenjesu and the Mmrnmhrm.
+
+* The VUX.
+
+`"starbase-089.ogg" _playAudio pop`
+The starship Far Voyager, under the command of Captain Jeffry L. Rand, encountered the VUX near Beta Mira.
+Although the details are hazy, it is generally accepted that Rand offended the VUX starship Commander
+with an inadvertent insult.
+
+* [That's enough information about the Hierarchy.](#AlienRaces)
+
+`"starbase-091.ogg" _playAudio pop`
+What other group of aliens are you interested in?
+
+# AncientHistory
+
+* What can you tell me about the Precursors
+
+`"starbase-092.ogg" _playAudio pop`
+Hell, you probably know more about them than I do, but here goes... about 200,000 years ago
+when our great-to-the-nth-grandparents were just starting to play with stone knives and bearskins
+a starfaring species suddenly appeared on the galactic scene and spread like wildfire.
+We've found evidence of their presence just about everywhere
+from an orbital platform in Alpha Centauri, to a stack of DataPlates in a cave on Pluto
+to some nameless widget found in a voodoo shop in New Orleans.
+Though we've never found a Precursor body, or even a picture of one
+we can conjecture what they looked like by examining the scale and layout of their equipment.
+Such an analysis indicates they were giants, say 5 to 8 meters tall, and twice as wide.
+I don't know if they looked more like a brontosaur or an elephant.
+Anyway, about three thousand years after the Precursors made their dramatic appearance
+they vanished, poof! As far as we can tell, it took less than a decade to happen.
+
+* What about other races from the ancient past?
+
+`"starbase-093.ogg" _playAudio pop`
+You mean besides the Precursors? Well, the only information we have is second-hand
+based on some research by a Chenjesu historian that I read at the Academy.
+Tzzz-Tzer-Tzak, the historian, found some evidence that there was a group of alien races
+who formed an interstellar empire not too far from here about 22,000 years ago.
+The only species in this empire actually lived in our region of space
+was a race of rocklike creatures who lived in the Vulpeculae constellation.
+The presence of the hostile Androsynth in that part of space
+severely limited Tzzz-Tzer-Tzak's research.
+He never even found out the race's name.
+
+* Is there any indication that aliens visited Earth in the past?
+
+`"starbase-094.ogg" _playAudio pop`
+Yes, there is.
+Aside from the Precursor relics we have found on Earth --
+-- often in museums, mislabeled as 'modern art' --
+-- we have discovered disturbing evidence of much more recent visitations.
+Perhaps you are already aware that during the mid-to-late 20th century
+there were uncountable UFO sightings, as well as dozens of reported 'encounters' with alien life forms.
+Although we can discount many of the reports as wishful fabrication or traumatic-translation
+the military authorities of that time kept a secret record of the 'incidents' which were legitimate.
+In each such case, the aliens are almost identical in appearance.
+They have white skin and minimal facial features, except for huge, almond-shaped eyes
+which are often described as 'glowing' or 'luminescent'.
+This description fits, almost perfectly, the Ariloulaleelay.
+In most of the legitimate encounters
+the people involved described being physically examined or modified by the aliens.
+In some cases, unusual pregnancies occurred, and in almost every instance, there were repeat visitations
+as though the Ariloulaleelay were doing 'check-ups' on their subjects.
+We never got the chance to confront the Ariloulaleelay about what they did to us and why.
+I wonder if we ever will?
+
+* [This is fascinating, but I must move on.](#TellHistory)
+
+`"starbase-095.ogg" _playAudio pop`
+Would you like information on any other aspect of history?
+
+# TellMission
+
+* Where can I find the most useful, plentiful mineral resources?
+
+`"starbase-060.ogg" _playAudio pop`
+If you have the patience, I would recommend you spend several months
+or even a year gathering mineral resources.
+You can find such minerals on almost any planet surface,
+but the quality and density will vary depending on the type of planet you're on.
+Base metals are probably the most common materials you'll find, but they aren't particularly valuable.
+You can find rarer precious and radioactive elements on metal-rich worlds such as Mercury.
+An old miner once told me that you could tell the relative quality of a planet's minerals
+based on the planet's color as seen from space.
+To remember the color sequence from good to bad
+The miner had a mnemonic which went something like
+`Very Young Orangutans Could Grow Bananas, Perhaps Rather Well'.
+It is also the case that mineral yields will be better at hotter stars.
+Temperature is related to the size and color of a star
+Red stars are the coolest, then orange, yellow, green, blue
+And the hottest stars are white.
+
+* How should I deal with aliens I meet in space?
+
+`"starbase-061.ogg" _playAudio pop`
+That all depends on whom you meet, doesn't it, Captain?
+Well, in all seriousness, if you encounter the Ilwrath, VUX, Androsynth, or other Hierarchy battle thralls
+I wouldn't hold out much hope for a peaceful encounter.
+So if you feel you have the advantage, attack!
+The resources you will scavenge from the enemies' wreckage are well worth the effort.
+If you can find Alliance races who are in a position to help us
+then you MUST convince them to join with us!
+Their assistance may be crucial to our success.
+
+* If you were in my shoes, what would you do now?
+
+TODO
+
+```comment
+TODO:
+AnalyzeCondition ()
+```
+
+* How can we deal with the Ur-Quan?
+
+`"starbase-062.ogg" _playAudio pop`
+Captain, I wish I had an easy answer, but I don't.
+The only way I can see of liberating Earth, as well as the Alliance allies
+is to destroy the Ur-Quan and their armada of battle thralls entirely.
+
+* [Commander, do you have any long range plans to defeat the Ur-Quan Hierarchy?](#DefeatUrquan)
+
+`"starbase-063.ogg" _playAudio pop`
+To defeat our enemies, we will need awesome strength, both in your flagship and the fleet
+as well as the assistance of powerful new allies.
+Though combat will be unavoidable, and sometimes necessary to achieve our goals
+I am certain your wits will be at least as important as your weapons.
+You will need to explore this region of space, gathering resources and information wherever you go.
+
+* [I have learned what I need to know about this subject, for now.](#NeedInfo)
+
+`"starbase-059.ogg" _playAudio pop`
+What else can I tell you?
+
+# DefeatUrquan
+
+* How can I find the Ur-Quan?
+
+`"starbase-064.ogg" _playAudio pop`
+I don't know, Captain,
+but I suspect their battle thralls know more than we do;
+so I suggest you try to gather information from them, perhaps by force.
+
+* How can we attack the Ur-Quan most effectively?
+
+`"starbase-065.ogg" _playAudio pop`
+At first, your ship will be far too vulnerable to permit frontal assaults on the Ur-Quan.
+Even when your ship is at full power, we are faced with the reality
+that the Hierarchy has THOUSANDS of ships
+You cannot win the fight alone, Captain. You need allies.
+Also, towards the end of the War, when the Hierarchy broke through the coreward front,
+we heard rumors that the Ur-Quan had unleashed some kind of super-weapon
+which was unstoppable by normal means.
+You need to find out if that rumor was true, Captain
+because if the Ur-Quan do have such a weapon, we'll have to find some way to stop it
+or all our efforts are for naught.
+
+* How can I make alliances and with whom?
+
+`"starbase-066.ogg" _playAudio pop`
+If you encounter an unknown alien race, proceed carefully and diplomatically --
+-- we need all the friends we can get, and we certainly can't afford any more enemies. 
+Remember, Captain, with your Precursor starship, you hold awesome power
+but there will be situations when dealing with an alien race
+where a 'carrot' will serve better than a 'stick'.
+But first you must determine what 'carrot' the alien wants.
+
+* What is the fastest way for us to build up our strength?
+
+`"starbase-067.ogg" _playAudio pop`
+You need to accumulate enough resources so that we can build up your flagship
+and assemble a strong fleet. I'd also recommend
+that you acquire blueprints for other, more powerful ships than our trusty Cruiser.
+I suspect that aliens will not give you such \`prints unless you form an alliance with them.
+
+* [Let us move on to another topic.](#TellMission)
+
+`"starbase-068.ogg" _playAudio pop`
+What else can we discuss?
+
 
 # STARBASE_BULLETIN_TAIL
 
@@ -2174,139 +2190,9 @@ I suggest you invest in one or more point-defense laser systems.
 
 
 
-# enough_mission
-I have learned what I need to know about this subject, for now.
 
 
 
 
 
 
-# where_get_minerals
-Where can I find the most useful, plentiful mineral resources?
-
-# what_about_aliens
-How should I deal with aliens I meet in space?
-
-# what_about_urquan
-How can we deal with the Ur-Quan?
-
-# how_defeat
-Commander, do you have any long range plans to defeat the Ur-Quan Hierarchy?
-
-# how_find_urquan
-How can I find the Ur-Quan?
-
-# how_fight_urquan
-How can we attack the Ur-Quan most effectively?
-
-# how_ally
-How can I make alliances and with whom?
-
-# enough_defeat
-Let us move on to another topic.
-
-# alien_races
-I would like to know about the other starfaring races.
-
-# the_war
-I am interested in the War against the Hierarchy.
-
-# ancient_history
-I need some information on ancient galactic history.
-
-# enough_history
-No more history, thank you.
-
-# what_about_alliance
-The members of the old Alliance.
-
-# what_about_hierarchy
-The Hierarchy and their battle thralls.
-
-# what_about_other
-Were there any alien races who weren't in the War?
-
-# enough_aliens
-I have sufficient information on this subject.
-
-# shofixti
-The Shofixti.
-
-# yehat
-The Yehat.
-
-# arilou
-The Arilou.
-
-# chenjesu
-The Chenjesu.
-
-# mmrnmhrm
-The Mmrnmhrm.
-
-# syreen
-The Syreen.
-
-# enough_alliance
-That is enough about the Alliance for now.
-
-# urquan
-The Ur-Quan.
-
-# mycon
-The Mycon.
-
-# spathi
-The Spathi.
-
-# umgah
-The Umgah.
-
-# androsynth
-The Androsynth.
-
-# vux
-The VUX.
-
-# ilwrath
-The Ilwrath.
-
-# enough_hierarchy
-That's enough information about the Hierarchy.
-
-# precursors
-What can you tell me about the Precursors
-
-# old_races
-What about other races from the ancient past?
-
-# aliens_on_earth
-Is there any indication that aliens visited Earth in the past?
-
-# enough_ancient
-This is fascinating, but I must move on.
-
-# what_started_war
-How did the War with the Ur-Quan start?
-
-# what_was_war_like
-What happened during the War?
-
-# why_lose_war
-How did the War end, Commander?
-
-# what_after_war
-What happened after the War?
-
-# enough_war
-Thanks, Commander, for the briefing.
-
-# new_devices
-Can your scientists analyze what I have acquired since my last visit?
-
-# how_get_strong
-What is the fastest way for us to build up our strength?
-
-# what_do_now
-If you were in my shoes, what would you do now?
