@@ -249,19 +249,19 @@ This works as follows:
 note that the player can ask to repeat everything
 if they use that ability, then steps 1 and 2 are still gone through, but since every item has already been check, steps 1 and 2 effectively don't do anything. Since the TALK_ABOUT_BULLETIN_X variables are still set, though, step 3 will repeat the conversation.
 ```
+```
+0 "HAVE_PREVIOUS_BULLETIN" setContext
 
-`0 "HAVE_PREVIOUS_BULLETIN" setContext`
+"BULLETIN_1_CHECKED" getContext 0 eq "ALLIED_SPATHI" getContext 1 eq and jgz { 1 "TALK_ABOUT_BULLETIN_1" setContext }
 
-`"BULLETIN_1_CHECKED" getContext 0 eq "ALLIED_SPATHI" getContext 1 eq and jgz { 1 "TALK_ABOUT_BULLETIN_1" setContext }`
+"BULLETIN_2_CHECKED" getContext 0 eq "ALLIED_ZOQFOTPIK" getContext 1 eq and jgz { 1 "TALK_ABOUT_BULLETIN_2" setContext }
 
-`"BULLETIN_2_CHECKED" getContext 0 eq "ALLIED_ZOQFOTPIK" getContext 1 eq and jgz { 1 "TALK_ABOUT_BULLETIN_2" setContext }`
+"BULLETIN_3_CHECKED" getContext 0 eq "ALLIED_SUPOX" getContext 1 eq and jgz { 1 "TALK_ABOUT_BULLETIN_3" setContext }
 
-`"BULLETIN_3_CHECKED" getContext 0 eq "ALLIED_SUPOX" getContext 1 eq and jgz { 1 "TALK_ABOUT_BULLETIN_3" setContext }`
+"BULLETIN_4_CHECKED" getContext 0 eq "ALLIED_UTWIG" getContext 1 eq and jgz { 1 "TALK_ABOUT_BULLETIN_4" setContext }
 
-`"BULLETIN_4_CHECKED" getContext 0 eq "ALLIED_UTWIG" getContext 1 eq and jgz { 1 "TALK_ABOUT_BULLETIN_4" setContext }`
-
-`"BULLETIN_5_CHECKED" getContext 0 eq "ALLIED_ORZ" getContext 1 eq and jgz { 1 "TALK_ABOUT_BULLETIN_5" setContext }`
-
+"BULLETIN_5_CHECKED" getContext 0 eq "ALLIED_ORZ" getContext 1 eq and jgz { 1 "TALK_ABOUT_BULLETIN_5" setContext }
+```
 ```comment
 TODO: Arilou
 				case 5: // bulletin 6
@@ -278,104 +278,106 @@ TODO: Arilou
 					}
 					break;
 ```
-
 ```comment
 NOTE: ZOQFOT_DISTRESS needs to be 1 here
 ```
-`"BULLETIN_7_CHECKED" getContext 0 eq jgz { "ZOQFOT_DISTRESS" getContext 1 eq jgz { 1 "TALK_ABOUT_BULLETIN_7" setContext } }`
-
+```
+"BULLETIN_7_CHECKED" getContext 0 eq jgz { "ZOQFOT_DISTRESS" getContext 1 eq jgz { 1 "TALK_ABOUT_BULLETIN_7" setContext } }
+```
 ```comment
 The following few bulletin items are time-based.
 the "31 28 31 0 + + +" bits down below basically count up the months and days that in the C code is being calculated by CheckTiming, which is then compared to the CURRENT_GAME_DAY counter.
 ```
+```
+"BULLETIN_8_CHECKED" getContext 0 eq jgz { "MET_MELNORME" getContext 1 eq dup jgz { 1 "BULLETIN_8_CHECKED" setContext } jz { 31 28 31 0 + + + "CURRENT_GAME_DAY" getContext gt jgz { 1 "TALK_ABOUT_BULLETIN_8" setContext } } }
 
-`"BULLETIN_8_CHECKED" getContext 0 eq jgz { "MET_MELNORME" getContext 1 eq dup jgz { 1 "BULLETIN_8_CHECKED" setContext } jz { 31 28 31 0 + + + "CURRENT_GAME_DAY" getContext gt jgz { 1 "TALK_ABOUT_BULLETIN_8" setContext } } }`
+"BULLETIN_9_CHECKED" getContext 0 eq jgz { "MET_MELNORME" getContext 1 eq dup jgz { 1 "BULLETIN_9_CHECKED" setContext } jz { 31 28 31 30 31 30 0 + + + + + + "CURRENT_GAME_DAY" getContext gt jgz { 1 "TALK_ABOUT_BULLETIN_9" setContext } } }
 
-`"BULLETIN_9_CHECKED" getContext 0 eq jgz { "MET_MELNORME" getContext 1 eq dup jgz { 1 "BULLETIN_9_CHECKED" setContext } jz { 31 28 31 30 31 30 0 + + + + + + "CURRENT_GAME_DAY" getContext gt jgz { 1 "TALK_ABOUT_BULLETIN_9" setContext } } }`
-
-`"BULLETIN_10_CHECKED" getContext 0 eq jgz { "FOUND_PLUTO_SPATHI" getContext 1 eq dup jgz { 1 "BULLETIN_10_CHECKED" setContext } jz { 7 "CURRENT_GAME_DAY" getContext gt jgz { 1 "TALK_ABOUT_BULLETIN_10" setContext } } }`
-
+"BULLETIN_10_CHECKED" getContext 0 eq jgz { "FOUND_PLUTO_SPATHI" getContext 1 eq dup jgz { 1 "BULLETIN_10_CHECKED" setContext } jz { 7 "CURRENT_GAME_DAY" getContext gt jgz { 1 "TALK_ABOUT_BULLETIN_10" setContext } } }
+```
 ```comment
 This one is not time-based :)
 ```
-`"BULLETIN_11_CHECKED" getContext 0 eq "SPATHI_SHIELDED_SELVES" getContext 1 eq and jgz { 1 "TALK_ABOUT_BULLETIN_11" setContext }`
+```
+"BULLETIN_11_CHECKED" getContext 0 eq "SPATHI_SHIELDED_SELVES" getContext 1 eq and jgz { 1 "TALK_ABOUT_BULLETIN_11" setContext }
 
-`"BULLETIN_12_CHECKED" getContext 0 eq jgz { "ZOQFOT_HOME_VISITS" getContext "ZOQFOT_GRPOFFS0" getContext or 1 eq dup jgz { 1 "BULLETIN_12_CHECKED" setContext } jz { 42 "CURRENT_GAME_DAY" getContext gt jgz { 1 "TALK_ABOUT_BULLETIN_12" setContext  } } }`
+"BULLETIN_12_CHECKED" getContext 0 eq jgz { "ZOQFOT_HOME_VISITS" getContext "ZOQFOT_GRPOFFS0" getContext or 1 eq dup jgz { 1 "BULLETIN_12_CHECKED" setContext } jz { 42 "CURRENT_GAME_DAY" getContext gt jgz { 1 "TALK_ABOUT_BULLETIN_12" setContext  } } }
 
-`"BULLETIN_13_CHECKED" getContext 0 eq "ALLIED_CHMMR" getContext 1 eq and jgz { 1 "TALK_ABOUT_BULLETIN_13" setContext }`
+"BULLETIN_13_CHECKED" getContext 0 eq "ALLIED_CHMMR" getContext 1 eq and jgz { 1 "TALK_ABOUT_BULLETIN_13" setContext }
 
-`"BULLETIN_14_CHECKED" getContext 0 eq "ALLIED_SHOFIXTI" getContext 1 eq and jgz { 1 "TALK_ABOUT_BULLETIN_14" setContext }`
+"BULLETIN_14_CHECKED" getContext 0 eq "ALLIED_SHOFIXTI" getContext 1 eq and jgz { 1 "TALK_ABOUT_BULLETIN_14" setContext }
 
-`"BULLETIN_15_CHECKED" getContext 0 eq "PKUNK_MISSION" getContext 1 eq and jgz { 1 "TALK_ABOUT_BULLETIN_15" setContext }`
+"BULLETIN_15_CHECKED" getContext 0 eq "PKUNK_MISSION" getContext 1 eq and jgz { 1 "TALK_ABOUT_BULLETIN_15" setContext }
 
-`"BULLETIN_16_CHECKED" getContext 0 eq jgz { "DESTRUCT_CODE_ON_SHIP" getContext 1 eq dup jgz { 1 "BULLETIN_16_CHECKED" setContext } jz { 31 28 31 30 31 30 31 0 + + + + + + + "CURRENT_GAME_DAY" getContext gt jgz { 1 "TALK_ABOUT_BULLETIN_16" setContext } } }`
-
+"BULLETIN_16_CHECKED" getContext 0 eq jgz { "DESTRUCT_CODE_ON_SHIP" getContext 1 eq dup jgz { 1 "BULLETIN_16_CHECKED" setContext } jz { 31 28 31 30 31 30 31 0 + + + + + + + "CURRENT_GAME_DAY" getContext gt jgz { 1 "TALK_ABOUT_BULLETIN_16" setContext } } }
+```
 ```comment
 17 does not exist?
 ```
-
-`"BULLETIN_18_CHECKED" getContext 0 eq "YEHAT_ABSORBED_PKUNK" getContext 1 eq and jgz { 1 "TALK_ABOUT_BULLETIN_18" setContext }`
-
+```
+"BULLETIN_18_CHECKED" getContext 0 eq "YEHAT_ABSORBED_PKUNK" getContext 1 eq and jgz { 1 "TALK_ABOUT_BULLETIN_18" setContext }
+```
 ```comment
 note: CHMMR_BOMB_STATE needs to be 2 here
 ```
-`"BULLETIN_19_CHECKED" getContext 0 eq "CHMMR_BOMB_STATE" getContext 2 eq and jgz { 1 "TALK_ABOUT_BULLETIN_19" setContext }`
-
+```
+"BULLETIN_19_CHECKED" getContext 0 eq "CHMMR_BOMB_STATE" getContext 2 eq and jgz { 1 "TALK_ABOUT_BULLETIN_19" setContext }
+```
 ```comment
 no 20 and 21
-```
-
-```comment
 note: ZOQFOT_DISTRESS needs to be 2 here
 ```
-`"BULLETIN_22_CHECKED" getContext 0 eq jgz { "ZOQFOT_DISTRESS" getContext 2 eq jgz { 1 "TALK_ABOUT_BULLETIN_22" setContext } }`
+```
+"BULLETIN_22_CHECKED" getContext 0 eq jgz { "ZOQFOT_DISTRESS" getContext 2 eq jgz { 1 "TALK_ABOUT_BULLETIN_22" setContext } }
+```
 
 ```comment
 no 23, 24, 25, 26
 ```
+```
+"BULLETIN_27_CHECKED" getContext 0 eq jgz { "CREW_SOLD_TO_DRUUGE" getContext 100 lt dup jgz { 1 "BULLETIN_27_CHECKED" setContext } jz { "CREW_SOLD_TO_DRUUGE" getContext 0 lt jgz { 1 "TALK_ABOUT_BULLETIN_27" setContext } } }
 
-`"BULLETIN_27_CHECKED" getContext 0 eq jgz { "CREW_SOLD_TO_DRUUGE" getContext 100 lt dup jgz { 1 "BULLETIN_27_CHECKED" setContext } jz { "CREW_SOLD_TO_DRUUGE" getContext 0 lt jgz { 1 "TALK_ABOUT_BULLETIN_27" setContext } } }`
+"BULLETIN_28_CHECKED" getContext 0 eq jgz { "CREW_SOLD_TO_DRUUGE" getContext 250 lt dup jgz { 1 "BULLETIN_28_CHECKED" setContext } jz { "CREW_SOLD_TO_DRUUGE" getContext 100 lt jgz { 1 "TALK_ABOUT_BULLETIN_28" setContext } } }
 
-`"BULLETIN_28_CHECKED" getContext 0 eq jgz { "CREW_SOLD_TO_DRUUGE" getContext 250 lt dup jgz { 1 "BULLETIN_28_CHECKED" setContext } jz { "CREW_SOLD_TO_DRUUGE" getContext 100 lt jgz { 1 "TALK_ABOUT_BULLETIN_28" setContext } } }`
+"BULLETIN_29_CHECKED" getContext 0 eq jgz { "CREW_PURCHASED" getContext 1000 lt jgz { 1 "TALK_ABOUT_BULLETIN_29" setContext } }
 
-`"BULLETIN_29_CHECKED" getContext 0 eq jgz { "CREW_PURCHASED" getContext 1000 lt jgz { 1 "TALK_ABOUT_BULLETIN_29" setContext } }`
+"BULLETIN_30_CHECKED" getContext 0 eq jgz { "CREW_SOLD_TO_DRUUGE" getContext 250 lt jgz { 1 "TALK_ABOUT_BULLETIN_30" setContext } }
 
-`"BULLETIN_30_CHECKED" getContext 0 eq jgz { "CREW_SOLD_TO_DRUUGE" getContext 250 lt jgz { 1 "TALK_ABOUT_BULLETIN_30" setContext } }`
+"TALK_ABOUT_BULLETIN_1" getContext 1 eq jgz { ppc 5 + "STARBASE_BULLETIN_1" goto }
+"TALK_ABOUT_BULLETIN_2" getContext 1 eq jgz { ppc 5 + "STARBASE_BULLETIN_2" goto }
+"TALK_ABOUT_BULLETIN_3" getContext 1 eq jgz { ppc 5 + "STARBASE_BULLETIN_3" goto }
+"TALK_ABOUT_BULLETIN_4" getContext 1 eq jgz { ppc 5 + "STARBASE_BULLETIN_4" goto }
+"TALK_ABOUT_BULLETIN_5" getContext 1 eq jgz { ppc 5 + "STARBASE_BULLETIN_5" goto }
+"TALK_ABOUT_BULLETIN_6" getContext 1 eq jgz { ppc 5 + "STARBASE_BULLETIN_6" goto }
+"TALK_ABOUT_BULLETIN_7" getContext 1 eq jgz { ppc 5 + "STARBASE_BULLETIN_7" goto }
+"TALK_ABOUT_BULLETIN_8" getContext 1 eq jgz { ppc 5 + "STARBASE_BULLETIN_8" goto }
+"TALK_ABOUT_BULLETIN_9" getContext 1 eq jgz { ppc 5 + "STARBASE_BULLETIN_9" goto }
+"TALK_ABOUT_BULLETIN_10" getContext 1 eq jgz { ppc 5 + "STARBASE_BULLETIN_10" goto }
+"TALK_ABOUT_BULLETIN_11" getContext 1 eq jgz { ppc 5 + "STARBASE_BULLETIN_11" goto }
+"TALK_ABOUT_BULLETIN_12" getContext 1 eq jgz { ppc 5 + "STARBASE_BULLETIN_12" goto }
+"TALK_ABOUT_BULLETIN_13" getContext 1 eq jgz { ppc 5 + "STARBASE_BULLETIN_13" goto }
+"TALK_ABOUT_BULLETIN_14" getContext 1 eq jgz { ppc 5 + "STARBASE_BULLETIN_14" goto }
+"TALK_ABOUT_BULLETIN_15" getContext 1 eq jgz { ppc 5 + "STARBASE_BULLETIN_15" goto }
+"TALK_ABOUT_BULLETIN_16" getContext 1 eq jgz { ppc 5 + "STARBASE_BULLETIN_16" goto }
+"TALK_ABOUT_BULLETIN_17" getContext 1 eq jgz { ppc 5 + "STARBASE_BULLETIN_17" goto }
+"TALK_ABOUT_BULLETIN_18" getContext 1 eq jgz { ppc 5 + "STARBASE_BULLETIN_18" goto }
+"TALK_ABOUT_BULLETIN_19" getContext 1 eq jgz { ppc 5 + "STARBASE_BULLETIN_19" goto }
+"TALK_ABOUT_BULLETIN_20" getContext 1 eq jgz { ppc 5 + "STARBASE_BULLETIN_20" goto }
+"TALK_ABOUT_BULLETIN_21" getContext 1 eq jgz { ppc 5 + "STARBASE_BULLETIN_21" goto }
+"TALK_ABOUT_BULLETIN_22" getContext 1 eq jgz { ppc 5 + "STARBASE_BULLETIN_22" goto }
+"TALK_ABOUT_BULLETIN_23" getContext 1 eq jgz { ppc 5 + "STARBASE_BULLETIN_23" goto }
+"TALK_ABOUT_BULLETIN_24" getContext 1 eq jgz { ppc 5 + "STARBASE_BULLETIN_24" goto }
+"TALK_ABOUT_BULLETIN_25" getContext 1 eq jgz { ppc 5 + "STARBASE_BULLETIN_25" goto }
+"TALK_ABOUT_BULLETIN_26" getContext 1 eq jgz { ppc 5 + "STARBASE_BULLETIN_26" goto }
+"TALK_ABOUT_BULLETIN_27" getContext 1 eq jgz { ppc 5 + "STARBASE_BULLETIN_27" goto }
+"TALK_ABOUT_BULLETIN_28" getContext 1 eq jgz { ppc 5 + "STARBASE_BULLETIN_28" goto }
+"TALK_ABOUT_BULLETIN_29" getContext 1 eq jgz { ppc 5 + "STARBASE_BULLETIN_29" goto }
+"TALK_ABOUT_BULLETIN_30" getContext 1 eq jgz { ppc 5 + "STARBASE_BULLETIN_30" goto }
+"TALK_ABOUT_BULLETIN_31" getContext 1 eq jgz { ppc 5 + "STARBASE_BULLETIN_31" goto }
+"TALK_ABOUT_BULLETIN_32" getContext 1 eq jgz { ppc 5 + "STARBASE_BULLETIN_32" goto }
 
-`"TALK_ABOUT_BULLETIN_1" getContext 1 eq jgz { ppc 5 + "STARBASE_BULLETIN_1" goto }`
-`"TALK_ABOUT_BULLETIN_2" getContext 1 eq jgz { ppc 5 + "STARBASE_BULLETIN_2" goto }`
-`"TALK_ABOUT_BULLETIN_3" getContext 1 eq jgz { ppc 5 + "STARBASE_BULLETIN_3" goto }`
-`"TALK_ABOUT_BULLETIN_4" getContext 1 eq jgz { ppc 5 + "STARBASE_BULLETIN_4" goto }`
-`"TALK_ABOUT_BULLETIN_5" getContext 1 eq jgz { ppc 5 + "STARBASE_BULLETIN_5" goto }`
-`"TALK_ABOUT_BULLETIN_6" getContext 1 eq jgz { ppc 5 + "STARBASE_BULLETIN_6" goto }`
-`"TALK_ABOUT_BULLETIN_7" getContext 1 eq jgz { ppc 5 + "STARBASE_BULLETIN_7" goto }`
-`"TALK_ABOUT_BULLETIN_8" getContext 1 eq jgz { ppc 5 + "STARBASE_BULLETIN_8" goto }`
-`"TALK_ABOUT_BULLETIN_9" getContext 1 eq jgz { ppc 5 + "STARBASE_BULLETIN_9" goto }`
-`"TALK_ABOUT_BULLETIN_10" getContext 1 eq jgz { ppc 5 + "STARBASE_BULLETIN_10" goto }`
-`"TALK_ABOUT_BULLETIN_11" getContext 1 eq jgz { ppc 5 + "STARBASE_BULLETIN_11" goto }`
-`"TALK_ABOUT_BULLETIN_12" getContext 1 eq jgz { ppc 5 + "STARBASE_BULLETIN_12" goto }`
-`"TALK_ABOUT_BULLETIN_13" getContext 1 eq jgz { ppc 5 + "STARBASE_BULLETIN_13" goto }`
-`"TALK_ABOUT_BULLETIN_14" getContext 1 eq jgz { ppc 5 + "STARBASE_BULLETIN_14" goto }`
-`"TALK_ABOUT_BULLETIN_15" getContext 1 eq jgz { ppc 5 + "STARBASE_BULLETIN_15" goto }`
-`"TALK_ABOUT_BULLETIN_16" getContext 1 eq jgz { ppc 5 + "STARBASE_BULLETIN_16" goto }`
-`"TALK_ABOUT_BULLETIN_17" getContext 1 eq jgz { ppc 5 + "STARBASE_BULLETIN_17" goto }`
-`"TALK_ABOUT_BULLETIN_18" getContext 1 eq jgz { ppc 5 + "STARBASE_BULLETIN_18" goto }`
-`"TALK_ABOUT_BULLETIN_19" getContext 1 eq jgz { ppc 5 + "STARBASE_BULLETIN_19" goto }`
-`"TALK_ABOUT_BULLETIN_20" getContext 1 eq jgz { ppc 5 + "STARBASE_BULLETIN_20" goto }`
-`"TALK_ABOUT_BULLETIN_21" getContext 1 eq jgz { ppc 5 + "STARBASE_BULLETIN_21" goto }`
-`"TALK_ABOUT_BULLETIN_22" getContext 1 eq jgz { ppc 5 + "STARBASE_BULLETIN_22" goto }`
-`"TALK_ABOUT_BULLETIN_23" getContext 1 eq jgz { ppc 5 + "STARBASE_BULLETIN_23" goto }`
-`"TALK_ABOUT_BULLETIN_24" getContext 1 eq jgz { ppc 5 + "STARBASE_BULLETIN_24" goto }`
-`"TALK_ABOUT_BULLETIN_25" getContext 1 eq jgz { ppc 5 + "STARBASE_BULLETIN_25" goto }`
-`"TALK_ABOUT_BULLETIN_26" getContext 1 eq jgz { ppc 5 + "STARBASE_BULLETIN_26" goto }`
-`"TALK_ABOUT_BULLETIN_27" getContext 1 eq jgz { ppc 5 + "STARBASE_BULLETIN_27" goto }`
-`"TALK_ABOUT_BULLETIN_28" getContext 1 eq jgz { ppc 5 + "STARBASE_BULLETIN_28" goto }`
-`"TALK_ABOUT_BULLETIN_29" getContext 1 eq jgz { ppc 5 + "STARBASE_BULLETIN_29" goto }`
-`"TALK_ABOUT_BULLETIN_30" getContext 1 eq jgz { ppc 5 + "STARBASE_BULLETIN_30" goto }`
-`"TALK_ABOUT_BULLETIN_31" getContext 1 eq jgz { ppc 5 + "STARBASE_BULLETIN_31" goto }`
-`"TALK_ABOUT_BULLETIN_32" getContext 1 eq jgz { ppc 5 + "STARBASE_BULLETIN_32" goto }`
-
-`"NormalStarbase" goto`
+"NormalStarbase" goto
+```
 
 # NormalStarbase
 
@@ -402,59 +404,61 @@ if __discuss_devices_talk is 1, then we DO talk about them as well in here
 
 Note that the player can't ask to repeat the devices (unlike the bulletins), so this code is quite a bit different here and doesn't retain as much state in the context.
 ```
+```
+"__discuss_devices_talk" getContext 1 eq jgz { ppc 5 + "DEVICE_HEAD" goto }
 
-`"__discuss_devices_talk" getContext 1 eq jgz { ppc 5 + "DEVICE_HEAD" goto }`
+"DISCUSSED_ROSY_SPHERE" getContext jz { "ROSY_SPHERE_ON_SHIP" getContext 1 eq jgz { 1 "__have_device_to_talk_about" setContext "__discuss_devices_talk" getContext 1 eq jgz { ppc 5 + "ABOUT_SPHERE" goto } } }
 
-`"DISCUSSED_ROSY_SPHERE" getContext jz { "ROSY_SPHERE_ON_SHIP" getContext 1 eq jgz { 1 "__have_device_to_talk_about" setContext "__discuss_devices_talk" getContext 1 eq jgz { ppc 5 + "ABOUT_SPHERE" goto } } }`
+"DISCUSSED_ARTIFACT_2" getContext jz { "ARTIFACT_2_ON_SHIP" getContext 1 eq jgz { 1 "__have_device_to_talk_about" setContext "__discuss_devices_talk" getContext 1 eq jgz { ppc 5 + "ABOUT_ARTIFACT_2" goto } } }
 
-`"DISCUSSED_ARTIFACT_2" getContext jz { "ARTIFACT_2_ON_SHIP" getContext 1 eq jgz { 1 "__have_device_to_talk_about" setContext "__discuss_devices_talk" getContext 1 eq jgz { ppc 5 + "ABOUT_ARTIFACT_2" goto } } }`
+"DISCUSSED_ARTIFACT_3" getContext jz { "ARTIFACT_3_ON_SHIP" getContext 1 eq jgz { 1 "__have_device_to_talk_about" setContext "__discuss_devices_talk" getContext 1 eq jgz { ppc 5 + "ABOUT_ARTIFACT_3" goto } } }
 
-`"DISCUSSED_ARTIFACT_3" getContext jz { "ARTIFACT_3_ON_SHIP" getContext 1 eq jgz { 1 "__have_device_to_talk_about" setContext "__discuss_devices_talk" getContext 1 eq jgz { ppc 5 + "ABOUT_ARTIFACT_3" goto } } }`
+"DISCUSSED_SUN_EFFICIENCY" getContext jz { "SUN_DEVICE_ON_SHIP" getContext 1 eq jgz { 1 "__have_device_to_talk_about" setContext "__discuss_devices_talk" getContext 1 eq jgz { ppc 5 + "ABOUT_SUN" goto } } }
 
-`"DISCUSSED_SUN_EFFICIENCY" getContext jz { "SUN_DEVICE_ON_SHIP" getContext 1 eq jgz { 1 "__have_device_to_talk_about" setContext "__discuss_devices_talk" getContext 1 eq jgz { ppc 5 + "ABOUT_SUN" goto } } }`
+"DISCUSSED_UTWIG_BOMB" getContext jz { "UTWIG_BOMB_ON_SHIP" getContext 1 eq jgz { 1 "__have_device_to_talk_about" setContext "__discuss_devices_talk" getContext 1 eq jgz { ppc 5 + "ABOUT_BOMB" goto } } }
 
-`"DISCUSSED_UTWIG_BOMB" getContext jz { "UTWIG_BOMB_ON_SHIP" getContext 1 eq jgz { 1 "__have_device_to_talk_about" setContext "__discuss_devices_talk" getContext 1 eq jgz { ppc 5 + "ABOUT_BOMB" goto } } }`
+"DISCUSSED_ULTRON_0" getContext jz { "ULTRON_CONDITION" getContext 1 eq jgz { 1 "__have_device_to_talk_about" setContext "__discuss_devices_talk" getContext 1 eq jgz { ppc 5 + "ABOUT_ULTRON_0" goto } } }
 
-`"DISCUSSED_ULTRON_0" getContext jz { "ULTRON_CONDITION" getContext 1 eq jgz { 1 "__have_device_to_talk_about" setContext "__discuss_devices_talk" getContext 1 eq jgz { ppc 5 + "ABOUT_ULTRON_0" goto } } }`
+"DISCUSSED_ULTRON_1" getContext jz { "ULTRON_CONDITION" getContext 2 eq jgz { 1 "__have_device_to_talk_about" setContext "__discuss_devices_talk" getContext 1 eq jgz { ppc 5 + "ABOUT_ULTRON_1" goto } } }
 
-`"DISCUSSED_ULTRON_1" getContext jz { "ULTRON_CONDITION" getContext 2 eq jgz { 1 "__have_device_to_talk_about" setContext "__discuss_devices_talk" getContext 1 eq jgz { ppc 5 + "ABOUT_ULTRON_1" goto } } }`
+"DISCUSSED_ULTRON_2" getContext jz { "ULTRON_CONDITION" getContext 3 eq jgz { 1 "__have_device_to_talk_about" setContext "__discuss_devices_talk" getContext 1 eq jgz { ppc 5 + "ABOUT_ULTRON_2" goto } } }
 
-`"DISCUSSED_ULTRON_2" getContext jz { "ULTRON_CONDITION" getContext 3 eq jgz { 1 "__have_device_to_talk_about" setContext "__discuss_devices_talk" getContext 1 eq jgz { ppc 5 + "ABOUT_ULTRON_2" goto } } }`
+"DISCUSSED_ULTRON_3" getContext jz { "ULTRON_CONDITION" getContext 4 eq jgz { 1 "__have_device_to_talk_about" setContext "__discuss_devices_talk" getContext 1 eq jgz { ppc 5 + "ABOUT_ULTRON_3" goto } } }
 
-`"DISCUSSED_ULTRON_3" getContext jz { "ULTRON_CONDITION" getContext 4 eq jgz { 1 "__have_device_to_talk_about" setContext "__discuss_devices_talk" getContext 1 eq jgz { ppc 5 + "ABOUT_ULTRON_3" goto } } }`
+"DISCUSSED_MAIDENS" getContext jz { "MAIDENS_ON_SHIP" getContext 1 eq jgz { 1 "__have_device_to_talk_about" setContext "__discuss_devices_talk" getContext 1 eq jgz { ppc 5 + "ABOUT_MAIDENS" goto } } }
 
-`"DISCUSSED_MAIDENS" getContext jz { "MAIDENS_ON_SHIP" getContext 1 eq jgz { 1 "__have_device_to_talk_about" setContext "__discuss_devices_talk" getContext 1 eq jgz { ppc 5 + "ABOUT_MAIDENS" goto } } }`
+"DISCUSSED_TALKING_PET" getContext jz { "TALKING_PET_ON_SHIP" getContext 1 eq jgz { 1 "__have_device_to_talk_about" setContext "__discuss_devices_talk" getContext 1 eq jgz { ppc 5 + "ABOUT_TALKPET" goto } } }
 
-`"DISCUSSED_TALKING_PET" getContext jz { "TALKING_PET_ON_SHIP" getContext 1 eq jgz { 1 "__have_device_to_talk_about" setContext "__discuss_devices_talk" getContext 1 eq jgz { ppc 5 + "ABOUT_TALKPET" goto } } }`
+"DISCUSSED_AQUA_HELIX" getContext jz { "AQUA_HELIX_ON_SHIP" getContext 1 eq jgz { 1 "__have_device_to_talk_about" setContext "__discuss_devices_talk" getContext 1 eq jgz { ppc 5 + "ABOUT_HELIX" goto } } }
 
-`"DISCUSSED_AQUA_HELIX" getContext jz { "AQUA_HELIX_ON_SHIP" getContext 1 eq jgz { 1 "__have_device_to_talk_about" setContext "__discuss_devices_talk" getContext 1 eq jgz { ppc 5 + "ABOUT_HELIX" goto } } }`
+"DISCUSSED_CLEAR_SPINDLE" getContext jz { "CLEAR_SPINDLE_ON_SHIP" getContext 1 eq jgz { 1 "__have_device_to_talk_about" setContext "__discuss_devices_talk" getContext 1 eq jgz { ppc 5 + "ABOUT_SPINDLE" goto } } }
 
-`"DISCUSSED_CLEAR_SPINDLE" getContext jz { "CLEAR_SPINDLE_ON_SHIP" getContext 1 eq jgz { 1 "__have_device_to_talk_about" setContext "__discuss_devices_talk" getContext 1 eq jgz { ppc 5 + "ABOUT_SPINDLE" goto } } }`
+"DISCUSSED_UMGAH_HYPERWAVE" getContext jz { "UMGAH_BROADCASTERS_ON_SHIP" getContext 1 eq jgz { 1 "__have_device_to_talk_about" setContext "__discuss_devices_talk" getContext 1 eq jgz { ppc 5 + "ABOUT_UCASTER" goto } } }
 
-`"DISCUSSED_UMGAH_HYPERWAVE" getContext jz { "UMGAH_BROADCASTERS_ON_SHIP" getContext 1 eq jgz { 1 "__have_device_to_talk_about" setContext "__discuss_devices_talk" getContext 1 eq jgz { ppc 5 + "ABOUT_UCASTER" goto } } }`
+"DISCUSSED_TAALO_PROTECTOR" getContext jz { "TAALO_PROTECTOR_ON_SHIP" getContext 1 eq jgz { 1 "__have_device_to_talk_about" setContext "__discuss_devices_talk" getContext 1 eq jgz { ppc 5 + "ABOUT_SHIELD" goto } } }
 
-`"DISCUSSED_TAALO_PROTECTOR" getContext jz { "TAALO_PROTECTOR_ON_SHIP" getContext 1 eq jgz { 1 "__have_device_to_talk_about" setContext "__discuss_devices_talk" getContext 1 eq jgz { ppc 5 + "ABOUT_SHIELD" goto } } }`
+"DISCUSSED_EGG_CASING" getContext jz { "EGG_CASE0_ON_SHIP" getContext 1 eq "EGG_CASE1_ON_SHIP" getContext 1 eq "EGG_CASE2_ON_SHIP" getContext 1 eq or or jgz { 1 "__have_device_to_talk_about" setContext "__discuss_devices_talk" getContext 1 eq jgz { ppc 5 + "ABOUT_EGGCASE_0" goto } } }
 
-`"DISCUSSED_EGG_CASING" getContext jz { "EGG_CASE0_ON_SHIP" getContext 1 eq "EGG_CASE1_ON_SHIP" getContext 1 eq "EGG_CASE2_ON_SHIP" getContext 1 eq or or jgz { 1 "__have_device_to_talk_about" setContext "__discuss_devices_talk" getContext 1 eq jgz { ppc 5 + "ABOUT_EGGCASE_0" goto } } }`
+"DISCUSSED_SYREEN_SHUTTLE" getContext jz { "SYREEN_SHUTTLE_ON_SHIP" getContext 1 eq jgz { 1 "__have_device_to_talk_about" setContext "__discuss_devices_talk" getContext 1 eq jgz { ppc 5 + "ABOUT_SHUTTLE" goto } } }
 
-`"DISCUSSED_SYREEN_SHUTTLE" getContext jz { "SYREEN_SHUTTLE_ON_SHIP" getContext 1 eq jgz { 1 "__have_device_to_talk_about" setContext "__discuss_devices_talk" getContext 1 eq jgz { ppc 5 + "ABOUT_SHUTTLE" goto } } }`
+"DISCUSSED_VUX_BEAST" getContext jz { "VUX_BEAST_ON_SHIP" getContext 1 eq jgz { 1 "__have_device_to_talk_about" setContext "__discuss_devices_talk" getContext 1 eq jgz { ppc 5 + "ABOUT_VUXBEAST0" goto } } }
 
-`"DISCUSSED_VUX_BEAST" getContext jz { "VUX_BEAST_ON_SHIP" getContext 1 eq jgz { 1 "__have_device_to_talk_about" setContext "__discuss_devices_talk" getContext 1 eq jgz { ppc 5 + "ABOUT_VUXBEAST0" goto } } }`
+"DISCUSSED_DESTRUCT_CODE" getContext jz { "DESTRUCT_CODE_ON_SHIP" getContext 1 eq jgz { 1 "__have_device_to_talk_about" setContext "__discuss_devices_talk" getContext 1 eq jgz { ppc 5 + "ABOUT_DESTRUCT" goto } } }
 
-`"DISCUSSED_DESTRUCT_CODE" getContext jz { "DESTRUCT_CODE_ON_SHIP" getContext 1 eq jgz { 1 "__have_device_to_talk_about" setContext "__discuss_devices_talk" getContext 1 eq jgz { ppc 5 + "ABOUT_DESTRUCT" goto } } }`
+"DISCUSSED_PORTAL_SPAWNER" getContext jz { "PORTAL_SPAWNER_ON_SHIP" getContext 1 eq jgz { 1 "__have_device_to_talk_about" setContext "__discuss_devices_talk" getContext 1 eq jgz { ppc 5 + "ABOUT_PORTAL" goto } } }
 
-`"DISCUSSED_PORTAL_SPAWNER" getContext jz { "PORTAL_SPAWNER_ON_SHIP" getContext 1 eq jgz { 1 "__have_device_to_talk_about" setContext "__discuss_devices_talk" getContext 1 eq jgz { ppc 5 + "ABOUT_PORTAL" goto } } }`
+"DISCUSSED_URQUAN_WARP" getContext jz { "PORTAL_KEY_ON_SHIP" getContext 1 eq jgz { 1 "__have_device_to_talk_about" setContext "__discuss_devices_talk" getContext 1 eq jgz { ppc 5 + "ABOUT_WARPPOD" goto } } }
 
-`"DISCUSSED_URQUAN_WARP" getContext jz { "PORTAL_KEY_ON_SHIP" getContext 1 eq jgz { 1 "__have_device_to_talk_about" setContext "__discuss_devices_talk" getContext 1 eq jgz { ppc 5 + "ABOUT_WARPPOD" goto } } }`
+"DISCUSSED_BURVIX_HYPERWAVE" getContext jz { "BURV_BROADCASTERS_ON_SHIP" getContext 1 eq jgz { 1 "__have_device_to_talk_about" setContext "__discuss_devices_talk" getContext 1 eq jgz { ppc 5 + "ABOUT_BCASTER" goto } } }
 
-`"DISCUSSED_BURVIX_HYPERWAVE" getContext jz { "BURV_BROADCASTERS_ON_SHIP" getContext 1 eq jgz { 1 "__have_device_to_talk_about" setContext "__discuss_devices_talk" getContext 1 eq jgz { ppc 5 + "ABOUT_BCASTER" goto } } }`
-
-`"__discuss_devices_talk" getContext 1 eq jgz { ppc 5 + "DEVICE_TAIL" goto }`
-
+"__discuss_devices_talk" getContext 1 eq jgz { ppc 5 + "DEVICE_TAIL" goto }
+```
 ```comment
 Pops back to the ppc on the stack IF __dicuss_devices_talk is 0, otherwise go back to NormalStarbase and set "__discussed_devices" to 1 as it's not called as a "function".
 ```
-`"__discuss_devices_talk" getContext 1 eq jgz { 1 "__discussed_devices" setContext "NormalStarbase" goto } "__discuss_devices_talk" getContext 0 eq jgz { goto }`
+```
+"__discuss_devices_talk" getContext 1 eq jgz { 1 "__discussed_devices" setContext "NormalStarbase" goto } "__discuss_devices_talk" getContext 0 eq jgz { goto }
+```
 
 # RETURN_HELLO
 
