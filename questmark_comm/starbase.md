@@ -146,13 +146,15 @@
 
 # init
 
-```comment
+```
+/*
 TODO: support all of the stacks (pstack[1] etc) from starbase.c!
 (at the moment the logic in a lot of the deep history stuf is not equal
 to the logic of the game)
-```
+*/
 
-`"NORMAL_HELLO_" 8 randInt 65 + charCode rconcat goto`
+"NORMAL_HELLO_" 8 randInt 65 + charCode rconcat goto
+```
 
 # BEFORE_WE_GO_ON_1
 
@@ -239,7 +241,8 @@ I hope the battle fares well, Captain `"captainName" getContext emit`.
 
 # bulletin
 
-```comment
+```
+/*
 Bulletin system
 This works as follows:
 1. Go through all bulletin items. For each, check if it has already been said to the player ("checked").
@@ -248,8 +251,8 @@ This works as follows:
 
 note that the player can ask to repeat everything
 if they use that ability, then steps 1 and 2 are still gone through, but since every item has already been check, steps 1 and 2 effectively don't do anything. Since the TALK_ABOUT_BULLETIN_X variables are still set, though, step 3 will repeat the conversation.
-```
-```
+*/
+
 0 "HAVE_PREVIOUS_BULLETIN" setContext
 
 "BULLETIN_1_CHECKED" getContext 0 eq "ALLIED_SPATHI" getContext 1 eq and jgz { 1 "TALK_ABOUT_BULLETIN_1" setContext }
@@ -261,44 +264,38 @@ if they use that ability, then steps 1 and 2 are still gone through, but since e
 "BULLETIN_4_CHECKED" getContext 0 eq "ALLIED_UTWIG" getContext 1 eq and jgz { 1 "TALK_ABOUT_BULLETIN_4" setContext }
 
 "BULLETIN_5_CHECKED" getContext 0 eq "ALLIED_ORZ" getContext 1 eq and jgz { 1 "TALK_ABOUT_BULLETIN_5" setContext }
-```
-```comment
-TODO: Arilou
-				case 5: // bulletin 6
-					if (GET_GAME_STATE (ARILOU_MANNER) == 2)
-						BulletinMask |= 1L << b0;
-					else if (GET_GAME_STATE (PORTAL_SPAWNER)
-							&& (Repeat || EscortFeasibilityStudy (
-									ARILOU_SHIP)))
-					{
-#define NUM_GIFT_ARILOUS 3
-						pStr = STARBASE_BULLETIN_6;
-						if (!Repeat)
-							AddEscortShips (ARILOU_SHIP, NUM_GIFT_ARILOUS);
-					}
-					break;
-```
-```comment
-NOTE: ZOQFOT_DISTRESS needs to be 1 here
-```
-```
+
+// TODO: Arilou
+// 				case 5: bulletin 6
+// 					if (GET_GAME_STATE (ARILOU_MANNER) == 2)
+// 						BulletinMask |= 1L << b0;
+// 					else if (GET_GAME_STATE (PORTAL_SPAWNER)
+// 							&& (Repeat || EscortFeasibilityStudy (
+// 									ARILOU_SHIP)))
+// 					{
+// #define NUM_GIFT_ARILOUS 3
+// 						pStr = STARBASE_BULLETIN_6;
+// 						if (!Repeat)
+// 							AddEscortShips (ARILOU_SHIP, NUM_GIFT_ARILOUS);
+// 					}
+// 					break;
+
+
+//NOTE: ZOQFOT_DISTRESS needs to be 1 here
 "BULLETIN_7_CHECKED" getContext 0 eq jgz { "ZOQFOT_DISTRESS" getContext 1 eq jgz { 1 "TALK_ABOUT_BULLETIN_7" setContext } }
-```
-```comment
+
+/*
 The following few bulletin items are time-based.
 the "31 28 31 0 + + +" bits down below basically count up the months and days that in the C code is being calculated by CheckTiming, which is then compared to the CURRENT_GAME_DAY counter.
-```
-```
+*/
+
 "BULLETIN_8_CHECKED" getContext 0 eq jgz { "MET_MELNORME" getContext 1 eq dup jgz { 1 "BULLETIN_8_CHECKED" setContext } jz { 31 28 31 0 + + + "CURRENT_GAME_DAY" getContext gt jgz { 1 "TALK_ABOUT_BULLETIN_8" setContext } } }
 
 "BULLETIN_9_CHECKED" getContext 0 eq jgz { "MET_MELNORME" getContext 1 eq dup jgz { 1 "BULLETIN_9_CHECKED" setContext } jz { 31 28 31 30 31 30 0 + + + + + + "CURRENT_GAME_DAY" getContext gt jgz { 1 "TALK_ABOUT_BULLETIN_9" setContext } } }
 
 "BULLETIN_10_CHECKED" getContext 0 eq jgz { "FOUND_PLUTO_SPATHI" getContext 1 eq dup jgz { 1 "BULLETIN_10_CHECKED" setContext } jz { 7 "CURRENT_GAME_DAY" getContext gt jgz { 1 "TALK_ABOUT_BULLETIN_10" setContext } } }
-```
-```comment
-This one is not time-based :)
-```
-```
+
+// This one is not time-based :)
 "BULLETIN_11_CHECKED" getContext 0 eq "SPATHI_SHIELDED_SELVES" getContext 1 eq and jgz { 1 "TALK_ABOUT_BULLETIN_11" setContext }
 
 "BULLETIN_12_CHECKED" getContext 0 eq jgz { "ZOQFOT_HOME_VISITS" getContext "ZOQFOT_GRPOFFS0" getContext or 1 eq dup jgz { 1 "BULLETIN_12_CHECKED" setContext } jz { 42 "CURRENT_GAME_DAY" getContext gt jgz { 1 "TALK_ABOUT_BULLETIN_12" setContext  } } }
@@ -310,31 +307,21 @@ This one is not time-based :)
 "BULLETIN_15_CHECKED" getContext 0 eq "PKUNK_MISSION" getContext 1 eq and jgz { 1 "TALK_ABOUT_BULLETIN_15" setContext }
 
 "BULLETIN_16_CHECKED" getContext 0 eq jgz { "DESTRUCT_CODE_ON_SHIP" getContext 1 eq dup jgz { 1 "BULLETIN_16_CHECKED" setContext } jz { 31 28 31 30 31 30 31 0 + + + + + + + "CURRENT_GAME_DAY" getContext gt jgz { 1 "TALK_ABOUT_BULLETIN_16" setContext } } }
-```
-```comment
-17 does not exist?
-```
-```
-"BULLETIN_18_CHECKED" getContext 0 eq "YEHAT_ABSORBED_PKUNK" getContext 1 eq and jgz { 1 "TALK_ABOUT_BULLETIN_18" setContext }
-```
-```comment
-note: CHMMR_BOMB_STATE needs to be 2 here
-```
-```
-"BULLETIN_19_CHECKED" getContext 0 eq "CHMMR_BOMB_STATE" getContext 2 eq and jgz { 1 "TALK_ABOUT_BULLETIN_19" setContext }
-```
-```comment
-no 20 and 21
-note: ZOQFOT_DISTRESS needs to be 2 here
-```
-```
-"BULLETIN_22_CHECKED" getContext 0 eq jgz { "ZOQFOT_DISTRESS" getContext 2 eq jgz { 1 "TALK_ABOUT_BULLETIN_22" setContext } }
-```
 
-```comment
-no 23, 24, 25, 26
-```
-```
+// 17 does not exist?
+
+"BULLETIN_18_CHECKED" getContext 0 eq "YEHAT_ABSORBED_PKUNK" getContext 1 eq and jgz { 1 "TALK_ABOUT_BULLETIN_18" setContext }
+
+//note: CHMMR_BOMB_STATE needs to be 2 here
+"BULLETIN_19_CHECKED" getContext 0 eq "CHMMR_BOMB_STATE" getContext 2 eq and jgz { 1 "TALK_ABOUT_BULLETIN_19" setContext }
+
+// no 20 and 21
+
+// note: ZOQFOT_DISTRESS needs to be 2 here
+"BULLETIN_22_CHECKED" getContext 0 eq jgz { "ZOQFOT_DISTRESS" getContext 2 eq jgz { 1 "TALK_ABOUT_BULLETIN_22" setContext } }
+
+// no 23, 24, 25, 26
+
 "BULLETIN_27_CHECKED" getContext 0 eq jgz { "CREW_SOLD_TO_DRUUGE" getContext 100 lt dup jgz { 1 "BULLETIN_27_CHECKED" setContext } jz { "CREW_SOLD_TO_DRUUGE" getContext 0 lt jgz { 1 "TALK_ABOUT_BULLETIN_27" setContext } } }
 
 "BULLETIN_28_CHECKED" getContext 0 eq jgz { "CREW_SOLD_TO_DRUUGE" getContext 250 lt dup jgz { 1 "BULLETIN_28_CHECKED" setContext } jz { "CREW_SOLD_TO_DRUUGE" getContext 100 lt jgz { 1 "TALK_ABOUT_BULLETIN_28" setContext } } }
@@ -379,12 +366,18 @@ no 23, 24, 25, 26
 "NormalStarbase" goto
 ```
 
+# SellMinerals
+
+TODO: sellMinerals
+
+`"NormalStarbase" goto`
+
 # NormalStarbase
 
-```comment
-Check the device talk first!
 ```
-`0 "__discuss_devices_talk" setContext ppc 5 + "devices" goto`
+// Check the device talk first!
+0 "__discuss_devices_talk" setContext ppc 5 + "devices" goto
+```
 
 * `0 "have_minerals" getContext gt` [Commander, I have minerals to offload.](#SellMinerals)
 * `"TALK_ABOUT_BULLETIN_1" getContext 1 eq "TALK_ABOUT_BULLETIN_2" getContext 1 eq or "TALK_ABOUT_BULLETIN_3" getContext 1 eq or "TALK_ABOUT_BULLETIN_4" getContext 1 eq or "TALK_ABOUT_BULLETIN_5" getContext 1 eq or "TALK_ABOUT_BULLETIN_6" getContext 1 eq or "TALK_ABOUT_BULLETIN_7" getContext 1 eq or "TALK_ABOUT_BULLETIN_8" getContext 1 eq or "TALK_ABOUT_BULLETIN_9" getContext 1 eq or "TALK_ABOUT_BULLETIN_10" getContext 1 eq or "TALK_ABOUT_BULLETIN_11" getContext 1 eq or "TALK_ABOUT_BULLETIN_12" getContext 1 eq or "TALK_ABOUT_BULLETIN_13" getContext 1 eq or "TALK_ABOUT_BULLETIN_14" getContext 1 eq or "TALK_ABOUT_BULLETIN_15" getContext 1 eq or "TALK_ABOUT_BULLETIN_16" getContext 1 eq or "TALK_ABOUT_BULLETIN_17" getContext 1 eq or "TALK_ABOUT_BULLETIN_18" getContext 1 eq or "TALK_ABOUT_BULLETIN_19" getContext 1 eq or "TALK_ABOUT_BULLETIN_20" getContext 1 eq or "TALK_ABOUT_BULLETIN_21" getContext 1 eq or "TALK_ABOUT_BULLETIN_22" getContext 1 eq or "TALK_ABOUT_BULLETIN_23" getContext 1 eq or "TALK_ABOUT_BULLETIN_24" getContext 1 eq or "TALK_ABOUT_BULLETIN_25" getContext 1 eq or "TALK_ABOUT_BULLETIN_26" getContext 1 eq or "TALK_ABOUT_BULLETIN_27" getContext 1 eq or "TALK_ABOUT_BULLETIN_28" getContext 1 eq or "TALK_ABOUT_BULLETIN_29" getContext 1 eq or "TALK_ABOUT_BULLETIN_30" getContext 1 eq or "TALK_ABOUT_BULLETIN_31" getContext 1 eq or "TALK_ABOUT_BULLETIN_32" getContext 1 eq or` [Commander, would you repeat what you told me when we began this conversation?](#bulletin)
@@ -397,14 +390,12 @@ Certainly, Captain. What do you need to know?
 
 # devices
 
-```comment
-if __discuss_devices_talk is 0, then we do NOT talk about devices
-(just DETERMINE if we need to talk about them)
-if __discuss_devices_talk is 1, then we DO talk about them as well in here
+```
+// if __discuss_devices_talk is 0, then we do NOT talk about devices
+// (just DETERMINE if we need to talk about them)
+// if __discuss_devices_talk is 1, then we DO talk about them as well in here
+// Note that the player can't ask to repeat the devices (unlike the bulletins), so this code is quite a bit different here and doesn't retain as much state in the context.
 
-Note that the player can't ask to repeat the devices (unlike the bulletins), so this code is quite a bit different here and doesn't retain as much state in the context.
-```
-```
 "__discuss_devices_talk" getContext 1 eq jgz { ppc 5 + "DEVICE_HEAD" goto }
 
 "DISCUSSED_ROSY_SPHERE" getContext jz { "ROSY_SPHERE_ON_SHIP" getContext 1 eq jgz { 1 "__have_device_to_talk_about" setContext "__discuss_devices_talk" getContext 1 eq jgz { ppc 5 + "ABOUT_SPHERE" goto } } }
@@ -452,11 +443,8 @@ Note that the player can't ask to repeat the devices (unlike the bulletins), so 
 "DISCUSSED_BURVIX_HYPERWAVE" getContext jz { "BURV_BROADCASTERS_ON_SHIP" getContext 1 eq jgz { 1 "__have_device_to_talk_about" setContext "__discuss_devices_talk" getContext 1 eq jgz { ppc 5 + "ABOUT_BCASTER" goto } } }
 
 "__discuss_devices_talk" getContext 1 eq jgz { ppc 5 + "DEVICE_TAIL" goto }
-```
-```comment
-Pops back to the ppc on the stack IF __dicuss_devices_talk is 0, otherwise go back to NormalStarbase and set "__discussed_devices" to 1 as it's not called as a "function".
-```
-```
+
+// Pops back to the ppc on the stack IF __dicuss_devices_talk is 0, otherwise go back to NormalStarbase and set "__discussed_devices" to 1 as it's not called as a "function".
 "__discuss_devices_talk" getContext 1 eq jgz { 1 "__discussed_devices" setContext "NormalStarbase" goto } "__discuss_devices_talk" getContext 0 eq jgz { goto }
 ```
 
@@ -637,9 +625,10 @@ or just some background information on the galaxy -- don't hesitate to ask.
 
 TODO: Bye.
 `exit`
-```comment
+```
+/*
 todo:
-	/* if (R == goodbye_starbase_commander) */
+	// if (R == goodbye_starbase_commander)
 	if (GET_GAME_STATE (CHMMR_BOMB_STATE) >= 2)
 		NPCPhrase (GOOD_LUCK_AGAIN);
 	else
@@ -691,6 +680,7 @@ todo:
 		}
 		NPCPhrase (pStr1);
 	}
+*/
 ```
 
 # NeedInfo
