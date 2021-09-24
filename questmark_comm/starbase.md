@@ -453,45 +453,6 @@ Certainly, Captain. What do you need to know?
 `"starbase-015.ogg" _playAudio pop`
 Yes, Captain?
 
-# NORMAL_GOODBYE_A
-
-`"starbase-016.ogg" _playAudio pop`
-Goodbye, Captain `"captainName" getContext emit`.
-
-# NORMAL_GOODBYE_B
-
-`"starbase-017.ogg" _playAudio pop`
-Bring back lots of minerals, Captain `"captainName" getContext emit`.
-
-# NORMAL_GOODBYE_C
-
-`"starbase-018.ogg" _playAudio pop`
-Return soon, Captain `"captainName" getContext emit`.
-
-# NORMAL_GOODBYE_D
-
-`"starbase-019.ogg" _playAudio pop`
-Farewell Captain `"captainName" getContext emit`.
-
-# NORMAL_GOODBYE_E
-
-`"starbase-020.ogg" _playAudio pop`
-Try to avoid getting gruesomely killed, Captain `"captainName" getContext emit`.
-
-# NORMAL_GOODBYE_F
-
-`"starbase-021.ogg" _playAudio pop`
-We shall await your return, Captain `"captainName" getContext emit`.
-
-# NORMAL_GOODBYE_G
-
-`"starbase-022.ogg" _playAudio pop`
-Blow up an Ur-Quan for me, Captain `"captainName" getContext emit`.
-
-# NORMAL_GOODBYE_H
-
-`"starbase-023.ogg" _playAudio pop`
-Be careful out there, Captain `"captainName" getContext emit`.
 
 # LIGHT_LOAD_A
 
@@ -623,65 +584,38 @@ or just some background information on the galaxy -- don't hesitate to ask.
 
 # ByeBye
 
-TODO: Bye.
+`"CHMMR_BOMB_STATE" getContext 2 eq jgz {`
+`"starbase-172.ogg" _playAudio pop`
+We're all depending on you.  Goodbye, and good luck.
 `exit`
-```
-/*
-todo:
-	// if (R == goodbye_starbase_commander)
-	if (GET_GAME_STATE (CHMMR_BOMB_STATE) >= 2)
-		NPCPhrase (GOOD_LUCK_AGAIN);
-	else
-	{
-		RESPONSE_REF pStr0 = 0;
-		RESPONSE_REF pStr1 = 0;
-		
-		switch ((BYTE)TFB_Random () & 7)
-		{
-			case 0:
-				pStr0 = NORMAL_GOODBYE_A0;
-				pStr1 = NORMAL_GOODBYE_A1;
-				break;
-			case 1:
-				pStr0 = NORMAL_GOODBYE_B0;
-				pStr1 = NORMAL_GOODBYE_B1;
-				break;
-			case 2:
-				pStr0 = NORMAL_GOODBYE_C0;
-				pStr1 = NORMAL_GOODBYE_C1;
-				break;
-			case 3:
-				pStr0 = NORMAL_GOODBYE_D0;
-				pStr1 = NORMAL_GOODBYE_D1;
-				break;
-			case 4:
-				pStr0 = NORMAL_GOODBYE_E0;
-				pStr1 = NORMAL_GOODBYE_E1;
-				break;
-			case 5:
-				pStr0 = NORMAL_GOODBYE_F0;
-				pStr1 = NORMAL_GOODBYE_F1;
-				break;
-			case 6:
-				pStr0 = NORMAL_GOODBYE_G0;
-				pStr1 = NORMAL_GOODBYE_G1;
-				break;
-			case 7:
-				pStr0 = NORMAL_GOODBYE_H0;
-				pStr1 = NORMAL_GOODBYE_H1;
-				break;
-		}
+`}`
 
-		NPCPhrase (pStr0);
-		if (!usingSpeech)
-		{
-			NPCPhrase (SPACE);
-			NPCPhrase (GLOBAL_PLAYER_NAME);
-		}
-		NPCPhrase (pStr1);
-	}
-*/
-```
+`8 randInt dup 0 eq jgz {`
+`"starbase-016.ogg" _playAudio pop`
+Goodbye, Captain `"captainName" getContext emit`.
+`} dup 1 eq jgz {`
+`"starbase-017.ogg" _playAudio pop`
+Bring back lots of minerals, Captain `"captainName" getContext emit`.
+`} dup 2 eq jgz {`
+`"starbase-018.ogg" _playAudio pop`
+Return soon, Captain `"captainName" getContext emit`.
+`} dup 3 eq jgz {`
+`"starbase-019.ogg" _playAudio pop`
+Farewell Captain `"captainName" getContext emit`.
+`} dup 4 eq jgz {`
+`"starbase-020.ogg" _playAudio pop`
+Try to avoid getting gruesomely killed, Captain `"captainName" getContext emit`.
+`} dup 5 eq jgz {`
+`"starbase-021.ogg" _playAudio pop`
+We shall await your return, Captain `"captainName" getContext emit`.
+`} dup 6 eq jgz {`
+`"starbase-022.ogg" _playAudio pop`
+Blow up an Ur-Quan for me, Captain `"captainName" getContext emit`.
+`} 7 eq jgz {`
+`"starbase-023.ogg" _playAudio pop`
+Be careful out there, Captain `"captainName" getContext emit`.
+`}`
+`exit`
 
 # NeedInfo
 
@@ -740,8 +674,8 @@ However, due to the size of your ship, we'll have to produce vast quantities of 
 which will be a substantial drain on our resources.
 
 * `@once` How can I assemble a fleet of fighting ships?
-```comment
-TODO: unlock "How will we acquie additional personell for my ship? (tell_me_about_crew)
+```
+// TODO: unlock How will we acquire additional personell for my ship tell_me_about_crew  
 ```
 `"starbase-054.ogg" _playAudio pop`
 Our shipyard facilities are sophisticated and fully automated,
@@ -771,8 +705,8 @@ and if your needs for crew grow beyond a certain point
 the cost could increase dramatically.
 
 * `@once` Would you please explain your resource allocation system?
-```comment
-TODO: unlock What kind of resources are most useful to our mission? // tell_me_about_minerals
+```
+// TODO: unlock What kind of resources are most useful to our mission? tell_me_about_minerals 
 ```
 `"starbase-055.ogg" _playAudio pop`
 As you know, Captain, we've committed the entire output of this station
@@ -788,8 +722,8 @@ These resources can be either in the form of mineral ores gathered from planet s
 or already-refined metals and other valuable materials from the wreckage of enemy starships.
 
 * `@once` What kind of resources are most useful to our mission?
-```comment
-TODO: unlock What use are our planet landers sophisticated lifeform analysis features? // tell_me_about_life
+```
+// TODO: unlock What use are our planet landers sophisticated lifeform analysis features?  tell_me_about_life 
 ```
 `"starbase-056.ogg" _playAudio pop`
 The most straightforward way you can accumulate Resource Units
@@ -1221,9 +1155,8 @@ Their assistance may be crucial to our success.
 
 TODO
 
-```comment
-TODO:
-AnalyzeCondition ()
+```
+// TODO: AnalyzeCondition () 
 ```
 
 * How can we deal with the Ur-Quan?
@@ -1887,8 +1820,8 @@ SUMMARY: Several group leaders have volunteered to assist the team to \`help the
 `"__have_device_to_talk_about" getContext 1 eq jgz { ppc 5 + "BETWEEN_DEVICES" goto }`
 `"starbase-146.ogg" _playAudio pop`
 SUBJECT: Hostile Alien Creature.
-```comment
-TODO: disable commander talk animation
+```
+// TODO: disable commander talk animation 
 ```
 `"starbase-191.ogg" _playAudio pop`
 DATA: This is newly-promoted, junior scientist Hawkins reporting.
@@ -1907,11 +1840,12 @@ What... summary? Oh, oh yeah
 SUMMARY: The sooner you get that thing off this starbase
 the less likely it is that that thing will get loose and kill us all.
 Uh... I, uh, I guess that's it.
-```comment
-TODO: enable commander talk animation again
 ```
-`1 "DISCUSSED_VUX_BEAST" setContext`
-`goto`
+// TODO: enable commander talk animation again
+
+1 "DISCUSSED_VUX_BEAST" setContext
+goto
+```
 
 # ABOUT_DESTRUCT
 
@@ -2079,11 +2013,6 @@ You have amassed a powerful fleet of combat ships.
 Go attack the Ur-Quan Sa-Matra vessel!
 Although I'm sure it will be a difficult battle,
 you have everything you need to achieve victory.
-
-# GOOD_LUCK_AGAIN
-
-`"starbase-172.ogg" _playAudio pop`
-We're all depending on you.  Goodbye, and good luck.
 
 # IMPROVE_1
 
