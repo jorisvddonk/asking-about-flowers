@@ -13,7 +13,7 @@ async function main() {
             const alienname = `${path.basename(file).split(".").shift()}`;
             const base = path.join(path.dirname(file), alienname);
             const commFile = fs.readFileSync(file).toString().replace(/\r\n/g, "\n");
-            const timingsFile = fs.readFileSync(`${base}.ts`).toString();
+            const timingsFile = fs.readFileSync(`${base}.ts`).toString().replace(/\r\n/g, "\n");
             await transform(timingsFile, commFile, base);
         } catch (e) {
             console.error(e);
@@ -32,8 +32,9 @@ async function transform(timings, comm, base) {
         const synch = synchronization.get(entry[0]);
 
         let dur = null;
-        if (entry[1].audioFile && synch !== undefined) {
-            dur = await getAudioDurationInSeconds(path.join(dirname, entry[1].audioFile)) * 1000;
+        if (entry[1].audioFile && entry[1].audioFile !== "<missing AUDIOFILE>" && synch !== undefined) {
+            const pth = path.join(dirname, entry[1].audioFile);
+            dur = await getAudioDurationInSeconds(pth) * 1000;
             dur = Math.ceil(dur);
             synch.timings.push(dur - synch.timings.reduce((m, v) => m + v, 0));
         }
